@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-04-14T13:29:49Z</created>
+    <keywords></keywords>
+    <modified>2012-04-14T13:29:49Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #14-image" name="Map #14">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\factorybase\factory_corridor_floor.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="factory_corridor_floor" name="factory_corridor_floor">
+      <instance_effect url="#factory_corridor_floor-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="factory_corridor_floor-fx" name="factory_corridor_floor">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #14-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Box059-lib" name="Box059Mesh">
+      <mesh>
+        <source id="Box059-POSITION">
+          <float_array id="Box059-POSITION-array" count="24">
+-2.000000 2.000014 0.000000
+-2.000000 -1.999997 0.000000
+1.999981 2.000014 0.000000
+1.999981 -1.999997 0.000000
+1.999981 1.934013 0.000000
+-1.937604 -1.999997 0.000000
+-2.000000 -1.937584 0.000000
+1.922210 2.000014 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box059-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box059-Normal0">
+          <float_array id="Box059-Normal0-array" count="54">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box059-Normal0-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box059-UV0">
+          <float_array id="Box059-UV0-array" count="28">
+0.859186 0.999025
+0.867113 1.006892
+0.000000 1.000000
+1.000000 0.999764
+-0.112887 1.006892
+-0.105094 0.999025
+0.016497 0.999996
+1.000000 0.015599
+0.000000 0.015604
+0.980553 1.000000
+0.686554 -0.000578
+-0.276234 -0.000578
+-0.285950 0.007991
+0.694050 0.007991
+</float_array>
+          <technique_common>
+            <accessor source="#Box059-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box059-VERTEX">
+          <input semantic="POSITION" source="#Box059-POSITION"/>
+        </vertices>
+        <triangles count="6" material="factory_corridor_floor">
+          <input semantic="VERTEX" offset="0" source="#Box059-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box059-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box059-UV0"/>
+          <p> 7 0 9 0 1 2 6 2 8 5 3 7 3 4 3 4 5 6 1 6 4 5 7 5 4 8 0 4 9 0 2 10 1 1 11 4 2 12 12 7 13 11 6 14 10 6 15 10 1 16 13 2 17 12</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Box059" id="Box059" layer="factory_corridor_floor_corner" sid="Box059">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box059-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="factory_corridor_floor" target="#factory_corridor_floor"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>6.666667</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

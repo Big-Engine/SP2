@@ -1,0 +1,51 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="../Ruihe/swingdoor_hall_metal/swingdoor_hall_metal/swingdoor_hall_metal.dae">
+            <SubMesh ID="0" Material="" Name="swingdoor_hall_metal" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.125628 0.027275 0.00110251" Rotation="0 0 0" Scale="1.75 2.78786 0.25212" ShapeType="Box" WorldPos="0 1.4078 0" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.746733 -0.840145 0.121171" Rotation="0 0 0" Scale="0.019365 0.207426 0" ShapeType="Cylinder" WorldPos="0.872361 0.54038 0.120068" />
+            <Shape ID="3" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.746733 0.840145 0.121171" Rotation="0 0 0" Scale="0.019365 0.207426 0" ShapeType="Cylinder" WorldPos="0.872361 2.22067 0.120068" />
+            <Shape ID="4" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.746733 -0.00459504 0.158174" Rotation="0 0 0" Scale="0.258745 0.0582603 0.0497513" ShapeType="Box" WorldPos="-0.621105 1.37593 0.157072" />
+            <Shape ID="5" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.746733 -0.00459504 -0.158174" Rotation="0 0 0" Scale="0.258745 0.0582603 0.0497513" ShapeType="Box" WorldPos="-0.621105 1.37593 -0.159277" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="6" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.125628 1.38052 -0.00110251">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_SlideDoor">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+    </UserDefinedVariables>
+</Entity>

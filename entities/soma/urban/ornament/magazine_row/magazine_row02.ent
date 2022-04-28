@@ -1,0 +1,23 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/ornament/magazine_row/magazine_row02.dae">
+            <SubMesh ID="0" Material="" Name="magazine_row02" Rotation="0 0 0" Scale="4.5 4.5 4" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="1.43451e-010 -5.88397e-009 2.68146e-011" Rotation="0 0 0" Scale="0.296451 0.409262 0.0952594" ShapeType="Box" WorldPos="0.0192536 0.210267 0.00359899" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="false" ID="2" LinearDamping="0.1" Mass="0" Material="Paper" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="4.5 4.5 4.5" UseSurfaceEffects="true" Volatile="false" WorldPos="0.0192536 0.210267 0.00359899">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

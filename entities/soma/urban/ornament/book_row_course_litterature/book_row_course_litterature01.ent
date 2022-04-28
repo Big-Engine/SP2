@@ -1,0 +1,27 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="../../book_row_course_litterature/book_row_course_litterature01.dae">
+            <SubMesh ID="0" Material="" Name="book_row_course_litterature01" Rotation="0 0 0" Scale="1 1 1" WorldPos="-2.98023e-008 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="13" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.0376988 -0.0194924 -0.000698641" Rotation="0 0 0" Scale="0.200684 0.209018 0.133608" ShapeType="Box" WorldPos="0 0.106819 -0.0132509" />
+            <Shape ID="14" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.0504909 0.0194924 0.000698641" Rotation="0 0 0" Scale="0.0266989 0.290978 0.126406" ShapeType="Box" WorldPos="0.0881897 0.145804 -0.0118536" />
+            <Shape ID="15" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.0504909 0.0194924 0.000698641" Rotation="0 0 0" Scale="0.0266989 0.245908 0.138782" ShapeType="Box" WorldPos="-0.0127921 0.145804 -0.0118536" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="16" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.0376988 0.126312 -0.0125523">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="13" />
+                <Shape ID="14" />
+                <Shape ID="15" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

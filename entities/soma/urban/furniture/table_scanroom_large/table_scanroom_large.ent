@@ -1,0 +1,40 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="false" Focused="3">
+            <Viewport CameraPos="0 0 200" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0 200 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-1.84854 2.46661 1.34067" CameraTarget="0.441563 0 0.3606" Controller="Maya" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/table_scanroom_large/table_scanroom_large.dae">
+            <SubMesh ID="0" Material="" Name="table_scanroom_large" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.000270933 0.293001 -0.000497298" Rotation="0 0 0" Scale="2.00723 0.139499 1.058" ShapeType="Box" WorldPos="0.00166583 1.09832 0.0290447" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.940536 -0.293001 0.473878" Rotation="0 0 0" Scale="0.0843813 1.04212 0.0794921" ShapeType="Box" WorldPos="-0.938599 0.512318 0.50342" />
+            <Shape ID="3" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.940877 -0.293001 0.473878" Rotation="0 0 0" Scale="0.0872365 1.04212 0.0794921" ShapeType="Box" WorldPos="0.942814 0.512318 0.50342" />
+            <Shape ID="4" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.939871 -0.293001 -0.469796" Rotation="0 0 0" Scale="0.0865437 1.04212 0.0794921" ShapeType="Box" WorldPos="0.941808 0.512318 -0.440254" />
+            <Shape ID="5" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.940877 -0.293001 -0.473878" Rotation="0 0 0" Scale="0.0872679 1.04212 0.0794921" ShapeType="Box" WorldPos="-0.93894 0.512318 -0.444336" />
+            <Shape ID="8" Name="Shape_6" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="2.04005 1.18526 1.07868" ShapeType="Box" WorldPos="0 0.577094 0.0322388" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="7" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.00193676 0.805319 0.029542">
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="5" />
+                <Shape ID="4" />
+                <Shape ID="3" />
+            </Body>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="false" ContinuousCollision="true" HasGravity="true" ID="9" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0 0.577094 0.0322388">
+                <Shape ID="8" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

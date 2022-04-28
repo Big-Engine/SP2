@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Administrator</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=1;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///D:/Ruihe/untitled</source_data>
+    </contributor>
+    <created>2012-04-27T09:52:28Z</created>
+    <modified>2012-04-27T09:52:28Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="wall_clock_minute_1" name="wall_clock_minute_1">
+      <init_from>file:///D:/Ruihe/ornaments_wall_clock/wall_clock_minute.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn1" name="blinn1">
+      <instance_effect url="#blinn1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn1-fx">
+      <profile_COMMON>
+        <newparam sid="wall_clock_minute_1-surface">
+          <surface type="2D">
+            <init_from>wall_clock_minute_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="wall_clock_minute_1-sampler">
+          <sampler2D>
+            <source>wall_clock_minute_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="wall_clock_minute_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="wall_clock_minute" name="wall_clock_minute">
+      <mesh>
+        <source id="wall_clock_minute-positions" name="position">
+          <float_array id="wall_clock_minute-positions-array" count="24">12.7581 9.46742 -0.087729 12.3937 9.9396 -0.087729 -3.19261 -2.08676 -0.087729 -2.82828 -2.55893 -0.087729 12.5841 9.48985 0.160322 12.3713 9.76566 0.160322 -3.01866 -2.10918 0.160322 -2.80585 -2.38499 0.160322</float_array>
+          <technique_common>
+            <accessor source="#wall_clock_minute-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wall_clock_minute-normals" name="normal">
+          <float_array id="wall_clock_minute-normals-array" count="72">0.708061 0.546441 0.447271 0.708129 0.546422 0.447188 0.708129 0.546422 0.447188 0.708196 0.546402 0.447105 -0.708133 -0.546402 0.447204 -0.708143 -0.546399 0.447194 -0.708143 -0.546399 0.447194 -0.708152 -0.546396 0.447183 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.546393 0.708132 0.447218 -0.546399 0.70814 0.447199 -0.546399 0.70814 0.447199 -0.546404 0.708147 0.44718 0.546407 -0.708153 0.447168 0.546388 -0.708128 0.44723 0.546388 -0.708128 0.44723 0.54637 -0.708103 0.447292 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#wall_clock_minute-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wall_clock_minute-map1" name="map1">
+          <float_array id="wall_clock_minute-map1-array" count="40">1.98547 0.543135 1.95665 0.543136 1.95665 0.972671 1.98547 0.972671 0.938697 0.971555 0.938697 0.543133 0.985474 0.543137 0.938697 0.971555 0.956649 0.97267 0.946138 0.543133 0.956649 0.536298 0.985474 0.536313 0.946138 0.543133 0.946138 0.971555 0.985474 0.979502 0.956649 0.979499 0.946138 0.971555 0.956649 0.543133 0.938697 0.543133 0.985474 0.972671</float_array>
+          <technique_common>
+            <accessor source="#wall_clock_minute-map1-array" count="20" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="wall_clock_minute-vertices">
+          <input semantic="POSITION" source="#wall_clock_minute-positions"/>
+        </vertices>
+        <triangles material="blinn1SG" count="12">
+          <input semantic="VERTEX" source="#wall_clock_minute-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#wall_clock_minute-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#wall_clock_minute-map1" offset="2" set="0"/>
+          <p>0 0 10 1 1 11 4 2 17 4 2 17 1 1 11 5 3 6 2 4 14 3 5 15 6 6 19 6 6 19 3 5 15 7 7 8 2 8 3 1 9 0 3 10 2 3 10 2 1 9 0 0 11 1 1 12 12 2 13 13 5 14 18 5 14 18 2 13 13 6 15 7 3 16 4 0 17 5 7 18 16 7 18 16 0 17 5 4 19 9 5 20 6 6 21 19 4 22 17 4 22 17 6 21 19 7 23 8</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="_wall_clock_minute" name="wall_clock_minute" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#wall_clock_minute">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn1SG" target="#blinn1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

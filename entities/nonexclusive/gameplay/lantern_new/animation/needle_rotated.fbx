@@ -1,0 +1,438 @@
+; FBX 7.3.0 project file
+; Copyright (C) 1997-2010 Autodesk Inc. and/or its licensors.
+; All rights reserved.
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7300
+	CreationTimeStamp:  {
+		Version: 1000
+		Year: 2018
+		Month: 3
+		Day: 15
+		Hour: 15
+		Minute: 4
+		Second: 1
+		Millisecond: 696
+	}
+	Creator: "FBX SDK/FBX Plugins version 2013.3"
+	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+		Type: "UserData"
+		Version: 100
+		MetaData:  {
+			Version: 100
+			Title: "needle_rotated"
+			Subject: ""
+			Author: ""
+			Keywords: ""
+			Revision: ""
+			Comment: ""
+		}
+		Properties70:  {
+			P: "DocumentUrl", "KString", "Url", "", "E:\amnesia2\trunk\redist\entities\_temp\marc\lantern\animation\needle_rotated.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "E:\amnesia2\trunk\redist\entities\_temp\marc\lantern\animation\needle_rotated.fbx"
+			P: "Original", "Compound", "", ""
+			P: "Original|ApplicationVendor", "KString", "", "", "The Foundry"
+			P: "Original|ApplicationName", "KString", "", "", "MODO"
+			P: "Original|ApplicationVersion", "KString", "", "", ""
+			P: "Original|DateTime_GMT", "DateTime", "", "", "15/03/2018 14:04:01.696"
+			P: "Original|FileName", "KString", "", "", "E:\amnesia2\trunk\redist\entities\nonexclusive\gameplay\lantern_new\player_lantern_rig_rotated.lxo"
+			P: "LastSaved", "Compound", "", ""
+			P: "LastSaved|ApplicationVendor", "KString", "", "", "The Foundry"
+			P: "LastSaved|ApplicationName", "KString", "", "", "MODO"
+			P: "LastSaved|ApplicationVersion", "KString", "", "", ""
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "15/03/2018 14:04:01.696"
+		}
+	}
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "OriginalUpAxis", "int", "Integer", "",-1
+		P: "OriginalUpAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",1
+		P: "OriginalUnitScaleFactor", "double", "Number", "",1
+		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "TimeMode", "enum", "", "",14
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",46186158000
+		P: "CustomFrameRate", "double", "Number", "",0
+	}
+}
+
+; Documents Description
+;------------------------------------------------------------------
+
+Documents:  {
+	Count: 1
+	Document: 397535712, "", "Scene" {
+		Properties70:  {
+			P: "SourceObject", "object", "", ""
+			P: "ActiveAnimStackName", "KString", "", "", ""
+		}
+		RootNode: 0
+	}
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+	Version: 100
+	Count: 15
+	ObjectType: "GlobalSettings" {
+		Count: 1
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 4
+		PropertyTemplate: "FbxNull" {
+			Properties70:  {
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "Size", "double", "Number", "",100
+				P: "Look", "enum", "", "",1
+			}
+		}
+	}
+	ObjectType: "Model" {
+		Count: 6
+		PropertyTemplate: "FbxNode" {
+			Properties70:  {
+				P: "QuaternionInterpolate", "enum", "", "",0
+				P: "RotationOffset", "Vector3D", "Vector", "",0,0,0
+				P: "RotationPivot", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingOffset", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingPivot", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationActive", "bool", "", "",0
+				P: "TranslationMin", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMax", "Vector3D", "Vector", "",0,0,0
+				P: "TranslationMinX", "bool", "", "",0
+				P: "TranslationMinY", "bool", "", "",0
+				P: "TranslationMinZ", "bool", "", "",0
+				P: "TranslationMaxX", "bool", "", "",0
+				P: "TranslationMaxY", "bool", "", "",0
+				P: "TranslationMaxZ", "bool", "", "",0
+				P: "RotationOrder", "enum", "", "",0
+				P: "RotationSpaceForLimitOnly", "bool", "", "",0
+				P: "RotationStiffnessX", "double", "Number", "",0
+				P: "RotationStiffnessY", "double", "Number", "",0
+				P: "RotationStiffnessZ", "double", "Number", "",0
+				P: "AxisLen", "double", "Number", "",10
+				P: "PreRotation", "Vector3D", "Vector", "",0,0,0
+				P: "PostRotation", "Vector3D", "Vector", "",0,0,0
+				P: "RotationActive", "bool", "", "",0
+				P: "RotationMin", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMax", "Vector3D", "Vector", "",0,0,0
+				P: "RotationMinX", "bool", "", "",0
+				P: "RotationMinY", "bool", "", "",0
+				P: "RotationMinZ", "bool", "", "",0
+				P: "RotationMaxX", "bool", "", "",0
+				P: "RotationMaxY", "bool", "", "",0
+				P: "RotationMaxZ", "bool", "", "",0
+				P: "InheritType", "enum", "", "",0
+				P: "ScalingActive", "bool", "", "",0
+				P: "ScalingMin", "Vector3D", "Vector", "",0,0,0
+				P: "ScalingMax", "Vector3D", "Vector", "",1,1,1
+				P: "ScalingMinX", "bool", "", "",0
+				P: "ScalingMinY", "bool", "", "",0
+				P: "ScalingMinZ", "bool", "", "",0
+				P: "ScalingMaxX", "bool", "", "",0
+				P: "ScalingMaxY", "bool", "", "",0
+				P: "ScalingMaxZ", "bool", "", "",0
+				P: "GeometricTranslation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricRotation", "Vector3D", "Vector", "",0,0,0
+				P: "GeometricScaling", "Vector3D", "Vector", "",1,1,1
+				P: "MinDampRangeX", "double", "Number", "",0
+				P: "MinDampRangeY", "double", "Number", "",0
+				P: "MinDampRangeZ", "double", "Number", "",0
+				P: "MaxDampRangeX", "double", "Number", "",0
+				P: "MaxDampRangeY", "double", "Number", "",0
+				P: "MaxDampRangeZ", "double", "Number", "",0
+				P: "MinDampStrengthX", "double", "Number", "",0
+				P: "MinDampStrengthY", "double", "Number", "",0
+				P: "MinDampStrengthZ", "double", "Number", "",0
+				P: "MaxDampStrengthX", "double", "Number", "",0
+				P: "MaxDampStrengthY", "double", "Number", "",0
+				P: "MaxDampStrengthZ", "double", "Number", "",0
+				P: "PreferedAngleX", "double", "Number", "",0
+				P: "PreferedAngleY", "double", "Number", "",0
+				P: "PreferedAngleZ", "double", "Number", "",0
+				P: "LookAtProperty", "object", "", ""
+				P: "UpVectorProperty", "object", "", ""
+				P: "Show", "bool", "", "",1
+				P: "NegativePercentShapeSupport", "bool", "", "",1
+				P: "DefaultAttributeIndex", "int", "Integer", "",-1
+				P: "Freeze", "bool", "", "",0
+				P: "LODBox", "bool", "", "",0
+				P: "Lcl Translation", "Lcl Translation", "", "A",0,0,0
+				P: "Lcl Rotation", "Lcl Rotation", "", "A",0,0,0
+				P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+				P: "Visibility", "Visibility", "", "A",1
+				P: "Visibility Inheritance", "Visibility Inheritance", "", "",1
+			}
+		}
+	}
+	ObjectType: "AnimationStack" {
+		Count: 1
+		PropertyTemplate: "FbxAnimStack" {
+			Properties70:  {
+				P: "Description", "KString", "", "", ""
+				P: "LocalStart", "KTime", "Time", "",0
+				P: "LocalStop", "KTime", "Time", "",0
+				P: "ReferenceStart", "KTime", "Time", "",0
+				P: "ReferenceStop", "KTime", "Time", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationLayer" {
+		Count: 1
+		PropertyTemplate: "FbxAnimLayer" {
+			Properties70:  {
+				P: "Weight", "Number", "", "A",100
+				P: "Mute", "bool", "", "",0
+				P: "Solo", "bool", "", "",0
+				P: "Lock", "bool", "", "",0
+				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
+				P: "BlendMode", "enum", "", "",0
+				P: "RotationAccumulationMode", "enum", "", "",0
+				P: "ScaleAccumulationMode", "enum", "", "",0
+				P: "BlendModeBypass", "ULongLong", "", "",0
+			}
+		}
+	}
+	ObjectType: "AnimationCurveNode" {
+		Count: 1
+		PropertyTemplate: "FbxAnimCurveNode" {
+			Properties70:  {
+				P: "d", "Compound", "", ""
+			}
+		}
+	}
+	ObjectType: "AnimationCurve" {
+		Count: 1
+	}
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+	NodeAttribute: 797139584, "NodeAttribute::", "Null" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",333.3
+		}
+		TypeFlags: "Null"
+	}
+	NodeAttribute: 413368176, "NodeAttribute::", "Limb" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.5,0.5,0.5
+			P: "Size", "double", "Number", "",70.6516653299332
+		}
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 413369232, "NodeAttribute::", "Limb" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.5,0.5,0.5
+			P: "Size", "double", "Number", "",55.5825624614954
+		}
+		TypeFlags: "Skeleton"
+	}
+	NodeAttribute: 413369936, "NodeAttribute::", "Limb" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.5,0.5,0.5
+			P: "Size", "double", "Number", "",55.5825624614954
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 405789408, "Model::Locator", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-18.4000000357628,-11.6281136870384,0
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-35.799999402515,-90.0000025044782,-2.49999992727323
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 405791664, "Model::Skeleton_Joint", "Limb" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "PreRotation", "Vector3D", "Vector", "",89.9525873312599,-0,0
+			P: "RotationActive", "bool", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,30.553337931633,-0.544937467202544
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 404070272, "Model::Skeleton_Joint (2)", "Limb" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "PreRotation", "Vector3D", "Vector", "",-29.7509311565524,-0,0
+			P: "RotationActive", "bool", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A+",0,1.41057455497443e-017,7.26761594414711
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 404072528, "Model::Skeleton_Joint (3)", "Limb" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "PreRotation", "Vector3D", "Vector", "",-60.2016561747076,-0,0
+			P: "RotationActive", "bool", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",4.71316277980804,-6.93889390390723e-016,9.26375985145569
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 404074784, "Model::m_needle", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationPivot", "Vector3D", "Vector", "",0,-0.0276722712442279,0
+			P: "ScalingPivot", "Vector3D", "Vector", "",0,-0.0276722712442279,0
+			P: "RotationActive", "bool", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,-1.20370621524202e-033,0
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	Model: 676728880, "Model::m_lantern", "Null" {
+		Version: 232
+		Properties70:  {
+			P: "RotationPivot", "Vector3D", "Vector", "",0,15.717913210392,-0.0731677981093526
+			P: "ScalingPivot", "Vector3D", "Vector", "",0,15.717913210392,-0.0731677981093526
+			P: "RotationActive", "bool", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,6.16297582203915e-031,-2.40741243048404e-033
+		}
+		Shading: Y
+		Culling: "CullingOff"
+	}
+	AnimationStack: 475238656, "AnimStack::Take 001", "" {
+		Properties70:  {
+			P: "LocalStop", "KTime", "Time", "",46186158000
+		}
+	}
+	AnimationLayer: 475845248, "AnimLayer::Layer 001", "" {
+	}
+	AnimationCurveNode: 412774736, "AnimCurveNode::T", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",0
+			P: "d|Y", "Number", "", "A",1.41057455497443e-017
+			P: "d|Z", "Number", "", "A",7.26761594414711
+		}
+	}
+	AnimationCurve: 797276400, "AnimCurve::", "" {
+		Default: 7.2676157951355
+		KeyVer: 4008
+		KeyTime: *2 {
+			a: 0,46186158000
+		} 
+		KeyValueFloat: *2 {
+			a: 7.267616,11.77528
+		} 
+		;KeyAttrFlags: Cubic|TangeantUser, Cubic|TangeantUser
+		KeyAttrFlags: *2 {
+			a: 1032,1032
+		} 
+		;KeyAttrDataFloat: RightSlope:0, NextLeftSlope:0, RightWeight:0.333333, NextLeftWeight:0.333333, RightVelocity:0, NextLeftVelocity:0; RightSlope:0, NextLeftSlope:0, RightWeight:0.333333, NextLeftWeight:0.333333, RightVelocity:0, NextLeftVelocity:0
+		KeyAttrDataFloat: *8 {
+			a: 0,0,218434821,0,0,0,218434821,0
+		} 
+		KeyAttrRefCount: *2 {
+			a: 1,1
+		} 
+		Pre-Extrapolation:  {
+			Type: C
+			Repetition: 1
+		}
+		Post-Extrapolation:  {
+			Type: C
+			Repetition: 1
+		}
+	}
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+	
+	;Model::Locator, Model::RootNode
+	C: "OO",405789408,0
+	
+	;NodeAttribute::, Model::Locator
+	C: "OO",797139584,405789408
+	
+	;Model::Skeleton_Joint, Model::Locator
+	C: "OO",405791664,405789408
+	
+	;Model::m_needle, Model::Locator
+	C: "OO",404074784,405789408
+	
+	;Model::m_lantern, Model::Locator
+	C: "OO",676728880,405789408
+	
+	;NodeAttribute::, Model::Skeleton_Joint
+	C: "OO",413368176,405791664
+	
+	;Model::Skeleton_Joint (2), Model::Skeleton_Joint
+	C: "OO",404070272,405791664
+	
+	;NodeAttribute::, Model::Skeleton_Joint (2)
+	C: "OO",413369232,404070272
+	
+	;Model::Skeleton_Joint (3), Model::Skeleton_Joint (2)
+	C: "OO",404072528,404070272
+	
+	;AnimCurveNode::T, Model::Skeleton_Joint (2)
+	C: "OP",412774736,404070272, "Lcl Translation"
+	
+	;NodeAttribute::, Model::Skeleton_Joint (3)
+	C: "OO",413369936,404072528
+	
+	;AnimLayer::Layer 001, AnimStack::Take 001
+	C: "OO",475845248,475238656
+	
+	;AnimCurveNode::T, AnimLayer::Layer 001
+	C: "OO",412774736,475845248
+	
+	;AnimCurve::, AnimCurveNode::T
+	C: "OP",797276400,412774736, "d|Z"
+}
+;Takes section
+;----------------------------------------------------
+
+Takes:  {
+	Current: ""
+	Take: "Take 001" {
+		FileName: "Take_001.tak"
+		LocalTime: 0,46186158000
+		ReferenceTime: 0,46186158000
+	}
+}

@@ -1,0 +1,3690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-31T10:15:34Z</created>
+    <keywords></keywords>
+    <modified>2012-07-31T10:15:34Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="engineroom_beams_01_engineroom_machinery_02_file1-image" name="engineroom_beams_01_engineroom_machinery_02_file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/engineroom/machinery/engineroom_atlas_01.tga</init_from>
+    </image>
+    <image id="engineroom_beams_02_engineroom_machinery_02_file1-image" name="engineroom_beams_02_engineroom_machinery_02_file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/engineroom/machinery/engineroom_atlas_01.tga</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="engineroom_beams_01_engineroom_machinery_02_phong1" name="engineroom_beams_01_engineroom_machinery_02_phong1">
+      <instance_effect url="#engineroom_beams_01_engineroom_machinery_02_phong1-fx"/>
+    </material>
+    <material id="engineroom_beams_02_engineroom_machinery_02_phong1" name="engineroom_beams_02_engineroom_machinery_02_phong1">
+      <instance_effect url="#engineroom_beams_02_engineroom_machinery_02_phong1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="engineroom_beams_01_engineroom_machinery_02_phong1-fx" name="engineroom_beams_01_engineroom_machinery_02_phong1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_01_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="engineroom_beams_02_engineroom_machinery_02_phong1-fx" name="engineroom_beams_02_engineroom_machinery_02_phong1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="engineroom_beams_02_engineroom_machinery_02_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface8-lib" name="polySurface8Mesh">
+      <mesh>
+        <source id="polySurface8-POSITION">
+          <float_array id="polySurface8-POSITION-array" count="528">
+153.042709 -105.042328 1880.311523
+153.043121 -105.042328 1307.433105
+142.797974 -105.042328 1880.311523
+142.797058 -105.042328 1307.433105
+150.065155 -139.259399 1307.433105
+150.064804 -139.259399 1880.311523
+119.932816 -139.259399 1880.311523
+119.933640 -139.259399 1307.433105
+180.896118 -105.042328 1880.311523
+180.896591 -105.042328 1307.433105
+170.651459 -105.042328 1880.311523
+170.650513 -105.042328 1307.433105
+180.197083 -139.259399 1307.433105
+180.196716 -139.259399 1880.311523
+236.603119 -105.042328 1880.311523
+236.603470 -105.042328 1307.433105
+226.358398 -105.042328 1880.311523
+226.357407 -105.042328 1307.433105
+240.460861 -139.259399 1307.433105
+240.460571 -139.259399 1880.311523
+210.328705 -139.259399 1880.311523
+210.328995 -139.259399 1307.433105
+208.749588 -105.042328 1880.311523
+208.750061 -105.042328 1307.433105
+198.504868 -105.042328 1880.311523
+198.503998 -105.042328 1307.433105
+264.456482 -105.042328 1880.311523
+264.456940 -105.042328 1307.433105
+254.211746 -105.042328 1880.311523
+254.210815 -105.042328 1307.433105
+270.592896 -139.259399 1307.433105
+270.592529 -139.259399 1880.311523
+320.163330 -105.042328 1880.311523
+320.163879 -105.042328 1307.433105
+309.918762 -105.042328 1880.311523
+309.917755 -105.042328 1307.433105
+330.856812 -139.259399 1307.433105
+330.856384 -139.259399 1880.311523
+300.724487 -139.259399 1880.311523
+300.724762 -139.259399 1307.433105
+292.309937 -105.042328 1880.311523
+292.310364 -105.042328 1307.433105
+282.065277 -105.042328 1880.311523
+282.064331 -105.042328 1307.433105
+348.016907 -105.042328 1880.311523
+348.017334 -105.042328 1307.433105
+337.772156 -105.042328 1880.311523
+337.771240 -105.042328 1307.433105
+360.988647 -139.259399 1307.433105
+360.988342 -139.259399 1880.311523
+375.870361 -105.042328 1880.311523
+375.870789 -105.042328 1307.433105
+365.625671 -105.042328 1880.311523
+365.624634 -105.042328 1307.433105
+391.120667 -139.259399 1307.433105
+391.120361 -139.259399 1880.311523
+403.723755 -105.042328 1880.311523
+403.724243 -105.042328 1307.433105
+393.479065 -105.042328 1880.311523
+393.478088 -105.042328 1307.433105
+421.252563 -139.259399 1307.433105
+421.252197 -139.259399 1880.311523
+431.577271 -105.042328 1880.311523
+431.577637 -105.042328 1307.433105
+421.332581 -105.042328 1880.311523
+421.331604 -105.042328 1307.433105
+451.384521 -139.259399 1307.433105
+451.384155 -139.259399 1880.311523
+459.430725 -105.042328 1880.311523
+459.431152 -105.042328 1307.433105
+449.186096 -105.042328 1880.311523
+449.185059 -105.042328 1307.433105
+481.516357 -139.259399 1307.433105
+481.516174 -139.259399 1880.311523
+487.284241 -105.042328 1880.311523
+487.284729 -105.042328 1307.433105
+477.039490 -105.042328 1880.311523
+477.038574 -105.042328 1307.433105
+511.648499 -139.259399 1307.433105
+511.648010 -139.259399 1880.311523
+515.137634 -105.042328 1880.311523
+515.138123 -105.042328 1307.433105
+504.893066 -105.042328 1880.311523
+504.891968 -105.042328 1307.433105
+541.780212 -139.259399 1307.433105
+541.779968 -139.259399 1880.311523
+570.844604 -105.042328 1880.311523
+570.845032 -105.042328 1307.433105
+560.599854 -105.042328 1880.311523
+560.598938 -105.042328 1307.433105
+602.044189 -139.259399 1307.433105
+602.043823 -139.259399 1880.311523
+571.911987 -139.259399 1880.311523
+571.912354 -139.259399 1307.433105
+542.991089 -105.042328 1880.311523
+542.991638 -105.042328 1307.433105
+532.746460 -105.042328 1880.311523
+532.745544 -105.042328 1307.433105
+598.697998 -105.042328 1880.311523
+598.698486 -105.042328 1307.433105
+588.453369 -105.042328 1880.311523
+588.452332 -105.042328 1307.433105
+632.176147 -139.259399 1307.433105
+632.175781 -139.259399 1880.311523
+626.551514 -105.042328 1880.311523
+626.551880 -105.042328 1307.433105
+616.306763 -105.042328 1880.311523
+616.305847 -105.042328 1307.433105
+662.307983 -139.259399 1307.433105
+662.307800 -139.259399 1880.311523
+654.405029 -105.042328 1880.311523
+654.405396 -105.042328 1307.433105
+644.160339 -105.042328 1880.311523
+644.159241 -105.042328 1307.433105
+692.439514 -139.259399 1307.433105
+692.439636 -139.259399 1880.311523
+99.999985 -86.754578 1299.999878
+100.000053 -86.754578 1899.999878
+120.341095 -86.754578 1327.121094
+120.341217 -86.754578 1872.878174
+100.000114 -184.587875 1899.999512
+100.000000 -184.587875 1299.999512
+120.341095 -184.587875 1327.121094
+120.341217 -184.587875 1872.878174
+700.000000 -86.754578 1899.999878
+679.658997 -86.754578 1872.878174
+700.000000 -184.587875 1899.999512
+679.658997 -184.587875 1872.878174
+700.000000 -86.754578 1299.999878
+679.658875 -86.754578 1327.121094
+700.000000 -184.587875 1299.999512
+679.658875 -184.587875 1327.121094
+0.000000 -97.711517 2000.000000
+100.000023 -97.711517 1900.000000
+0.000015 -86.754578 2000.000000
+21.891129 -84.191177 1978.108887
+21.891129 -13.141800 1978.108887
+0.000015 -9.268494 2000.000000
+0.000008 0.000000 2000.000000
+78.108910 -84.191177 1921.891113
+78.108940 -13.141800 1921.891113
+100.000015 -9.268494 1900.000000
+100.000015 0.000000 1900.000000
+800.000000 -97.711517 2000.000000
+800.000000 0.000000 2000.000000
+721.891113 -84.191177 1921.891113
+721.891113 -13.141800 1921.891113
+700.000000 -9.268494 1900.000000
+700.000000 0.000000 1900.000000
+700.000000 -97.711517 1900.000000
+800.000000 -86.754578 2000.000000
+778.108887 -84.191177 1978.108887
+778.108887 -13.141800 1978.108887
+800.000000 -9.268494 2000.000000
+800.000000 -97.711517 1200.000000
+800.000000 0.000000 1200.000000
+721.891052 -84.191177 1278.108887
+721.891052 -13.141800 1278.108887
+699.999939 -9.268494 1300.000000
+700.000000 0.000000 1300.000000
+700.000000 -97.711517 1300.000000
+799.999939 -86.754578 1200.000000
+778.108826 -84.191177 1221.891113
+778.108826 -13.141800 1221.891113
+799.999939 -9.268494 1200.000000
+-0.000031 -97.711517 1200.000000
+-0.000046 0.000000 1200.000000
+78.108887 -84.191177 1278.108887
+78.108887 -13.141800 1278.108887
+99.999969 -9.268494 1300.000000
+99.999954 0.000000 1300.000000
+99.999939 -97.711517 1300.000000
+-0.000061 -86.754578 1200.000000
+21.891052 -84.191177 1221.891113
+21.891052 -13.141800 1221.891113
+-0.000061 -9.268494 1200.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface8-POSITION-array" count="176" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8-Normal0">
+          <float_array id="polySurface8-Normal0-array" count="2178">
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.996234 -0.086703 0.000001
+0.996234 -0.086703 0.000001
+0.996234 -0.086703 0.000001
+0.996234 -0.086703 0.000001
+0.996234 -0.086703 0.000001
+0.996234 -0.086703 0.000001
+-0.831456 0.555590 0.000000
+-0.831456 0.555590 0.000000
+-0.831456 0.555590 0.000000
+-0.831456 0.555590 0.000000
+-0.831456 0.555590 0.000000
+-0.831456 0.555590 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.999791 -0.020438 0.000001
+0.999791 -0.020438 0.000001
+0.999791 -0.020438 0.000001
+0.999791 -0.020438 0.000001
+0.999791 -0.020438 0.000001
+0.999791 -0.020438 0.000001
+-0.856876 0.515522 0.000000
+-0.856876 0.515522 0.000000
+-0.856876 0.515522 0.000000
+-0.856876 0.515522 0.000000
+-0.856876 0.515522 0.000000
+-0.856876 0.515522 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.993706 0.112025 0.000001
+0.993706 0.112025 0.000001
+0.993706 0.112025 0.000001
+0.993706 0.112025 0.000001
+0.993706 0.112025 0.000001
+0.993706 0.112025 0.000001
+-0.905563 0.424213 0.000001
+-0.905563 0.424213 0.000001
+-0.905563 0.424213 0.000001
+-0.905563 0.424213 0.000001
+-0.905563 0.424213 0.000001
+-0.905563 0.424213 0.000001
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.998937 0.046098 0.000001
+0.998937 0.046098 0.000001
+0.998937 0.046098 0.000001
+0.998937 0.046098 0.000001
+0.998937 0.046098 0.000001
+0.998937 0.046098 0.000001
+-0.881727 0.471760 0.000000
+-0.881727 0.471760 0.000000
+-0.881727 0.471760 0.000000
+-0.881727 0.471760 0.000000
+-0.881727 0.471760 0.000000
+-0.881727 0.471760 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.984299 0.176510 0.000001
+0.984299 0.176510 0.000001
+0.984299 0.176510 0.000001
+0.984299 0.176510 0.000001
+0.984299 0.176510 0.000001
+0.984299 0.176510 0.000001
+-0.927880 0.372880 0.000001
+-0.927880 0.372880 0.000001
+-0.927880 0.372880 0.000001
+-0.927880 0.372880 0.000001
+-0.927880 0.372880 0.000001
+-0.927880 0.372880 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.954479 0.298280 0.000001
+0.954479 0.298280 0.000001
+0.954479 0.298280 0.000001
+0.954479 0.298280 0.000001
+0.954479 0.298280 0.000001
+0.954479 0.298280 0.000001
+-0.965748 0.259483 0.000001
+-0.965748 0.259483 0.000001
+-0.965748 0.259483 0.000001
+-0.965748 0.259483 0.000001
+-0.965748 0.259483 0.000001
+-0.965748 0.259483 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.971069 0.238800 0.000001
+0.971069 0.238800 0.000001
+0.971069 0.238800 0.000001
+0.971069 0.238800 0.000001
+0.971069 0.238800 0.000001
+0.971069 0.238800 0.000001
+-0.948130 0.317884 0.000000
+-0.948130 0.317884 0.000000
+-0.948130 0.317884 0.000000
+-0.948130 0.317884 0.000000
+-0.948130 0.317884 0.000000
+-0.948130 0.317884 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.935066 0.354474 0.000001
+0.935066 0.354474 0.000001
+0.935066 0.354474 0.000001
+0.935066 0.354474 0.000001
+0.935066 0.354474 0.000001
+0.935066 0.354474 0.000001
+-0.980184 0.198090 0.000000
+-0.980184 0.198090 0.000000
+-0.980184 0.198090 0.000000
+-0.980184 0.198090 0.000000
+-0.980184 0.198090 0.000000
+-0.980184 0.198090 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.913392 0.407082 0.000001
+0.913392 0.407082 0.000001
+0.913392 0.407082 0.000001
+0.913392 0.407082 0.000001
+0.913392 0.407082 0.000001
+0.913392 0.407082 0.000001
+-0.990943 0.134280 0.000001
+-0.990943 0.134280 0.000001
+-0.990943 0.134280 0.000001
+-0.990943 0.134280 0.000001
+-0.990943 0.134280 0.000001
+-0.990943 0.134280 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.890016 0.455928 0.000001
+0.890016 0.455928 0.000001
+0.890016 0.455928 0.000001
+0.890016 0.455928 0.000001
+0.890016 0.455928 0.000001
+0.890016 0.455928 0.000001
+-0.997634 0.068752 0.000001
+-0.997634 0.068752 0.000001
+-0.997634 0.068752 0.000001
+-0.997634 0.068752 0.000001
+-0.997634 0.068752 0.000001
+-0.997634 0.068752 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.865459 0.500979 0.000001
+0.865459 0.500979 0.000001
+0.865459 0.500979 0.000001
+0.865459 0.500979 0.000001
+0.865459 0.500979 0.000001
+0.865459 0.500979 0.000001
+-0.999997 0.002330 0.000001
+-0.999997 0.002330 0.000001
+-0.999997 0.002330 0.000001
+-0.999997 0.002330 0.000001
+-0.999997 0.002330 0.000001
+-0.999997 0.002330 0.000001
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.840187 0.542297 0.000000
+0.840187 0.542297 0.000000
+0.840187 0.542297 0.000000
+0.840187 0.542297 0.000000
+0.840187 0.542297 0.000000
+0.840187 0.542297 0.000000
+-0.997942 -0.064127 0.000001
+-0.997942 -0.064127 0.000001
+-0.997942 -0.064127 0.000001
+-0.997942 -0.064127 0.000001
+-0.997942 -0.064127 0.000001
+-0.997942 -0.064127 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.814599 0.580024 0.000001
+0.814599 0.580024 0.000001
+0.814599 0.580024 0.000001
+0.814599 0.580024 0.000001
+0.814599 0.580024 0.000001
+0.814599 0.580024 0.000001
+-0.991548 -0.129742 0.000001
+-0.991548 -0.129742 0.000001
+-0.991548 -0.129742 0.000001
+-0.991548 -0.129742 0.000001
+-0.991548 -0.129742 0.000001
+-0.991548 -0.129742 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.789029 0.614356 0.000001
+0.789029 0.614356 0.000001
+0.789029 0.614356 0.000001
+0.789029 0.614356 0.000001
+0.789029 0.614356 0.000001
+0.789029 0.614356 0.000001
+-0.981061 -0.193699 0.000001
+-0.981061 -0.193699 0.000001
+-0.981061 -0.193699 0.000001
+-0.981061 -0.193699 0.000001
+-0.981061 -0.193699 0.000001
+-0.981061 -0.193699 0.000001
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.738942 0.673769 0.000001
+0.738942 0.673769 0.000001
+0.738942 0.673769 0.000001
+0.738942 0.673769 0.000001
+0.738942 0.673769 0.000001
+0.738942 0.673769 0.000001
+-0.949454 -0.313906 0.000000
+-0.949454 -0.313906 0.000000
+-0.949454 -0.313906 0.000000
+-0.949454 -0.313906 0.000000
+-0.949454 -0.313906 0.000000
+-0.949454 -0.313906 0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.763740 0.645524 0.000001
+0.763740 0.645524 0.000001
+0.763740 0.645524 0.000001
+0.763740 0.645524 0.000001
+0.763740 0.645524 0.000001
+0.763740 0.645524 0.000001
+-0.966868 -0.255277 0.000001
+-0.966868 -0.255277 0.000001
+-0.966868 -0.255277 0.000001
+-0.966868 -0.255277 0.000001
+-0.966868 -0.255277 0.000001
+-0.966868 -0.255277 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.714787 0.699342 0.000001
+0.714787 0.699342 0.000001
+0.714787 0.699342 0.000001
+0.714787 0.699342 0.000001
+0.714787 0.699342 0.000001
+0.714787 0.699342 0.000001
+-0.929370 -0.369149 0.000001
+-0.929370 -0.369149 0.000001
+-0.929370 -0.369149 0.000001
+-0.929370 -0.369149 0.000001
+-0.929370 -0.369149 0.000001
+-0.929370 -0.369149 0.000001
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.691386 0.722485 0.000000
+0.691386 0.722485 0.000000
+0.691386 0.722485 0.000000
+0.691386 0.722485 0.000000
+0.691386 0.722485 0.000000
+0.691386 0.722485 0.000000
+-0.907179 -0.420745 0.000000
+-0.907179 -0.420745 0.000000
+-0.907179 -0.420745 0.000000
+-0.907179 -0.420745 0.000000
+-0.907179 -0.420745 0.000000
+-0.907179 -0.420745 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.668815 0.743429 0.000000
+0.668815 0.743429 0.000000
+0.668815 0.743429 0.000000
+0.668815 0.743429 0.000000
+0.668815 0.743429 0.000000
+0.668815 0.743429 0.000000
+-0.883434 -0.468556 0.000001
+-0.883434 -0.468556 0.000001
+-0.883434 -0.468556 0.000001
+-0.883434 -0.468556 0.000001
+-0.883434 -0.468556 0.000001
+-0.883434 -0.468556 0.000001
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -0.000004 1.000000
+0.000000 -0.000004 1.000000
+0.000000 -0.000004 1.000000
+0.000000 -0.000004 1.000000
+0.000000 -0.000004 1.000000
+0.000000 -0.000004 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000004 -1.000000
+0.000000 0.000004 -1.000000
+0.000000 0.000004 -1.000000
+0.000000 0.000004 -1.000000
+0.000000 0.000004 -1.000000
+0.000000 0.000004 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.000011 -1.000000
+0.000000 -0.000011 -1.000000
+0.000000 -0.000011 -1.000000
+0.000000 -0.000011 -1.000000
+0.000000 -0.000011 -1.000000
+0.000000 -0.000011 -1.000000
+0.000000 0.993214 -0.116302
+0.000000 0.993214 -0.116302
+0.000000 0.993214 -0.116302
+0.000000 0.993214 -0.116302
+0.000000 0.993214 -0.116302
+0.000000 0.993214 -0.116302
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+0.174228 -0.984705 -0.000000
+0.174228 -0.984705 -0.000000
+0.174228 -0.984705 -0.000000
+0.174228 -0.984705 -0.000000
+0.174228 -0.984705 -0.000000
+0.174228 -0.984705 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000011 1.000000
+0.000000 0.000011 1.000000
+0.000000 0.000011 1.000000
+0.000000 0.000011 1.000000
+0.000000 0.000011 1.000000
+0.000000 0.000011 1.000000
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 -0.984705 -0.174229
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+1.000000 -0.000002 -0.000000
+1.000000 -0.000002 -0.000000
+1.000000 -0.000002 -0.000000
+1.000000 -0.000002 -0.000000
+1.000000 -0.000002 -0.000000
+1.000000 -0.000002 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+0.116303 0.993214 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+0.174229 -0.984705 -0.000000
+0.174229 -0.984705 -0.000000
+0.174229 -0.984705 -0.000000
+0.174229 -0.984705 -0.000000
+0.174229 -0.984705 -0.000000
+0.174229 -0.984705 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+-1.000000 -0.000001 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-0.116303 0.993214 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+-0.174229 -0.984705 0.000000
+1.000000 0.000001 -0.000000
+1.000000 0.000001 -0.000000
+1.000000 0.000001 -0.000000
+1.000000 0.000001 -0.000000
+1.000000 0.000001 -0.000000
+1.000000 0.000001 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface8-Normal0-array" count="726" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface8-UV0">
+          <float_array id="polySurface8-UV0-array" count="840">
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+1.284708 0.106592
+1.284708 0.151866
+-0.310498 0.151866
+-0.310498 0.106592
+1.284708 0.165359
+-0.310498 0.165359
+-0.310498 0.093099
+1.284708 0.093099
+-0.310498 0.093099
+1.284708 0.093099
+1.284708 0.165359
+-0.310498 0.165359
+0.726635 0.000281
+0.711285 0.019533
+0.289214 0.019533
+0.273864 0.000281
+0.919633 0.704862
+0.080304 0.704862
+0.080304 0.627266
+0.919633 0.627266
+0.111388 0.627266
+0.893808 0.627267
+0.893808 0.704863
+0.111388 0.704862
+0.726635 0.000281
+0.711285 0.019533
+0.289214 0.019533
+0.273864 0.000281
+0.919633 0.704862
+0.080304 0.704862
+0.080304 0.627266
+0.919633 0.627266
+0.111388 0.627266
+0.893808 0.627267
+0.893808 0.704863
+0.111388 0.704862
+0.726635 0.000281
+0.711285 0.019533
+0.289214 0.019533
+0.273864 0.000281
+0.919633 0.704862
+0.080304 0.704862
+0.080304 0.627266
+0.919633 0.627266
+0.111388 0.627266
+0.893808 0.627267
+0.893808 0.704863
+0.111388 0.704862
+0.726635 0.000281
+0.711285 0.019533
+0.289214 0.019533
+0.273864 0.000281
+0.919633 0.704862
+0.080304 0.704862
+0.080304 0.627266
+0.919633 0.627266
+0.111388 0.627266
+0.893808 0.627267
+0.893808 0.704863
+0.111388 0.704862
+-0.226262 0.722659
+-0.226262 0.713530
+1.251017 0.713530
+1.251017 0.722660
+1.062904 0.609148
+1.062904 0.619941
+-0.043622 0.619941
+-0.043622 0.609148
+1.103485 0.628216
+-0.084203 0.628216
+1.103485 0.703974
+-0.084203 0.703974
+-0.043622 0.713530
+1.062904 0.713530
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+1.251017 0.609148
+1.251017 0.619941
+-0.226262 0.619941
+-0.226262 0.609148
+1.210436 0.628216
+-0.185681 0.628216
+1.210436 0.703974
+-0.185681 0.703974
+-0.043622 0.722659
+1.062904 0.722659
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+1.234436 0.166523
+1.049798 0.297997
+-0.052320 0.297997
+-0.236957 0.166523
+-0.226262 0.722659
+-0.226262 0.713530
+1.251017 0.713530
+1.251017 0.722660
+1.062904 0.609148
+1.062904 0.619941
+-0.043622 0.619941
+-0.043622 0.609148
+1.103485 0.628216
+-0.084203 0.628216
+1.103485 0.703974
+-0.084203 0.703974
+-0.043622 0.713530
+1.062904 0.713530
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+1.251017 0.609148
+1.251017 0.619941
+-0.226262 0.619941
+-0.226262 0.609148
+1.210436 0.628216
+-0.185681 0.628216
+1.210436 0.703974
+-0.185681 0.703974
+-0.043622 0.722659
+1.062904 0.722659
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+1.234436 0.166523
+1.049798 0.297997
+-0.052320 0.297997
+-0.236957 0.166523
+-0.226262 0.722659
+-0.226262 0.713530
+1.251017 0.713530
+1.251017 0.722660
+1.062904 0.609148
+1.062904 0.619941
+-0.043622 0.619941
+-0.043622 0.609148
+1.103485 0.628216
+-0.084203 0.628216
+1.103485 0.703974
+-0.084203 0.703974
+-0.043622 0.713530
+1.062904 0.713530
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+1.251017 0.609148
+1.251017 0.619941
+-0.226262 0.619941
+-0.226262 0.609148
+1.210436 0.628216
+-0.185681 0.628216
+1.210436 0.703974
+-0.185681 0.703974
+-0.043622 0.722659
+1.062904 0.722659
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+1.234436 0.166523
+1.049798 0.297997
+-0.052320 0.297997
+-0.236957 0.166523
+-0.226262 0.722659
+-0.226262 0.713530
+1.251017 0.713530
+1.251017 0.722660
+1.062904 0.609148
+1.062904 0.619941
+-0.043622 0.619941
+-0.043622 0.609148
+1.103485 0.628216
+-0.084203 0.628216
+1.103485 0.703974
+-0.084203 0.703974
+-0.043622 0.713530
+1.062904 0.713530
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+1.251017 0.609148
+1.251017 0.619941
+-0.226262 0.619941
+-0.226262 0.609148
+1.210436 0.628216
+-0.185681 0.628216
+1.210436 0.703974
+-0.185681 0.703974
+-0.043622 0.722659
+1.062904 0.722659
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+-0.052320 0.297997
+1.234436 0.166523
+1.049798 0.297997
+-0.052320 0.297997
+-0.236957 0.166523
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface8-UV0-array" count="420" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface8-VERTEX">
+          <input semantic="POSITION" source="#polySurface8-POSITION"/>
+        </vertices>
+        <triangles count="242" material="engineroom_beams_01_engineroom_machinery_02_phong1">
+          <input semantic="VERTEX" offset="0" source="#polySurface8-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#polySurface8-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#polySurface8-UV0"/>
+          <p> 0 0 3 1 1 0 2 2 2 2 3 2 1 4 0 3 5 1 5 6 6 1 7 4 0 8 5 1 9 4 5 10 6 4 11 7 7 12 10 6 13 11 2 14 8 2 15 8 3 16 9 7 17 10 8 18 15 9 19 12 10 20 14 10 21 14 9 22 12 11 23 13 13 24 18 9 25 16 8 26 17 9 27 16 13 28 18 12 29 19 4 30 22 5 31 23 10 32 20 10 33 20 11 34 21 4 35 22 14 36 27 15 37 24 16 38 26 16 39 26 15 40 24 17 41 25 19 42 30 15 43 28 14 44 29 15 45 28 19 46 30 18 47 31 21 48 34 20 49 35 16 50 32 16 51 32 17 52 33 21 53 34 22 54 39 23 55 36 24 56 38 24 57 38 23 58 36 25 59 37 20 60 42 23 61 40 22 62 41 23 63 40 20 64 42 21 65 43 12 66 46 13 67 47 24 68 44 24 69 44 25 70 45 12 71 46 26 72 51 27 73 48 28 74 50 28 75 50 27 76 48 29 77 49 31 78 54 27 79 52 26 80 53 27 81 52 31 82 54 30 83 55 18 84 58 19 85 59 28 86 56 28 87 56 29 88 57 18 89 58 32 90 63 33 91 60 34 92 62 34 93 62 33 94 60 35 95 61 37 96 66 33 97 64 32 98 65 33 99 64 37 100 66 36 101 67 39 102 70 38 103 71 34 104 68 34 105 68 35 106 69 39 107 70 40 108 75 41 109 72 42 110 74 42 111 74 41 112 72 43 113 73 38 114 78 41 115 76 40 116 77 41 117 76 38 118 78 39 119 79 30 120 82 31 121 83 42 122 80 42 123 80 43 124 81 30 125 82 44 126 87 45 127 84 46 128 86 46 129 86 45 130 84 47 131 85 49 132 90 45 133 88 44 134 89 45 135 88 49 136 90 48 137 91 36 138 94 37 139 95 46 140 92 46 141 92 47 142 93 36 143 94 50 144 99 51 145 96 52 146 98 52 147 98 51 148 96 53 149 97 55 150 102 51 151 100 50 152 101 51 153 100 55 154 102 54 155 103 48 156 106 49 157 107 52 158 104 52 159 104 53 160 105 48 161 106 56 162 111 57 163 108 58 164 110 58 165 110 57 166 108 59 167 109 61 168 114 57 169 112 56 170 113 57 171 112 61 172 114 60 173 115 54 174 118 55 175 119 58 176 116 58 177 116 59 178 117 54 179 118 62 180 123 63 181 120 64 182 122 64 183 122 63 184 120 65 185 121 67 186 126 63 187 124 62 188 125 63 189 124 67 190 126 66 191 127 60 192 130 61 193 131 64 194 128 64 195 128 65 196 129 60 197 130 68 198 135 69 199 132 70 200 134 70 201 134 69 202 132 71 203 133 73 204 138 69 205 136 68 206 137 69 207 136 73 208 138 72 209 139 66 210 142 67 211 143 70 212 140 70 213 140 71 214 141 66 215 142 74 216 147 75 217 144 76 218 146 76 219 146 75 220 144 77 221 145 79 222 150 75 223 148 74 224 149 75 225 148 79 226 150 78 227 151 72 228 154 73 229 155 76 230 152 76 231 152 77 232 153 72 233 154 80 234 159 81 235 156 82 236 158 82 237 158 81 238 156 83 239 157 85 240 162 81 241 160 80 242 161 81 243 160 85 244 162 84 245 163 78 246 166 79 247 167 82 248 164 82 249 164 83 250 165 78 251 166 86 252 171 87 253 168 88 254 170 88 255 170 87 256 168 89 257 169 91 258 174 87 259 172 86 260 173 87 261 172 91 262 174 90 263 175 93 264 178 92 265 179 88 266 176 88 267 176 89 268 177 93 269 178 94 270 183 95 271 180 96 272 182 96 273 182 95 274 180 97 275 181 92 276 186 95 277 184 94 278 185 95 279 184 92 280 186 93 281 187 84 282 190 85 283 191 96 284 188 96 285 188 97 286 189 84 287 190 98 288 195 99 289 192 100 290 194 100 291 194 99 292 192 101 293 193 103 294 198 99 295 196 98 296 197 99 297 196 103 298 198 102 299 199 90 300 202 91 301 203 100 302 200 100 303 200 101 304 201 90 305 202 104 306 207 105 307 204 106 308 206 106 309 206 105 310 204 107 311 205 109 312 210 105 313 208 104 314 209 105 315 208 109 316 210 108 317 211 102 318 214 103 319 215 106 320 212 106 321 212 107 322 213 102 323 214 110 324 219 111 325 216 112 326 218 112 327 218 111 328 216 113 329 217 115 330 222 111 331 220 110 332 221 111 333 220 115 334 222 114 335 223 108 336 226 109 337 227 112 338 224 112 339 224 113 340 225 108 341 226 119 342 229 116 343 231 117 344 228 116 345 231 119 346 229 118 347 230 120 348 235 116 349 233 121 350 234 116 351 233 120 352 235 117 353 232 123 354 238 118 355 236 119 356 237 118 357 236 123 358 238 122 359 239 119 360 242 124 361 240 125 362 241 117 363 243 124 364 240 119 365 242 120 366 246 124 367 244 117 368 245 124 369 244 120 370 246 126 371 247 127 372 250 123 373 251 119 374 248 127 375 250 119 376 248 125 377 249 124 378 255 128 379 252 125 380 254 125 381 254 128 382 252 129 383 253 126 384 258 128 385 256 124 386 257 128 387 256 126 388 258 130 389 259 131 390 262 127 391 263 125 392 260 125 393 260 129 394 261 131 395 262 116 396 264 129 397 266 128 398 267 129 399 266 116 400 264 118 401 265 121 402 271 128 403 269 130 404 270 128 405 269 121 406 271 116 407 268 129 408 272 118 409 273 122 410 274 129 411 272 122 412 274 131 413 275 137 414 277 144 415 279 138 416 276 144 417 279 137 418 277 153 419 278 117 420 281 149 421 283 133 422 280 149 423 283 117 424 281 124 425 282 139 426 284 145 427 285 117 428 281 117 429 281 145 430 285 124 431 282 140 432 286 145 433 285 139 434 284 145 435 285 140 436 286 146 437 287 146 438 287 140 439 286 147 440 288 147 441 288 140 442 286 141 443 289 143 444 291 133 445 293 149 446 290 133 447 293 143 448 291 132 449 292 134 450 296 143 451 294 150 452 295 143 453 294 134 454 296 132 455 297 135 456 299 150 457 295 151 458 298 134 459 296 150 460 295 135 461 299 136 462 301 151 463 298 152 464 300 151 465 298 136 466 301 135 467 299 152 468 300 137 469 277 136 470 301 153 471 278 137 472 277 152 473 300 141 474 289 148 475 302 147 476 288 148 477 302 141 478 289 142 479 303 143 480 305 133 481 307 149 482 304 133 483 307 143 484 305 132 485 306 142 486 310 144 487 308 148 488 309 138 489 311 144 490 308 142 491 310 153 492 313 164 493 314 144 494 312 144 495 312 164 496 314 155 497 315 124 498 317 160 499 319 149 500 316 160 501 319 124 502 317 128 503 318 145 504 320 156 505 321 124 506 317 124 507 317 156 508 321 128 509 318 146 510 322 157 511 323 145 512 320 145 513 320 157 514 323 156 515 321 157 516 323 147 517 325 158 518 324 147 519 325 157 520 323 146 521 322 143 522 328 160 523 326 154 524 327 160 525 326 143 526 328 149 527 329 143 528 333 154 529 330 150 530 332 150 531 332 154 532 330 161 533 331 150 534 332 161 535 331 151 536 335 151 537 335 161 538 331 162 539 334 151 540 335 162 541 334 152 542 337 152 543 337 162 544 334 163 545 336 152 546 337 164 547 314 153 548 313 164 549 314 152 550 337 163 551 336 148 552 339 159 553 338 147 554 325 147 555 325 159 556 338 158 557 324 143 558 342 160 559 340 154 560 341 160 561 340 143 562 342 149 563 343 144 564 347 155 565 344 148 566 346 148 567 346 155 568 344 159 569 345 164 570 349 166 571 351 155 572 348 166 573 351 164 574 349 175 575 350 116 576 354 160 577 352 128 578 353 160 579 352 116 580 354 171 581 355 156 582 356 116 583 354 128 584 353 116 585 354 156 586 356 167 587 357 168 588 359 156 589 356 157 590 358 156 591 356 168 592 359 167 593 357 168 594 359 158 595 361 169 596 360 158 597 361 168 598 359 157 599 358 165 600 363 160 601 365 171 602 362 160 603 365 165 604 363 154 605 364 172 606 367 161 607 368 165 608 366 154 609 369 165 610 366 161 611 368 172 612 367 162 613 371 161 614 368 162 615 371 172 616 367 173 617 370 174 618 372 163 619 373 173 620 370 162 621 371 173 622 370 163 623 373 164 624 349 174 625 372 175 626 350 174 627 372 164 628 349 163 629 373 169 630 360 158 631 361 170 632 374 159 633 375 170 634 374 158 635 361 165 636 377 160 637 379 171 638 376 160 639 379 165 640 377 154 641 378 166 642 380 159 643 382 155 644 383 159 645 382 166 646 380 170 647 381 138 648 387 166 649 384 137 650 386 137 651 386 166 652 384 175 653 385 133 654 391 171 655 388 117 656 390 117 657 390 171 658 388 116 659 389 167 660 392 117 661 390 116 662 389 117 663 390 167 664 392 139 665 393 139 666 393 167 667 392 140 668 395 140 669 395 167 670 392 168 671 394 140 672 395 168 673 394 141 674 396 141 675 396 168 676 394 169 677 397 132 678 399 171 679 401 133 680 398 171 681 401 132 682 399 165 683 400 172 684 404 132 685 402 134 686 403 132 687 402 172 688 404 165 689 405 173 690 407 134 691 403 135 692 406 172 693 404 134 694 403 173 695 407 136 696 408 174 697 409 135 698 406 135 699 406 174 700 409 173 701 407 137 702 386 174 703 409 136 704 408 174 705 409 137 706 386 175 707 385 141 708 396 169 709 397 142 710 410 142 711 410 169 712 397 170 713 411 132 714 413 171 715 415 133 716 412 171 717 415 132 718 413 165 719 414 170 720 418 138 721 416 142 722 417 166 723 419 138 724 416 170 725 418</p>
+        </triangles>
+        <triangles count="242" material="engineroom_beams_02_engineroom_machinery_02_phong1">
+          <input semantic="VERTEX" offset="0" source="#polySurface8-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#polySurface8-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#polySurface8-UV0"/>
+          <p> 0 0 3 1 1 0 2 2 2 2 3 2 1 4 0 3 5 1 5 6 6 1 7 4 0 8 5 1 9 4 5 10 6 4 11 7 7 12 10 6 13 11 2 14 8 2 15 8 3 16 9 7 17 10 8 18 15 9 19 12 10 20 14 10 21 14 9 22 12 11 23 13 13 24 18 9 25 16 8 26 17 9 27 16 13 28 18 12 29 19 4 30 22 5 31 23 10 32 20 10 33 20 11 34 21 4 35 22 14 36 27 15 37 24 16 38 26 16 39 26 15 40 24 17 41 25 19 42 30 15 43 28 14 44 29 15 45 28 19 46 30 18 47 31 21 48 34 20 49 35 16 50 32 16 51 32 17 52 33 21 53 34 22 54 39 23 55 36 24 56 38 24 57 38 23 58 36 25 59 37 20 60 42 23 61 40 22 62 41 23 63 40 20 64 42 21 65 43 12 66 46 13 67 47 24 68 44 24 69 44 25 70 45 12 71 46 26 72 51 27 73 48 28 74 50 28 75 50 27 76 48 29 77 49 31 78 54 27 79 52 26 80 53 27 81 52 31 82 54 30 83 55 18 84 58 19 85 59 28 86 56 28 87 56 29 88 57 18 89 58 32 90 63 33 91 60 34 92 62 34 93 62 33 94 60 35 95 61 37 96 66 33 97 64 32 98 65 33 99 64 37 100 66 36 101 67 39 102 70 38 103 71 34 104 68 34 105 68 35 106 69 39 107 70 40 108 75 41 109 72 42 110 74 42 111 74 41 112 72 43 113 73 38 114 78 41 115 76 40 116 77 41 117 76 38 118 78 39 119 79 30 120 82 31 121 83 42 122 80 42 123 80 43 124 81 30 125 82 44 126 87 45 127 84 46 128 86 46 129 86 45 130 84 47 131 85 49 132 90 45 133 88 44 134 89 45 135 88 49 136 90 48 137 91 36 138 94 37 139 95 46 140 92 46 141 92 47 142 93 36 143 94 50 144 99 51 145 96 52 146 98 52 147 98 51 148 96 53 149 97 55 150 102 51 151 100 50 152 101 51 153 100 55 154 102 54 155 103 48 156 106 49 157 107 52 158 104 52 159 104 53 160 105 48 161 106 56 162 111 57 163 108 58 164 110 58 165 110 57 166 108 59 167 109 61 168 114 57 169 112 56 170 113 57 171 112 61 172 114 60 173 115 54 174 118 55 175 119 58 176 116 58 177 116 59 178 117 54 179 118 62 180 123 63 181 120 64 182 122 64 183 122 63 184 120 65 185 121 67 186 126 63 187 124 62 188 125 63 189 124 67 190 126 66 191 127 60 192 130 61 193 131 64 194 128 64 195 128 65 196 129 60 197 130 68 198 135 69 199 132 70 200 134 70 201 134 69 202 132 71 203 133 73 204 138 69 205 136 68 206 137 69 207 136 73 208 138 72 209 139 66 210 142 67 211 143 70 212 140 70 213 140 71 214 141 66 215 142 74 216 147 75 217 144 76 218 146 76 219 146 75 220 144 77 221 145 79 222 150 75 223 148 74 224 149 75 225 148 79 226 150 78 227 151 72 228 154 73 229 155 76 230 152 76 231 152 77 232 153 72 233 154 80 234 159 81 235 156 82 236 158 82 237 158 81 238 156 83 239 157 85 240 162 81 241 160 80 242 161 81 243 160 85 244 162 84 245 163 78 246 166 79 247 167 82 248 164 82 249 164 83 250 165 78 251 166 86 252 171 87 253 168 88 254 170 88 255 170 87 256 168 89 257 169 91 258 174 87 259 172 86 260 173 87 261 172 91 262 174 90 263 175 93 264 178 92 265 179 88 266 176 88 267 176 89 268 177 93 269 178 94 270 183 95 271 180 96 272 182 96 273 182 95 274 180 97 275 181 92 276 186 95 277 184 94 278 185 95 279 184 92 280 186 93 281 187 84 282 190 85 283 191 96 284 188 96 285 188 97 286 189 84 287 190 98 288 195 99 289 192 100 290 194 100 291 194 99 292 192 101 293 193 103 294 198 99 295 196 98 296 197 99 297 196 103 298 198 102 299 199 90 300 202 91 301 203 100 302 200 100 303 200 101 304 201 90 305 202 104 306 207 105 307 204 106 308 206 106 309 206 105 310 204 107 311 205 109 312 210 105 313 208 104 314 209 105 315 208 109 316 210 108 317 211 102 318 214 103 319 215 106 320 212 106 321 212 107 322 213 102 323 214 110 324 219 111 325 216 112 326 218 112 327 218 111 328 216 113 329 217 115 330 222 111 331 220 110 332 221 111 333 220 115 334 222 114 335 223 108 336 226 109 337 227 112 338 224 112 339 224 113 340 225 108 341 226 119 342 229 116 343 231 117 344 228 116 345 231 119 346 229 118 347 230 120 348 235 116 349 233 121 350 234 116 351 233 120 352 235 117 353 232 123 354 238 118 355 236 119 356 237 118 357 236 123 358 238 122 359 239 119 360 242 124 361 240 125 362 241 117 363 243 124 364 240 119 365 242 120 366 246 124 367 244 117 368 245 124 369 244 120 370 246 126 371 247 127 372 250 123 373 251 119 374 248 127 375 250 119 376 248 125 377 249 124 378 255 128 379 252 125 380 254 125 381 254 128 382 252 129 383 253 126 384 258 128 385 256 124 386 257 128 387 256 126 388 258 130 389 259 131 390 262 127 391 263 125 392 260 125 393 260 129 394 261 131 395 262 116 396 264 129 397 266 128 398 267 129 399 266 116 400 264 118 401 265 121 402 271 128 403 269 130 404 270 128 405 269 121 406 271 116 407 268 129 408 272 118 409 273 122 410 274 129 411 272 122 412 274 131 413 275 137 414 277 144 415 279 138 416 276 144 417 279 137 418 277 153 419 278 117 420 281 149 421 283 133 422 280 149 423 283 117 424 281 124 425 282 139 426 284 145 427 285 117 428 281 117 429 281 145 430 285 124 431 282 140 432 286 145 433 285 139 434 284 145 435 285 140 436 286 146 437 287 146 438 287 140 439 286 147 440 288 147 441 288 140 442 286 141 443 289 143 444 291 133 445 293 149 446 290 133 447 293 143 448 291 132 449 292 134 450 296 143 451 294 150 452 295 143 453 294 134 454 296 132 455 297 135 456 299 150 457 295 151 458 298 134 459 296 150 460 295 135 461 299 136 462 301 151 463 298 152 464 300 151 465 298 136 466 301 135 467 299 152 468 300 137 469 277 136 470 301 153 471 278 137 472 277 152 473 300 141 474 289 148 475 302 147 476 288 148 477 302 141 478 289 142 479 303 143 480 305 133 481 307 149 482 304 133 483 307 143 484 305 132 485 306 142 486 310 144 487 308 148 488 309 138 489 311 144 490 308 142 491 310 153 492 313 164 493 314 144 494 312 144 495 312 164 496 314 155 497 315 124 498 317 160 499 319 149 500 316 160 501 319 124 502 317 128 503 318 145 504 320 156 505 321 124 506 317 124 507 317 156 508 321 128 509 318 146 510 322 157 511 323 145 512 320 145 513 320 157 514 323 156 515 321 157 516 323 147 517 325 158 518 324 147 519 325 157 520 323 146 521 322 143 522 328 160 523 326 154 524 327 160 525 326 143 526 328 149 527 329 143 528 333 154 529 330 150 530 332 150 531 332 154 532 330 161 533 331 150 534 332 161 535 331 151 536 335 151 537 335 161 538 331 162 539 334 151 540 335 162 541 334 152 542 337 152 543 337 162 544 334 163 545 336 152 546 337 164 547 314 153 548 313 164 549 314 152 550 337 163 551 336 148 552 339 159 553 338 147 554 325 147 555 325 159 556 338 158 557 324 143 558 342 160 559 340 154 560 341 160 561 340 143 562 342 149 563 343 144 564 347 155 565 344 148 566 346 148 567 346 155 568 344 159 569 345 164 570 349 166 571 351 155 572 348 166 573 351 164 574 349 175 575 350 116 576 354 160 577 352 128 578 353 160 579 352 116 580 354 171 581 355 156 582 356 116 583 354 128 584 353 116 585 354 156 586 356 167 587 357 168 588 359 156 589 356 157 590 358 156 591 356 168 592 359 167 593 357 168 594 359 158 595 361 169 596 360 158 597 361 168 598 359 157 599 358 165 600 363 160 601 365 171 602 362 160 603 365 165 604 363 154 605 364 172 606 367 161 607 368 165 608 366 154 609 369 165 610 366 161 611 368 172 612 367 162 613 371 161 614 368 162 615 371 172 616 367 173 617 370 174 618 372 163 619 373 173 620 370 162 621 371 173 622 370 163 623 373 164 624 349 174 625 372 175 626 350 174 627 372 164 628 349 163 629 373 169 630 360 158 631 361 170 632 374 159 633 375 170 634 374 158 635 361 165 636 377 160 637 379 171 638 376 160 639 379 165 640 377 154 641 378 166 642 380 159 643 382 155 644 383 159 645 382 166 646 380 170 647 381 138 648 387 166 649 384 137 650 386 137 651 386 166 652 384 175 653 385 133 654 391 171 655 388 117 656 390 117 657 390 171 658 388 116 659 389 167 660 392 117 661 390 116 662 389 117 663 390 167 664 392 139 665 393 139 666 393 167 667 392 140 668 395 140 669 395 167 670 392 168 671 394 140 672 395 168 673 394 141 674 396 141 675 396 168 676 394 169 677 397 132 678 399 171 679 401 133 680 398 171 681 401 132 682 399 165 683 400 172 684 404 132 685 402 134 686 403 132 687 402 172 688 404 165 689 405 173 690 407 134 691 403 135 692 406 172 693 404 134 694 403 173 695 407 136 696 408 174 697 409 135 698 406 135 699 406 174 700 409 173 701 407 137 702 386 174 703 409 136 704 408 174 705 409 137 706 386 175 707 385 141 708 396 169 709 397 142 710 410 142 711 410 169 712 397 170 713 411 132 714 413 171 715 415 133 716 412 171 717 415 132 718 413 165 719 414 170 720 418 138 721 416 142 722 417 166 723 419 138 724 416 170 725 418</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="polySurface8" id="polySurface8" sid="polySurface8">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000046 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -1200.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#polySurface8-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="engineroom_beams_01_engineroom_machinery_02_phong1" target="#engineroom_beams_01_engineroom_machinery_02_phong1"/>
+              <instance_material symbol="engineroom_beams_02_engineroom_machinery_02_phong1" target="#engineroom_beams_02_engineroom_machinery_02_phong1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

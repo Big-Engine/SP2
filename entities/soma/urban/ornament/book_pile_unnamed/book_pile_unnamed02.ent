@@ -1,0 +1,25 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/ornament/book_pile_unnamed/book_pile_unnamed02.dae">
+            <SubMesh ID="5" Material="" Name="book_pile_unnamed02" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="6" Name="Shape_2" RelativeRotation="0 -0.0381223 0" RelativeScale="1 1 1" RelativeTranslation="-0.000748489 -0.0362871 0.0052321" Rotation="0 -0.0381223 0" Scale="0.168131 0.110324 0.244371" ShapeType="Box" WorldPos="-0.00136235 0.0364748 0.0071348" />
+            <Shape ID="7" Name="Shape_3" RelativeRotation="0 0.813602 0" RelativeScale="1 1 1" RelativeTranslation="0.000748489 0.0362871 -0.0052321" Rotation="0 0.813602 0" Scale="0.159548 0.0393813 0.238098" ShapeType="Box" WorldPos="0.000134625 0.109049 -0.0033294" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="11" LinearDamping="0.1" Mass="0" Material="Book" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.000613864 0.0727619 0.0019027">
+                <Children>
+                    <Child ID="5" />
+                </Children>
+                <Shape ID="7" />
+                <Shape ID="6" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

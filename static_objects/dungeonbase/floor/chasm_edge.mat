@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Material>
+  <Main BlendMode="Add" DepthTest="true" PhysicsMaterial="Default Hard" Type="SolidDiffuse" UseAlpha="false" />
+  <TextureUnits>
+    <Diffuse AnimFrameTime="0" AnimMode="None" Compress="false" File="E:/lux/redist/static_objects/dungeonbase/floor/chasm_edge.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    <NMap AnimFrameTime="0" AnimMode="None" Compress="false" File="E:/lux/redist/static_objects/dungeonbase/floor/chasm_edge_nrm.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    <Specular AnimFrameTime="0" AnimMode="None" Compress="false" File="E:/lux/redist/static_objects/dungeonbase/floor/chasm_edge_spec.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+  </TextureUnits>
+  <SpecificVariables />
+</Material>

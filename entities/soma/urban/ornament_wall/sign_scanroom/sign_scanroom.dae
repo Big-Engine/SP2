@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>zaicheng</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=1;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/zaicheng/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-02-23T09:06:58Z</created>
+    <modified>2012-02-23T09:06:58Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="sign_scanroom_1" name="sign_scanroom_1">
+      <init_from>file:///F:/2pi/sign_scanroom/sign_scanroom.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="sign_scanroom_nrm_1" name="sign_scanroom_nrm_1">
+      <init_from>file:///F:/2pi/sign_scanroom/sign_scanroom_nrm.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="sign_scanroom_spec_1" name="sign_scanroom_spec_1">
+      <init_from>file:///F:/2pi/sign_scanroom/sign_scanroom_spec.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn3" name="blinn3">
+      <instance_effect url="#blinn3-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn3-fx">
+      <profile_COMMON>
+        <newparam sid="sign_scanroom_1-surface">
+          <surface type="2D">
+            <init_from>sign_scanroom_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sign_scanroom_1-sampler">
+          <sampler2D>
+            <source>sign_scanroom_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="sign_scanroom_nrm_1-surface">
+          <surface type="2D">
+            <init_from>sign_scanroom_nrm_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sign_scanroom_nrm_1-sampler">
+          <sampler2D>
+            <source>sign_scanroom_nrm_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="sign_scanroom_spec_1-surface">
+          <surface type="2D">
+            <init_from>sign_scanroom_spec_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sign_scanroom_spec_1-sampler">
+          <sampler2D>
+            <source>sign_scanroom_spec_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="sign_scanroom_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="sign_scanroom_spec_1-sampler" texcoord="TEX2">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="sign_scanroom_nrm_1-sampler" texcoord="TEX1">
+                  <extra>
+                    <technique profile="MAYA">
+                      <wrapU>1</wrapU>
+                      <wrapV>1</wrapV>
+                      <mirrorU>0</mirrorU>
+                      <mirrorV>0</mirrorV>
+                      <coverageU>1</coverageU>
+                      <coverageV>1</coverageV>
+                      <translateFrameU>0</translateFrameU>
+                      <translateFrameV>0</translateFrameV>
+                      <rotateFrame>0</rotateFrame>
+                      <stagger>0</stagger>
+                      <fast>0</fast>
+                      <repeatU>1</repeatU>
+                      <repeatV>1</repeatV>
+                      <offsetU>0</offsetU>
+                      <offsetV>0</offsetV>
+                      <rotateUV>0</rotateUV>
+                      <noiseU>0</noiseU>
+                      <noiseV>0</noiseV>
+                      <blend_mode>NONE</blend_mode>
+                    </technique>
+                    <technique profile="MAX3D">
+                      <amount>1</amount>
+                      <bumpInterp>1</bumpInterp>
+                    </technique>
+                  </extra>
+                </texture>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="sign_scanroomShape" name="sign_scanroomShape">
+      <mesh>
+        <source id="sign_scanroomShape-positions" name="position">
+          <float_array id="sign_scanroomShape-positions-array" count="171">-18.3256 13.9235 0.732775 18.1346 13.9235 0.732775 17.8694 14.1887 0.732775 -18.0604 14.1887 0.732775 -18.3256 2.11857 0.732775 -18.0604 1.85338 0.732775 17.8694 1.85338 0.732775 18.1346 2.11857 0.732775 -15.2391 3.48066 1.01928 -13.4061 3.48066 1.01928 -13.4061 4.15458 1.01928 -15.2391 4.15458 1.01928 -13.1964 4.34273 0.716135 -15.4488 4.34273 0.716135 -15.4488 3.29251 0.716135 -13.1964 3.29251 0.716135 -20.0955 -0.000002 1.27133 -20.0955 -0.000002 -1.50595 -0.095483 -0.000002 -1.50595 -0.095483 -0.000002 1.27133 -0.095483 1.56713 1.27133 -17.8725 1.56713 1.27133 -0.095483 2.0907 0.732775 -17.3691 2.0907 0.732775 -17.6241 2.34569 0.732775 -18.1243 1.81892 1.27133 -17.6241 8.02103 0.732775 -18.1243 8.02103 1.27133 -20.0955 8.02103 1.27133 -20.0955 8.02103 -1.50595 -0.095481 8.02103 -1.50595 19.9045 -0.000002 1.27133 19.9045 -0.000002 -1.50595 17.6816 1.56713 1.27133 17.1782 2.0907 0.732775 17.9334 1.81892 1.27133 17.4331 2.34569 0.732775 17.9334 8.02103 1.27133 17.4331 8.02103 0.732775 19.9045 8.02103 1.27133 19.9045 8.02103 -1.50595 -20.0955 16.0421 1.27133 -0.09548 16.0421 1.27133 -0.09548 16.0421 -1.50595 -20.0955 16.0421 -1.50595 -17.8725 14.4749 1.27133 -0.09548 14.4749 1.27133 -0.09548 13.9514 0.732775 -17.3691 13.9514 0.732775 -18.1243 14.2231 1.27133 -17.6241 13.6964 0.732775 19.9045 16.0421 1.27133 19.9045 16.0421 -1.50595 17.6816 14.4749 1.27133 17.1782 13.9514 0.732775 17.4331 13.6964 0.732775 17.9334 14.2231 1.27133</float_array>
+          <technique_common>
+            <accessor source="#sign_scanroomShape-positions-array" count="57" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="sign_scanroomShape-normals" name="normal">
+          <float_array id="sign_scanroomShape-normals-array" count="516">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.341695 -0.35302 0.870989 0.341695 -0.35302 0.870989 0.341695 0.35302 0.870989 -0.341695 0.35302 0.870989 -0.341695 0.35302 0.870989 0.341695 0.35302 0.870989 0.510018 0.526922 0.679879 -0.510018 0.526922 0.679879 -0.510018 -0.526921 0.679879 0.510018 -0.526921 0.679879 0.341695 -0.35302 0.870989 -0.341695 -0.35302 0.870989 0.341695 -0.35302 0.870989 0.510018 -0.526921 0.679879 0.510018 0.526922 0.679879 0.341695 0.35302 0.870989 -0.510018 -0.526921 0.679879 -0.341695 -0.35302 0.870989 -0.341695 0.35302 0.870989 -0.510018 0.526922 0.679879 -0.707107 -0.707107 0 -0.707107 -0.707107 0 0 -1 0 0 -1 0 0 0 1 0 0.389187 0.921159 0.113695 0.307235 0.944818 0 0 1 0 0.717006 0.697067 0.218274 0.589837 0.777463 0.113695 0.307235 0.944818 0 0.389187 0.921159 0.113695 0.307235 0.944818 0.218274 0.589837 0.777463 0.599043 0.218669 0.77028 0.312377 0.114027 0.94309 0.113695 0.307235 0.944818 0.312377 0.114027 0.94309 0 0 1 0.599043 0.218669 0.77028 0.732708 0 0.680543 0.39966 0 0.916663 0.312377 0.114027 0.94309 0 0 1 0.312377 0.114027 0.94309 0.39966 0 0.916663 0 0 1 -1 0 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.707107 -0.707107 0 0 -1 0 0 -1 0 0.707107 -0.707107 0 0 0 1 0 0 1 -0.113695 0.307235 0.944817 0 0.389187 0.921159 0 0.717006 0.697067 0 0.389187 0.921159 -0.113695 0.307235 0.944817 -0.218274 0.589837 0.777463 -0.113695 0.307235 0.944817 -0.312377 0.114027 0.94309 -0.599043 0.218669 0.77028 -0.218274 0.589837 0.777463 -0.113695 0.307235 0.944817 0 0 1 -0.312377 0.114027 0.94309 -0.599043 0.218669 0.77028 -0.312377 0.114027 0.94309 -0.39966 0 0.916663 -0.732708 0 0.680543 0 0 1 0 0 1 -0.39966 0 0.916663 -0.312377 0.114027 0.94309 1 0 0 1 0 0 0.707107 -0.707107 0 0.707107 -0.707107 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.707107 0.707107 0 0 1 0 0 1 0 -0.707107 0.707107 0 0 0 1 0 0 1 0.113695 -0.307235 0.944817 0 -0.389187 0.921159 0 -0.717006 0.697067 0 -0.389187 0.921159 0.113695 -0.307235 0.944817 0.218274 -0.589837 0.777463 0.113695 -0.307235 0.944817 0.312377 -0.114027 0.94309 0.599043 -0.218669 0.77028 0.218274 -0.589837 0.777463 0.113695 -0.307235 0.944817 0 0 1 0.312377 -0.114027 0.94309 0.599043 -0.218669 0.77028 0.312377 -0.114027 0.94309 0.39966 0 0.916663 0.732708 0 0.680543 0 0 1 0 0 1 0.39966 0 0.916663 0.312377 -0.114027 0.94309 -1 0 0 -1 0 0 -0.707107 0.707107 0 -0.707107 0.707107 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.707107 0.707107 0 0.707107 0.707107 0 0 1 0 0 1 0 0 0 1 0 -0.389187 0.921159 -0.113695 -0.307235 0.944818 0 0 1 0 -0.717006 0.697067 -0.218274 -0.589837 0.777463 -0.113695 -0.307235 0.944818 0 -0.389187 0.921159 -0.113695 -0.307235 0.944818 -0.218274 -0.589837 0.777463 -0.599043 -0.218669 0.77028 -0.312377 -0.114027 0.94309 -0.113695 -0.307235 0.944818 -0.312377 -0.114027 0.94309 0 0 1 -0.599043 -0.218669 0.77028 -0.732708 0 0.680543 -0.39966 0 0.916663 -0.312377 -0.114027 0.94309 0 0 1 -0.312377 -0.114027 0.94309 -0.39966 0 0.916663 0 0 1 1 0 0 0.707107 0.707107 0 0.707107 0.707107 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#sign_scanroomShape-normals-array" count="172" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="sign_scanroomShape-map1" name="map1">
+          <float_array id="sign_scanroomShape-map1-array" count="200">0.132269 0.755048 0.814279 0.755047 0.809318 0.765019 0.13723 0.765019 0.132271 0.311167 0.137231 0.301195 0.809316 0.301195 0.814277 0.311167 0.04356 0.082611 0.218704 0.082611 0.218704 0.212572 0.043559 0.212572 0.245474 0.278409 0.019593 0.278409 0.019593 0.023528 0.245474 0.023528 0.470347 0.029145 0.470347 0.173577 0.987764 0.173577 0.987764 0.029145 0.816772 0.981043 0.817132 0.854415 0.101734 0.854415 0.01221 0.981043 0.817294 0.793696 0.12265 0.793696 0.116801 0.775562 0.089988 0.822652 0.116801 0.323958 0.089988 0.323958 0.01221 0.323958 0.262837 0.173577 0.262837 0.029145 0.834077 0.978131 0.989515 0.978131 0.989515 0.200212 0.834077 0.200212 0.470347 0.029145 0.987764 0.029145 0.987764 0.173577 0.470347 0.173577 0.816772 0.981043 0.01221 0.981043 0.101734 0.854415 0.817132 0.854415 0.817294 0.793696 0.12265 0.793696 0.089988 0.822652 0.116801 0.775562 0.089988 0.323958 0.116801 0.323958 0.01221 0.323958 0.262837 0.173577 0.262837 0.029145 0.834077 0.978131 0.834077 0.200212 0.989515 0.200212 0.989515 0.978131 0.470347 0.029145 0.987764 0.029145 0.987764 0.173577 0.470347 0.173577 0.816772 0.981043 0.01221 0.981043 0.101734 0.854415 0.817132 0.854415 0.817294 0.793696 0.12265 0.793696 0.089988 0.822652 0.116801 0.775562 0.089988 0.323958 0.116801 0.323958 0.01221 0.323958 0.262837 0.173577 0.262837 0.029145 0.834077 0.978131 0.834077 0.200212 0.989515 0.200212 0.989515 0.978131 0.470347 0.029145 0.470347 0.173577 0.987764 0.173577 0.987764 0.029145 0.816772 0.981043 0.817132 0.854415 0.101734 0.854415 0.01221 0.981043 0.817294 0.793696 0.12265 0.793696 0.116801 0.775562 0.089988 0.822652 0.116801 0.323958 0.089988 0.323958 0.01221 0.323958 0.262837 0.173577 0.262837 0.029145 0.834077 0.978131 0.989515 0.978131 0.989515 0.200212 0.834077 0.200212</float_array>
+          <technique_common>
+            <accessor source="#sign_scanroomShape-map1-array" count="100" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="sign_scanroomShape-map1-tangents">
+          <float_array id="sign_scanroomShape-map1-tangents-array" count="264">-1 -0.000000 0 -0.939811 0.12835 -0.316673 -0.939811 -0.12835 0.316673 -0.939811 -0.12835 -0.316673 -0.939811 0.12835 0.316673 -0.860164 -0.312428 -0.403121 -0.860164 0.312428 0.403121 -0.860164 0.312428 -0.403122 -0.860164 -0.312428 0.403122 -0.939719 -0.115401 0.321885 -0.73331 0.103075 0.629985 -0.832713 -0.232402 0.420874 -0.807964 0.022313 0.588809 -0.786181 -0.035139 -0.616996 -0.803089 -0.301594 -0.437296 -0.758139 0.043878 -0.602732 -0.936026 -0.210928 -0.281718 -0.707107 0.707107 0 -0.993516 0.035159 0.108122 -0.975888 0.131927 0.173893 -0.974279 -0.151754 0.166587 -0.942304 -0.070184 0.3178 -0.94704 0.01664 0.311673 -0.800646 0.150758 0.579861 -0.979763 -0.123011 0.157901 -0.934323 -0.142498 0.326702 -0.985102 -0.171972 0 -0.680543 0 0.732708 -0.914924 0.043524 0.398902 -0.789297 0.003907 0.612723 -0.949914 0.027948 0.311258 -0.998316 0.058016 0 -0.949089 0.067484 0.306205 -0.999158 0.029008 0 -0.916663 0 0.39966 0 1 0 0 -1 0 0.707107 0.707107 0 1 0 0 0.993516 0.035159 0.108122 0.975888 0.131927 0.173893 0.974279 -0.151754 0.166588 0.94704 0.01664 0.311673 0.942304 -0.070184 0.3178 0.800646 0.150758 0.579861 0.979763 -0.123011 0.157901 0.985102 -0.171972 0 0.934323 -0.142498 0.326702 0.949914 0.027948 0.311258 0.914924 0.043524 0.398902 0.789297 0.003907 0.612723 0.680543 0 0.732708 0.998316 0.058016 0 0.999158 0.029008 0 0.949089 0.067484 0.306205 0.916663 0 0.39966 -0.707107 -0.707107 0 -0.993516 -0.035159 0.108122 -0.975888 -0.131927 0.173893 -0.974279 0.151754 0.166588 -0.94704 -0.01664 0.311673 -0.942304 0.070184 0.3178 -0.800646 -0.150758 0.579861 -0.979763 0.123012 0.157901 -0.985102 0.171973 0 -0.934323 0.142498 0.326702 -0.949914 -0.027949 0.311258 -0.914924 -0.043524 0.398902 -0.789297 -0.003907 0.612723 -0.998316 -0.058016 0 -0.999158 -0.029008 0 -0.949089 -0.067484 0.306205 0.707107 -0.707107 0 0.993516 -0.035159 0.108122 0.975888 -0.131927 0.173893 0.974279 0.151754 0.166587 0.942304 0.070184 0.3178 0.94704 -0.01664 0.311673 0.800646 -0.150758 0.579861 0.979763 0.123012 0.157901 0.934323 0.142498 0.326702 0.985102 0.171973 0 0.914924 -0.043524 0.398902 0.789297 -0.003907 0.612723 0.949914 -0.027949 0.311258 0.998316 -0.058016 0 0.949089 -0.067484 0.306205 0.999158 -0.029008 0</float_array>
+          <technique_common>
+            <accessor source="#sign_scanroomShape-map1-tangents-array" count="88" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="sign_scanroomShape-map1-binormals">
+          <float_array id="sign_scanroomShape-map1-binormals-array" count="258">0.000000 -1 0 0 -0.92677 -0.375629 0 -0.92677 0.375629 0 -0.790406 0.612583 0 -0.790407 -0.612582 -0.013118 -0.928472 -0.371172 -0.41351 -0.843276 -0.343358 0.365036 -0.903858 0.223136 0.295086 -0.849621 0.437114 0.348999 -0.849187 -0.396334 0.433137 -0.881629 -0.18741 -0.358344 -0.848708 0.388953 0.084263 -0.91153 0.402509 0 0 -1 0 -0.921159 0.389187 0 -0.950984 0.30924 0 -0.697067 0.717006 0 -0.796673 0.604411 0.194561 -0.939456 0.282079 0.242762 -0.804448 0.542153 0.019902 -0.993337 0.11351 0.010671 -0.964083 0.265387 0.164736 -0.94365 0.287032 0.171641 -0.983205 0.062025 0.171972 -0.985102 0 -0.039935 -0.999051 0.017411 0.131077 -0.975791 0.175072 0.009133 -0.993084 0.117046 -0.058016 -0.998316 0 -0.028741 -0.991181 0.129362 -0.02902 -0.999579 0 -1 0 0 0 0 1 0 1 0 0 0.950984 -0.30924 0 0.921159 -0.389187 0 0.697067 -0.717006 0 0.796673 -0.604411 0.194562 0.939456 -0.282079 0.019902 0.993337 -0.11351 0.242762 0.804448 -0.542153 0.010671 0.964083 -0.265387 0.164736 0.94365 -0.287032 0.171972 0.985102 0 0.171641 0.983205 -0.062025 0.009133 0.993084 -0.117046 -0.039935 0.999051 -0.017411 0.131077 0.975791 -0.175072 -0.058016 0.998316 0 -0.02902 0.999579 0 -0.028741 0.991181 -0.129362 0 -0.950984 -0.30924 0 -0.921159 -0.389187 0 -0.697067 -0.717006 0 -0.796673 -0.604411 -0.194562 -0.939456 -0.282079 -0.019902 -0.993337 -0.11351 -0.242762 -0.804448 -0.542153 -0.010672 -0.964083 -0.265387 -0.164736 -0.94365 -0.287032 -0.171973 -0.985102 0 -0.171642 -0.983205 -0.062024 -0.009133 -0.993084 -0.117047 0.039935 -0.999051 -0.017411 -0.131076 -0.975791 -0.175073 0.058016 -0.998316 0 0.02902 -0.999579 0 0.028741 -0.991181 -0.129362 1 0 0 0 0.921159 0.389187 0 0.950984 0.30924 0 0.697067 0.717006 0 0.796673 0.604411 -0.194562 0.939456 0.282079 -0.242762 0.804448 0.542153 -0.019902 0.993337 0.11351 -0.010672 0.964083 0.265387 -0.164736 0.94365 0.287032 -0.171642 0.983205 0.062024 -0.171973 0.985102 0 0.039935 0.999051 0.017411 -0.131076 0.975791 0.175073 -0.009133 0.993084 0.117047 0.058016 0.998316 0 0.028741 0.991181 0.129362 0.02902 0.999579 0</float_array>
+          <technique_common>
+            <accessor source="#sign_scanroomShape-map1-binormals-array" count="86" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="sign_scanroomShape-vertices">
+          <input semantic="POSITION" source="#sign_scanroomShape-positions"/>
+        </vertices>
+        <triangles material="blinn3SG" count="84">
+          <input semantic="VERTEX" source="#sign_scanroomShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#sign_scanroomShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#sign_scanroomShape-map1" offset="2" set="0"/>
+          <input semantic="TEXTANGENT" source="#sign_scanroomShape-map1-tangents" offset="3" set="0"/>
+          <input semantic="TEXBINORMAL" source="#sign_scanroomShape-map1-binormals" offset="4" set="0"/>
+          <p>0 0 0 0 0 1 1 1 0 0 3 3 3 0 0 3 3 3 0 0 1 1 1 0 0 2 2 2 0 0 4 4 4 0 0 5 5 5 0 0 7 7 7 0 0 7 7 7 0 0 5 5 5 0 0 6 6 6 0 0 4 8 4 0 0 7 9 7 0 0 0 11 0 0 0 0 11 0 0 0 7 9 7 0 0 1 10 1 0 0 8 12 8 1 1 9 13 9 2 1 11 15 11 3 2 11 15 11 3 2 9 13 9 2 1 10 14 10 4 2 11 16 11 3 2 10 17 10 4 2 13 19 13 5 3 13 19 13 5 3 10 17 10 4 2 12 18 12 6 3 14 20 14 7 4 15 21 15 8 4 8 23 8 1 1 8 23 8 1 1 15 21 15 8 4 9 22 9 2 1 9 24 9 9 5 15 25 15 10 6 10 27 10 11 7 10 27 10 11 7 15 25 15 10 6 12 26 12 12 8 14 28 14 13 9 8 29 8 14 10 13 31 13 15 11 13 31 13 15 11 8 29 8 14 10 11 30 11 16 12 16 32 16 17 13 17 33 17 17 13 19 35 19 0 13 19 35 19 0 13 17 33 17 17 13 18 34 18 0 13 20 37 21 0 14 21 38 22 18 15 19 36 20 0 0 19 36 20 0 0 21 38 22 18 15 16 39 23 0 0 22 40 24 0 16 23 41 25 19 17 20 43 21 0 14 20 43 21 0 14 23 41 25 19 17 21 42 22 18 15 21 44 22 20 18 23 45 25 21 19 25 47 27 22 20 25 47 27 22 20 23 45 25 21 19 24 46 26 23 21 21 48 22 24 22 25 49 27 25 23 16 50 23 26 24 26 52 28 27 0 27 53 29 28 25 24 51 26 29 26 24 51 26 29 26 27 53 29 28 25 25 54 27 30 27 16 55 23 31 28 25 56 27 32 29 28 58 30 33 30 28 58 30 33 30 25 56 27 32 29 27 57 29 34 0 29 59 31 35 13 17 60 17 17 13 28 62 32 35 13 28 62 32 35 13 17 60 17 17 13 16 61 16 17 13 17 63 33 36 31 29 64 34 36 31 18 66 36 36 31 18 66 36 36 31 29 64 34 36 31 30 65 35 36 31 31 67 37 37 32 19 68 38 38 32 32 70 40 37 32 32 70 40 37 32 19 68 38 38 32 18 69 39 38 32 31 72 42 38 33 33 73 43 39 34 19 71 41 38 33 19 71 41 38 33 33 73 43 39 34 20 74 44 38 35 22 75 45 38 36 20 76 44 38 35 34 78 46 40 37 34 78 46 40 37 20 76 44 38 35 33 77 43 39 34 33 79 43 41 38 35 80 47 42 39 34 82 46 43 40 34 82 46 43 40 35 80 47 42 39 36 81 48 44 41 33 83 43 45 42 31 84 42 46 43 35 85 47 47 44 35 87 47 48 45 37 88 49 49 46 36 86 48 50 47 36 86 48 50 47 37 88 49 49 46 38 89 50 51 33 31 90 42 52 48 39 91 51 53 49 35 93 47 54 50 35 93 47 54 50 39 91 51 53 49 37 92 49 55 33 40 94 52 35 32 39 95 53 35 32 32 97 40 37 32 32 97 40 37 32 39 95 53 35 32 31 96 37 37 32 32 98 54 36 31 18 99 55 36 31 40 101 57 36 31 40 101 57 36 31 18 99 55 36 31 30 100 56 36 31 41 102 58 56 32 42 103 59 0 32 44 105 61 56 32 44 105 61 56 32 42 103 59 0 32 43 104 60 0 32 41 107 63 0 0 45 108 64 57 51 42 106 62 0 0 42 106 62 0 0 45 108 64 57 51 46 109 65 0 52 47 110 66 0 53 46 111 65 0 52 48 113 67 58 54 48 113 67 58 54 46 111 65 0 52 45 112 64 57 51 45 114 64 59 55 49 115 68 60 56 48 117 67 61 57 48 117 67 61 57 49 115 68 60 56 50 116 69 62 58 45 118 64 63 59 41 119 63 64 60 49 120 68 65 61 49 122 68 66 62 27 123 70 67 63 50 121 69 68 64 50 121 69 68 64 27 123 70 67 63 26 124 71 27 0 41 125 63 69 65 28 126 72 70 66 49 128 68 71 67 49 128 68 71 67 28 126 72 70 66 27 127 70 34 0 29 129 73 36 32 28 130 74 36 32 44 132 61 56 32 44 132 61 56 32 28 130 74 36 32 41 131 58 56 32 44 133 75 35 68 43 134 76 35 68 29 136 78 35 68 29 136 78 35 68 43 134 76 35 68 30 135 77 35 68 51 137 79 72 13 52 138 80 72 13 42 140 82 38 13 42 140 82 38 13 52 138 80 72 13 43 139 81 38 13 46 142 84 38 69 53 143 85 73 70 42 141 83 38 33 42 141 83 38 33 53 143 85 73 70 51 144 86 38 33 47 145 87 38 71 54 146 88 74 72 46 148 84 38 69 46 148 84 38 69 54 146 88 74 72 53 147 85 73 70 53 149 85 75 73 54 150 88 76 74 56 152 90 77 75 56 152 90 77 75 54 150 88 76 74 55 151 89 78 76 53 153 85 79 77 56 154 90 80 78 51 155 86 81 79 38 157 91 51 33 37 158 92 82 80 55 156 89 83 81 55 156 89 83 81 37 158 92 82 80 56 159 90 84 82 51 160 86 85 83 56 161 90 86 84 39 163 93 87 85 39 163 93 87 85 56 161 90 86 84 37 162 92 55 33 40 164 94 36 13 52 165 80 72 13 39 167 95 36 13 39 167 95 36 13 52 165 80 72 13 51 166 79 72 13 52 168 96 35 68 40 169 97 35 68 43 171 99 35 68 43 171 99 35 68 40 169 97 35 68 30 170 98 35 68</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="sign_scanroom" name="sign_scanroom" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#sign_scanroomShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn3SG" target="#blinn3">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX2" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

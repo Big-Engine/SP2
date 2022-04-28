@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-03-14T15:30:38Z</created>
+    <keywords></keywords>
+    <modified>2012-03-14T15:30:38Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #1-image" name="Map #1">
+      <init_from>file://D:\amnesia_raw\StaticObjects\sewers\wall_tunnel.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #1" name="Material #1">
+      <instance_effect url="#Material #1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #1-fx" name="Material #1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="wall_small-lib" name="wall_smallMesh">
+      <mesh>
+        <source id="wall_small-POSITION">
+          <float_array id="wall_small-POSITION-array" count="36">
+0.341965 2.000000 3.240968
+0.516880 2.000000 2.423238
+0.517957 2.000000 1.587011
+0.345150 2.000000 0.768834
+0.000000 2.000000 0.000000
+-0.000000 2.000000 4.000000
+0.516880 0.000000 2.423238
+0.517957 0.000000 1.587011
+0.000000 0.000000 0.000000
+0.341965 0.000000 3.240968
+0.345150 0.000000 0.768834
+-0.000000 0.000000 4.000000
+</float_array>
+          <technique_common>
+            <accessor source="#wall_small-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wall_small-Normal0">
+          <float_array id="wall_small-Normal0-array" count="90">
+-0.994386 0.000000 -0.105809
+-0.994386 0.000000 -0.105809
+-0.950172 0.000000 -0.311727
+-0.950172 0.000000 -0.311727
+-0.950172 0.000000 -0.311727
+-0.994386 0.000000 -0.105809
+-0.994656 0.000000 0.103247
+-0.994656 0.000000 0.103247
+-0.994386 0.000000 -0.105809
+-0.994386 0.000000 -0.105809
+-0.994386 0.000000 -0.105809
+-0.994656 0.000000 0.103247
+-0.950779 0.000000 0.309870
+-0.950779 0.000000 0.309870
+-0.994656 0.000000 0.103247
+-0.994656 0.000000 0.103247
+-0.994656 0.000000 0.103247
+-0.950779 0.000000 0.309870
+-0.912288 0.000000 0.409550
+-0.912288 0.000000 0.409550
+-0.950779 0.000000 0.309870
+-0.950779 0.000000 0.309870
+-0.950779 0.000000 0.309870
+-0.912288 0.000000 0.409550
+-0.950172 0.000000 -0.311727
+-0.950172 0.000000 -0.311727
+-0.911741 0.000000 -0.410765
+-0.911741 0.000000 -0.410765
+-0.911741 0.000000 -0.410764
+-0.950172 0.000000 -0.311727
+</float_array>
+          <technique_common>
+            <accessor source="#wall_small-Normal0-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wall_small-UV0">
+          <float_array id="wall_small-UV0-array" count="24">
+-0.000000 0.810220
+-0.000000 0.605742
+-0.000000 0.396685
+-0.000000 0.192186
+-0.000000 0.000068
+-0.000000 1.000068
+0.500000 0.605742
+0.500000 0.396685
+0.500000 0.000068
+0.500000 0.810220
+0.500000 0.192186
+0.500000 1.000068
+</float_array>
+          <technique_common>
+            <accessor source="#wall_small-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="wall_small-VERTEX">
+          <input semantic="POSITION" source="#wall_small-POSITION"/>
+        </vertices>
+        <triangles count="10" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#wall_small-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#wall_small-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#wall_small-UV0"/>
+          <p> 1 0 1 6 1 6 9 2 9 9 3 9 0 4 0 1 5 1 2 6 2 7 7 7 6 8 6 6 9 6 1 10 1 2 11 2 3 12 3 10 13 10 7 14 7 7 15 7 2 16 2 3 17 3 4 18 4 8 19 8 10 20 10 10 21 10 3 22 3 4 23 4 0 24 0 9 25 9 11 26 11 11 27 11 5 28 5 0 29 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="wall_small" id="wall_small" layer="walls" sid="wall_small">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#wall_small-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

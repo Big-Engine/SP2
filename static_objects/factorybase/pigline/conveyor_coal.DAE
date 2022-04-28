@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-08-28T10:44:37Z</created>
+    <keywords></keywords>
+    <modified>2012-08-28T10:44:37Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #37-image" name="Map #37">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\entities\equipment\coal_pile\coal_pile.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="_14 - Default" name="_14 - Default">
+      <instance_effect url="#_14 - Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_14 - Default-fx" name="_14 - Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #37-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Plane002-lib" name="Plane002Mesh">
+      <mesh>
+        <source id="Plane002-POSITION">
+          <float_array id="Plane002-POSITION-array" count="48">
+-44.000780 -1.517667 0.373283
+43.999678 -1.517667 0.373283
+-44.000780 -0.899723 -0.012620
+43.999678 -0.899723 -0.012620
+-44.000780 0.949189 -0.014472
+43.999678 0.949189 -0.014472
+-44.000780 1.519123 0.439673
+43.999678 1.519123 0.439673
+-44.000780 -0.914094 1.324592
+43.999678 -0.914094 1.324592
+-44.000780 -0.596430 1.433469
+43.999678 -0.596430 1.433469
+-44.000780 0.602099 1.433469
+43.999678 0.602099 1.433469
+-44.000780 0.917782 1.324592
+43.999678 0.917782 1.324592
+</float_array>
+          <technique_common>
+            <accessor source="#Plane002-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane002-Normal0">
+          <float_array id="Plane002-Normal0-array" count="90">
+0.000000 0.529690 0.848191
+0.000000 0.529691 0.848191
+0.000000 0.529691 0.848191
+0.000000 0.529690 0.848191
+0.000000 0.529691 0.848191
+0.000000 0.529691 0.848191
+0.000000 -0.623186 0.782073
+0.000000 -0.623186 0.782073
+0.000000 -0.623186 0.782073
+0.000000 -0.623186 0.782073
+0.000000 -0.623186 0.782073
+0.000000 -0.623186 0.782073
+-0.000000 -0.324230 0.945978
+0.000000 -0.324230 0.945978
+-0.000000 -0.164350 0.986402
+-0.000000 -0.164350 0.986402
+-0.000000 -0.164350 0.986402
+-0.000000 -0.324230 0.945978
+-0.000000 -0.164350 0.986402
+-0.000000 -0.164350 0.986402
+0.000000 0.165298 0.986244
+0.000000 0.165298 0.986244
+0.000000 0.165298 0.986244
+-0.000000 -0.164350 0.986402
+0.000000 0.165298 0.986244
+0.000000 0.165298 0.986244
+0.000000 0.326049 0.945353
+0.000000 0.326049 0.945353
+0.000000 0.326049 0.945353
+0.000000 0.165298 0.986244
+</float_array>
+          <technique_common>
+            <accessor source="#Plane002-Normal0-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane002-UV0">
+          <float_array id="Plane002-UV0-array" count="32">
+-16.896797 0.767871
+-16.896797 0.502573
+15.148369 0.502573
+15.148369 0.767871
+17.896799 0.502572
+17.896801 0.767945
+-14.148372 0.767945
+-14.148371 0.502573
+0.233415 17.882677
+0.117739 17.882679
+0.117739 -14.162491
+0.233415 -14.162491
+0.669858 17.882677
+0.669855 -14.162491
+0.784816 17.882677
+0.784814 -14.162491
+</float_array>
+          <technique_common>
+            <accessor source="#Plane002-UV0-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane002-VERTEX">
+          <input semantic="POSITION" source="#Plane002-POSITION"/>
+        </vertices>
+        <triangles count="10" material="_14 - Default">
+          <input semantic="VERTEX" offset="0" source="#Plane002-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Plane002-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Plane002-UV0"/>
+          <p> 0 0 1 1 1 2 3 2 3 3 3 3 2 4 0 0 5 1 4 6 5 5 7 6 7 8 7 7 9 7 6 10 4 4 11 5 8 12 9 9 13 10 11 14 11 11 15 11 10 16 8 8 17 9 10 18 8 11 19 11 13 20 13 13 21 13 12 22 12 10 23 8 12 24 12 13 25 13 15 26 15 15 27 15 14 28 14 12 29 12</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Plane002" id="Plane002" layer="conveyor_coal" sid="Plane002">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Plane002-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_14 - Default" target="#_14 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>6.666667</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

@@ -1,0 +1,25 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="false" Focused="3">
+            <Viewport CameraPos="0 0 200" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0 200 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.549474 0.756186 1.19936" CameraTarget="0 0 0" Controller="Maya" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/ornament_wall/bulletin_board/bulletin_board_large.dae">
+            <SubMesh ID="1" Material="" Name="polySurface154" Rotation="0 0 0" Scale="1 1 1" TriCount="44" WorldPos="0 0 0" />
+            <SubMesh ID="2" Material="" Name="polySurface183" Rotation="0 0 0" Scale="1 1 1" TriCount="1908" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

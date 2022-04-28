@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-04-23T09:33:16Z</created>
+    <keywords></keywords>
+    <modified>2012-04-23T09:33:16Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #14-image" name="Map #14">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\factorybase\factory_corridor_floor.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="factory_corridor_floor" name="factory_corridor_floor">
+      <instance_effect url="#factory_corridor_floor-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="factory_corridor_floor-fx" name="factory_corridor_floor">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #14-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Box338-lib" name="Box338Mesh">
+      <mesh>
+        <source id="Box338-POSITION">
+          <float_array id="Box338-POSITION-array" count="54">
+0.000000 0.204791 1.405595
+0.000000 0.204791 1.473538
+0.000000 0.031822 1.405595
+0.000000 0.031822 1.473538
+0.000000 0.161491 1.499990
+0.000000 0.075122 1.499990
+0.204790 0.000084 1.405595
+0.204790 0.000084 1.473538
+0.031821 0.000084 1.405595
+0.031821 0.000084 1.473538
+0.161489 0.000084 1.499990
+0.075122 0.000084 1.499990
+0.204493 0.204791 1.473538
+0.204493 0.204791 1.405595
+0.031524 0.031822 1.405595
+0.031524 0.031822 1.473538
+0.161192 0.161491 1.499990
+0.074824 0.075122 1.499990
+</float_array>
+          <technique_common>
+            <accessor source="#Box338-POSITION-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box338-Normal0">
+          <float_array id="Box338-Normal0-array" count="288">
+0.000001 1.000000 0.000000
+0.000001 1.000000 0.000000
+0.000001 1.000000 0.000000
+0.000001 1.000000 0.000000
+0.000001 1.000000 0.000000
+0.000001 1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-1.000000 0.000001 0.000000
+-1.000000 0.000001 0.000000
+-1.000000 0.000001 0.000000
+-1.000000 0.000001 0.000000
+-1.000000 0.000001 0.000000
+-1.000000 0.000001 0.000000
+-1.000000 0.000001 -0.000002
+-1.000000 0.000001 -0.000002
+-1.000000 0.000001 -0.000002
+-1.000000 0.000000 -0.000009
+-1.000000 0.000000 -0.000009
+-1.000000 0.000000 -0.000009
+-0.000000 -0.521314 0.853365
+-0.000000 -0.521314 0.853365
+-0.000000 -0.521314 0.853365
+-0.000000 -0.521314 0.853365
+-0.000000 -0.521314 0.853365
+-0.000000 -0.521314 0.853365
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.521311 0.853367
+0.000000 0.521311 0.853367
+0.000000 0.521311 0.853367
+0.000000 0.521311 0.853367
+0.000000 0.521311 0.853367
+0.000000 0.521311 0.853367
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.520760 0.000755 0.853703
+0.520760 0.000755 0.853703
+0.520760 0.000755 0.853703
+0.521311 0.000959 0.853366
+0.521311 0.000959 0.853366
+0.521311 0.000959 0.853366
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 -0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+0.999999 0.001449 -0.000004
+0.999999 0.001449 -0.000004
+0.999999 0.001449 -0.000004
+0.999999 0.001451 0.000000
+0.999999 0.001451 0.000000
+0.999999 0.001451 0.000000
+-0.999956 -0.009363 0.000000
+-0.999956 -0.009363 0.000000
+-0.999956 -0.009363 0.000000
+-0.999956 -0.009363 0.000000
+-0.999956 -0.009363 0.000000
+-0.999956 -0.009363 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.521305 -0.004881 0.853356
+-0.521305 -0.004881 0.853356
+-0.521305 -0.004881 0.853356
+-0.519812 -0.002061 0.854278
+-0.519812 -0.002061 0.854278
+-0.519812 -0.002061 0.854278
+</float_array>
+          <technique_common>
+            <accessor source="#Box338-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box338-UV0">
+          <float_array id="Box338-UV0-array" count="80">
+-0.285738 0.935810
+-0.297603 0.929877
+-0.347226 0.935810
+-0.335362 0.929877
+-0.384986 0.935810
+0.453024 0.358708
+0.395265 0.358708
+0.395265 0.223185
+0.453024 0.223185
+0.475511 0.257112
+0.475511 0.324781
+-0.307056 0.929877
+-0.325910 0.929877
+-0.297603 0.885232
+-0.285738 0.891165
+-0.384986 0.891165
+-0.347226 0.928927
+-0.335362 0.922994
+-0.307056 0.894685
+-0.325910 0.913541
+-0.297603 0.056574
+-0.285738 0.062507
+-0.347228 0.062507
+-0.335362 0.056574
+-0.384986 0.062507
+0.482751 0.231761
+0.540510 0.231761
+0.540510 0.367283
+0.482751 0.367283
+0.562997 0.265687
+0.562997 0.333357
+-0.307056 0.056574
+-0.325910 0.056574
+-0.297603 0.101620
+-0.285738 0.107553
+-0.384986 0.107553
+-0.347228 0.069791
+-0.335362 0.063858
+-0.307056 0.092167
+-0.325910 0.073311
+</float_array>
+          <technique_common>
+            <accessor source="#Box338-UV0-array" count="40" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box338-VERTEX">
+          <input semantic="POSITION" source="#Box338-POSITION"/>
+        </vertices>
+        <triangles count="32" material="factory_corridor_floor">
+          <input semantic="VERTEX" offset="0" source="#Box338-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box338-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box338-UV0"/>
+          <p> 1 0 1 12 1 13 13 2 14 13 3 14 0 4 0 1 5 1 14 6 16 15 7 17 3 8 3 3 9 3 2 10 2 14 11 16 0 12 4 13 13 15 14 14 16 14 15 16 2 16 2 0 17 4 1 18 5 0 19 6 2 20 7 2 21 7 3 22 8 1 23 5 1 24 5 3 25 8 5 26 9 5 27 9 4 28 10 1 29 5 15 30 17 17 31 19 5 32 12 5 33 12 3 34 3 15 35 17 4 36 11 5 37 12 17 38 19 17 39 19 16 40 18 4 41 11 1 42 1 4 43 11 16 44 18 16 45 18 12 46 13 1 47 1 6 48 25 7 49 26 9 50 27 9 51 27 8 52 28 6 53 25 10 54 31 16 55 38 17 56 39 17 57 39 11 58 32 10 59 31 7 60 20 12 61 33 16 62 38 16 63 38 10 64 31 7 65 20 9 66 27 7 67 26 10 68 29 10 69 29 11 70 30 9 71 27 7 72 20 6 73 21 13 74 34 13 75 34 12 76 33 7 77 20 8 78 22 9 79 23 15 80 37 15 81 37 14 82 36 8 83 22 6 84 24 8 85 22 14 86 36 14 87 36 13 88 35 6 89 24 15 90 37 9 91 23 11 92 32 11 93 32 17 94 39 15 95 37</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Box338" id="Box338" layer="factory_stairs_02_corner" sid="Box338">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box338-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="factory_corridor_floor" target="#factory_corridor_floor"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>6.666667</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

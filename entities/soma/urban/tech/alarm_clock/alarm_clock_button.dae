@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Administrator</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=1;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///D:/Ruihe/alarm_clock/low_gai.ma</source_data>
+    </contributor>
+    <created>2012-04-28T01:45:33Z</created>
+    <modified>2012-04-28T01:45:33Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="alarm_clock_button_1" name="alarm_clock_button_1">
+      <init_from>file:///D:/Ruihe/alarm_clock/alarm_clock/alarm_clock_button.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn2" name="blinn2">
+      <instance_effect url="#blinn2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn2-fx">
+      <profile_COMMON>
+        <newparam sid="alarm_clock_button_1-surface">
+          <surface type="2D">
+            <init_from>alarm_clock_button_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="alarm_clock_button_1-sampler">
+          <sampler2D>
+            <source>alarm_clock_button_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="alarm_clock_button_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="alarm_clock_button" name="alarm_clock_button">
+      <mesh>
+        <source id="alarm_clock_button-positions" name="position">
+          <float_array id="alarm_clock_button-positions-array" count="72">2.83643 7.64743 5.753 -2.65867 7.64228 5.7525 1.39729 8.23136 4.18238 2.8379 7.98761 4.80735 -2.68502 7.9824 4.80718 -1.17189 8.22927 4.18203 2.9062 7.43171 5.77867 -2.73417 7.42653 5.77832 1.43258 7.85075 4.04925 2.90694 7.62037 4.73773 -2.76177 7.61513 4.73776 -1.20505 7.84866 4.0489 -1.2572 7.72711 5.75521 -1.29263 7.4282 5.77634 1.48233 7.7297 5.75536 1.51988 7.4308 5.77646 2.83508 7.92919 5.19242 2.9039 7.54391 5.1597 -2.67667 7.924 5.19219 -2.75329 7.53868 5.15965 -1.24807 8.10609 4.97367 1.47329 8.10854 4.97386 0.113765 7.86925 3.94125 0.1127 8.24987 4.07438</float_array>
+          <technique_common>
+            <accessor source="#alarm_clock_button-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="alarm_clock_button-normals" name="normal">
+          <float_array id="alarm_clock_button-normals-array" count="105">0.051245 0.896178 0.440726 0.079041 0.951747 0.296531 0.039244 0.95373 0.298091 0.025202 0.898305 0.43865 0.001321 0.080774 0.996732 0.658965 0.212522 0.721526 0.658965 0.212522 0.721526 0.001321 0.080774 0.996732 0.978428 0.199397 0.054034 0.978428 0.199397 0.054034 -0.641339 0.221675 0.734537 -0.972542 0.217775 0.082075 -0.972542 0.217775 0.082075 -0.641339 0.221675 0.734537 0.832832 0.27465 -0.480581 0.832832 0.27465 -0.480581 0.261649 0.317329 -0.911505 0.261649 0.317329 -0.911505 -0.82818 0.289055 -0.480172 -0.82818 0.289055 -0.480172 -0.252533 0.317856 -0.91389 -0.252533 0.317856 -0.91389 -0.000141 0.333486 -0.942755 -0.000141 0.333486 -0.942755 -0.025852 0.898118 0.438994 -0.031678 0.96242 0.269712 -0.077175 0.951638 0.297371 -0.050831 0.895852 0.441436 -0.001575 0.080982 0.996714 -0.001575 0.080982 0.996714 -0.052366 0.98731 0.149921 -0.101624 0.984051 0.146002 0.10489 0.983852 0.145026 0.052396 0.987219 0.150509 -0.001611 0.987988 0.154522</float_array>
+          <technique_common>
+            <accessor source="#alarm_clock_button-normals-array" count="35" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="alarm_clock_button-map1" name="map1">
+          <float_array id="alarm_clock_button-map1-array" count="56">0.973651 0.765644 0.951708 0.765031 0.942447 0.714763 0.97331 0.714856 0.988413 0.716528 0.985604 0.768524 0.954102 0.77942 0.977579 0.777314 0.967843 0.560057 0.945949 0.561379 0.947753 0.546865 0.971315 0.548178 0.937151 0.76607 0.925804 0.774385 0.898548 0.717663 0.912541 0.712407 0.937985 0.780272 0.931364 0.560961 0.931596 0.546674 0.909902 0.618739 0.895571 0.614493 0.91954 0.553244 0.906875 0.6657 0.891619 0.666189 0.9706 0.612533 0.939662 0.614513 0.979547 0.556167 0.985543 0.610134</float_array>
+          <technique_common>
+            <accessor source="#alarm_clock_button-map1-array" count="28" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="alarm_clock_button-vertices">
+          <input semantic="POSITION" source="#alarm_clock_button-positions"/>
+        </vertices>
+        <triangles material="blinn2SG" count="35">
+          <input semantic="VERTEX" source="#alarm_clock_button-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#alarm_clock_button-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#alarm_clock_button-map1" offset="2" set="0"/>
+          <p>0 0 0 16 1 1 14 3 3 14 3 3 16 1 1 21 2 2 6 5 5 0 6 0 15 4 4 15 4 4 0 6 0 14 7 3 16 9 1 0 6 0 17 8 6 17 8 6 0 6 0 6 5 7 18 11 9 19 12 10 1 10 8 1 10 8 19 12 10 7 13 11 9 15 13 8 16 14 3 14 12 3 14 12 8 16 14 2 17 15 3 14 12 16 9 1 9 15 16 9 15 16 16 9 1 17 8 6 4 18 17 10 19 18 18 11 9 18 11 9 10 19 18 19 12 10 5 20 19 11 21 20 4 18 17 4 18 17 11 21 20 10 19 21 23 22 22 2 17 15 22 23 23 22 23 23 2 17 15 8 16 14 20 25 25 18 26 9 12 24 24 12 24 24 18 26 9 1 27 8 12 28 24 1 10 8 13 29 27 13 29 27 1 10 8 7 13 26 14 3 3 21 2 2 12 24 24 12 24 24 21 2 2 20 25 25 15 4 4 14 7 3 13 29 27 13 29 27 14 7 3 12 28 24 18 26 9 20 25 25 4 31 17 4 31 17 20 25 25 5 30 19 16 1 1 3 32 12 21 2 2 21 2 2 3 32 12 2 33 15 2 33 15 23 34 22 21 2 2 21 2 2 23 34 22 20 25 25 23 22 22 22 23 23 5 20 19 5 20 19 22 23 23 11 21 20 20 25 25 23 34 22 5 30 19</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="low_gai">
+      <node id="_alarm_clock_button" name="alarm_clock_button" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#alarm_clock_button">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn2SG" target="#blinn2">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

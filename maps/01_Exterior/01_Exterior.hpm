@@ -1,0 +1,16 @@
+<HPLMap ID="F22F3DE2F4B88CB3D1A3B55BD24B10D0CB6AE5F0" MajorVersion="1" MinorVersion="1">
+    <GlobalSettings>
+        <Fog Active="false" Culling="true" Color="1 1 1 1" Brightness="1" FadeStart="0" FadeEnd="20" FalloffExp="1" Underwater="false" Lighten="false" UseSkybox="false" NoiseStrength="0" NoiseSize="8" NoiseTurbulence="0.5 0.5 0.5" ApplyAfterFogAreas="true" HeightBased="false" Exponential="false" Density="0" HeightDensity="0.01" HeightHorizon="5" SecondaryActive="false" SecondaryColor="1 1 1 1" SecondaryFadeStart="0" SecondaryFadeEnd="20" SecondaryFalloffExp="1" SecondaryDensity="0.01" SecondaryHeightDensity="0.25" SecondaryHeightHorizon="5" />
+        <SkyBox Active="true" Color="0.101961 0.137255 0.192157 1" Texture="skybox_town.dds" Brightness="1.25" />
+        <DirLight Active="true" ShadowCasterDist="40" ShadowDistance="-1" DiffuseColor="0.32549 0.333333 0.345098 1" Brightness="0.1 0.1 0.1 1" Gobo="" GoboAnimMode="None" GoboAnimStartTime="0" GoboAnimFrameTime="0" GoboScale="1 1" Direction="-0.182 -0.966 0.182" CastShadows="true" SkyCol="0.0383377 0.0818498 0.146484 1" GroundCol="0.196078 0.231373 0.243137 0" ShadowMapBiasMul="3" ShadowMapSlopeScaleBiasMul="2.5" AutoShadowSliceSettings="true" AutoShadowSliceLogTerm="0.9" />
+        <SSAO NormalMap="false" NumOfDirections="0" NumOfSteps="0" AngleBias="0" Power="4.4" Radius="2" BufferSizeDiv="2" />
+        <EnvParticles Active="false">
+            <EnvParticle Name="Rain" Color="1 1 1 1" Brightness="0.1" BoxDistance="2" GravityVelocity="0 -30 0" GravitySpeedRandomAmount="0" WindVelocity="1 0 0" WindSpeedRandomAmount="0" WindDirRandomAmount="1" RotateVelocity="0 0 0" RotateSpeedRandomAmount="0" RotateBothDirs="false" NumIterations="1" FadeInStart="0.2" FadeInEnd="1" FadeOutStart="10" FadeOutEnd="20" BoxSize="30" NumParticles="100" ParticleSize="0.05 1" SubDivUV="1 1" AffectedByLight="false" Texture="mods/SP2/particles/tdd/materials/ps_water_drop.tga" Visible="true" />
+        </EnvParticles>
+        <PostEffects ToneMappingKey="0.5" ToneMappingExposure="0" ToneMappingWhiteCut="3.5" ColorGradingTexture="" />
+        <DistanceCulling Active="false" MinRange="0" ScreenSize="0.05" RandomSize="0.25" />
+    </GlobalSettings>
+    <RegisteredUsers>
+        <User ID="13733002251564882997" RegistrationTimestamp="0" />
+    </RegisteredUsers>
+</HPLMap>

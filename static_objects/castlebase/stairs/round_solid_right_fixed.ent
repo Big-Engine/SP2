@@ -1,0 +1,132 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="mods/SP2/static_objects/castlebase/stairs/round_solid_right_fixed.dae">
+            <SubMesh ID="0" Name="polySurface42" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="96" Material="" Static="true" />
+            <SubMesh ID="1" Name="polySurface75" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="65" Material="" Static="true" />
+            <SubMesh ID="2" Name="polySurface110" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="1392" Material="" Static="true" />
+            <SubMesh ID="3" Name="polySurface111" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="2480" Material="" Static="true" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="4" Name="ShapeBox_1" CreStamp="1634702152" ModStamp="1634702333" WorldPos="3.903 -0.25 4.516" Rotation="0 0.628319 0" Scale="1 1 3" RelativeTranslation="0.116685 -2.45969 5.141" RelativeRotation="0 0.628319 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="7" Name="ShapeBox_2" CreStamp="1634702430" ModStamp="1634702478" WorldPos="4.564 -0.015 3.855" Rotation="0 0.785398 0" Scale="1 1 3" RelativeTranslation="0.777685 -2.22469 4.48" RelativeRotation="0 0.785398 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="8" Name="ShapeBox_3" CreStamp="1634702487" ModStamp="1634702527" WorldPos="5.11391 0.21 3.09811" Rotation="0 0.942478 0" Scale="1 1 3" RelativeTranslation="1.3276 -1.99969 3.72311" RelativeRotation="0 0.942478 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="9" Name="ShapeBox_4" CreStamp="1634702538" ModStamp="1634702561" WorldPos="5.54076 0.5 2.26044" Rotation="0 1.09956 0" Scale="1 1 3" RelativeTranslation="1.75444 -1.70969 2.88544" RelativeRotation="0 1.09956 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="10" Name="ShapeBox_5" CreStamp="1634702573" ModStamp="1634702583" WorldPos="5.83044 0.75 1.3692" Rotation="0 1.25664 0" Scale="1 1 3" RelativeTranslation="2.04412 -1.45969 1.9942" RelativeRotation="0 1.25664 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="11" Name="ShapeBox_6" CreStamp="1634702595" ModStamp="1634702607" WorldPos="5.97714 1 0.440017" Rotation="0 1.41372 0" Scale="1 1 3" RelativeTranslation="2.19082 -1.20969 1.06502" RelativeRotation="0 1.41372 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="12" Name="ShapeBox_7" CreStamp="1634702616" ModStamp="1634702632" WorldPos="5.977 1.25 -0.50073" Rotation="0 1.5708 0" Scale="1 1 3" RelativeTranslation="2.19069 -0.959687 0.12427" RelativeRotation="3.14159 1.5708 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="13" Name="ShapeBox_8" CreStamp="1634702639" ModStamp="1634702651" WorldPos="5.83045 1.5 -1.42629" Rotation="-0 1.72788 -0" Scale="1 1 3" RelativeTranslation="2.04413 -0.709687 -0.801295" RelativeRotation="3.14159 1.41372 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="14" Name="ShapeBox_9" CreStamp="1634702654" ModStamp="1634702669" WorldPos="5.53724 1.75 -2.32703" Rotation="-0 1.88496 -0" Scale="1 1 3" RelativeTranslation="1.75092 -0.459687 -1.70203" RelativeRotation="3.14159 1.25664 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="15" Name="ShapeBox_10" CreStamp="1634702673" ModStamp="1634702684" WorldPos="5.11012 2 -3.1648" Rotation="-0 2.04204 -0" Scale="1 1 3" RelativeTranslation="1.32381 -0.209687 -2.5398" RelativeRotation="3.14159 1.09956 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="16" Name="ShapeBox_11" CreStamp="1634702732" ModStamp="1634702880" WorldPos="4.49813 2.25 -3.88563" Rotation="-0 2.19912 -0" Scale="1 1 3.25" RelativeTranslation="0.711811 0.0403125 -3.26063" RelativeRotation="3.14159 0.942478 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="17" Name="ShapeBox_12" CreStamp="1634702746" ModStamp="1634702875" WorldPos="3.77441 2.5 -4.47743" Rotation="-0 2.35619 -0" Scale="1 1 3.25" RelativeTranslation="-0.0119092 0.290313 -3.85243" RelativeRotation="3.14159 0.785398 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="18" Name="ShapeBox_13" CreStamp="1634702769" ModStamp="1634702871" WorldPos="3.06657 2.75 -5.07257" Rotation="-0 2.51327 -0" Scale="1 1 3.25" RelativeTranslation="-0.719748 0.540313 -4.44757" RelativeRotation="3.14159 0.628318 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="19" Name="ShapeBox_14" CreStamp="1634702803" ModStamp="1634702865" WorldPos="2.23376 3 -5.47692" Rotation="-0 2.67035 -0" Scale="1 1 3.25" RelativeTranslation="-1.55255 0.790313 -4.85192" RelativeRotation="3.14159 0.471239 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="20" Name="ShapeBox_15" CreStamp="1634702817" ModStamp="1634702861" WorldPos="1.36435 3.25 -5.82591" Rotation="-0 2.82743 -0" Scale="1 1 3.25" RelativeTranslation="-2.42197 1.04031 -5.20091" RelativeRotation="3.14159 0.314159 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="21" Name="ShapeBox_16" CreStamp="1634702838" ModStamp="1634702856" WorldPos="0.423114 3.5 -5.88608" Rotation="-0 2.98451 -0" Scale="1 1 3.25" RelativeTranslation="-3.3632 1.29031 -5.26108" RelativeRotation="3.14159 0.157079 3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="22" Name="ShapeBox_17" CreStamp="1634702889" ModStamp="1634702937" WorldPos="1.11152 3.31992 -5.77705" Rotation="-0.0769038 3.00449 -0.513375" Scale="1 1 3.25" RelativeTranslation="-2.6748 1.11023 -5.15205" RelativeRotation="3.06469 0.137102 2.62822" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="23" Name="ShapeBox_18" CreStamp="1634702951" ModStamp="1634702971" WorldPos="2.0295 3.06942 -5.60979" Rotation="-0.155819 2.86768 -0.526145" Scale="1 1 3.25" RelativeTranslation="-1.75682 0.859728 -4.98479" RelativeRotation="2.98577 0.273912 2.61545" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="24" Name="ShapeBox_19" CreStamp="1634702993" ModStamp="1634703010" WorldPos="2.87079 2.82076 -5.15234" Rotation="-0.232862 2.7281 -0.533209" Scale="1 1 3.25" RelativeTranslation="-0.915529 0.611072 -4.52734" RelativeRotation="2.90873 0.413496 2.60838" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="25" Name="ShapeBox_20" CreStamp="1634703018" ModStamp="1634703034" WorldPos="3.68227 2.59154 -4.62524" Rotation="-0.282442 2.57251 -0.494004" Scale="1 1 3.25" RelativeTranslation="-0.104048 0.381851 -4.00024" RelativeRotation="2.85915 0.569085 2.64759" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="26" Name="ShapeBox_21" CreStamp="1634703040" ModStamp="1634703067" WorldPos="4.28908 2.33188 -3.96276" Rotation="-0.415066 2.45391 -0.606849" Scale="1 1 3.25" RelativeTranslation="0.502763 0.122196 -3.33776" RelativeRotation="2.72653 0.687683 2.53474" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="27" Name="ShapeBox_22" CreStamp="1634703075" ModStamp="1634703096" WorldPos="4.90477 2.06706 -3.32594" Rotation="-0.596172 2.36075 -0.767066" Scale="1 1 3.25" RelativeTranslation="1.11845 -0.142627 -2.70094" RelativeRotation="2.54542 0.78084 2.37453" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="28" Name="ShapeBox_23" CreStamp="1634703106" ModStamp="1634703120" WorldPos="5.43 1.81651 -2.53701" Rotation="-0.748282 2.23888 -0.868884" Scale="1 1 3" RelativeTranslation="1.64368 -0.393175 -1.91201" RelativeRotation="2.39331 0.902717 2.27271" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="29" Name="ShapeBox_24" CreStamp="1634703124" ModStamp="1634703143" WorldPos="5.76317 1.58092 -1.6317" Rotation="-0.934152 2.1174 -1.00746" Scale="1 1 3" RelativeTranslation="1.97685 -0.628764 -1.0067" RelativeRotation="2.20744 1.02419 2.13414" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="30" Name="ShapeBox_25" CreStamp="1634703146" ModStamp="1634703170" WorldPos="5.9493 1.33879 -0.67592" Rotation="-1.19768 2.01435 -1.23094" Scale="1 1 3" RelativeTranslation="2.16298 -0.870898 -0.0509199" RelativeRotation="1.94392 1.12724 1.91065" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="31" Name="ShapeBox_26" CreStamp="1634703173" ModStamp="1634703189" WorldPos="5.977 1.085 0.239157" Rotation="-1.5708 2.01002 -1.5708" Scale="1 1 3" RelativeTranslation="2.19069 -1.12469 0.864157" RelativeRotation="1.5708 1.13158 1.5708" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="32" Name="ShapeBox_27" CreStamp="1634703195" ModStamp="1634703209" WorldPos="5.8632 0.831262 1.15939" Rotation="1.22574 1.09 1.26229" Scale="1 1 3" RelativeTranslation="2.07688 -1.37843 1.78439" RelativeRotation="1.22574 1.09 1.26229" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="33" Name="ShapeBox_28" CreStamp="1634703215" ModStamp="1634703229" WorldPos="5.60708 0.579353 2.05662" Rotation="0.940687 1.01874 1.01512" Scale="1 1 3" RelativeTranslation="1.82077 -1.63033 2.68162" RelativeRotation="0.940687 1.01874 1.01512" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="34" Name="ShapeBox_29" CreStamp="1634703235" ModStamp="1634703283" WorldPos="5.21888 0.325484 2.89217" Rotation="0.743059 0.90651 0.862241" Scale="1 1 3" RelativeTranslation="1.43256 -1.8842 3.51717" RelativeRotation="0.743059 0.90651 0.862241" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="35" Name="ShapeBox_30" CreStamp="1634703288" ModStamp="1634703317" WorldPos="4.68594 0.0400164 3.68716" Rotation="0.54437 0.813302 0.694673" Scale="1 1 3" RelativeTranslation="0.899626 -2.16967 4.31216" RelativeRotation="0.54437 0.813301 0.694673" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="36" Name="ShapeBox_31" CreStamp="1634703322" ModStamp="1634703347" WorldPos="4.0701 -0.196558 4.3489" Rotation="0.449487 0.667956 0.661728" Scale="1 1 3" RelativeTranslation="0.283782 -2.40624 4.9739" RelativeRotation="0.449487 0.667956 0.661728" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="37" Name="ShapeBox_32" CreStamp="1634703353" ModStamp="1634703375" WorldPos="3.3377 -0.430626 4.92671" Rotation="0.339288 0.539578 0.601912" Scale="1 1 3" RelativeTranslation="-0.448612 -2.64031 5.55171" RelativeRotation="0.339288 0.539578 0.601912" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="39" Name="ShapeCylinder_1" CreStamp="1634703644" ModStamp="1634703681" WorldPos="2.25 0.85 3.5" Rotation="0 0 0" Scale="0.5 2 0" RelativeTranslation="-1.53631 -1.35969 4.125" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="40" Name="ShapeCylinder_2" CreStamp="1634703689" ModStamp="1634703691" WorldPos="4.5 0.85 6.5" Rotation="0 0 0" Scale="0.5 2 0" RelativeTranslation="0.713685 -1.35969 7.125" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="41" Name="ShapeCylinder_3" CreStamp="1634703697" ModStamp="1634703710" WorldPos="0 4.85 -4.25" Rotation="0 0 0" Scale="0.5 2 0" RelativeTranslation="-3.78631 2.64031 -3.625" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="42" Name="ShapeCylinder_4" CreStamp="1634703713" ModStamp="1634703715" WorldPos="0 4.85 -7.75" Rotation="0 0 0" Scale="0.5 2 0" RelativeTranslation="-3.78631 2.64031 -7.125" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="43" Name="ShapeBox_33" CreStamp="1634703732" ModStamp="1634703858" WorldPos="2.95805 0.62802 2.88096" Rotation="0.516553 0.701772 0.563628" Scale="1.75 1.75 0.75" RelativeTranslation="-0.828263 -1.58167 3.50596" RelativeRotation="0.516553 0.701772 0.563628" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="44" Name="ShapeBox_34" CreStamp="1634703818" ModStamp="1634703854" WorldPos="3.83665 1.28895 1.66807" Rotation="0.65461 0.960418 0.75143" Scale="1.75 1.75 0.75" RelativeTranslation="0.0503385 -0.920742 2.29307" RelativeRotation="0.65461 0.960418 0.75143" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="45" Name="ShapeBox_35" CreStamp="1634703874" ModStamp="1634703930" WorldPos="4.15104 1.9284 0.248758" Rotation="-1.71987 1.97685 -1.5708" Scale="1.75 1.75 0.75" RelativeTranslation="0.364721 -0.281291 0.873758" RelativeRotation="1.42172 1.16474 1.5708" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="46" Name="ShapeBox_36" CreStamp="1634703942" ModStamp="1634703989" WorldPos="4.00193 2.55291 -1.26048" Rotation="-1.07531 2.00873 -0.972043" Scale="1.75 1.75 0.75" RelativeTranslation="0.21562 0.343227 -0.635476" RelativeRotation="2.06629 1.13286 2.16955" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="47" Name="ShapeBox_37" CreStamp="1634703955" ModStamp="1634704009" WorldPos="3.27291 3.10207 -2.56015" Rotation="-0.521491 2.22958 -0.599959" Scale="1.75 1.75 0.75" RelativeTranslation="-0.513401 0.892381 -1.93515" RelativeRotation="2.6201 0.912015 2.54163" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="48" Name="ShapeBox_38" CreStamp="1634704016" ModStamp="1634704039" WorldPos="2.19583 3.64747 -3.51986" Rotation="-0.378578 2.63277 -0.397469" Scale="1.75 1.75 0.75" RelativeTranslation="-1.59049 1.43779 -2.89486" RelativeRotation="2.76301 0.508819 2.74412" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="49" Name="ShapeBox_39" CreStamp="1634704052" ModStamp="1634704074" WorldPos="0.870615 4.10186 -3.97647" Rotation="-0.178268 2.87189 -0.300486" Scale="1.75 1.75 0.75" RelativeTranslation="-2.9157 1.89217 -3.35147" RelativeRotation="2.96333 0.269703 2.84111" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="50" Name="ShapeBox_40" CreStamp="1634704085" ModStamp="1634704147" WorldPos="5.43646 0.687277 5.49538" Rotation="0.276814 0.782733 0.382973" Scale="2.5 1.75 0.75" RelativeTranslation="1.65015 -1.52241 6.12038" RelativeRotation="0.276814 0.782733 0.382973" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="51" Name="ShapeBox_41" CreStamp="1634704150" ModStamp="1634704160" WorldPos="6.84793 1.33186 3.6038" Rotation="0.362115 0.992071 0.492332" Scale="2.5 1.75 0.75" RelativeTranslation="3.06162 -0.877829 4.2288" RelativeRotation="0.362115 0.992071 0.492332" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="52" Name="ShapeBox_42" CreStamp="1634704168" ModStamp="1634704196" WorldPos="7.5505 1.89481 1.45737" Rotation="0.791371 1.26278 0.855008" Scale="2.5 1.75 0.75" RelativeTranslation="3.76419 -0.314876 2.08237" RelativeRotation="0.791371 1.26278 0.855008" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="53" Name="ShapeBox_43" CreStamp="1634704204" ModStamp="1634704239" WorldPos="7.57263 2.43947 -0.990604" Rotation="2.01909 1.32916 2.11845" Scale="3 1.75 0.75" RelativeTranslation="3.78631 0.229779 -0.365604" RelativeRotation="2.01909 1.32916 2.11845" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="54" Name="ShapeBox_44" CreStamp="1634704244" ModStamp="1634704269" WorldPos="6.76475 2.95419 -3.59949" Rotation="2.73743 1.0913 2.77443" Scale="3 1.75 0.75" RelativeTranslation="2.97843 0.7445 -2.97449" RelativeRotation="2.73743 1.0913 2.77443" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="55" Name="ShapeBox_45" CreStamp="1634704296" ModStamp="1634704333" WorldPos="5.0904 3.44021 -5.75915" Rotation="2.86088 0.728282 2.88787" Scale="3 1.75 0.75" RelativeTranslation="1.30409 1.23053 -5.13415" RelativeRotation="2.86088 0.728281 2.88787" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="56" Name="ShapeBox_46" CreStamp="1634704336" ModStamp="1634704362" WorldPos="3.00633 3.90861 -7.11159" Rotation="3.03655 0.44895 2.92902" Scale="3 1.75 0.75" RelativeTranslation="-0.779989 1.69892 -6.48659" RelativeRotation="3.03655 0.44895 2.92902" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="57" Name="ShapeBox_47" CreStamp="1634704370" ModStamp="1634704395" WorldPos="0.960059 4.33308 -7.69213" Rotation="0.0236516 -0.105395 -0.221188" Scale="2 1.75 0.75" RelativeTranslation="-2.82626 2.12339 -7.06713" RelativeRotation="0.0236516 -0.105395 -0.221188" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="58" Name="ShapeBox_48" CreStamp="1634704407" ModStamp="1634704463" WorldPos="1.25 2 -3.75" Rotation="1.99639e-09 -0.261799 3.35276e-08" Scale="2.5 4 0.25" RelativeTranslation="-2.53631 -0.209687 -3.125" RelativeRotation="1.99639e-09 -0.261799 3.35276e-08" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="59" Name="ShapeBox_49" CreStamp="1634704467" ModStamp="1634704485" WorldPos="2.91174 1.5 -2.66174" Rotation="2.72713e-09 -0.785397 3.21159e-08" Scale="2.5 3 0.25" RelativeTranslation="-0.874571 -0.709687 -2.03674" RelativeRotation="2.72713e-09 -0.785397 3.21159e-08" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="60" Name="ShapeBox_50" CreStamp="1634704493" ModStamp="1634704502" WorldPos="3.75 1.5 -1.25" Rotation="-9.39704e-16 -1.309 -9.43706e-15" Scale="2.5 3 0.25" RelativeTranslation="-0.0363147 -0.709687 -0.625" RelativeRotation="-9.39704e-16 -1.309 -9.43706e-15" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="61" Name="ShapeBox_51" CreStamp="1634704507" ModStamp="1634704521" WorldPos="3.75 1 1" Rotation="6.51683e-07 4.45059 6.51683e-07" Scale="2.5 2 0.25" RelativeTranslation="-0.036314 -1.20969 1.625" RelativeRotation="-3.14159 -1.309 -3.14159" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="62" Name="Body_1" CreStamp="0" ModStamp="1634704558" WorldPos="3.78631 2.20969 -0.625" Rotation="0 0 0" Scale="1 1 1" Material="stone_large" Mass="0" AngularDamping="0.5" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="false" Volatile="false" UseSurfaceEffects="true" HasGravity="false" BlocksLight="true">
+                <Shape ID="4" />
+                <Shape ID="15" />
+                <Shape ID="16" />
+                <Shape ID="17" />
+                <Shape ID="18" />
+                <Shape ID="19" />
+                <Shape ID="20" />
+                <Shape ID="21" />
+                <Shape ID="22" />
+                <Shape ID="23" />
+                <Shape ID="24" />
+                <Shape ID="7" />
+                <Shape ID="25" />
+                <Shape ID="26" />
+                <Shape ID="27" />
+                <Shape ID="28" />
+                <Shape ID="29" />
+                <Shape ID="30" />
+                <Shape ID="31" />
+                <Shape ID="32" />
+                <Shape ID="33" />
+                <Shape ID="34" />
+                <Shape ID="8" />
+                <Shape ID="35" />
+                <Shape ID="36" />
+                <Shape ID="37" />
+                <Shape ID="43" />
+                <Shape ID="44" />
+                <Shape ID="45" />
+                <Shape ID="46" />
+                <Shape ID="47" />
+                <Shape ID="48" />
+                <Shape ID="49" />
+                <Shape ID="9" />
+                <Shape ID="50" />
+                <Shape ID="51" />
+                <Shape ID="52" />
+                <Shape ID="53" />
+                <Shape ID="54" />
+                <Shape ID="55" />
+                <Shape ID="56" />
+                <Shape ID="57" />
+                <Shape ID="58" />
+                <Shape ID="59" />
+                <Shape ID="10" />
+                <Shape ID="60" />
+                <Shape ID="61" />
+                <Shape ID="11" />
+                <Shape ID="12" />
+                <Shape ID="13" />
+                <Shape ID="14" />
+                <Shape ID="39" />
+                <Shape ID="40" />
+                <Shape ID="41" />
+                <Shape ID="42" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticCollider" />
+</Entity>

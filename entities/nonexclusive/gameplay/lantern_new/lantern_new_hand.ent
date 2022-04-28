@@ -1,0 +1,94 @@
+<Entity>
+    <ModelData>
+        <Entities>
+            <SpotLight ID="4" Name="SpotLight_1" CreStamp="1487612037" ModStamp="1610335467" WorldPos="-0.057 -0.065 0.007" Rotation="-1.71388 0.373286 1.25885" Scale="1 1 1" CastShadows="false" ShadowResolution="Low" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="8" Gobo="player_flashlight.dds" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.958984 0.781162 0.288445 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0.83 0.794 0.674 1" FlickerOffRadius="12" FlickerFade="true" FlickerOnFadeMinLength="0.2" FlickerOnFadeMaxLength="0.7" FlickerOffFadeMinLength="0.2" FlickerOffFadeMaxLength="0.7" CastDiffuseLight="true" CastSpecularLight="true" Brightness="8" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="0.8" FOV="2.61799" Aspect="1" NearClipPlane="0" SpotFalloffPow="1" ShadowFadeRange="-1" ShadowCasterDistance="6" ShadowUpdatePriority="10" ConnectedLightMaskID="4294967295" />
+            <PointLight ID="5" Name="Light_Point_1" CreStamp="1518101458" ModStamp="1610335471" WorldPos="0.371839 -0.338744 -0.0140171" Rotation="0 0 0" Scale="1 1 1" CastShadows="false" ShadowResolution="High" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="1" Gobo="" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.958984 0.781162 0.288445 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0 0 0 1" FlickerOffRadius="0" FlickerFade="false" FlickerOnFadeMinLength="0" FlickerOnFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffFadeMaxLength="0" CastDiffuseLight="false" CastSpecularLight="true" Brightness="0.125" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="1" ConnectedLightMaskID="4294967295" />
+            <PointLight ID="6" Name="Light_Point_2" CreStamp="1518101662" ModStamp="1610335095" WorldPos="-0.043825 -0.0700927 0.00181835" Rotation="0 0 0" Scale="1 1 1" CastShadows="false" ShadowResolution="High" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="0.5" Gobo="" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.909804 0.721569 0.2 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0 0 0 1" FlickerOffRadius="0" FlickerFade="false" FlickerOnFadeMinLength="0" FlickerOnFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffFadeMaxLength="0" CastDiffuseLight="true" CastSpecularLight="false" Brightness="1" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="1.5" ConnectedLightMaskID="4294967295" />
+            <SpotLight ID="32" Name="Spotlight_noshadows" CreStamp="1550589063" ModStamp="1610335462" WorldPos="-0.0569654 -0.0650779 0.00669919" Rotation="-1.88389 0.250803 0.718331" Scale="1 1 1" CastShadows="true" ShadowResolution="High" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="12" Gobo="player_flashlight.dds" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.958984 0.781162 0.288445 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0.83 0.794 0.674 1" FlickerOffRadius="12" FlickerFade="true" FlickerOnFadeMinLength="0.2" FlickerOnFadeMaxLength="0.7" FlickerOffFadeMinLength="0.2" FlickerOffFadeMaxLength="0.7" CastDiffuseLight="true" CastSpecularLight="true" Brightness="8" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="0.5" FOV="1.5708" Aspect="1" NearClipPlane="0" SpotFalloffPow="1" ShadowFadeRange="-1" ShadowCasterDistance="6" ShadowUpdatePriority="10" ConnectedLightMaskID="4294967295" />
+            <Sound ID="41" Name="Sound_1" CreStamp="1581952259" ModStamp="1581952273" WorldPos="-0.114215 -0.0291543 0" Rotation="0 0 0" Scale="1 1 1" SoundEntityFile="player/tools/lantern/lantern_burn" MinDistance="1" MaxDistance="10" Volume="1" Active="true" UseCustomProperties="false" />
+            <PointLight ID="42" Name="Light_Point_3" CreStamp="1610333519" ModStamp="1610335607" WorldPos="-0.183297 0.0299152 0.0634678" Rotation="0 0 0" Scale="1 1 1" CastShadows="false" ShadowResolution="High" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="0.5" Gobo="" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.958984 0.781162 0.288445 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0 0 0 1" FlickerOffRadius="0" FlickerFade="false" FlickerOnFadeMinLength="0" FlickerOnFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffFadeMaxLength="0" CastDiffuseLight="true" CastSpecularLight="false" Brightness="1" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="1.5" ConnectedLightMaskID="4294967295" />
+            <PointLight ID="43" Name="Light_Point_4" CreStamp="1610333533" ModStamp="1610335620" WorldPos="-0.0752932 0.13952 0.0393698" Rotation="0 0 0" Scale="1 1 1" CastShadows="false" ShadowResolution="High" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="0.5" Gobo="" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.958984 0.781162 0.288445 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0 0 0 1" FlickerOffRadius="0" FlickerFade="false" FlickerOnFadeMinLength="0" FlickerOnFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffFadeMaxLength="0" CastDiffuseLight="true" CastSpecularLight="false" Brightness="0.75" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="1.5" ConnectedLightMaskID="4294967295" />
+            <PointLight ID="44" Name="Light_Point_5" CreStamp="1610333543" ModStamp="1632006951" WorldPos="0.0248812 -0.0526941 0.120735" Rotation="0 0 0" Scale="1 1 1" CastShadows="false" ShadowResolution="High" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="4" Gobo="" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.958984 0.781162 0.288445 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0 0 0 1" FlickerOffRadius="0" FlickerFade="false" FlickerOnFadeMinLength="0" FlickerOnFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffFadeMaxLength="0" CastDiffuseLight="true" CastSpecularLight="false" Brightness="5" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="2.5" ConnectedLightMaskID="4294967295" />
+            <PointLight ID="48" Name="Light_Point_6" CreStamp="1610334172" ModStamp="1610334362" WorldPos="0.0632128 0.220525 0.0405131" Rotation="0 0 0" Scale="1 1 1" CastShadows="false" ShadowResolution="High" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="0.5" Gobo="" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.673828 0.528886 0.38166 1" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0 0 0 1" FlickerOffRadius="0" FlickerFade="false" FlickerOnFadeMinLength="0" FlickerOnFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffFadeMaxLength="0" CastDiffuseLight="true" CastSpecularLight="false" Brightness="0.125" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="1.5" ConnectedLightMaskID="4294967295" />
+            <PointLight ID="49" Name="Light_Point_7" CreStamp="1610335164" ModStamp="1610335486" WorldPos="-0.199284 -0.12215 0.00181835" Rotation="0 0 0" Scale="1 1 1" CastShadows="false" ShadowResolution="High" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="2" Gobo="" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.958984 0.781162 0.288445 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0 0 0 1" FlickerOffRadius="0" FlickerFade="false" FlickerOnFadeMinLength="0" FlickerOnFadeMaxLength="0" FlickerOffFadeMinLength="0" FlickerOffFadeMaxLength="0" CastDiffuseLight="true" CastSpecularLight="false" Brightness="5" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="2" ConnectedLightMaskID="4294967295" />
+            <SpotLight ID="50" Name="SpotLight_2" CreStamp="1610336056" ModStamp="1632006963" WorldPos="-0.201666 -0.141033 0.007" Rotation="-1.93261 -0.170981 -0.3582" Scale="1 1 1" CastShadows="false" ShadowResolution="Low" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="8" Gobo="player_flashlight.dds" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.958984 0.781162 0.288445 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0.83 0.794 0.674 1" FlickerOffRadius="12" FlickerFade="true" FlickerOnFadeMinLength="0.2" FlickerOnFadeMaxLength="0.7" FlickerOffFadeMinLength="0.2" FlickerOffFadeMaxLength="0.7" CastDiffuseLight="true" CastSpecularLight="true" Brightness="8" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="0.8" FOV="1.91986" Aspect="1" NearClipPlane="0" SpotFalloffPow="1" ShadowFadeRange="-1" ShadowCasterDistance="6" ShadowUpdatePriority="10" ConnectedLightMaskID="4294967295" />
+            <SpotLight ID="52" Name="SpotLight_3" CreStamp="1610336471" ModStamp="1610336488" WorldPos="-0.057 -0.065 0.007" Rotation="-1.71388 0.373286 1.25885" Scale="1 1 1" CastShadows="false" ShadowResolution="Low" ShadowsAffectStatic="true" ShadowsAffectDynamic="true" Radius="8" Gobo="player_flashlight.dds" GoboType="Diffuse" GoboAnimMode="None" GoboAnimFrameTime="1" GoboAnimStartTime="0" DiffuseColor="0.958984 0.781162 0.288445 0" FlickerActive="false" FlickerOnMinLength="0" FlickerOnMaxLength="0" FlickerOnPS="" FlickerOnSound="" FlickerOffMinLength="0" FlickerOffMaxLength="0" FlickerOffPS="" FlickerOffSound="" FlickerOffColor="0.83 0.794 0.674 1" FlickerOffRadius="12" FlickerFade="true" FlickerOnFadeMinLength="0.2" FlickerOnFadeMaxLength="0.7" FlickerOffFadeMinLength="0.2" FlickerOffFadeMaxLength="0.7" CastDiffuseLight="true" CastSpecularLight="true" Brightness="10" Static="false" CulledByDistance="true" CulledByFog="true" FalloffPow="0.8" FOV="1.5708" Aspect="1" NearClipPlane="0" SpotFalloffPow="1" ShadowFadeRange="-1" ShadowCasterDistance="6" ShadowUpdatePriority="10" ConnectedLightMaskID="4294967295" />
+        </Entities>
+        <Mesh Filename="mods/SP2/entities/nonexclusive/gameplay/lantern_new/LanternHighpoly.fbx">
+            <SubMesh ID="97" Name="HighpolyLantern" CreStamp="0" ModStamp="1632006868" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="5064" Material="mods/SP2/entities/nonexclusive/gameplay/lantern_new/HighpolyLantern.mat" Static="true" />
+        </Mesh>
+        <Bones>
+            <Bone ID="98" Name="Locator" />
+            <Bone ID="99" Name="Skeleton_Joint" />
+            <Bone ID="100" Name="Skeleton_Joint _New_1" />
+            <Bone ID="101" Name="Skeleton_Joint " />
+            <Bone ID="102" Name="HighpolyLantern" />
+        </Bones>
+        <Shapes>
+            <Shape ID="1" Name="ShapeCylinder_1" CreStamp="1476379536" ModStamp="1476379571" WorldPos="0 0.128 0.013" Rotation="0 0 0" Scale="0.0872495 0.218455 0" RelativeTranslation="0 0 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+        </Shapes>
+        <Bodies>
+            <Body ID="3" Name="Body_1" CreStamp="0" ModStamp="1595856030" WorldPos="0 0.128 0.013" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="0" AngularDamping="0.5" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="false" CollideNonCharacter="false" Volatile="false" UseSurfaceEffects="true" HasGravity="false" BlocksLight="false">
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations>
+            <Animation Name="needle_rotated" File="mods/SP2/entities/nonexclusive/gameplay/lantern_new/animation/needle_rotated.fbx" Layer="Default" Speed="1" />
+        </Animations>
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Pickup">
+        <Var ObjectId="4294967295" Name="Health" Value="100" />
+        <Var ObjectId="4294967295" Name="Toughness" Value="0" />
+        <Var ObjectId="4294967295" Name="MaxInteractDistance" Value="0" />
+        <Var ObjectId="4294967295" Name="EventTag" Value="" />
+        <Var ObjectId="4294967295" Name="ShowHints" Value="true" />
+        <Var ObjectId="4294967295" Name="LifeLength" Value="0" />
+        <Var ObjectId="4294967295" Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var ObjectId="4294967295" Name="QuickSave" Value="false" />
+        <Var ObjectId="4294967295" Name="FullGameSave" Value="false" />
+        <Var ObjectId="4294967295" Name="BlocksLineOfSight" Value="MaterialBased" />
+        <Var ObjectId="4294967295" Name="MainPhysicsBody" Value="" />
+        <Var ObjectId="4294967295" Name="NoGravityWhenUnderwater" Value="false" />
+        <Var ObjectId="4294967295" Name="DisableFreezeAtStart" Value="false" />
+        <Var ObjectId="4294967295" Name="CustomScriptFile" Value="custom/props/Prop_Lantern.hps" />
+        <Var ObjectId="4294967295" Name="CustomScriptClass" Value="cScrPropLantern" />
+        <Var ObjectId="4294967295" Name="ShowMesh" Value="true" />
+        <Var ObjectId="4294967295" Name="DissolveOnDestruction" Value="false" />
+        <Var ObjectId="4294967295" Name="DissolveTime" Value="1.0" />
+        <Var ObjectId="4294967295" Name="RandomizeAnimationStart" Value="true" />
+        <Var ObjectId="4294967295" Name="RootMotionBone" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOnSound" Value="player/tools/lantern/lantern_ignite" />
+        <Var ObjectId="4294967295" Name="EffectsOffSound" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOnTime" Value="0.2" />
+        <Var ObjectId="4294967295" Name="EffectsOffTime" Value="0.2" />
+        <Var ObjectId="4294967295" Name="StaticMoveCheckCollision" Value="false" />
+        <Var ObjectId="4294967295" Name="StaticMoveStartSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveStopSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveLoopSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var ObjectId="4294967295" Name="BreakActive" Value="false" />
+        <Var ObjectId="4294967295" Name="CustomBreakBehaviour" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakOnlyOnMainBody" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakDestroyJoints" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakMinEnergy" Value="100" />
+        <Var ObjectId="4294967295" Name="BreakEntity" Value="" />
+        <Var ObjectId="4294967295" Name="BreakEntityAlignBody" Value="" />
+        <Var ObjectId="4294967295" Name="BreakSound" Value="" />
+        <Var ObjectId="4294967295" Name="BreakParticleSystem" Value="" />
+        <Var ObjectId="4294967295" Name="BreakImpulse" Value="4" />
+        <Var ObjectId="4294967295" Name="ItemType" Value="Lantern" />
+        <Var ObjectId="4294967295" Name="ContentSubType" Value="Oil" />
+        <Var ObjectId="4294967295" Name="ContentLevel" Value="10" />
+        <Var ObjectId="4294967295" Name="ContentColor" Value="0 0 0 0" />
+        <Var ObjectId="4294967295" Name="OnlyNeedOne" Value="false" />
+        <Var ObjectId="4294967295" Name="PutAwayAfter" Value="true" />
+        <Var ObjectId="4294967295" Name="AnimationName" Value="" />
+        <Var ObjectId="4294967295" Name="PickupSound" Value="" />
+        <Var ObjectId="4294967295" Name="IsMeat" Value="false" />
+        <Var ObjectId="4294967295" Name="MeatAttractDistance" Value="10" />
+        <Var ObjectId="4294967295" Name="MeatAttractDistanceMax" Value="20" />
+        <Var ObjectId="4294967295" Name="UseFullnessAnimation" Value="false" />
+    </UserDefinedVariables>
+</Entity>

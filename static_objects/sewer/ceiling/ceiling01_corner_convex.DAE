@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-02-20T11:16:53Z</created>
+    <keywords></keywords>
+    <modified>2012-02-20T11:16:53Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #2-image" name="Map #2">
+      <init_from>file://D:\amnesia_raw\StaticObjects\sewers\ceiling01.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #2" name="Material #2">
+      <instance_effect url="#Material #2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #2-fx" name="Material #2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="ceiling01_corner_convex-lib" name="ceiling01_corner_convexMesh">
+      <mesh>
+        <source id="ceiling01_corner_convex-POSITION">
+          <float_array id="ceiling01_corner_convex-POSITION-array" count="69">
+-3.465822 2.000000 5.999995
+-2.634064 2.000000 5.913658
+-1.838433 2.000000 5.656277
+-1.113700 2.000000 5.239097
+-0.491542 2.000000 4.680355
+-0.000000 2.000000 4.000000
+-4.000000 2.000000 5.999995
+-3.465822 -4.000000 5.999995
+-4.000000 -4.000000 5.999995
+-1.838433 -1.838433 5.656277
+-1.113700 -1.113700 5.239097
+-0.491542 -0.491541 4.680355
+-0.000000 -0.000000 4.000000
+-3.465822 -3.465825 5.999995
+-2.634064 -2.634064 5.913658
+-4.000000 -3.465825 5.999996
+2.000000 -4.000000 5.999995
+2.000000 -1.838433 5.656277
+2.000000 -1.113700 5.239097
+2.000000 -0.491542 4.680355
+2.000000 -0.000000 4.000000
+2.000000 -3.465825 5.999995
+2.000000 -2.634064 5.913658
+</float_array>
+          <technique_common>
+            <accessor source="#ceiling01_corner_convex-POSITION-array" count="23" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ceiling01_corner_convex-Normal0">
+          <float_array id="ceiling01_corner_convex-Normal0-array" count="234">
+-0.051692 0.000000 -0.998663
+-0.206650 0.000000 -0.978415
+-0.078623 -0.078623 -0.993799
+-0.078623 -0.078623 -0.993799
+-0.012954 -0.012954 -0.999832
+-0.051692 0.000000 -0.998663
+-0.405558 0.000000 -0.914069
+-0.186515 -0.186515 -0.964585
+-0.078623 -0.078623 -0.993799
+-0.078623 -0.078623 -0.993799
+-0.206650 0.000000 -0.978415
+-0.405558 0.000000 -0.914069
+-0.012954 -0.012954 -0.999832
+-0.000001 0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.051692 0.000000 -0.998663
+-0.012954 -0.012954 -0.999832
+-0.012954 -0.012954 -0.999832
+0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000001 0.000000 -1.000000
+-0.012954 -0.012954 -0.999832
+-0.298740 -0.298740 -0.906371
+-0.586741 0.000000 -0.809774
+-0.743605 0.000000 -0.668620
+-0.743605 0.000000 -0.668620
+-0.416165 -0.416165 -0.808464
+-0.298740 -0.298740 -0.906371
+-0.405558 0.000000 -0.914069
+-0.586741 0.000000 -0.809774
+-0.298740 -0.298740 -0.906371
+-0.298740 -0.298740 -0.906371
+-0.186515 -0.186515 -0.964585
+-0.405558 0.000000 -0.914069
+-0.743605 0.000000 -0.668620
+-0.810581 0.000000 -0.585627
+-0.494595 -0.494595 -0.714668
+-0.494595 -0.494595 -0.714668
+-0.416165 -0.416165 -0.808464
+-0.743605 0.000000 -0.668620
+-0.186515 -0.186515 -0.964585
+-0.298740 -0.298740 -0.906371
+0.000000 -0.586741 -0.809774
+0.000000 -0.586741 -0.809774
+0.000000 -0.405558 -0.914069
+-0.186515 -0.186515 -0.964585
+-0.078623 -0.078623 -0.993799
+-0.186515 -0.186515 -0.964585
+0.000000 -0.405558 -0.914069
+0.000000 -0.405558 -0.914069
+0.000000 -0.206650 -0.978415
+-0.078623 -0.078623 -0.993799
+-0.298740 -0.298740 -0.906371
+-0.416165 -0.416165 -0.808464
+-0.000000 -0.743605 -0.668620
+-0.000000 -0.743605 -0.668620
+0.000000 -0.586741 -0.809774
+-0.298740 -0.298740 -0.906371
+-0.416165 -0.416165 -0.808464
+-0.494595 -0.494595 -0.714668
+-0.000000 -0.810581 -0.585626
+-0.000000 -0.810581 -0.585626
+-0.000000 -0.743605 -0.668620
+-0.416165 -0.416165 -0.808464
+0.000000 0.000000 -1.000000
+-0.012954 -0.012954 -0.999832
+0.000000 -0.051692 -0.998663
+0.000000 -0.051692 -0.998663
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.012954 -0.012954 -0.999832
+-0.078623 -0.078623 -0.993799
+0.000000 -0.206650 -0.978415
+0.000000 -0.206650 -0.978415
+0.000000 -0.051692 -0.998663
+-0.012954 -0.012954 -0.999832
+</float_array>
+          <technique_common>
+            <accessor source="#ceiling01_corner_convex-Normal0-array" count="78" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ceiling01_corner_convex-UV0">
+          <float_array id="ceiling01_corner_convex-UV0-array" count="60">
+0.000000 0.891489
+0.000000 0.714606
+0.847825 0.714605
+1.000000 0.891421
+0.000000 0.528932
+0.702260 0.528932
+1.000000 0.999932
+0.000000 0.999864
+0.569667 0.342583
+0.000000 0.342583
+1.108644 0.891353
+1.108644 1.000000
+-0.702261 0.529068
+-0.569667 0.342719
+0.000000 0.163704
+0.000000 0.342719
+0.000000 0.529068
+-0.847826 0.714742
+0.000000 0.714742
+-0.455840 0.163840
+0.000000 0.163840
+-0.365910 0.000000
+0.000000 0.000000
+-1.000000 1.000000
+-1.000000 0.891626
+0.455840 0.163704
+0.000000 -0.000136
+0.365910 -0.000136
+0.000000 0.891626
+0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#ceiling01_corner_convex-UV0-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ceiling01_corner_convex-VERTEX">
+          <input semantic="POSITION" source="#ceiling01_corner_convex-POSITION"/>
+        </vertices>
+        <triangles count="26" material="Material #2">
+          <input semantic="VERTEX" offset="0" source="#ceiling01_corner_convex-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#ceiling01_corner_convex-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#ceiling01_corner_convex-UV0"/>
+          <p> 0 0 0 1 1 1 14 2 2 14 3 2 13 4 3 0 5 0 2 6 4 9 7 5 14 8 2 14 9 2 1 10 1 2 11 4 13 12 3 15 13 6 6 14 7 6 15 7 0 16 0 13 17 3 13 18 3 7 19 10 8 20 11 8 21 11 15 22 6 13 23 3 10 24 8 3 25 9 4 26 14 4 27 14 11 28 25 10 29 8 2 30 4 3 31 9 10 32 8 10 33 8 9 34 5 2 35 4 4 36 14 5 37 26 12 38 27 12 39 27 11 40 25 4 41 14 9 42 12 10 43 13 18 44 15 18 45 15 17 46 16 9 47 12 14 48 17 9 49 12 17 50 16 17 51 16 22 52 18 14 53 17 10 54 13 11 55 19 19 56 20 19 57 20 18 58 15 10 59 13 11 60 19 12 61 21 20 62 22 20 63 22 19 64 20 11 65 19 7 66 23 13 67 24 21 68 28 21 69 28 16 70 29 7 71 23 13 72 24 14 73 17 22 74 18 22 75 18 21 76 28 13 77 24</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="ceiling01_corner_convex" id="ceiling01_corner_convex" layer="ceiling" sid="ceiling01_corner_convex">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#ceiling01_corner_convex-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #2" target="#Material #2"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

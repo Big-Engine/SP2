@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>illerulf</author>
+      <authoring_tool>OpenCOLLADA2011 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=1;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=1;curveConstrainSampling=1;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=1;exportAnimations=1;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///E:/Maya_old/deeper/untitled</source_data>
+    </contributor>
+    <created>2013-02-05T15:47:55</created>
+    <modified>2013-02-05T15:47:55</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="back" name="back">
+      <instance_effect url="#back-fx"/>
+    </material>
+    <material id="Material-Default" name="painting_kitsch_01_Default">
+      <instance_effect url="#Effect-Default"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="back-fx">
+      <profile_COMMON>
+        <newparam sid="file1-surface">
+          <surface type="2D">
+            <init_from>file1</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1-sampler">
+          <sampler2D>
+            <source>file1-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU sid="coverageU">1</coverageU>
+                    <coverageV sid="coverageV">1</coverageV>
+                    <fast sid="fast">0</fast>
+                    <mirrorU sid="mirrorU">0</mirrorU>
+                    <mirrorV sid="mirrorV">0</mirrorV>
+                    <noiseU sid="noiseU">0</noiseU>
+                    <noiseV sid="noiseV">0</noiseV>
+                    <offsetU sid="offsetU">0</offsetU>
+                    <offsetV sid="offsetV">0</offsetV>
+                    <repeatU sid="repeatU">1</repeatU>
+                    <repeatV sid="repeatV">1</repeatV>
+                    <rotateFrame sid="rotateFrame">0</rotateFrame>
+                    <rotateUV sid="rotateUV">0</rotateUV>
+                    <stagger sid="stagger">0</stagger>
+                    <translateFrameU sid="translateFrameU">0</translateFrameU>
+                    <translateFrameV sid="translateFrameV">0</translateFrameV>
+                    <wrapU sid="wrapU">1</wrapU>
+                    <wrapV sid="wrapV">1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect-Default">
+      <profile_COMMON>
+        <newparam sid="Image0002-surface">
+          <surface type="2D">
+            <init_from>Image0002</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Image0002-sampler">
+          <sampler2D>
+            <source>Image0002-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image0002-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU sid="coverageU">1</coverageU>
+                    <coverageV sid="coverageV">1</coverageV>
+                    <fast sid="fast">0</fast>
+                    <mirrorU sid="mirrorU">0</mirrorU>
+                    <mirrorV sid="mirrorV">0</mirrorV>
+                    <noiseU sid="noiseU">0</noiseU>
+                    <noiseV sid="noiseV">0</noiseV>
+                    <offsetU sid="offsetU">0</offsetU>
+                    <offsetV sid="offsetV">0</offsetV>
+                    <repeatU sid="repeatU">1</repeatU>
+                    <repeatV sid="repeatV">1</repeatV>
+                    <rotateFrame sid="rotateFrame">0</rotateFrame>
+                    <rotateUV sid="rotateUV">0</rotateUV>
+                    <stagger sid="stagger">0</stagger>
+                    <translateFrameU sid="translateFrameU">0</translateFrameU>
+                    <translateFrameV sid="translateFrameV">0</translateFrameV>
+                    <wrapU sid="wrapU">1</wrapU>
+                    <wrapV sid="wrapV">1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.2 0.2 0.2 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="Image0002" name="painting_kitsch_01_Image0002">
+      <init_from>file:///C:/Users/Rasmus/Documents/painting_kitsch_xx_wau.jpg</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>painting_kitsch_01_Image0002</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+    <image id="file1" name="file1">
+      <init_from>file:///E:/depth/redist/entities/urban/ornament_wall/painting_kitsch_xx/panting_back.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>file1</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="Geometry-Mesh__2_" name="Mesh__2_">
+      <mesh>
+        <source id="Geometry-Mesh__2_-positions" name="Geometry-Mesh__2_-positions">
+          <float_array id="Geometry-Mesh__2_-positions-array" count="12">6.68 -67 -53.855 6.68 -67 58.035 6.68 67 -53.855 6.68 67 58.035</float_array>
+          <technique_common>
+            <accessor source="#Geometry-Mesh__2_-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Geometry-Mesh__2_-normals" name="Geometry-Mesh__2_-normals">
+          <float_array id="Geometry-Mesh__2_-normals-array" count="18">1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Geometry-Mesh__2_-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Geometry-Mesh__2_-Geometry-Mesh__2_-Geometry-Mesh__2_-Texture" name="Geometry-Mesh__2_-Geometry-Mesh__2_-Geometry-Mesh__2_-Texture">
+          <float_array id="Geometry-Mesh__2_-Geometry-Mesh__2_-Geometry-Mesh__2_-Texture-array" count="8">0.834437 0.00721 0.834437 0.99279 0.006899 0.00721 0.006899 0.99279</float_array>
+          <technique_common>
+            <accessor source="#Geometry-Mesh__2_-Geometry-Mesh__2_-Geometry-Mesh__2_-Texture-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Geometry-Mesh__2_-vertices" name="Geometry-Mesh__2_-vertices">
+          <input semantic="POSITION" source="#Geometry-Mesh__2_-positions"/>
+        </vertices>
+        <triangles material="backSG" count="2">
+          <input semantic="VERTEX" source="#Geometry-Mesh__2_-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Geometry-Mesh__2_-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Geometry-Mesh__2_-Geometry-Mesh__2_-Geometry-Mesh__2_-Texture" offset="2" set="0"/>
+          <p>0 0 0 2 1 1 1 2 2 3 3 3 1 4 2 2 5 1</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>Mesh__2_</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Geometry-Mesh" name="painting_kitsch_01_Mesh">
+      <mesh>
+        <source id="Geometry-Mesh-positions" name="Geometry-Mesh-positions">
+          <float_array id="Geometry-Mesh-positions-array" count="72">1.32 57.888 -44.743 2.66 56.28 -43.135 4 56.28 -43.135 1.32 66.464 -53.319 2.078 67 -53.855 1.32 57.888 48.923 2.66 56.28 47.315 4 56.28 47.315 2.078 67 58.035 1.32 66.464 57.499 1.32 -57.888 -44.743 2.66 -56.28 -43.135 4 -56.28 -43.135 1.32 -66.464 -53.319 2.078 -67 -53.855 1.32 -57.888 48.923 2.66 -56.28 47.315 4 -56.28 47.315 2.078 -67 58.035 1.32 -66.464 57.499 6.68 -67 -53.855 6.68 -67 58.035 6.68 67 -53.855 6.68 67 58.035</float_array>
+          <technique_common>
+            <accessor source="#Geometry-Mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Geometry-Mesh-normals" name="Geometry-Mesh-normals">
+          <float_array id="Geometry-Mesh-normals-array" count="252">-0.5773499 0 0.8164968 -0.2008129 0 0.9796296 -0.4016259 0 0.9158038 -0.5773499 0 0.8164968 -0.9687577 -0.1753689 0.1753689 -0.9654641 0.233031 0.116515 -0.7682218 0 0.6401838 -0.7682218 0 0.6401838 -0.9687577 -0.1753689 0.1753689 -1 0 0 -1 0 0 -0.9654641 0.233031 0.116515 -0.5773499 0.8164968 0 -0.2008129 0.9796296 0 -0.4016259 0.9158038 0 -0.5773499 0.8164968 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.5773499 -0.8164968 0 -0.3029049 -0.9530208 0 -0.3029049 -0.9530208 0 -0.5773499 -0.8164968 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.7682209 0 -0.6401849 -0.9687577 0.1753689 -0.1753689 -0.9654641 -0.116515 -0.233031 -0.7682209 0 -0.6401849 -1 0 0 -1 0 0 -0.9654641 -0.116515 -0.233031 -0.9687577 0.1753689 -0.1753689 -0.5773499 0 -0.8164968 -0.3029049 0 -0.9530208 -0.3029049 0 -0.9530208 -0.5773499 0 -0.8164968 0 1 0 0 1 0 0 1 0 0 1 0 -0.7682218 -0.6401838 0 -0.9654641 -0.116515 -0.233031 -0.9687577 -0.1753689 0.1753689 -0.7682218 -0.6401838 0 -1 0 0 -1 0 0 -0.9687577 -0.1753689 0.1753689 -0.9654641 -0.116515 -0.233031 0 0 1 0 0 1 0 0 1 0 0 1 -0.9654641 0.233031 0.116515 -0.9687577 0.1753689 -0.1753689 -0.7682218 0.6401838 0 -0.7682218 0.6401838 0 -0.9654641 0.233031 0.116515 -1 0 0 -1 0 0 -0.9687577 0.1753689 -0.1753689 0 1 0 -0.4016259 0.9158038 0 -0.2008129 0.9796296 0 0 1 0 -0.3029049 -0.9530208 0 -0.3029049 -0.9530208 0 0 -1 0 0 -1 0 -0.3029049 0 -0.9530208 -0.3029049 0 -0.9530208 0 0 -1 0 0 -1 0 0 1 -0.4016259 0 0.9158038 -0.2008129 0 0.9796296 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Geometry-Mesh-normals-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Geometry-Mesh-Geometry-Mesh-Geometry-Mesh-Texture" name="Geometry-Mesh-Geometry-Mesh-Geometry-Mesh-Texture">
+          <float_array id="Geometry-Mesh-Geometry-Mesh-Geometry-Mesh-Texture-array" count="188">0.997471 0.165089 0.997471 0.169611 0.629028 0.170377 0.629028 0.165848 0.997471 0.123334 0.997471 0.11314 0.629028 0.123998 0.629028 0.113787 0.629163 0.114906 0.996563 0.113989 0.629795 0.123876 0.997218 0.12296 0.473629 1.00282 0.001691 1.00282 0.473629 0.419529 0.001691 0.419529 0.998096 0.166867 0.628602 0.16692 0.998097 0.148781 0.628603 0.148833 0.629028 0.165848 0.997471 0.165089 0.997471 0.165089 0.997471 0.165089 0.997471 0.169611 0.629028 0.170377 0.629028 0.165848 0.997471 0.165089 0.629028 0.170377 0.629028 0.165848 0.629028 0.170377 0.629028 0.165848 0.629163 0.114906 0.996563 0.113989 0.629795 0.123876 0.997218 0.12296 0.629795 0.123876 0.996563 0.113989 0.997471 0.123334 0.629028 0.123998 0.997471 0.11314 0.629028 0.113787 0.997471 0.11314 0.629028 0.123998 0.629028 0.123998 0.997471 0.123334 0.629028 0.123998 0.629028 0.165848 0.629028 0.170377 0.997471 0.169611 0.629028 0.165848 0.997471 0.169611 0.997471 0.165089 0.996563 0.113989 0.997218 0.12296 0.996563 0.113989 0.997471 0.123334 0.997471 0.11314 0.997471 0.11314 0.629028 0.165848 0.997471 0.165089 0.997471 0.123334 0.997471 0.165089 0.629163 0.114906 0.629795 0.123876 0.996563 0.113989 0.997218 0.12296 0.996563 0.113989 0.629795 0.123876 0.997471 0.123334 0.997471 0.11314 0.629028 0.123998 0.629028 0.113787 0.629028 0.123998 0.997471 0.11314 0.629028 0.165848 0.629028 0.123998 0.997471 0.123334 0.629028 0.123998 0.998096 0.166867 0.998097 0.148781 0.628602 0.16692 0.628603 0.148833 0.628602 0.16692 0.998097 0.148781 0.628602 0.16692 0.628603 0.148833 0.628602 0.16692 0.998096 0.166867 0.628602 0.16692 0.998097 0.148781 0.628603 0.148833 0.998097 0.148781 0.628602 0.16692</float_array>
+          <technique_common>
+            <accessor source="#Geometry-Mesh-Geometry-Mesh-Geometry-Mesh-Texture-array" count="94" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Geometry-Mesh-vertices" name="Geometry-Mesh-vertices">
+          <input semantic="POSITION" source="#Geometry-Mesh-positions"/>
+        </vertices>
+        <triangles material="painting_kitsch_01_DefaultSG" count="42">
+          <input semantic="VERTEX" source="#Geometry-Mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Geometry-Mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Geometry-Mesh-Geometry-Mesh-Geometry-Mesh-Texture" offset="2" set="0"/>
+          <p>19 0 0 18 1 1 9 3 3 9 3 3 18 1 1 8 2 2 0 4 6 10 5 4 1 7 7 1 7 7 10 5 4 11 6 5 0 8 6 3 9 20 10 11 4 10 11 4 3 9 20 13 10 22 9 12 23 8 13 24 3 15 26 3 15 26 8 13 24 4 14 28 17 16 10 16 17 8 7 19 11 7 19 11 16 17 8 6 18 9 17 20 14 7 21 12 12 23 15 12 23 15 7 21 12 2 22 13 13 24 29 14 25 30 19 27 0 19 27 0 14 25 30 18 26 1 7 28 34 6 29 32 2 31 35 2 31 35 6 29 32 1 30 37 16 32 40 15 33 38 6 35 41 6 35 41 15 33 38 5 34 43 19 36 0 9 37 3 15 39 45 15 39 45 9 37 3 5 38 46 3 40 47 4 41 48 13 43 52 13 43 52 4 41 48 14 42 51 11 44 53 16 45 8 12 47 54 12 47 54 16 45 8 17 46 10 6 48 57 5 49 56 1 51 7 1 51 7 5 49 56 0 50 6 9 52 60 3 53 59 5 55 61 5 55 61 3 53 59 0 54 6 1 56 65 11 57 63 2 59 66 2 59 66 11 57 63 12 58 68 10 60 71 15 61 69 11 63 72 11 63 72 15 61 69 16 62 74 10 64 76 13 65 75 15 67 77 15 67 77 13 65 75 19 66 0 22 68 18 4 69 16 23 71 19 23 71 19 4 69 16 8 70 17 18 72 81 14 73 79 21 75 82 21 75 82 14 73 79 20 74 84 14 76 85 4 77 16 20 79 86 20 79 86 4 77 16 22 78 18 23 80 90 8 81 88 21 83 91 21 83 91 8 81 88 18 82 93</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>painting_kitsch_01_Mesh</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="Geometry-Mesh__2_Node" name="Mesh__2_" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Geometry-Mesh__2_">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="backSG" target="#back">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>Mesh__2_</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="Geometry-MeshNode" name="painting_kitsch_01_Mesh" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Geometry-Mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="painting_kitsch_01_DefaultSG" target="#Material-Default">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_node url="#Geometry-Mesh__2_Node"/>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>painting_kitsch_01_Mesh</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

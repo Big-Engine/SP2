@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.72.0 commit date:2014-10-21, commit time:11:38, hash:9e963ae</authoring_tool>
+    </contributor>
+    <created>2015-06-12T12:51:00</created>
+    <modified>2015-06-12T12:51:00</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="_0_01_photos_holiday_dds" name="_0_01_photos_holiday_dds">
+      <init_from>00_01_photos_holiday.dds</init_from>
+    </image>
+    <image id="_0_01_photos_holiday_spec_dds" name="_0_01_photos_holiday_spec_dds">
+      <init_from>00_01_photos_holiday_spec.dds</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="_0_01_photos_holiday-effect">
+      <profile_COMMON>
+        <newparam sid="_0_01_photos_holiday_dds-surface">
+          <surface type="2D">
+            <init_from>_0_01_photos_holiday_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_0_01_photos_holiday_dds-sampler">
+          <sampler2D>
+            <source>_0_01_photos_holiday_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="_0_01_photos_holiday_spec_dds-surface">
+          <surface type="2D">
+            <init_from>_0_01_photos_holiday_spec_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="_0_01_photos_holiday_spec_dds-sampler">
+          <sampler2D>
+            <source>_0_01_photos_holiday_spec_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="_0_01_photos_holiday_dds-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <specular>
+              <texture texture="_0_01_photos_holiday_spec_dds-sampler" texcoord="UVMap"/>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparency>
+              <float sid="transparency">1</float>
+            </transparency>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="_0_01_photos_holiday-material" name="_0_01_photos_holiday">
+      <instance_effect url="#_0_01_photos_holiday-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_001-mesh" name="Plane.001">
+      <mesh>
+        <source id="Plane_001-mesh-positions">
+          <float_array id="Plane_001-mesh-positions-array" count="96">-0.1255277 -0.09241962 0 0.1255277 -0.09241962 0 -0.1255277 0.09241962 0 0.1255277 0.09241962 0 -0.09169715 -0.09241962 -0.003378808 -0.05571424 -0.09241962 -0.004826903 -0.01857137 -0.09241962 -0.00579226 0.01857143 -0.09241962 -0.00579226 0.0557143 -0.09241962 -0.004826903 0.09169715 -0.09241962 -0.003378808 0.09169715 0.09241962 -0.003378808 0.05571424 0.09241962 -0.004826903 0.01857137 0.09241962 -0.00579226 -0.01857143 0.09241962 -0.00579226 -0.0557143 0.09241962 -0.004826903 -0.09169715 0.09241962 -0.003378808 -0.1255277 -0.09241962 -9.36799e-5 0.1255277 -0.09241962 -9.36799e-5 -0.1255277 0.09241962 -9.36799e-5 0.1255277 0.09241962 -9.36799e-5 -0.09169715 -0.09241962 -0.003472447 -0.05571424 -0.09241962 -0.004920542 -0.01857137 -0.09241962 -0.005885899 0.01857143 -0.09241962 -0.005885899 0.0557143 -0.09241962 -0.004920542 0.09169715 -0.09241962 -0.003472447 0.09169715 0.09241962 -0.003472447 0.05571424 0.09241962 -0.004920542 0.01857137 0.09241962 -0.005885899 -0.01857143 0.09241962 -0.005885899 -0.0557143 0.09241962 -0.004920542 -0.09169715 0.09241962 -0.003472447</float_array>
+          <technique_common>
+            <accessor source="#Plane_001-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_001-mesh-normals">
+          <float_array id="Plane_001-mesh-normals-array" count="96">-0.09936827 0 0.9950255 -0.09936827 0 0.9950255 -0.0698263 0 0.9975585 0.0698263 0 0.9975585 0.0698263 0 0.9975585 0.09936827 0 0.9950255 0.03308206 0 0.9994507 0.03308206 0 0.9994507 0.01297032 0 0.9999085 0.01297032 0 0.9999085 -0.01297032 0 0.9999085 -0.01297032 0 0.9999085 -0.03308206 0 0.9994507 -0.03308206 0 0.9994507 -0.0698263 0 0.9975585 0.06979578 0 -0.9975585 0.09936827 0 -0.9950255 0.09936827 0 -0.9950255 -0.09936827 0 -0.9950255 -0.06979578 0 -0.9975585 -0.06979578 0 -0.9975585 -0.03308206 0 -0.9994507 -0.03308206 0 -0.9994507 -0.01297032 0 -0.9999085 -0.01297032 0 -0.9999085 0.01297032 0 -0.9999085 0.01297032 0 -0.9999085 0.03308206 0 -0.9994507 0.03308206 0 -0.9994507 0.09936827 0 0.9950255 0.06979578 0 -0.9975585 -0.09936827 0 -0.9950255</float_array>
+          <technique_common>
+            <accessor source="#Plane_001-mesh-normals-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_001-mesh-map-0">
+          <float_array id="Plane_001-mesh-map-0-array" count="168">0.9634238 0.3567281 0.9634238 0.6720504 0.9000608 0.6720504 0.5832456 0.3567281 0.5832456 0.6720504 0.5198826 0.6720504 0.6466086 0.3567281 0.6466086 0.6720504 0.5832456 0.6720504 0.7099717 0.3567281 0.7099717 0.6720504 0.6466086 0.6720504 0.7733346 0.3567281 0.7733347 0.6720504 0.7099717 0.6720504 0.8366977 0.3567281 0.8366977 0.6720504 0.7733347 0.6720504 0.9000608 0.3567281 0.9000608 0.6720504 0.8366977 0.6720504 0.4367638 0.1660485 0.4650036 0.1660485 0.4650036 0.02551496 0.2673252 0.1660485 0.295565 0.1660485 0.295565 0.02551496 0.295565 0.1660485 0.3238047 0.1660485 0.3238047 0.02551496 0.3238047 0.1660485 0.3520445 0.1660485 0.3520445 0.02551496 0.3520445 0.1660485 0.3802843 0.1660485 0.3802843 0.02551496 0.3802843 0.1660485 0.408524 0.1660485 0.408524 0.02551496 0.408524 0.02551496 0.408524 0.1660485 0.4367638 0.1660485 0.9000608 0.3567281 0.9634238 0.3567281 0.9000608 0.6720504 0.5198826 0.3567281 0.5832456 0.3567281 0.5198826 0.6720504 0.5832456 0.3567281 0.6466086 0.3567281 0.5832456 0.6720504 0.6466086 0.3567281 0.7099717 0.3567281 0.6466086 0.6720504 0.7099717 0.3567281 0.7733346 0.3567281 0.7099717 0.6720504 0.7733346 0.3567281 0.8366977 0.3567281 0.7733347 0.6720504 0.8366977 0.3567281 0.9000608 0.3567281 0.8366977 0.6720504 0.4367638 0.02551496 0.4367638 0.1660485 0.4650036 0.02551496 0.2673252 0.02551496 0.2673252 0.1660485 0.295565 0.02551496 0.295565 0.02551496 0.295565 0.1660485 0.3238047 0.02551496 0.3238047 0.02551496 0.3238047 0.1660485 0.3520445 0.02551496 0.3520445 0.02551496 0.3520445 0.1660485 0.3802843 0.02551496 0.3802843 0.02551496 0.3802843 0.1660485 0.408524 0.02551496 0.4367638 0.02551496 0.408524 0.02551496 0.4367638 0.1660485</float_array>
+          <technique_common>
+            <accessor source="#Plane_001-mesh-map-0-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_001-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_001-mesh-positions"/>
+        </vertices>
+        <polylist material="_0_01_photos_holiday-material" count="28">
+          <input semantic="VERTEX" source="#Plane_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_001-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 0 3 1 1 10 2 2 4 3 3 15 4 4 2 5 5 5 6 6 14 7 7 15 4 8 6 8 9 13 9 10 14 7 11 7 10 12 12 11 13 13 9 14 8 12 15 11 13 16 12 11 17 9 14 18 10 2 19 11 13 20 26 15 21 19 16 22 17 17 23 18 18 24 31 19 25 20 20 26 31 19 27 30 21 28 21 22 29 30 21 30 29 23 31 22 24 32 29 23 33 28 25 34 23 26 35 28 25 36 27 27 37 24 28 38 24 28 39 27 27 40 26 15 41 9 14 42 1 0 43 10 2 44 0 29 45 4 3 46 2 5 47 4 3 48 5 6 49 15 4 50 5 6 51 6 8 52 14 7 53 6 8 54 7 10 55 13 9 56 7 10 57 8 12 58 12 11 59 8 12 60 9 14 61 11 13 62 25 30 63 26 15 64 17 17 65 16 31 66 18 18 67 20 20 68 20 20 69 31 19 70 21 22 71 21 22 72 30 21 73 22 24 74 22 24 75 29 23 76 23 26 77 23 26 78 28 25 79 24 28 80 25 30 81 24 28 82 26 15 83</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Plane" name="Plane" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Plane_001-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_0_01_photos_holiday-material" target="#_0_01_photos_holiday-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,8 @@
+<PreloadCache>
+    <Materials>
+        <Material Path="entities/nonexclusive/gameplay/lantern_new/lantern_new.mat" DebugPos="1.000000 : 0.180041 : 1.000000" />
+        <Material Path="entities/nonexclusive/gameplay/matchbook/matchbook.mat" DebugPos="1.250926 : 0.004342 : 1.035033" />
+        <Material Path="entities/nonexclusive/gameplay/oil_flask_tin_hinan/oil_flask_tin_hinan.mat" DebugPos="0.750000 : 0.115444 : 1.000000" />
+        <Material Path="static_objects/technical/blocking_tools/block_temp.mat" DebugPos="0.000000 : -0.500000 : 0.000000" />
+    </Materials>
+</PreloadCache>

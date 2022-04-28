@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-09T11:49:48Z</created>
+    <keywords></keywords>
+    <modified>2012-07-09T11:49:48Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_file1-image" name="tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/teslabase/dressing/tesla_dressing_wires_01.tga</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_tesla_structure_pillar_drum_01" name="tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+      <instance_effect url="#tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_tesla_structure_pillar_drum_01-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_tesla_structure_pillar_drum_01-fx" name="tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="tesla_dressing_generic_frame_02-lib" name="tesla_dressing_generic_frame_02Mesh">
+      <mesh>
+        <source id="tesla_dressing_generic_frame_02-POSITION">
+          <float_array id="tesla_dressing_generic_frame_02-POSITION-array" count="96">
+135.065659 -7.580458 -15.202987
+135.065659 -7.580458 -10.248031
+135.065659 11.530304 -15.202987
+135.065659 11.530304 -10.248031
+139.934341 11.530304 -15.202987
+139.934341 11.530304 -10.248031
+139.934341 -7.580458 -15.202987
+139.934341 -7.580458 -10.248031
+-127.434357 -7.580458 -15.202987
+-127.434357 -7.580458 -10.248031
+-127.434357 11.530304 -15.202987
+-127.434357 11.530304 -10.248031
+-122.565643 11.530304 -15.202987
+-122.565643 11.530304 -10.248031
+-122.565643 -7.580458 -15.202987
+-122.565643 -7.580458 -10.248031
+-200.000000 8.532543 -11.238257
+-200.000000 4.405635 -11.238257
+200.000000 8.532543 -11.238257
+200.000000 4.405635 -11.238257
+200.000000 8.532543 -14.212760
+200.000000 4.405635 -14.212760
+-200.000000 8.532543 -14.212760
+-200.000000 4.405635 -14.212760
+-200.000000 -1.333750 -11.238257
+-200.000000 -5.460659 -11.238257
+200.000000 -1.333750 -11.238257
+200.000000 -5.460659 -11.238257
+200.000000 -1.333750 -14.212760
+200.000000 -5.460659 -14.212760
+-200.000000 -1.333750 -14.212760
+-200.000000 -5.460659 -14.212760
+</float_array>
+          <technique_common>
+            <accessor source="#tesla_dressing_generic_frame_02-POSITION-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tesla_dressing_generic_frame_02-Normal0">
+          <float_array id="tesla_dressing_generic_frame_02-Normal0-array" count="360">
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#tesla_dressing_generic_frame_02-Normal0-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tesla_dressing_generic_frame_02-UV0">
+          <float_array id="tesla_dressing_generic_frame_02-UV0-array" count="160">
+0.205062 0.735198
+0.205062 0.670053
+0.444722 0.670053
+0.444722 0.735198
+0.436848 0.500342
+0.500440 0.500342
+0.500440 0.548769
+0.436848 0.548769
+0.444722 0.551043
+0.444722 0.612247
+0.205062 0.612247
+0.205063 0.551042
+0.205062 0.661725
+0.205062 0.618350
+0.444722 0.618351
+0.444722 0.661725
+0.205062 0.547652
+0.205062 0.501349
+0.444722 0.501349
+0.444722 0.547652
+0.205062 0.735195
+0.205062 0.670050
+0.444721 0.670050
+0.444721 0.735195
+0.436848 0.500342
+0.500440 0.500342
+0.500440 0.548769
+0.436848 0.548769
+0.444722 0.551046
+0.444722 0.612250
+0.205063 0.612250
+0.205063 0.551046
+0.205062 0.661725
+0.205062 0.618350
+0.444722 0.618351
+0.444722 0.661725
+0.205062 0.547652
+0.205062 0.501349
+0.444722 0.501349
+0.444722 0.547652
+-0.500000 0.665348
+-0.500000 0.617143
+1.500000 0.617143
+1.500000 0.665348
+1.500000 0.617143
+1.500000 0.665348
+-0.500000 0.665348
+-0.500000 0.617143
+-0.500000 0.665348
+-0.500000 0.617143
+1.500000 0.617143
+1.500000 0.665348
+-0.500000 0.547652
+-0.500000 0.501350
+1.500000 0.501349
+1.500000 0.547651
+-0.500000 0.733893
+-0.500000 0.668748
+1.500000 0.668748
+1.500000 0.733893
+1.500000 0.501553
+1.500000 0.547683
+-0.500000 0.547683
+-0.500000 0.501553
+-0.500000 0.665348
+-0.500000 0.617143
+1.500000 0.617143
+1.500000 0.665348
+-0.500000 0.547652
+-0.500000 0.501350
+1.500000 0.501349
+1.500000 0.547651
+0.436848 0.500342
+0.500440 0.500342
+0.500440 0.548769
+0.436848 0.548769
+0.436848 0.500341
+0.500440 0.500342
+0.500440 0.548769
+0.436848 0.548769
+</float_array>
+          <technique_common>
+            <accessor source="#tesla_dressing_generic_frame_02-UV0-array" count="80" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tesla_dressing_generic_frame_02-VERTEX">
+          <input semantic="POSITION" source="#tesla_dressing_generic_frame_02-POSITION"/>
+        </vertices>
+        <triangles count="40" material="tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+          <input semantic="VERTEX" offset="0" source="#tesla_dressing_generic_frame_02-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#tesla_dressing_generic_frame_02-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#tesla_dressing_generic_frame_02-UV0"/>
+          <p> 3 0 2 0 1 0 1 2 1 0 3 0 3 4 2 2 5 3 5 6 6 2 7 4 3 8 5 2 9 4 5 10 6 4 11 7 7 12 10 4 13 8 5 14 9 4 15 8 7 16 10 6 17 11 3 18 15 1 19 12 5 20 14 5 21 14 1 22 12 7 23 13 0 24 17 2 25 18 6 26 16 6 27 16 2 28 18 4 29 19 11 30 22 8 31 20 9 32 21 8 33 20 11 34 22 10 35 23 13 36 26 10 37 24 11 38 25 10 39 24 13 40 26 12 41 27 15 42 30 12 43 28 13 44 29 12 45 28 15 46 30 14 47 31 11 48 35 9 49 32 13 50 34 13 51 34 9 52 32 15 53 33 8 54 37 10 55 38 14 56 36 14 57 36 10 58 38 12 59 39 17 60 41 19 61 42 16 62 40 18 63 43 16 64 40 19 65 42 23 66 46 20 67 44 21 68 45 20 69 44 23 70 46 22 71 47 23 72 49 21 73 50 17 74 48 19 75 51 17 76 48 21 77 50 18 78 54 22 79 52 16 80 53 22 81 52 18 82 54 20 83 55 25 84 57 27 85 58 24 86 56 26 87 59 24 88 56 27 89 58 31 90 62 28 91 60 29 92 61 28 93 60 31 94 62 30 95 63 31 96 65 29 97 66 25 98 64 27 99 67 25 100 64 29 101 66 26 102 70 30 103 68 24 104 69 30 105 68 26 106 70 28 107 71 15 108 75 9 109 72 14 110 74 9 111 72 8 112 73 14 113 74 7 114 79 1 115 76 6 116 78 1 117 76 0 118 77 6 119 78</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="tesla_dressing_generic_frame_02" id="tesla_dressing_generic_frame_02" sid="tesla_dressing_generic_frame_02">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 12.725509 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#tesla_dressing_generic_frame_02-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_tesla_structure_pillar_drum_01" target="#tesla_structure_piping_02_tesla_structure_pillar_core_02_tesla_structure_platform_01_tesla_structure_pillar_drum_01"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

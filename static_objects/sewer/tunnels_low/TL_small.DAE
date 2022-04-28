@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-27T12:38:38Z</created>
+    <keywords></keywords>
+    <modified>2012-07-27T12:38:38Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #40-image" name="Map #40">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\sewers\sewer_tunnel_wall_small.psd</init_from>
+    </image>
+    <image id="Map #27-image" name="Map #27">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\cellarbase\draingutter.psd</init_from>
+    </image>
+    <image id="Map #39-image" name="Map #39">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\sewers\sewer_tunnel_floor_small.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #397" name="Material #397">
+      <instance_effect url="#Material #397-fx"/>
+    </material>
+    <material id="Material #384" name="Material #384">
+      <instance_effect url="#Material #384-fx"/>
+    </material>
+    <material id="Material #396" name="Material #396">
+      <instance_effect url="#Material #396-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #397-fx" name="Material #397">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #40-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #384-fx" name="Material #384">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #27-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #396-fx" name="Material #396">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #39-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="tunnel_low_small-lib" name="tunnel_low_smallMesh">
+      <mesh>
+        <source id="tunnel_low_small-POSITION">
+          <float_array id="tunnel_low_small-POSITION-array" count="126">
+1.999999 0.400888 2.987293
+1.999999 -0.000000 3.050787
+1.999999 0.762535 2.803025
+1.999999 1.049539 2.516021
+1.999999 1.233807 2.154374
+1.999999 1.297302 1.753486
+1.999999 -1.233807 2.154376
+1.999999 -1.297302 1.753487
+1.999999 -1.049539 2.516022
+1.999999 -0.762534 2.803026
+1.999999 -0.400887 2.987294
+1.999999 1.297302 0.701723
+1.999999 0.778381 0.189748
+1.999999 -0.778381 0.189748
+1.999999 -1.297302 0.701723
+1.999999 1.205943 0.516493
+1.999999 -1.008902 0.330457
+1.999999 1.008902 0.330456
+1.999999 -1.205943 0.516493
+1.999999 0.778381 0.132064
+1.999999 -0.778381 0.132064
+-0.000001 0.400888 2.987293
+-0.000001 -0.000000 3.050787
+-0.000001 0.762535 2.803025
+-0.000001 1.049539 2.516021
+-0.000001 1.233807 2.154374
+-0.000001 1.297302 1.753486
+-0.000001 -1.233807 2.154376
+-0.000001 -1.297302 1.753487
+-0.000001 -1.049539 2.516022
+-0.000001 -0.762534 2.803026
+-0.000001 -0.400887 2.987294
+-0.000001 1.297302 0.701723
+-0.000001 0.778381 0.189748
+-0.000001 -0.778381 0.189748
+-0.000001 -1.297302 0.701723
+-0.000001 1.205943 0.516493
+-0.000001 -1.008902 0.330457
+-0.000001 1.008902 0.330456
+-0.000001 -1.205943 0.516493
+-0.000001 0.778381 0.132064
+-0.000001 -0.778381 0.132064
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_low_small-POSITION-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnel_low_small-Normal0">
+          <float_array id="tunnel_low_small-Normal0-array" count="360">
+0.000000 -0.872068 0.489385
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -0.872068 0.489385
+0.000000 -0.872068 0.489385
+0.000000 -0.309016 -0.951057
+0.000000 -0.000001 -1.000000
+0.000000 -0.000001 -1.000000
+0.000000 -0.000001 -1.000000
+0.000000 -0.309016 -0.951057
+0.000000 -0.309016 -0.951057
+0.000000 -0.587784 -0.809018
+0.000000 -0.309016 -0.951057
+0.000000 -0.309016 -0.951057
+0.000000 -0.309016 -0.951057
+0.000000 -0.587785 -0.809018
+0.000000 -0.587784 -0.809018
+0.000000 -0.809017 -0.587785
+0.000000 -0.587784 -0.809018
+0.000000 -0.587785 -0.809018
+0.000000 -0.587785 -0.809018
+0.000000 -0.809017 -0.587785
+0.000000 -0.809017 -0.587785
+0.000000 -0.951057 -0.309017
+0.000000 -0.809017 -0.587785
+0.000000 -0.809017 -0.587785
+0.000000 -0.809017 -0.587785
+0.000000 -0.951057 -0.309017
+0.000000 -0.951057 -0.309017
+0.000000 -0.996917 -0.078459
+0.000000 -0.951057 -0.309017
+0.000000 -0.951057 -0.309017
+0.000000 -0.951057 -0.309017
+0.000000 -0.996917 -0.078459
+0.000000 -0.996917 -0.078459
+0.000000 0.951056 -0.309018
+0.000000 0.996917 -0.078460
+0.000000 0.996917 -0.078460
+0.000000 0.996917 -0.078460
+0.000000 0.951056 -0.309018
+0.000000 0.951056 -0.309018
+0.000000 0.809017 -0.587786
+0.000000 0.951056 -0.309018
+0.000000 0.951056 -0.309018
+0.000000 0.951056 -0.309018
+0.000000 0.809016 -0.587786
+0.000000 0.809017 -0.587786
+0.000000 0.587784 -0.809018
+0.000000 0.809017 -0.587786
+0.000000 0.809016 -0.587786
+0.000000 0.809016 -0.587786
+0.000000 0.587784 -0.809018
+0.000000 0.587784 -0.809018
+0.000000 -0.000001 -1.000000
+0.000000 0.309015 -0.951057
+0.000000 0.309015 -0.951057
+0.000000 0.309015 -0.951057
+0.000000 -0.000001 -1.000000
+0.000000 -0.000001 -1.000000
+0.000000 0.309015 -0.951057
+0.000000 0.587784 -0.809018
+0.000000 0.587784 -0.809018
+0.000000 0.587784 -0.809018
+0.000000 0.309015 -0.951057
+0.000000 0.309015 -0.951057
+0.000000 -0.973870 0.227105
+0.000000 -0.996917 -0.078459
+0.000000 -0.996917 -0.078459
+0.000000 -0.996917 -0.078459
+0.000000 -0.973870 0.227105
+0.000000 -0.973870 0.227105
+0.000000 -0.872068 0.489385
+0.000000 -0.607059 0.794657
+0.000000 -0.607059 0.794657
+0.000000 -0.607059 0.794657
+0.000000 -0.872068 0.489385
+0.000000 -0.872068 0.489385
+0.000000 0.996917 -0.078460
+0.000000 0.973870 0.227105
+0.000000 0.973870 0.227106
+0.000000 0.973870 0.227106
+0.000000 0.996917 -0.078460
+0.000000 0.996917 -0.078460
+0.000000 0.973870 0.227105
+0.000000 0.804382 0.594113
+0.000000 0.804382 0.594113
+0.000000 0.804382 0.594113
+0.000000 0.973870 0.227106
+0.000000 0.973870 0.227105
+0.000000 -0.804382 0.594113
+0.000000 -0.973870 0.227105
+0.000000 -0.973870 0.227105
+0.000000 -0.973870 0.227105
+0.000000 -0.804382 0.594113
+0.000000 -0.804382 0.594113
+0.000000 0.607059 0.794657
+0.000000 0.872068 0.489385
+0.000000 0.872068 0.489385
+0.000000 0.872068 0.489385
+0.000000 0.607059 0.794657
+0.000000 0.607059 0.794657
+0.000000 -0.607059 0.794657
+0.000000 -0.804382 0.594113
+0.000000 -0.804382 0.594113
+0.000000 -0.804382 0.594113
+0.000000 -0.607059 0.794657
+0.000000 -0.607059 0.794657
+0.000000 0.804382 0.594113
+0.000000 0.607059 0.794657
+0.000000 0.607059 0.794657
+0.000000 0.607059 0.794657
+0.000000 0.804382 0.594113
+0.000000 0.804382 0.594113
+0.000000 0.872068 0.489385
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.872068 0.489385
+0.000000 0.872068 0.489385
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_low_small-Normal0-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnel_low_small-UV0">
+          <float_array id="tunnel_low_small-UV0-array" count="88">
+1.000000 0.893873
+1.000000 1.000000
+1.000000 0.787747
+1.000000 0.681622
+1.000000 0.575497
+1.000000 0.469370
+1.000000 0.575497
+1.000000 0.469370
+1.000000 0.681623
+1.000000 0.787747
+1.000000 1.000000
+1.000000 0.893873
+1.000000 0.194364
+1.000000 -0.001111
+1.000000 0.069505
+1.000000 0.194364
+1.000000 0.140361
+1.000000 0.140361
+1.000000 0.069506
+1.000000 -0.001111
+1.000000 0.027695
+1.000000 0.027696
+0.000001 0.893873
+0.000001 1.000000
+0.000001 1.000000
+0.000001 0.787747
+0.000001 0.681622
+0.000001 0.575497
+0.000001 0.469370
+0.000001 0.575497
+0.000001 0.469370
+0.000001 0.681623
+0.000001 0.787747
+0.000001 0.893873
+0.000001 0.194364
+0.000001 -0.001111
+0.000001 -0.001111
+0.000001 0.194364
+0.000001 0.140361
+0.000001 0.069506
+0.000001 0.069505
+0.000001 0.140361
+0.000001 0.027695
+0.000001 0.027696
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_low_small-UV0-array" count="44" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tunnel_low_small-VERTEX">
+          <input semantic="POSITION" source="#tunnel_low_small-POSITION"/>
+        </vertices>
+        <triangles count="40" material="Material #397">
+          <input semantic="VERTEX" offset="0" source="#tunnel_low_small-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#tunnel_low_small-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#tunnel_low_small-UV0"/>
+          <p> 33 0 35 40 1 42 19 2 20 19 3 20 12 4 13 33 5 35 0 6 0 1 7 1 22 8 24 22 9 24 21 10 22 0 11 0 2 12 2 0 13 0 21 14 22 21 15 22 23 16 25 2 17 2 3 18 3 2 19 2 23 20 25 23 21 25 24 22 26 3 23 3 4 24 4 3 25 3 24 26 26 24 27 26 25 28 27 4 29 4 5 30 5 4 31 4 25 32 27 25 33 27 26 34 28 5 35 5 6 36 6 7 37 7 28 38 30 28 39 30 27 40 29 6 41 6 8 42 8 6 43 6 27 44 29 27 45 29 29 46 31 8 47 8 9 48 9 8 49 8 29 50 31 29 51 31 30 52 32 9 53 9 1 54 10 10 55 11 31 56 33 31 57 33 22 58 23 1 59 10 10 60 11 9 61 9 30 62 32 30 63 32 31 64 33 10 65 11 11 66 12 5 67 5 26 68 28 26 69 28 32 70 34 11 71 12 12 72 13 17 73 14 38 74 40 38 75 40 33 76 35 12 77 13 7 78 7 14 79 15 35 80 37 35 81 37 28 82 30 7 83 7 14 84 15 18 85 16 39 86 41 39 87 41 35 88 37 14 89 15 15 90 17 11 91 12 32 92 34 32 93 34 36 94 38 15 95 17 16 96 18 13 97 19 34 98 36 34 99 36 37 100 39 16 101 18 17 102 14 15 103 17 36 104 38 36 105 38 38 106 40 17 107 14 18 108 16 16 109 18 37 110 39 37 111 39 39 112 41 18 113 16 13 114 19 20 115 21 41 116 43 41 117 43 34 118 36 13 119 19</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="tunnel_low_drain_small-lib" name="tunnel_low_drain_smallMesh">
+      <mesh>
+        <source id="tunnel_low_drain_small-POSITION">
+          <float_array id="tunnel_low_drain_small-POSITION-array" count="60">
+2.000000 0.620372 0.100538
+2.000000 0.784424 0.129465
+2.000000 0.614572 0.133429
+2.000000 0.778625 0.162356
+2.000000 -0.614572 0.133429
+2.000000 -0.778625 0.162356
+2.000000 -0.620372 0.100538
+2.000000 -0.784424 0.129465
+2.000000 0.784424 0.129465
+2.000000 0.620372 0.100538
+2.000000 0.614572 0.133429
+2.000000 0.778625 0.162356
+0.000000 0.784424 0.129465
+0.000000 0.614572 0.133429
+0.000000 0.778625 0.162356
+0.000000 -0.614572 0.133429
+0.000000 -0.778625 0.162356
+0.000000 -0.620372 0.100538
+0.000000 0.620372 0.100538
+0.000000 -0.784424 0.129465
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_low_drain_small-POSITION-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnel_low_drain_small-Normal0">
+          <float_array id="tunnel_low_drain_small-Normal0-array" count="162">
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -0.984808 -0.173649
+0.000000 -0.984808 -0.173649
+0.000000 -0.984808 -0.173649
+0.000000 -0.984808 -0.173649
+0.000000 -0.984808 -0.173649
+0.000000 -0.984808 -0.173649
+0.000000 -0.173648 0.984808
+0.000000 -0.173648 0.984808
+0.000000 -0.173648 0.984808
+0.000000 -0.173648 0.984808
+0.000000 -0.173648 0.984808
+0.000000 -0.173648 0.984808
+0.000000 0.984808 0.173649
+0.000000 0.984808 0.173649
+0.000000 0.984808 0.173649
+0.000000 0.984808 0.173649
+0.000000 0.984808 0.173649
+0.000000 0.984808 0.173649
+0.000000 0.173648 0.984808
+0.000000 0.173648 0.984808
+0.000000 0.173648 0.984808
+0.000000 0.173648 0.984808
+0.000000 0.173648 0.984808
+0.000000 0.173648 0.984808
+0.000000 0.984808 -0.173649
+0.000000 0.984808 -0.173649
+0.000000 0.984808 -0.173649
+0.000000 0.984808 -0.173649
+0.000000 0.984808 -0.173649
+0.000000 0.984808 -0.173649
+0.000000 -0.984808 0.173649
+0.000000 -0.984808 0.173649
+0.000000 -0.984808 0.173649
+0.000000 -0.984808 0.173649
+0.000000 -0.984808 0.173649
+0.000000 -0.984808 0.173649
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_low_drain_small-Normal0-array" count="54" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnel_low_drain_small-UV0">
+          <float_array id="tunnel_low_drain_small-UV0-array" count="72">
+0.389450 0.935880
+0.621245 0.935877
+0.389451 0.982352
+0.621245 0.982349
+0.389450 0.935880
+0.621245 0.935877
+0.621245 0.982349
+0.389451 0.982352
+0.030810 0.935665
+0.136052 0.935665
+0.136052 0.980877
+0.030810 0.980877
+-1.248089 1.002634
+-1.248089 -0.006957
+-0.400686 0.980877
+-0.400686 0.935665
+2.558639 0.935665
+2.558639 0.980877
+7.352094 -0.006393
+7.352094 1.003197
+2.558639 0.935665
+2.558639 0.980877
+-0.400686 0.980877
+-0.400686 0.935665
+1.294724 0.980877
+2.425011 1.002635
+0.863229 0.935665
+2.425011 -0.006956
+1.294724 0.935665
+3.678994 1.003197
+1.294724 0.935665
+3.678994 -0.006393
+0.863229 0.935665
+1.294724 0.980877
+0.863229 0.980877
+0.863229 0.980877
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_low_drain_small-UV0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tunnel_low_drain_small-VERTEX">
+          <input semantic="POSITION" source="#tunnel_low_drain_small-POSITION"/>
+        </vertices>
+        <triangles count="18" material="Material #384">
+          <input semantic="VERTEX" offset="0" source="#tunnel_low_drain_small-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#tunnel_low_drain_small-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#tunnel_low_drain_small-UV0"/>
+          <p> 0 0 0 1 1 1 3 2 3 3 3 3 2 4 2 0 5 0 6 6 4 4 7 7 5 8 6 5 9 6 7 10 5 6 11 4 2 12 15 13 13 26 18 14 34 18 15 34 0 16 14 2 17 15 3 18 13 14 19 27 13 20 25 13 21 25 2 22 12 3 23 13 1 24 17 12 25 24 14 26 28 14 27 28 3 28 16 1 29 17 4 30 19 15 31 29 16 32 31 16 33 31 5 34 18 4 35 19 6 36 21 17 37 33 15 38 30 15 39 30 4 40 20 6 41 21 5 42 23 16 43 32 19 44 35 19 45 35 7 46 22 5 47 23 8 48 8 9 49 9 10 50 10 10 51 10 11 52 11 8 53 8</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="tunnel_low_floor_small-lib" name="tunnel_low_floor_smallMesh">
+      <mesh>
+        <source id="tunnel_low_floor_small-POSITION">
+          <float_array id="tunnel_low_floor_small-POSITION-array" count="30">
+2.000000 -0.778381 0.142206
+2.000000 -0.259460 0.070673
+2.000000 0.259460 0.070672
+2.000000 0.778381 0.142206
+2.000000 -0.000000 0.070672
+0.000000 -0.778381 0.142206
+0.000000 -0.259460 0.070673
+0.000000 0.778381 0.142206
+0.000000 0.259460 0.070672
+0.000000 -0.000000 0.070672
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_low_floor_small-POSITION-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnel_low_floor_small-Normal0">
+          <float_array id="tunnel_low_floor_small-Normal0-array" count="72">
+0.000000 -0.136560 0.990632
+0.000000 -0.136560 0.990632
+0.000000 -0.068440 0.997655
+0.000000 -0.068440 0.997655
+0.000000 -0.068440 0.997655
+0.000000 -0.136560 0.990632
+0.000000 0.000000 1.000000
+0.000000 -0.068440 0.997655
+0.000000 -0.068440 0.997655
+0.000000 -0.068440 0.997655
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.136560 0.990632
+0.000000 0.068440 0.997655
+0.000000 0.068440 0.997655
+0.000000 0.068440 0.997655
+0.000000 0.136560 0.990632
+0.000000 0.136560 0.990632
+0.000000 0.068440 0.997655
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.068440 0.997655
+0.000000 0.068440 0.997655
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_low_floor_small-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tunnel_low_floor_small-UV0">
+          <float_array id="tunnel_low_floor_small-UV0-array" count="20">
+1.000000 0.000000
+1.000000 0.064873
+1.000000 -0.195843
+1.000000 -0.064872
+1.000000 0.195844
+-0.000001 -0.195843
+-0.000001 -0.064872
+-0.000001 0.195844
+-0.000001 0.064873
+-0.000001 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#tunnel_low_floor_small-UV0-array" count="10" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tunnel_low_floor_small-VERTEX">
+          <input semantic="POSITION" source="#tunnel_low_floor_small-POSITION"/>
+        </vertices>
+        <triangles count="8" material="Material #396">
+          <input semantic="VERTEX" offset="0" source="#tunnel_low_floor_small-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#tunnel_low_floor_small-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#tunnel_low_floor_small-UV0"/>
+          <p> 3 0 4 7 1 7 8 2 8 8 3 8 2 4 1 3 5 4 4 6 0 2 7 1 8 8 8 8 9 8 9 10 9 4 11 0 0 12 2 1 13 3 6 14 6 6 15 6 5 16 5 0 17 2 1 18 3 4 19 0 9 20 9 9 21 9 6 22 6 1 23 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="tunnel_low_small" id="tunnel_low_small" layer="tunnel_low" sid="tunnel_low_small">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#tunnel_low_small-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #397" target="#Material #397"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="tunnel_low_drain_small" id="tunnel_low_drain_small" layer="tunnel_low" sid="tunnel_low_drain_small">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#tunnel_low_drain_small-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #384" target="#Material #384"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="tunnel_low_floor_small" id="tunnel_low_floor_small" layer="tunnel_low" sid="tunnel_low_floor_small">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#tunnel_low_floor_small-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #396" target="#Material #396"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>2.000000</start_time>
+          <end_time>2.033333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

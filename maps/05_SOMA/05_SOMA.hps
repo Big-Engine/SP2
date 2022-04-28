@@ -1,0 +1,281 @@
+#include "interfaces/Map_Interface.hps"
+#include "base/Inputhandler_Types.hps"
+
+#include "helpers/helper_map.hps"
+#include "helpers/helper_props.hps"
+#include "helpers/helper_effects.hps"
+#include "helpers/helper_audio.hps"
+#include "helpers/helper_imgui.hps"
+#include "helpers/helper_sequences.hps"
+#include "helpers/helper_game.hps"
+#include "helpers/helper_modules.hps"
+#include "helpers/helper_ai.hps"
+#include "helpers/helper_player.hps"
+#include "helpers/helper_areas.hps"
+#include "helpers/helper_agent.hps"
+#include "custom/helpers/helper_player_custom.hps"
+#include "custom/helpers/helper_modules_custom.hps"
+#include "custom/helpers/helper_agent.hps"
+#include "custom/agents/agent_types_custom.hps"
+#include "helpers/helper_message.hps"
+
+//--------------------------------------------------
+ 
+/*Place any global values here. These must be const variables as they will not be saved*/
+/*This is also the place for enums and classes, but these should be avoided whenever possible*/
+ 
+//--------------------------------------------------
+ 
+class cScrMap : iScrMap
+{
+	//--------------------------------------------
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN CALLBACKS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	////////////////////////////
+	// Set up map environment
+	void Setup()
+	{
+		// Put display name entry in english.lang / Levels
+		GetBase().SetDisplayNameEntry("xx-xx-dummy-level");
+		
+		// Set up color grading etc.
+	}
+	
+	//-------------------------------------------------------
+		
+	void PreloadData()
+	{
+		/////////////////
+		// Preload gui
+		//ImGui_PreloadImage("some_image");
+
+		///////////////
+		// Preload particles
+		//ParticleSystem_Preload("some_particle.ps");
+
+		//////////////
+		// Preload screen effects
+		//Material_Preload("some_material.mat");
+	}
+	
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run first time starting map
+	void OnStart()
+	{
+		// Any general setup of script / entities
+		
+		/////////////////////////
+		// Debug
+		if(cLux_ScriptDebugOn())
+		{
+		}
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when entering map
+	void OnEnter()
+	{	
+		//Game_AutoSave();
+		
+		//Set up the player.
+		PlayerBody_SetModel("PlayerArms.ent");
+		PlayerBody_SetActive(true);
+		Player_SetAllowHideMode(false);
+		Player_SetAllowCheckBaby(false);
+		Player_SetNightVisionEnabled(true);
+		Player_SetVertigoActive(false);
+		//Player_SetRunSpeedMul(1.5f);
+		//Player_SetJumpForceMul(2.0f);
+		SetMessage("This works!");
+		
+		Ghoul_SetCanAttack("Terry", false);
+		Entity_AttachToSocket("Trigger_Terry", "Terry", "j_Collider_Start_Space_Socket_1", true, false);
+		Entity_AttachToSocket("Terry_Grab", "Terry", "j_Collider_Start_Space_Socket_1", true, false);
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when leaving map
+	void OnLeave()
+	{
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// The player has died.
+	void OnPlayerKilled(int alRecentDeaths, const tString&in asSource)
+	{
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player HP reaches 0
+	bool OnDeath(const tString &in asSource)
+	{
+		cLux_AddTodoMessage("DEAD : SOURCE = " + asSource);
+		
+		if (asSource == "SomeReason")
+		{
+			Effect_Fade_Out(1.0f);
+			return true; // return true to completely override base behaviour
+		}
+		
+		// return false for default behaviour
+		return false;
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player should respawn (after death)
+	bool OnRespawn(const tString &in asSource)
+	{		
+		// return false for default behaviour (fadeout and death area)
+		return false;
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// To get when player makes input (mostly used for debug)
+	void OnAction(int alAction, bool abPressed) 
+	{
+		if(abPressed==false) return;
+		
+		if(alAction == eAction_Test1)
+		{
+		}
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// This only used for pure debug purposes when info needs to printed.
+	float DrawDebugOutput(cGuiSet @apSet,iFontData @apFont,float afY)
+	{
+		//afY = cLux_DrawDebugText("My Debug value:"+..., afY);
+		return afY;
+	}
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN CALLBACKS
+ 
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN FUNCTIONS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any variables that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any functions that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN FUNCTIONS
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// SCENE X *NAME OF SCENE*
+	// ==============
+	//{//////////////////////////////////////////////////////////////////////////////////////
+ 
+		/////////////////////////////////////////
+		// General
+		//{//////////////////////////////////////
+		 
+		//-------------------------------------------------------
+	 
+		/*Put any variables that are used by many events in Scene X here.*/
+	 
+		//-------------------------------------------------------
+	 
+		/*Put any functions that are used in more than one event in Scene X here.*/
+	 
+		//-------------------------------------------------------
+		
+		//} END General	
+	 
+		/////////////////////////////////////////
+		// Event *Name Of Event*
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		/*Put any variables that are only used in Scene X, Event X here.*/
+
+		//-------------------------------------------------------
+
+		/*Put any functions that are only used in Scene X, Event X here.*/
+
+		//-------------------------------------------------------
+
+		//} END Event *Name Of Event*
+	 
+	//} END SCENE X
+	
+	
+	
+	//////////////////
+	//Testing scripts
+	//////////////////
+	
+	
+	bool OnCollide_OoB(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		//FearHandler_TriggerPermaFail_Fall();
+		FearHandler_TriggerPermaFail(false, "", true);
+		return true;
+	}
+	
+	bool OnCollide_Terry(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		//FearHandler_TriggerPermaFail(false, "", true);
+		
+		//Stop Akers and prevent him from restarting the attack.
+		Ghoul_Command_Remove("Terry",true);
+		Ghoul_Mode_Set("Terry",eGhoulMode_Idle,true);
+		Agent_SetSensesActive("Terry",false);
+		//Entity_AttachToSocket("Temp_Grab", "Temp_Terry", "j_Collider_Start_Space_Socket_1", true, false);
+		Entity_AttachToEntity("Trigger_Terry", "Temp_Terry", "", true, true, true);
+		
+		//Stop the player.
+		PlayerBody_StopCustomAnimation();
+		PlayerBody_StopAnimationLayer(ePlayerBodyAnimationLayer_FullBody,0);
+		//PlayerBody_PlayCutsceneAtEntity("player_ghoul_struggle_hold_idle", "Terry", false, 0.5f);
+		//Entity_AttachToEntity("player", "Terry_Grab", "", true, false, true);
+		//CameraAnimation_Begin(const tString &in asAnimationName, "", false);
+		
+		//(WRONG)Get Terry's position and trigger the kill animation.
+		//(RIGHT)Immediately start both the player's and Terry's kill animations.
+		
+		//cVector3f vTerryPos = Map_GetEntity("Terry").GetMeshEntity().GetSocket("j_Collider_Start_Space_Socket_1").GetWorldPosition();
+		//Map_GetEntity("Terry_Grab").SetPosition(vTerryPos);
+		Agent_PlayCutsceneAtEntity("Terry","pick_up_player","Terry_Grab",0.001f,false,"");
+		PlayerBody_PlayCutsceneAtEntity("player_grabbed_by_leon_under_bodycrusher","Terry_Grab",false,0.5f,"");
+		
+		//TODO: Set up timer to trigger permafail & reattach Trigger_Terry to Akers.
+		
+		return true;
+	}
+}

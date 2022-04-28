@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>user</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/user/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-01-13T07:25:07Z</created>
+    <modified>2012-01-13T07:25:07Z</modified>
+    <unit meter="1" name="meter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="magazine_row04_2" name="magazine_row04_2">
+      <init_from>file:///E:/SVN_Server/application/entities/urban/ornament/magazine_row/magazine_row04.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="magazine_row_nrm04_2" name="magazine_row_nrm04_2">
+      <init_from>file:///E:/SVN_Server/application/entities/urban/ornament/magazine_row/magazine_row_nrm04.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="magazine_row_spec04_2" name="magazine_row_spec04_2">
+      <init_from>file:///E:/SVN_Server/application/entities/urban/ornament/magazine_row/magazine_row_spec04.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn1" name="blinn1">
+      <instance_effect url="#blinn1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn1-fx">
+      <profile_COMMON>
+        <newparam sid="magazine_row04_2-surface">
+          <surface type="2D">
+            <init_from>magazine_row04_2</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="magazine_row04_2-sampler">
+          <sampler2D>
+            <source>magazine_row04_2-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="magazine_row_nrm04_2-surface">
+          <surface type="2D">
+            <init_from>magazine_row_nrm04_2</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="magazine_row_nrm04_2-sampler">
+          <sampler2D>
+            <source>magazine_row_nrm04_2-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="magazine_row_spec04_2-surface">
+          <surface type="2D">
+            <init_from>magazine_row_spec04_2</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="magazine_row_spec04_2-sampler">
+          <sampler2D>
+            <source>magazine_row_spec04_2-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="magazine_row04_2-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="magazine_row_spec04_2-sampler" texcoord="TEX2">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="magazine_row_nrm04_2-sampler" texcoord="TEX1">
+                  <extra>
+                    <technique profile="MAYA">
+                      <wrapU>1</wrapU>
+                      <wrapV>1</wrapV>
+                      <mirrorU>0</mirrorU>
+                      <mirrorV>0</mirrorV>
+                      <coverageU>1</coverageU>
+                      <coverageV>1</coverageV>
+                      <translateFrameU>0</translateFrameU>
+                      <translateFrameV>0</translateFrameV>
+                      <rotateFrame>0</rotateFrame>
+                      <stagger>0</stagger>
+                      <fast>0</fast>
+                      <repeatU>1</repeatU>
+                      <repeatV>1</repeatV>
+                      <offsetU>0</offsetU>
+                      <offsetV>0</offsetV>
+                      <rotateUV>0</rotateUV>
+                      <noiseU>0</noiseU>
+                      <noiseV>0</noiseV>
+                      <blend_mode>NONE</blend_mode>
+                    </technique>
+                    <technique profile="MAX3D">
+                      <amount>1</amount>
+                      <bumpInterp>1</bumpInterp>
+                    </technique>
+                  </extra>
+                </texture>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="magazine_row04Shape" name="magazine_row04Shape">
+      <mesh>
+        <source id="magazine_row04Shape-positions" name="position">
+          <float_array id="magazine_row04Shape-positions-array" count="120">-0.037258 0.000541 0.006009 0.021066 0.000541 0.006009 0.021066 0.088727 0.007327 -0.037258 0.088727 0.007327 0.021066 0.088775 0.002081 -0.037258 0.088775 0.002081 0.021066 0.00059 0.000762 -0.037258 0.00059 0.000762 -0.032737 0.000619 0.000119 0.024945 0.000639 0.000161 0.024913 0.086796 0.00108 -0.03277 0.086775 0.001038 0.024915 0.086836 -0.002862 -0.032767 0.086815 -0.002905 0.024948 0.000679 -0.003782 -0.032735 0.000659 -0.003824 0.022516 0.087418 -0.007613 -0.03675 0.087418 -0.00588 -0.03675 0.000844 -0.011149 0.022516 0.000844 -0.011981 0.022516 0.087525 -0.010971 -0.03675 0.087525 -0.012454 -0.03675 0.00095 -0.017723 0.022516 0.00095 -0.015339 -0.035244 0.000506 0.014679 0.02653 0.000506 0.012771 0.02653 0.091537 0.014063 -0.035244 0.091537 0.015971 0.02653 0.091613 0.008651 -0.035244 0.091613 0.008651 0.02653 0.000583 0.007359 -0.035244 0.000583 0.007359 -0.035962 0.000735 -0.006436 0.020279 0.000735 -0.006436 0.020279 0.085368 -0.003345 -0.035151 0.085368 -0.003345 0.020279 0.085474 -0.008365 -0.035151 0.085474 -0.007204 -0.035962 0.000842 -0.011456 0.020279 0.000842 -0.011456</float_array>
+          <technique_common>
+            <accessor source="#magazine_row04Shape-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazine_row04Shape-normals" name="normal">
+          <float_array id="magazine_row04Shape-normals-array" count="348">0 -0.014944 0.999888 0 -0.014944 0.999888 0 -0.014944 0.999888 0 -0.014944 0.999888 0 0.999958 0.00915 0 0.999958 0.00915 0 0.999958 0.00915 0 0.999958 0.00915 0 0.014955 -0.999888 0 0.014955 -0.999888 0 0.014955 -0.999888 0 0.014955 -0.999888 0 -0.999956 -0.009338 0 -0.999956 -0.009338 0 -0.999956 -0.009338 0 -0.999956 -0.009338 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.000724 -0.010666 0.999943 -0.000724 -0.010666 0.999943 -0.000724 -0.010666 0.999943 -0.000724 -0.010666 0.999943 -0.000371 0.999948 0.010146 -0.000371 0.999949 0.010147 -0.000371 0.999949 0.010147 -0.000371 0.999948 0.010149 0.000741 0.010666 -0.999943 0.000732 0.010672 -0.999943 0.000732 0.010672 -0.999943 0.000724 0.010677 -0.999943 0.000354 -0.999949 -0.010143 0.000354 -0.999949 -0.010143 0.000354 -0.999949 -0.010143 0.000354 -0.999949 -0.010143 1 0.000377 0.000511 1 0.00037 0.000638 1 0.00037 0.000638 1 0.000363 0.000764 -1 -0.000377 -0.000511 -1 -0.00037 -0.000637 -1 -0.00037 -0.000637 -1 -0.000363 -0.000763 0.029174 -0.060723 0.997728 0.021597 -0.055556 0.998222 0.021597 -0.055556 0.998222 0.014019 -0.050384 0.998632 0.000475 0.999867 0.016278 -0.00016 0.999711 0.024064 -0.00016 0.999711 0.024064 -0.000797 0.999492 0.031848 0.040118 0.060699 -0.99735 0.032552 0.055538 -0.997926 0.032552 0.055538 -0.997926 0.024983 0.050373 -0.998418 -0.000442 -0.999502 -0.03155 0.000102 -0.999716 -0.023837 0.000102 -0.999716 -0.023837 0.000648 -0.99987 -0.016122 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.030869 -0.014184 0.999423 0.030869 -0.014184 0.999423 0.030869 -0.014184 0.999423 0.030868 -0.014184 0.999423 0.00032 0.999946 0.010382 0.00016 0.999925 0.012212 0.00016 0.999925 0.012212 0 0.999901 0.014042 0 0.014191 -0.999899 0 0.014191 -0.999899 0 0.014191 -0.999899 0 0.014191 -0.999899 -0.000324 -0.999945 -0.010518 -0.000162 -0.999924 -0.012372 -0.000162 -0.999924 -0.012372 0 -0.999899 -0.014226 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -0.036498 0.999334 0 -0.036498 0.999334 0 -0.036498 0.999334 0 -0.036498 0.999334 0 0.999623 0.027457 0.000221 0.999705 0.024283 0.000221 0.999705 0.024283 0.000442 0.999777 0.02111 0 -0.999773 -0.021309 0 -0.999773 -0.021309 0 -0.999773 -0.021309 0 -0.999773 -0.021309 1 0 0 1 0 0 1 0 0 1 0 0 -0.999954 0.009572 0.000262 -0.999954 0.009572 0.000233 -0.999954 0.009572 0.000233 -0.999954 0.009571 0.000204</float_array>
+          <technique_common>
+            <accessor source="#magazine_row04Shape-normals-array" count="116" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazine_row04Shape-map1" name="map1">
+          <float_array id="magazine_row04Shape-map1-array" count="232">0.788996 0.831723 0.727806 0.832637 0.72661 0.674809 0.7878 0.673917 0.724191 0.673583 0.723683 0.831774 0.706394 0.831754 0.706901 0.673563 0.706093 0.991194 0.705667 0.886845 0.811481 0.886845 0.811891 0.991194 0.706949 0.831742 0.706449 0.673551 0.723739 0.673531 0.724239 0.831722 0.705667 0.878984 0.705708 0.83528 0.811522 0.83528 0.811481 0.878984 0.638571 0.650878 0.639201 0.501384 0.654393 0.501495 0.653764 0.650989 0.50839 0.650953 0.50829 0.538176 0.634535 0.537762 0.634616 0.650231 0.814227 0.993472 0.813693 0.82552 0.824638 0.825416 0.825172 0.993368 0.788815 0.501449 0.788815 0.644457 0.664882 0.643855 0.663896 0.500843 0.824638 0.825416 0.825172 0.993368 0.814227 0.993472 0.813693 0.82552 0.634575 0.499595 0.634535 0.531866 0.50829 0.53228 0.50833 0.500009 0.638571 0.650878 0.639201 0.501384 0.654393 0.501495 0.653764 0.650989 0.581762 0.992063 0.501657 0.992063 0.501657 0.657389 0.581762 0.656088 0.720905 0.648486 0.790677 0.648486 0.790677 0.670196 0.720905 0.670196 0.703921 0.654489 0.703921 0.992063 0.603795 0.992063 0.603795 0.655777 0.720905 0.648454 0.790677 0.648454 0.790677 0.670164 0.720905 0.670164 0.600252 0.992063 0.585142 0.992063 0.585142 0.656088 0.600252 0.655777 0.639076 0.501354 0.654269 0.501466 0.653639 0.65096 0.638447 0.650849 0.791844 0.502369 0.890243 0.501809 0.890864 0.820382 0.792269 0.820943 0.828677 0.993352 0.828677 0.825465 0.843143 0.825465 0.842322 0.993352 0.992258 0.819782 0.915027 0.820346 0.914404 0.501772 0.991831 0.501209 0.843004 0.825533 0.842253 0.993419 0.828677 0.993419 0.828677 0.825533 0.911546 0.820346 0.893649 0.820382 0.893027 0.501809 0.910923 0.501772 0.639112 0.650878 0.639742 0.501384 0.653852 0.501495 0.653223 0.650989 0.845842 0.992979 0.845781 0.867234 0.991846 0.867234 0.991906 0.992978 0.824638 0.825416 0.825172 0.993368 0.814227 0.993472 0.813693 0.82552 0.814227 0.993503 0.813693 0.825552 0.824638 0.825447 0.825172 0.993399 0.991734 0.826059 0.991846 0.861654 0.845781 0.861654 0.84567 0.82631 0.638571 0.650878 0.639201 0.501384 0.654393 0.501495 0.653764 0.650989</float_array>
+          <technique_common>
+            <accessor source="#magazine_row04Shape-map1-array" count="116" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="magazine_row04Shape-vertices">
+          <input semantic="POSITION" source="#magazine_row04Shape-positions"/>
+        </vertices>
+        <triangles material="blinn1SG" count="58">
+          <input semantic="VERTEX" source="#magazine_row04Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#magazine_row04Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#magazine_row04Shape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 3 2 3 3 2 3 1 1 1 2 3 2 3 4 4 2 5 5 5 6 7 5 6 7 2 5 5 4 7 6 5 8 8 4 9 9 7 10 11 7 10 11 4 9 9 6 11 10 1 12 12 0 13 13 6 14 15 6 14 15 0 13 13 7 15 14 2 16 17 1 17 18 4 18 16 4 18 16 1 17 18 6 19 19 3 20 21 5 21 22 0 22 20 0 22 20 5 21 22 7 23 23 8 24 24 9 25 25 11 26 27 11 26 27 9 25 25 10 27 26 11 28 28 10 29 29 13 30 31 13 30 31 10 29 29 12 31 30 13 32 32 12 33 33 15 34 35 15 34 35 12 33 33 14 35 34 9 36 36 8 37 37 14 38 39 14 38 39 8 37 37 15 39 38 12 40 40 10 41 41 14 42 43 14 42 43 10 41 41 9 43 42 8 44 44 11 45 45 15 46 47 15 46 47 11 45 45 13 47 46 17 48 49 18 49 50 16 50 48 16 50 48 18 49 50 19 51 51 17 52 52 16 53 53 21 54 55 21 54 55 16 53 53 20 55 54 22 56 56 21 57 57 23 58 59 23 58 59 21 57 57 20 59 58 19 60 60 18 61 61 23 62 63 23 62 63 18 61 61 22 63 62 16 64 65 19 65 66 20 66 64 20 66 64 19 65 66 23 67 67 17 68 68 21 69 69 18 70 71 18 70 71 21 69 69 22 71 70 24 72 72 25 73 73 27 74 75 27 74 75 25 73 73 26 75 74 27 76 76 26 77 77 29 78 79 29 78 79 26 77 77 28 79 78 29 80 80 28 81 81 31 82 83 31 82 83 28 81 81 30 83 82 24 84 85 31 85 86 25 86 84 25 86 84 31 85 86 30 87 87 28 88 88 26 89 89 30 90 91 30 90 91 26 89 89 25 91 90 27 92 93 29 93 94 24 94 92 24 94 92 29 93 94 31 95 95 32 96 96 33 97 97 35 98 99 35 98 99 33 97 97 34 99 98 35 100 100 34 101 101 37 102 103 37 102 103 34 101 101 36 103 102 33 104 104 32 105 105 39 106 107 39 106 107 32 105 105 38 107 106 34 108 109 33 109 110 36 110 108 36 110 108 33 109 110 39 111 111 35 112 113 37 113 114 32 114 112 32 114 112 37 113 114 38 115 115</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="magazine_row04" name="magazine_row04" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#magazine_row04Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn1SG" target="#blinn1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX2" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

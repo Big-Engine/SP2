@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-08-08T11:37:25Z</created>
+    <keywords></keywords>
+    <modified>2012-08-08T11:37:25Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #24-image" name="Map #24">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\engineroom\structure\engineroom_atlas_01.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn2SG" name="blinn2SG">
+      <instance_effect url="#blinn2SG-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn2SG-fx" name="blinn2SG">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #24-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">8.000001</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="engine_floor_005-lib" name="engine_floor_005Mesh">
+      <mesh>
+        <source id="engine_floor_005-POSITION">
+          <float_array id="engine_floor_005-POSITION-array" count="63">
+4.000000 0.000000 0.000000
+0.000000 0.000000 0.000000
+0.000000 -4.000000 0.000000
+0.000000 -2.666666 0.000000
+4.000000 -1.333334 0.000000
+0.000000 -1.333334 0.000000
+2.661204 -1.333334 0.000000
+4.000000 -2.004106 0.000000
+0.670201 -1.333334 0.000000
+1.340402 -2.666666 0.000000
+2.010603 -4.000000 0.000000
+0.984598 -1.333334 0.000000
+1.969195 -2.666666 0.000000
+2.666666 -2.666666 0.000000
+1.333334 -1.333334 0.000000
+1.796648 -1.333334 0.000000
+3.593295 -2.666666 0.000000
+3.934543 -2.666666 0.000000
+3.911232 -2.902615 0.000000
+3.527923 -3.527923 0.000000
+2.896672 -3.922648 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#engine_floor_005-POSITION-array" count="21" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="engine_floor_005-Normal0">
+          <float_array id="engine_floor_005-Normal0-array" count="252">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#engine_floor_005-Normal0-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="engine_floor_005-UV0">
+          <float_array id="engine_floor_005-UV0-array" count="68">
+-0.003374 0.722460
+0.996626 0.722460
+1.000000 0.999980
+1.498035 0.999980
+0.500153 0.722460
+0.996626 0.999980
+-0.003374 0.999980
+1.498035 0.722460
+1.000000 0.722460
+0.834143 0.722460
+0.331325 0.999980
+0.500153 0.862075
+1.330840 0.722460
+0.829076 0.999980
+0.664900 0.722460
+1.163644 0.999980
+0.497349 0.999980
+1.252407 0.722460
+0.750477 0.999980
+0.507701 0.722460
+1.006779 0.999980
+0.333333 0.722460
+0.832780 0.999980
+1.165408 0.722460
+0.663293 0.999980
+1.049824 0.722460
+0.547464 0.999980
+0.101676 0.722460
+0.601614 0.999980
+0.016364 0.722460
+0.516483 0.999980
+0.022192 0.771570
+0.118019 0.901722
+0.275832 0.983880
+</float_array>
+          <technique_common>
+            <accessor source="#engine_floor_005-UV0-array" count="34" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="engine_floor_005-VERTEX">
+          <input semantic="POSITION" source="#engine_floor_005-POSITION"/>
+        </vertices>
+        <triangles count="28" material="blinn2SG">
+          <input semantic="VERTEX" offset="0" source="#engine_floor_005-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#engine_floor_005-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#engine_floor_005-UV0"/>
+          <p> 7 0 11 4 1 4 6 2 9 1 3 1 6 4 10 4 5 6 4 6 6 0 7 0 1 8 1 1 9 1 11 10 18 14 11 24 14 12 23 11 13 17 12 14 20 12 15 20 13 16 22 14 17 23 1 18 1 5 19 5 8 20 13 8 21 12 5 22 7 3 23 3 3 24 3 9 25 15 8 26 12 9 27 14 3 28 8 2 29 2 2 30 2 10 31 16 9 32 14 1 33 1 8 34 13 11 35 18 11 36 17 8 37 12 9 38 15 9 39 15 12 40 20 11 41 17 15 42 26 6 43 10 1 44 1 1 45 1 14 46 24 15 47 26 15 48 25 14 49 23 13 50 22 13 51 22 16 52 28 15 53 25 6 54 9 15 55 25 16 56 28 6 57 9 16 58 28 17 59 30 7 60 11 6 61 9 17 62 30 17 63 29 16 64 27 18 65 31 16 66 27 13 67 21 19 68 32 19 69 32 18 70 31 16 71 27 13 72 21 12 73 19 20 74 33 20 75 33 19 76 32 13 77 21 12 78 19 9 79 14 10 80 16 10 81 16 20 82 33 12 83 19</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="engine_floor_005" id="engine_floor_005" layer="engineroom_floor_03_corner" sid="engine_floor_005">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#engine_floor_005-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn2SG" target="#blinn2SG"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

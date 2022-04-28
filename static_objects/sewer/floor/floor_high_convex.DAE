@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-03-14T13:42:02Z</created>
+    <keywords></keywords>
+    <modified>2012-03-14T13:42:02Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #1-image" name="Map #1">
+      <init_from>file://D:\amnesia_raw\StaticObjects\sewers\wall_tunnel.psd</init_from>
+    </image>
+    <image id="Map #7-image" name="Map #7">
+      <init_from>file://D:\amnesia_raw\StaticObjects\sewers\floor_corners.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #1" name="Material #1">
+      <instance_effect url="#Material #1-fx"/>
+    </material>
+    <material id="Material #7" name="Material #7">
+      <instance_effect url="#Material #7-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #1-fx" name="Material #1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #7-fx" name="Material #7">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #7-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="floor_high_corner_convex_brick-lib" name="floor_high_corner_convex_brickMesh">
+      <mesh>
+        <source id="floor_high_corner_convex_brick-POSITION">
+          <float_array id="floor_high_corner_convex_brick-POSITION-array" count="18">
+-1.778386 -1.778386 -2.500000
+-1.778386 -1.778386 1.900000
+-1.778386 -0.000000 -2.500000
+-1.778386 -0.000000 1.900000
+-0.000000 -1.778386 1.900000
+-0.000000 -1.778386 -2.500000
+</float_array>
+          <technique_common>
+            <accessor source="#floor_high_corner_convex_brick-POSITION-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor_high_corner_convex_brick-Normal0">
+          <float_array id="floor_high_corner_convex_brick-Normal0-array" count="36">
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-0.707107 -0.707107 0.000000
+-0.707107 -0.707107 0.000000
+-0.707107 -0.707107 0.000000
+-1.000000 0.000000 0.000000
+-0.707107 -0.707107 0.000000
+-0.707107 -0.707107 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.000000 -1.000000 0.000000
+-0.707107 -0.707107 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#floor_high_corner_convex_brick-Normal0-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor_high_corner_convex_brick-UV0">
+          <float_array id="floor_high_corner_convex_brick-UV0-array" count="12">
+0.500000 0.977778
+-0.000000 0.977778
+-0.000000 0.000000
+0.500000 0.000000
+1.000000 0.000000
+1.000000 0.977778
+</float_array>
+          <technique_common>
+            <accessor source="#floor_high_corner_convex_brick-UV0-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="floor_high_corner_convex_brick-VERTEX">
+          <input semantic="POSITION" source="#floor_high_corner_convex_brick-POSITION"/>
+        </vertices>
+        <triangles count="4" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#floor_high_corner_convex_brick-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#floor_high_corner_convex_brick-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#floor_high_corner_convex_brick-UV0"/>
+          <p> 3 0 1 2 1 2 0 2 3 0 3 3 1 4 0 3 5 1 1 6 0 0 7 3 5 8 4 5 9 4 4 10 5 1 11 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="floor_high_corner_convex-lib" name="floor_high_corner_convexMesh">
+      <mesh>
+        <source id="floor_high_corner_convex-POSITION">
+          <float_array id="floor_high_corner_convex-POSITION-array" count="42">
+-1.778386 -1.778386 -2.500000
+-1.778386 -1.778386 1.900000
+-1.678386 -1.678386 1.999523
+-1.753386 -1.753386 1.975000
+-1.778386 -0.000000 -2.500000
+-1.778386 -0.000000 1.900000
+-1.753386 -0.000000 1.975000
+-1.678386 -0.000000 2.000000
+-0.000000 -0.000000 1.999523
+-0.000000 -1.778386 1.900000
+-0.000000 -1.678386 2.000000
+-0.000000 -1.753386 1.975000
+-0.000000 -1.778386 -2.500000
+-0.000000 -0.000000 -2.500000
+</float_array>
+          <technique_common>
+            <accessor source="#floor_high_corner_convex-POSITION-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor_high_corner_convex-Normal0">
+          <float_array id="floor_high_corner_convex-Normal0-array" count="108">
+-0.512879 -0.512879 0.688412
+-0.707046 -0.000146 0.707168
+-0.948683 0.000000 0.316229
+-0.948683 0.000000 0.316229
+-0.639602 -0.639602 0.426403
+-0.512879 -0.512879 0.688412
+-0.119026 -0.119026 0.985731
+-0.160037 -0.000280 0.987111
+-0.707046 -0.000146 0.707168
+-0.707046 -0.000146 0.707168
+-0.512879 -0.512879 0.688412
+-0.119026 -0.119026 0.985731
+-0.119026 -0.119026 0.985731
+-0.000280 -0.160038 0.987111
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.160037 -0.000280 0.987111
+-0.119026 -0.119026 0.985731
+-0.512879 -0.512879 0.688412
+-0.639602 -0.639602 0.426403
+-0.000000 -0.948682 0.316232
+-0.000000 -0.948682 0.316232
+-0.000146 -0.707045 0.707168
+-0.512879 -0.512879 0.688412
+-0.119026 -0.119026 0.985731
+-0.512879 -0.512879 0.688412
+-0.000146 -0.707045 0.707168
+-0.000146 -0.707045 0.707168
+-0.000280 -0.160038 0.987111
+-0.119026 -0.119026 0.985731
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#floor_high_corner_convex-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor_high_corner_convex-UV0">
+          <float_array id="floor_high_corner_convex-UV0-array" count="28">
+0.543887 0.979933
+1.000000 0.980181
+1.000000 0.999379
+0.523852 1.000000
+0.563408 0.960380
+1.000000 0.960699
+0.563736 0.524711
+1.000000 0.524711
+0.523852 0.524711
+0.544252 0.524711
+0.533713 0.461008
+0.533713 0.000000
+0.994722 0.000000
+0.994722 0.461008
+</float_array>
+          <technique_common>
+            <accessor source="#floor_high_corner_convex-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="floor_high_corner_convex-VERTEX">
+          <input semantic="POSITION" source="#floor_high_corner_convex-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #7">
+          <input semantic="VERTEX" offset="0" source="#floor_high_corner_convex-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#floor_high_corner_convex-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#floor_high_corner_convex-UV0"/>
+          <p> 3 0 0 6 1 1 5 2 2 5 3 2 1 4 3 3 5 0 2 6 4 7 7 5 6 8 1 6 9 1 3 10 0 2 11 4 2 12 4 10 13 6 8 14 7 8 15 7 7 16 5 2 17 4 3 18 0 1 19 3 9 20 8 9 21 8 11 22 9 3 23 0 2 24 4 3 25 0 11 26 9 11 27 9 10 28 6 2 29 4 0 30 10 4 31 11 13 32 12 13 33 12 12 34 13 0 35 10</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="floor_high_corner_convex_brick" id="floor_high_corner_convex_brick" layer="floor" sid="floor_high_corner_convex_brick">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#floor_high_corner_convex_brick-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="floor_high_corner_convex" id="floor_high_corner_convex" layer="floor" sid="floor_high_corner_convex">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#floor_high_corner_convex-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #7" target="#Material #7"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

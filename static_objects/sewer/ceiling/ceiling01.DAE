@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-02-20T11:16:42Z</created>
+    <keywords></keywords>
+    <modified>2012-02-20T11:16:42Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #2-image" name="Map #2">
+      <init_from>file://D:\amnesia_raw\StaticObjects\sewers\ceiling01.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #2" name="Material #2">
+      <instance_effect url="#Material #2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #2-fx" name="Material #2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="ceiling01-lib" name="ceiling01Mesh">
+      <mesh>
+        <source id="ceiling01-POSITION">
+          <float_array id="ceiling01-POSITION-array" count="42">
+-3.465822 2.000000 5.999995
+-2.634064 2.000000 5.913658
+-1.838433 2.000000 5.656277
+-1.113700 2.000000 5.239097
+-0.491542 2.000000 4.680355
+-0.000000 2.000000 4.000000
+-0.000000 -2.000000 4.000000
+-3.465822 -2.000000 5.999995
+-2.634064 -2.000000 5.913658
+-1.838433 -2.000000 5.656277
+-1.113700 -2.000000 5.239097
+-0.491542 -2.000000 4.680355
+-4.000000 2.000000 5.999995
+-4.000000 -2.000000 5.999995
+</float_array>
+          <technique_common>
+            <accessor source="#ceiling01-POSITION-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ceiling01-Normal0">
+          <float_array id="ceiling01-Normal0-array" count="108">
+-0.051692 0.000000 -0.998663
+-0.206650 0.000000 -0.978415
+-0.206650 0.000000 -0.978415
+-0.206650 0.000000 -0.978415
+-0.051692 0.000000 -0.998663
+-0.051692 0.000000 -0.998663
+-0.405558 0.000000 -0.914069
+-0.586741 0.000000 -0.809774
+-0.586741 0.000000 -0.809774
+-0.586741 0.000000 -0.809774
+-0.405558 0.000000 -0.914069
+-0.405558 0.000000 -0.914069
+-0.405558 0.000000 -0.914069
+-0.405558 0.000000 -0.914069
+-0.206650 0.000000 -0.978415
+-0.206650 0.000000 -0.978415
+-0.206650 0.000000 -0.978415
+-0.405558 0.000000 -0.914069
+-0.743604 0.000000 -0.668620
+-0.743604 0.000000 -0.668620
+-0.586741 0.000000 -0.809774
+-0.586741 0.000000 -0.809774
+-0.586741 0.000000 -0.809774
+-0.743604 0.000000 -0.668620
+-0.810581 0.000000 -0.585627
+-0.810581 0.000000 -0.585627
+-0.743604 0.000000 -0.668620
+-0.743604 0.000000 -0.668620
+-0.743604 0.000000 -0.668620
+-0.810581 0.000000 -0.585627
+-0.051692 0.000000 -0.998663
+-0.051692 0.000000 -0.998663
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.051692 0.000000 -0.998663
+</float_array>
+          <technique_common>
+            <accessor source="#ceiling01-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ceiling01-UV0">
+          <float_array id="ceiling01-UV0-array" count="28">
+0.000000 0.891626
+0.000000 0.714742
+1.000000 0.714742
+1.000000 0.891626
+0.000000 0.529068
+-0.000000 0.342719
+1.000000 0.342719
+1.000000 0.529068
+-0.000000 0.163840
+1.000000 0.163840
+-0.000000 0.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#ceiling01-UV0-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ceiling01-VERTEX">
+          <input semantic="POSITION" source="#ceiling01-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #2">
+          <input semantic="VERTEX" offset="0" source="#ceiling01-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#ceiling01-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#ceiling01-UV0"/>
+          <p> 0 0 0 1 1 1 8 2 2 8 3 2 7 4 3 0 5 0 2 6 4 3 7 5 10 8 6 10 9 6 9 10 7 2 11 4 2 12 4 9 13 7 8 14 2 8 15 2 1 16 1 2 17 4 4 18 8 11 19 9 10 20 6 10 21 6 3 22 5 4 23 8 5 24 10 6 25 11 11 26 9 11 27 9 4 28 8 5 29 10 0 30 0 7 31 3 13 32 12 13 33 12 12 34 13 0 35 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="ceiling01" id="ceiling01" layer="ceiling" sid="ceiling01">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#ceiling01-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #2" target="#Material #2"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

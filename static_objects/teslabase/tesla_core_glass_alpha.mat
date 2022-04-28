@@ -1,0 +1,18 @@
+<Material>
+    <Main BlendMode="Alpha" DepthTest="true" PhysicsMaterial="Default" Type="translucent" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/pig/Game/redist/static_objects/teslabase/tesla_core_glass_alpha.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="0" AnimMode="None" Compress="false" File="C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia SVN/pig/Game/redist/static_objects/teslabase/tesla_core_glass_n.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+    <SpecificVariables>
+        <Var Name="Refraction" Value="true" />
+        <Var Name="RefractionEdgeCheck" Value="false" />
+        <Var Name="RefractionNormals" Value="false" />
+        <Var Name="RefractionScale" Value="0.025" />
+        <Var Name="FrenselBias" Value="0.025" />
+        <Var Name="FrenselPow" Value="8" />
+        <Var Name="RimLightMul" Value="0" />
+        <Var Name="RimLightPow" Value="8" />
+        <Var Name="AffectedByLightLevel" Value="false" />
+    </SpecificVariables>
+</Material>

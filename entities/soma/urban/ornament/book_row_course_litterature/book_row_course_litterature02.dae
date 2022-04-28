@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Administrator</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=1;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/Administrator/Desktop/book/ttt.ma</source_data>
+    </contributor>
+    <contributor>
+      <author>Administrator</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=1;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/Administrator/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-02-27T06:37:32Z</created>
+    <modified>2012-02-27T07:11:53Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="book_row_course_litterature02_1" name="book_row_course_litterature02_1">
+      <init_from>file:///E:/book_row_course_litterature/book_row_course_litterature02.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn5" name="blinn5">
+      <instance_effect url="#blinn5-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn5-fx">
+      <profile_COMMON>
+        <newparam sid="book_row_course_litterature02_1-surface">
+          <surface type="2D">
+            <init_from>book_row_course_litterature02_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="book_row_course_litterature02_1-sampler">
+          <sampler2D>
+            <source>book_row_course_litterature02_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="book_row_course_litterature02_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="book_row_course_litterature0Shape2" name="book_row_course_litterature0Shape2">
+      <mesh>
+        <source id="book_row_course_litterature0Shape2-positions" name="position">
+          <float_array id="book_row_course_litterature0Shape2-positions-array" count="216">5.3346 23.0847 -5.9079 8.0568 23.0847 -5.8435 8.4514 0.0975 -6.1805 4.9564 0.0975 -6.2632 4.7287 23.2988 6.7149 8.0022 23.2988 6.8479 4.7287 0.0975 6.7149 8.0022 0.0975 6.8479 4.9564 23.2988 -6.2632 8.4514 23.2988 -6.1805 5.1485 23.2988 -6.2584 8.2594 23.2988 -6.1848 -2.1541 0.1426 5.865 -2.2169 23.0964 5.8272 -4.7965 23.1076 5.8272 -4.7965 0.1426 5.8272 -4.8724 22.9967 -6.7179 -4.8724 0.1688 -6.8041 -4.714 22.9967 -6.7181 -4.6215 22.702 -6.4683 -2.3002 22.702 -6.4683 -2.2077 22.9967 -6.7181 -2.0495 22.9967 -6.7179 -2.0494 0.1688 -6.8041 -4.7007 0.0751 -6.717 -8.0819 0.0751 -6.717 -7.7581 19.2886 -6.4451 -5.0245 19.2886 -6.4451 -7.9805 19.4354 5.4868 -4.8021 19.4354 5.4868 -7.9805 0.0751 5.4868 -4.8021 0.0751 5.4868 -7.8215 19.4354 -6.7264 -4.9611 19.4354 -6.7264 -7.9359 19.4354 -6.717 -4.8467 19.4354 -6.717 -7.8533 0.119 -6.7214 -10.5372 0.119 -6.7214 -10.1409 21.8961 -6.4866 -8.2053 21.8961 -6.4866 -10.375 22.1529 6.1091 -8.0155 22.1529 6.1091 -10.375 0.119 6.1091 -8.0155 0.119 6.1091 -10.5372 22.1529 -6.7214 -7.8533 22.1529 -6.7214 -10.3385 22.1529 -6.7214 -8.0076 22.1529 -6.7214 -2.1466 23.315 6.7345 0.7862 23.315 6.6236 0.5826 23.1189 -6.7124 -1.6693 23.1189 -6.7124 0.96 0.1032 -6.8677 0.7862 0.1032 6.6236 -2.1856 0.1032 6.6236 -2.0467 0.1032 -6.8677 -1.8585 23.315 -6.8662 0.7719 23.315 -6.8662 -2.0467 23.315 -6.8677 0.96 23.315 -6.8677 0.925 0.096 -5.4275 1.3889 21.4635 -5.2057 4.5304 21.4635 -5.2057 4.9431 0.096 -5.4275 0.7934 21.8066 5.9827 4.9518 21.8066 5.9827 0.8231 0.096 5.9827 4.8446 0.096 5.9827 1.1304 21.8066 -5.4275 4.7888 21.8066 -5.4275 0.895 21.8066 -5.4275 5.0243 21.8066 -5.4275</float_array>
+          <technique_common>
+            <accessor source="#book_row_course_litterature0Shape2-positions-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="book_row_course_litterature0Shape2-normals" name="normal">
+          <float_array id="book_row_course_litterature0Shape2-normals-array" count="318">0.59198 0.608263 -0.528749 -0.38405 0.669566 -0.635758 0.255662 -0.261942 -0.930604 -0.245414 -0.602199 -0.75969 0.196247 0.980551 -0.002672 -0.265644 0.964005 -0.011325 0.877901 0 0.478843 -0.479056 0 0.877784 0.411651 0 0.911342 -0.904142 0 0.427232 -0.999846 0 -0.017542 -0.999846 0 -0.017542 0.999406 0 0.034458 0.999406 0 0.034458 0 -1 0 0 -1 0 0.596058 0.606689 -0.525968 -0.571002 0.605285 -0.554605 0.017661 0.707107 -0.706886 0.015831 0.707106 -0.70693 -0.014303 0.001607 0.999896 -0.007151 0.000803 0.999974 -0.707513 0.000556 0.706701 -0.704965 0 0.709243 -0.999982 -0.000011 0.006029 -0.999982 -0.000022 0.006008 0.384068 0.923178 -0.015302 0.708481 0.488211 -0.509612 -0.000891 0.705314 -0.708894 0.57284 0.699186 -0.427776 -0.569515 0.398003 -0.719199 -0.277016 0.96061 -0.022143 -0.708664 0.485998 -0.511469 0.000892 0.705631 -0.708579 0.258493 -0.268751 -0.927876 -0.290144 -0.616782 -0.731708 0.000014 -0.999998 -0.00207 0.000029 -0.999998 -0.002067 -0.372427 0.00065 -0.928061 0.266758 0.004697 -0.963752 -0.579822 0.440377 -0.685474 0.56993 0.731163 -0.37494 -0.24785 0.930696 0.269027 0.278573 0.739813 0.612433 0 -0.894427 0.447214 0 -0.447214 0.894427 0 -1 0 0 -1 0 0.697006 0.542766 -0.468602 -0.69701 0.542763 -0.4686 -0.057885 0.707325 -0.704515 0.057884 0.707325 -0.704514 -0.224058 -0.586434 -0.778391 0.197516 -0.255604 -0.94639 -0.445469 0.465845 -0.764556 0.446565 0.751873 -0.485042 -0.214473 0.976666 -0.011163 0.290118 0.956968 -0.006645 -0.889868 0 0.456219 0.702623 0 0.711562 -0.444934 0 0.895563 0.702623 0 0.711562 -0.99992 0 0.01264 -0.99992 0 0.01264 0.99992 0 0.01264 0.99992 0 0.01264 0 -1 0 0 -1 0 0.559832 0.578338 -0.593392 -0.560007 0.57793 -0.593624 0 0.707107 -0.707107 0 0.707107 -0.707107 0.255322 0.966856 0.000184 -0.191204 0.981521 -0.007582 0.382102 0.77004 -0.510917 -0.380684 0.481492 -0.789459 -0.21039 -0.330548 -0.92004 0 -1 0 0.147189 -0.461199 -0.875003 0 -1 0 0.482974 0.606872 -0.631223 -0.483433 0.603073 -0.634504 0.005636 0.707107 -0.707084 -0.005639 0.707107 -0.707084 0.458353 -0.002136 0.888768 0.88978 0 0.456389 0.999917 0 0.012881 0.999917 0 0.012881 -0.703601 -0.001119 0.710594 -0.696261 -0.002259 0.717785 -0.999947 0 -0.010295 -0.999961 0.000857 -0.008819 0.227835 0.001502 -0.973699 0.350736 0.640388 -0.683291 -0.169708 0.004232 -0.985485 -0.514982 0.575131 -0.635624 -0.208593 0.945718 0.249213 0.234189 0.772797 0.589865 0 -0.707107 0.707107 0 -0.707107 0.707107 0 -1 0 0 -1 0 0.519132 0.579591 -0.628153 -0.519633 0.576756 -0.630345 0 0.707107 -0.707107 0 0.707107 -0.707107</float_array>
+          <technique_common>
+            <accessor source="#book_row_course_litterature0Shape2-normals-array" count="106" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="book_row_course_litterature0Shape2-map1" name="map1">
+          <float_array id="book_row_course_litterature0Shape2-map1-array" count="212">0.204953 0.014595 0.204941 0.038829 0.106955 0.043316 0.107104 0.010091 0.258347 0.010091 0.258347 0.043316 0.604337 0.984578 0.575802 0.984578 0.576516 0.584988 0.605052 0.584988 0.462742 0.984578 0.463457 0.584988 0.717397 0.984578 0.718111 0.584987 0.010998 0.043316 0.010998 0.010091 0.204848 0.011725 0.204832 0.041682 0.204846 0.010091 0.204828 0.043316 0.853958 0.598482 0.854368 0.982562 0.833445 0.982562 0.832383 0.598482 0.727594 0.982562 0.725809 0.598482 0.990021 0.980735 0.988573 0.847413 0.989455 0.847385 0.986987 0.846093 0.974079 0.846376 0.971731 0.980735 0.972767 0.847762 0.971165 0.847772 0.98833 0.592019 0.970041 0.592394 0.969401 0.443593 0.98769 0.443593 0.890805 0.443593 0.90805 0.443593 0.90641 0.610183 0.891866 0.610628 0.90805 0.714037 0.890805 0.714274 0.90805 0.872087 0.890805 0.871494 0.90805 0.980735 0.890805 0.980735 0.907459 0.609463 0.891042 0.609977 0.90805 0.609473 0.890805 0.610035 0.882315 0.014292 0.882379 0.060221 0.706605 0.055451 0.70625 0.024712 0.635279 0.064657 0.635077 0.018731 0.903519 0.178097 0.915999 0.178097 0.91576 0.404799 0.90328 0.404799 0.832083 0.404799 0.832527 0.178097 0.986992 0.177843 0.986957 0.404544 0.988711 0.012421 0.988912 0.058347 0.705792 0.060336 0.70532 0.019855 0.705803 0.063398 0.705274 0.017478 0.259538 0.097743 0.259538 0.136927 0.195225 0.131479 0.195368 0.103193 0.077747 0.136928 0.01108 0.136928 0.01108 0.097743 0.077932 0.097743 0.195803 0.100059 0.195627 0.134614 0.195811 0.097743 0.195611 0.136928 0.719862 0.543331 0.719716 0.164455 0.823908 0.164296 0.824052 0.543172 0.698334 0.543366 0.697888 0.164488 0.594143 0.543858 0.593697 0.164983 0.93501 0.445778 0.932171 0.639048 0.917801 0.638567 0.914962 0.445778 0.93501 0.731341 0.914962 0.730797 0.93501 0.882584 0.914962 0.882047 0.93501 0.980735 0.914962 0.980735 0.933907 0.640711 0.916065 0.640102 0.93501 0.640787 0.914962 0.640102</float_array>
+          <technique_common>
+            <accessor source="#book_row_course_litterature0Shape2-map1-array" count="106" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="book_row_course_litterature0Shape2-vertices">
+          <input semantic="POSITION" source="#book_row_course_litterature0Shape2-positions"/>
+        </vertices>
+        <triangles material="blinn5SG" count="110">
+          <input semantic="VERTEX" source="#book_row_course_litterature0Shape2-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#book_row_course_litterature0Shape2-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#book_row_course_litterature0Shape2-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 3 2 3 3 2 3 1 1 1 2 3 2 0 0 0 4 4 4 1 1 1 1 1 1 4 4 4 5 5 5 5 6 6 4 7 7 7 8 9 7 8 9 4 7 7 6 9 8 4 7 7 8 10 10 6 9 8 6 9 8 8 10 10 3 11 11 9 12 12 5 6 6 2 13 13 2 13 13 5 6 6 7 8 9 3 2 3 2 3 2 6 14 15 6 14 15 2 3 2 7 15 14 0 0 0 10 16 16 4 4 4 10 16 16 0 0 0 3 2 3 1 1 1 11 17 17 2 3 2 11 17 17 1 1 1 5 5 5 10 16 16 8 18 18 4 4 4 8 18 18 10 16 16 3 2 3 11 17 17 9 19 19 2 3 2 9 19 19 11 17 17 5 5 5 12 20 20 13 21 21 15 22 23 15 22 23 13 21 21 14 23 22 14 23 22 16 24 24 15 22 23 15 22 23 16 24 24 17 25 25 14 26 26 18 27 27 16 28 28 19 29 29 18 27 27 14 26 26 20 30 30 19 29 29 13 31 31 13 31 31 19 29 29 14 26 26 21 32 32 20 30 30 13 31 31 22 33 33 21 32 32 13 31 31 17 34 34 23 35 35 15 36 37 15 36 37 23 35 35 12 37 36 17 34 34 16 28 28 18 27 27 17 34 34 18 27 27 19 29 29 23 35 35 17 34 34 20 30 30 20 30 30 17 34 34 19 29 29 23 35 35 20 30 30 21 32 32 23 35 35 21 32 32 22 33 33 24 38 38 25 39 39 27 40 41 27 40 41 25 39 39 26 41 40 27 40 41 26 41 40 29 42 43 29 42 43 26 41 40 28 43 42 30 44 44 31 45 45 28 43 42 28 43 42 31 45 45 29 42 43 25 46 46 24 47 47 30 44 44 30 44 44 24 47 47 31 45 45 26 41 40 32 48 48 28 43 42 25 39 39 32 48 48 26 41 40 24 38 38 27 40 41 33 49 49 33 49 49 27 40 41 29 42 43 28 43 42 32 48 48 34 50 50 25 39 39 34 50 50 32 48 48 35 51 51 24 38 38 33 49 49 33 49 49 29 42 43 35 51 51 36 52 52 37 53 53 39 54 55 39 54 55 37 53 53 38 55 54 39 54 55 38 55 54 41 56 57 41 56 57 38 55 54 40 57 56 42 58 58 43 59 59 40 60 61 40 60 61 43 59 59 41 61 60 40 60 61 44 62 62 42 58 58 42 58 58 44 62 62 37 63 63 36 64 64 45 65 65 43 59 59 43 59 59 45 65 65 41 61 60 37 53 53 36 52 52 42 66 67 42 66 67 36 52 52 43 67 66 38 55 54 46 68 68 40 57 56 37 53 53 46 68 68 38 55 54 36 52 52 39 54 55 47 69 69 47 69 69 39 54 55 41 56 57 46 68 68 44 70 70 40 57 56 37 53 53 44 70 70 46 68 68 45 71 71 36 52 52 47 69 69 45 71 71 47 69 69 41 56 57 48 72 72 49 73 73 51 74 75 51 74 75 49 73 73 50 75 74 52 76 76 53 77 77 55 78 79 55 78 79 53 77 77 54 79 78 51 74 75 56 80 80 48 72 72 57 81 81 50 75 74 49 73 73 48 72 72 56 80 80 58 82 82 57 81 81 49 73 73 59 83 83 51 74 75 55 78 79 56 80 80 51 74 75 50 75 74 55 78 79 55 78 79 50 75 74 52 76 76 57 81 81 52 76 76 50 75 74 52 76 76 57 81 81 59 83 83 49 84 84 53 85 85 59 86 87 59 86 87 53 85 85 52 87 86 53 85 85 49 84 84 54 88 89 54 88 89 49 84 84 48 89 88 55 90 91 54 88 89 58 91 90 58 91 90 54 88 89 48 89 88 58 82 82 56 80 80 55 78 79 60 92 92 61 93 93 63 94 95 63 94 95 61 93 93 62 95 94 62 95 94 61 93 93 65 96 97 65 96 97 61 93 93 64 97 96 65 96 97 64 97 96 67 98 99 67 98 99 64 97 96 66 99 98 66 99 98 60 100 100 67 98 99 67 98 99 60 100 100 63 101 101 61 93 93 68 102 102 64 97 96 68 102 102 61 93 93 60 92 92 62 95 94 69 103 103 63 94 95 69 103 103 62 95 94 65 96 97 68 102 102 70 104 104 64 97 96 70 104 104 68 102 102 60 92 92 69 103 103 71 105 105 63 94 95 71 105 105 69 103 103 65 96 97</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="book_row_course_litterature02" name="book_row_course_litterature02" type="NODE">
+        <translate sid="rotatePivot">-1.043 11.695 -0.0099</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">1.043 -11.695 0.0099</translate>
+        <translate sid="scalePivot">-1.043 11.695 -0.0099</translate>
+        <translate sid="scalePivotInverse">1.043 -11.695 0.0099</translate>
+        <instance_geometry url="#book_row_course_litterature0Shape2">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn5SG" target="#blinn5">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

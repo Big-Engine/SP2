@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-02-21T15:21:19Z</created>
+    <keywords></keywords>
+    <modified>2012-02-21T15:21:19Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #4-image" name="Map #4">
+      <init_from>file://D:\amnesia_raw\StaticObjects\sewers\floor.psd</init_from>
+    </image>
+    <image id="Map #1-image" name="Map #1">
+      <init_from>file://D:\amnesia_raw\StaticObjects\sewers\wall_tunnel.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #4" name="Material #4">
+      <instance_effect url="#Material #4-fx"/>
+    </material>
+    <material id="Material #1" name="Material #1">
+      <instance_effect url="#Material #1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #4-fx" name="Material #4">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #4-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #1-fx" name="Material #1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="floor001-lib" name="floor001Mesh">
+      <mesh>
+        <source id="floor001-POSITION">
+          <float_array id="floor001-POSITION-array" count="36">
+-1.678386 -2.000000 2.000000
+-1.778386 2.000000 -2.500000
+0.000056 2.000000 2.000000
+0.000056 -2.000000 2.000000
+-1.778386 2.000000 1.900000
+0.000056 -2.000000 -2.500000
+-1.778386 -2.000000 -2.500000
+0.000056 2.000000 -2.500000
+-1.778386 -2.000000 1.900000
+-1.678386 2.000000 2.000000
+-1.753386 -2.000000 1.975000
+-1.753386 2.000000 1.975000
+</float_array>
+          <technique_common>
+            <accessor source="#floor001-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor001-Normal0">
+          <float_array id="floor001-Normal0-array" count="72">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.160182 0.000000 0.987087
+-0.160182 0.000000 0.987087
+-0.160182 0.000000 0.987087
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.707107 0.000000 0.707107
+-0.160182 0.000000 0.987087
+-0.160182 0.000000 0.987087
+-0.160182 0.000000 0.987087
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.948683 0.000000 0.316228
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.707107 0.000000 0.707107
+-0.948683 0.000000 0.316228
+-0.948683 0.000000 0.316228
+</float_array>
+          <technique_common>
+            <accessor source="#floor001-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor001-UV0">
+          <float_array id="floor001-UV0-array" count="24">
+1.000000 1.000000
+-0.000000 1.000000
+-0.000000 0.563294
+1.000000 0.587849
+1.000000 0.468974
+0.000000 0.468974
+0.000000 0.000000
+1.000000 0.000000
+1.000000 0.563294
+-0.000000 0.587849
+1.000000 0.575571
+-0.000000 0.575571
+</float_array>
+          <technique_common>
+            <accessor source="#floor001-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="floor001-VERTEX">
+          <input semantic="POSITION" source="#floor001-POSITION"/>
+        </vertices>
+        <triangles count="8" material="Material #4">
+          <input semantic="VERTEX" offset="0" source="#floor001-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#floor001-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#floor001-UV0"/>
+          <p> 3 0 0 2 1 1 9 2 9 9 3 9 0 4 3 3 5 0 5 6 5 6 7 6 1 8 7 1 9 7 7 10 4 5 11 5 10 12 10 0 13 3 9 14 9 9 15 9 11 16 11 10 17 10 8 18 8 10 19 10 11 20 11 11 21 11 4 22 2 8 23 8</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="floor_high_brick-lib" name="floor_high_brickMesh">
+      <mesh>
+        <source id="floor_high_brick-POSITION">
+          <float_array id="floor_high_brick-POSITION-array" count="24">
+-1.778386 2.000000 -2.500000
+0.000056 2.000000 2.000000
+0.000056 -2.000000 2.000000
+-1.778386 2.000000 1.900000
+0.000056 -2.000000 -2.500000
+-1.778386 -2.000000 -2.500000
+0.000056 2.000000 -2.500000
+-1.778386 -2.000000 1.900000
+</float_array>
+          <technique_common>
+            <accessor source="#floor_high_brick-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor_high_brick-Normal0">
+          <float_array id="floor_high_brick-Normal0-array" count="36">
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#floor_high_brick-Normal0-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floor_high_brick-UV0">
+          <float_array id="floor_high_brick-UV0-array" count="16">
+1.000000 0.977778
+-0.000000 0.977778
+-0.000000 0.000000
+1.000000 0.000000
+-0.000000 1.000000
+1.000000 1.000000
+1.000000 0.000000
+-0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#floor_high_brick-UV0-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="floor_high_brick-VERTEX">
+          <input semantic="POSITION" source="#floor_high_brick-POSITION"/>
+        </vertices>
+        <triangles count="4" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#floor_high_brick-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#floor_high_brick-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#floor_high_brick-UV0"/>
+          <p> 0 0 2 7 1 0 3 2 1 7 3 0 0 4 2 5 5 3 2 6 5 4 7 6 1 8 4 1 9 4 4 10 6 6 11 7</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="floor001" id="floor001" layer="floor" sid="floor001">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#floor001-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #4" target="#Material #4"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="floor_high_brick" id="floor_high_brick" layer="floor" sid="floor_high_brick">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#floor_high_brick-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

@@ -1,0 +1,41 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/shelf_wood/shelf_wood.dae">
+            <SubMesh ID="0" Material="" Name="shelf_wood" Rotation="0 0 0" Scale="1.5 1.5 1.5" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.000704214 1.26477 0.151633" Rotation="0 0 0" Scale="1.91074 0.11366 0.88703" ShapeType="Box" WorldPos="0.000234738 2.6524 -0.000659704" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.000704214 0.593932 0.171456" Rotation="0 0 0" Scale="1.69617 0.0519513 0.724257" ShapeType="Box" WorldPos="0.000234738 1.98156 0.0191631" />
+            <Shape ID="3" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.000704214 -0.0115418 0.171456" Rotation="0 0 0" Scale="1.69617 0.0519513 0.724257" ShapeType="Box" WorldPos="0.000234738 1.37609 0.0191631" />
+            <Shape ID="4" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.000704214 -0.604445 0.171456" Rotation="0 0 0" Scale="1.69617 0.0519513 0.724257" ShapeType="Box" WorldPos="0.000234738 0.783184 0.0191631" />
+            <Shape ID="5" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.000704214 -1.26476 0.171456" Rotation="0 0 0" Scale="1.69617 0.0519513 0.724257" ShapeType="Box" WorldPos="0.000234738 0.122865 0.0191631" />
+            <Shape ID="6" Name="Shape_6" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="0.883427 -0.0784028 0.152822" Rotation="0 -0 1.5708" Scale="2.61234 0.0805163 0.795105" ShapeType="Box" WorldPos="0.882958 1.30923 0.00052976" />
+            <Shape ID="7" Name="Shape_7" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.883427 -0.0784028 0.153048" Rotation="0 -0 1.5708" Scale="2.61234 0.0805163 0.795105" ShapeType="Box" WorldPos="-0.883897 1.30923 0.000755032" />
+            <Shape ID="8" Name="Shape_8" RelativeRotation="1.5708 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.000704214 -0.0404288 -0.171456" Rotation="1.5708 -0 0" Scale="1.69617 0.111332 2.52629" ShapeType="Box" WorldPos="0.000234738 1.3472 -0.323748" />
+            <Shape ID="10" Name="Shape_9" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="1.85409 2.74448 0.823703" ShapeType="Box" WorldPos="-0.000564814 1.39198 0.00526977" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="9" LinearDamping="0.1" Mass="0" Material="Wood Robust" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1.5 1.5 1.5" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.000469476 1.38763 -0.152293">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="6" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="2" />
+                <Shape ID="7" />
+                <Shape ID="1" />
+                <Shape ID="8" />
+            </Body>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="false" ContinuousCollision="false" HasGravity="false" ID="11" LinearDamping="0.1" Mass="0" Material="Wood Robust" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1.5 1.5 1.5" UseSurfaceEffects="false" Volatile="false" WorldPos="-0.000564814 1.39198 0.00526977">
+                <Shape ID="10" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

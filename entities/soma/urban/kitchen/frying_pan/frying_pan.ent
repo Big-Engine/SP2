@@ -1,0 +1,83 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/kitchen/frying_pan/frying_pan.dae">
+            <SubMesh ID="0" Name="frying_pan" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="464" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" CreStamp="0" ModStamp="0" WorldPos="-0.0891334 0.0323495 -0.0164089" Rotation="0 0 0" Scale="0.138571 0.0164837 0" RelativeTranslation="-0.0523414 0.000219699 -0.000264149" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="2" Name="Shape_2" CreStamp="0" ModStamp="0" WorldPos="0.16211 0.0515602 -0.0142628" Rotation="0 -0 0.187357" Scale="0.242831 0.0159118 0.0250417" RelativeTranslation="0.198902 0.0194304 0.00188195" RelativeRotation="0 -0 0.187357" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="3" Name="Shape_3" CreStamp="0" ModStamp="0" WorldPos="-0.235694 0.0327955 -0.0180267" Rotation="0 0 0" Scale="0.0257193 0.0114597 0.0742155" RelativeTranslation="-0.198902 0.000665698 -0.00188195" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="4" Name="Shape_4" CreStamp="0" ModStamp="0" WorldPos="-0.0891334 0.0126994 -0.0164089" Rotation="0 0 0" Scale="0.130494 0.0227948 0" RelativeTranslation="-0.0523414 -0.0194304 -0.000264149" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+        </Shapes>
+        <Bodies>
+            <Body ID="5" Name="Body_1" CreStamp="0" ModStamp="1439294004" WorldPos="-0.036792 0.0321298 -0.0161448" Rotation="0 0 0" Scale="1 1 1" Material="Metal Saucepan" Mass="3" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="12" MaxLinearSpeed="12" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="false" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="4" />
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Grab">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="NoGravityWhenUnderwater" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="Grab_UseCustomOffset" Value="false" />
+        <Var Name="Grab_CustomPositionOffset" Value="0 0 0" />
+        <Var Name="Grab_CustomRotationOffset" Value="0 0 0" />
+        <Var Name="Grab_UseCustomDepth" Value="false" />
+        <Var Name="Grab_CustomDepth" Value="1.2" />
+        <Var Name="Grab_MassMul" Value="0.1" />
+        <Var Name="Grab_MinDepth" Value="0.8" />
+        <Var Name="Grab_MaxDepth" Value="2" />
+        <Var Name="Grab_ForceMul" Value="1" />
+        <Var Name="Grab_TorqueMul" Value="1" />
+        <Var Name="Grab_ThrowImpulse" Value="5.0" />
+        <Var Name="Grab_IsHeavy" Value="false" />
+        <Var Name="Grab_CollisionWithPlayer" Value="false" />
+        <Var Name="Grab_InteractOnlyWithMainBody" Value="false" />
+        <Var Name="TextCategory" Value="" />
+        <Var Name="FrontTextEntry" Value="" />
+        <Var Name="BackTextEntry" Value="" />
+        <Var Name="TextRotateOffset" Value="0.0" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,75 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/toilet/toilet_chair/toilet_chair_hand.dae">
+            <SubMesh ID="24" Material="" ModStamp="0" Name="toilet_chair_hand" Rotation="0 0 0" Scale="1 1 1" TriCount="60" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="23" ModStamp="0" Name="Shape_23" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.142049 0.0313096 0.0286212" ShapeType="Box" WorldPos="-0.315111 1.29265 -0.300763" />
+            <Shape ID="26" ModStamp="0" Name="Shape_24" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-3.46332e-009 5.45592e-008 1.66384e-008" Rotation="0 0 0" Scale="0.0502831 0.0110831 0.0101314" ShapeType="Box" WorldPos="-0.271386 1.29061 -0.299232" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="25" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="16" MaxLinearSpeed="16" ModStamp="0" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.315111 1.29265 -0.300763">
+                <Shape ID="23" />
+            </Body>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="27" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="16" MaxLinearSpeed="16" ModStamp="0" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="0.353984 0.353984 0.353984" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.271386 1.29061 -0.299232">
+                <Children>
+                    <Child ID="24" />
+                </Children>
+                <Shape ID="26" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_MovingButton">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="MoveBody" Value="Body_2" />
+        <Var Name="OnPosOffset" Value="0 0 0" />
+        <Var Name="OnRotOffset" Value="0 0 45" />
+        <Var Name="CanOnlyInteractWithMainBody" Value="false" />
+        <Var Name="MinMoveSpeed" Value="0.01" />
+        <Var Name="MaxMoveSpeed" Value="0.02" />
+        <Var Name="MinMoveLength" Value="0.06" />
+        <Var Name="HasInputDirection" Value="false" />
+        <Var Name="InputDirectionToOn" Value="1 0" />
+        <Var Name="ChangeStateAmount" Value="0.3" />
+        <Var Name="SimplePressInteraction" Value="false" />
+        <Var Name="CustomInteractIcon" Value="None" />
+        <Var Name="StateAmountOnSpeed" Value="5" />
+        <Var Name="StateAmountOffSpeed" Value="5" />
+    </UserDefinedVariables>
+</Entity>

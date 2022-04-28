@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-17T13:02:25Z</created>
+    <keywords></keywords>
+    <modified>2012-07-17T13:02:25Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #39-image" name="Map #39">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\factorybase\railings_factory_dirty.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="_04 - Default" name="_04 - Default">
+      <instance_effect url="#_04 - Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_04 - Default-fx" name="_04 - Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #39-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Object114-lib" name="Object114Mesh">
+      <mesh>
+        <source id="Object114-POSITION">
+          <float_array id="Object114-POSITION-array" count="36">
+-0.029935 -0.000002 0.000594
+-0.014935 -0.025982 0.000594
+0.015065 -0.025982 0.000594
+0.030065 -0.000002 0.000594
+0.015065 0.025979 0.000594
+-0.014935 0.025979 0.000594
+-0.029935 -0.000002 4.000003
+-0.014935 -0.025983 4.000003
+0.015065 -0.025983 4.000003
+0.030065 -0.000002 4.000003
+0.015065 0.025979 4.000003
+-0.014935 0.025979 4.000003
+</float_array>
+          <technique_common>
+            <accessor source="#Object114-POSITION-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Object114-Normal0">
+          <float_array id="Object114-Normal0-array" count="108">
+-1.000000 -0.000000 -0.000000
+-0.500001 -0.866025 -0.000000
+-0.500001 -0.866025 -0.000000
+-0.500001 -0.866025 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-0.500001 -0.866025 -0.000000
+-0.500001 -0.866025 -0.000000
+0.500001 -0.866025 -0.000000
+0.500001 -0.866025 -0.000000
+-0.500001 -0.866025 -0.000000
+0.500001 -0.866025 -0.000000
+0.500001 -0.866025 -0.000000
+0.500001 -0.866025 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+0.500001 -0.866025 -0.000000
+1.000000 0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 0.000000 0.000000
+0.500001 0.866025 0.000000
+0.500001 0.866025 0.000000
+1.000000 0.000000 0.000000
+0.500001 0.866025 0.000000
+0.500001 0.866025 0.000000
+-0.500001 0.866025 0.000000
+-0.500001 0.866025 0.000000
+-0.500001 0.866025 0.000000
+0.500001 0.866025 0.000000
+0.500001 0.866025 0.000000
+-0.500001 0.866025 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-0.500001 0.866025 0.000000
+-0.500001 0.866025 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Object114-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Object114-UV0">
+          <float_array id="Object114-UV0-array" count="36">
+0.765947 0.662892
+0.765947 0.721826
+0.765947 0.789879
+0.765947 0.848814
+-0.895157 0.848814
+-0.895157 0.721826
+-0.895157 0.662891
+0.765947 0.603956
+-0.895157 0.789880
+0.765947 0.907749
+-0.895157 0.907748
+-0.895157 0.603956
+0.765947 0.721826
+0.765947 0.789879
+0.765947 0.535903
+-0.895157 0.535902
+-0.895157 0.721827
+-0.895157 0.789879
+</float_array>
+          <technique_common>
+            <accessor source="#Object114-UV0-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Object114-VERTEX">
+          <input semantic="POSITION" source="#Object114-POSITION"/>
+        </vertices>
+        <triangles count="12" material="_04 - Default">
+          <input semantic="VERTEX" offset="0" source="#Object114-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Object114-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Object114-UV0"/>
+          <p> 6 0 6 1 1 1 7 2 5 1 3 1 6 4 6 0 5 0 7 6 16 1 7 12 8 8 17 8 9 17 1 10 12 2 11 13 8 12 8 2 13 2 9 14 4 9 15 4 2 16 2 3 17 3 9 18 4 3 19 3 10 20 10 10 21 10 3 22 3 4 23 9 10 24 15 5 25 7 11 26 11 5 27 7 10 28 15 4 29 14 11 30 11 0 31 0 6 32 6 0 33 0 11 34 11 5 35 7</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Object114" id="Object114" layer="catwalk_factory_support_dirty" sid="Object114">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Object114-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_04 - Default" target="#_04 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

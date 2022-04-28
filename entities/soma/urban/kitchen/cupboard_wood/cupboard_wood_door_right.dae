@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>zaicheng</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/zaicheng/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-01-04T08:44:36Z</created>
+    <modified>2012-01-04T08:44:36Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="cupboard_wood_door_right_1" name="cupboard_wood_door_right_1">
+      <init_from>file:///F:/abc/kitchen/cupboard_wood/cupboard_wood_door_right.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="cupboard_wood_nrm_1" name="cupboard_wood_nrm_1">
+      <init_from>file:///F:/abc/kitchen/cupboard_wood/cupboard_wood_nrm.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="lambert3" name="lambert3">
+      <instance_effect url="#lambert3-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert3-fx">
+      <profile_COMMON>
+        <newparam sid="cupboard_wood_door_right_1-surface">
+          <surface type="2D">
+            <init_from>cupboard_wood_door_right_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="cupboard_wood_door_right_1-sampler">
+          <sampler2D>
+            <source>cupboard_wood_door_right_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="cupboard_wood_nrm_1-surface">
+          <surface type="2D">
+            <init_from>cupboard_wood_nrm_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="cupboard_wood_nrm_1-sampler">
+          <sampler2D>
+            <source>cupboard_wood_nrm_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="cupboard_wood_door_right_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="cupboard_wood_nrm_1-sampler" texcoord="TEX1">
+                  <extra>
+                    <technique profile="MAYA">
+                      <wrapU>1</wrapU>
+                      <wrapV>1</wrapV>
+                      <mirrorU>0</mirrorU>
+                      <mirrorV>0</mirrorV>
+                      <coverageU>1</coverageU>
+                      <coverageV>1</coverageV>
+                      <translateFrameU>0</translateFrameU>
+                      <translateFrameV>0</translateFrameV>
+                      <rotateFrame>0</rotateFrame>
+                      <stagger>0</stagger>
+                      <fast>0</fast>
+                      <repeatU>1</repeatU>
+                      <repeatV>1</repeatV>
+                      <offsetU>0</offsetU>
+                      <offsetV>0</offsetV>
+                      <rotateUV>0</rotateUV>
+                      <noiseU>0</noiseU>
+                      <noiseV>0</noiseV>
+                      <blend_mode>NONE</blend_mode>
+                    </technique>
+                    <technique profile="MAX3D">
+                      <amount>1</amount>
+                      <bumpInterp>1</bumpInterp>
+                    </technique>
+                  </extra>
+                </texture>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="cupboard_wood_door_RightShape" name="cupboard_wood_door_RightShape">
+      <mesh>
+        <source id="cupboard_wood_door_RightShape-positions" name="position">
+          <float_array id="cupboard_wood_door_RightShape-positions-array" count="204">0.149399 -0.0934 15.6219 0.149399 84.9066 15.6219 56.7577 84.9066 15.6219 56.7577 -0.0934 15.6219 0.149399 84.9066 18.5219 56.7577 84.9066 18.5219 0.149399 -0.0934 18.5219 56.7577 -0.0934 18.5219 3.4086 16.0435 20.8154 3.4086 16.8147 20.5918 4.0112 16.9913 20.8916 4.0112 16.0547 21.1632 4.0112 17.3444 21.4912 4.0112 16.0771 21.8587 3.4086 17.5209 21.791 3.4086 16.0883 22.2064 2.806 17.3444 21.4912 2.806 16.0771 21.8587 2.806 16.9913 20.8916 2.806 16.0547 21.1632 3.4086 17.3844 20.0258 4.0112 17.683 20.2042 4.0112 18.2804 20.5612 3.4086 18.579 20.7396 2.806 18.2804 20.5612 2.806 17.683 20.2042 3.4086 17.6129 19.2559 4.0112 17.9606 19.2694 4.0112 18.6559 19.2962 3.4086 19.0036 19.3097 2.806 18.6559 19.2962 2.806 17.9606 19.2694 3.4086 17.6467 18.3311 4.0112 17.9942 18.3155 4.0112 18.6894 18.2842 3.4086 19.0369 18.2685 2.806 18.6894 18.2842 2.806 17.9942 18.3155 2.806 5.1784 21.8587 3.4086 5.1672 22.2064 2.806 5.2008 21.1632 3.4086 5.212 20.8154 4.0112 5.2008 21.1632 4.0112 4.2642 20.8916 3.4086 4.4407 20.5918 4.0112 5.1784 21.8587 4.0112 3.9111 21.4912 3.4086 3.7345 21.791 2.806 3.9111 21.4912 2.806 4.2642 20.8916 4.0112 3.5724 20.2042 3.4086 3.8711 20.0258 4.0112 2.9751 20.5612 3.4086 2.6764 20.7396 2.806 2.9751 20.5612 2.806 3.5724 20.2042 4.0112 3.2949 19.2694 3.4086 3.6425 19.2559 4.0112 2.5996 19.2962 3.4086 2.2519 19.3097 2.806 2.5996 19.2962 2.806 3.2949 19.2694 4.0112 3.2612 18.3155 3.4086 3.6088 18.3311 4.0112 2.5661 18.2842 3.4086 2.2185 18.2685 2.806 2.5661 18.2842 2.806 3.2612 18.3155</float_array>
+          <technique_common>
+            <accessor source="#cupboard_wood_door_RightShape-positions-array" count="68" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="cupboard_wood_door_RightShape-normals" name="normal">
+          <float_array id="cupboard_wood_door_RightShape-normals-array" count="252">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 -0.080793 -0.120652 -0.989402 0.000035 -0.507433 -0.861691 0.802078 -0.112148 -0.586595 0.868683 -0.28667 -0.403993 0.945277 0.046065 0.323 0.868675 0.214273 0.446644 0.187882 0.138665 0.972354 -0.000008 0.50745 0.861681 -0.755931 0.092424 0.648094 -0.86867 0.286681 0.404012 -0.945289 -0.04606 -0.322967 -0.868697 -0.214266 -0.446604 -0.000004 -0.858434 -0.512925 0.868672 -0.445278 -0.217108 0.868666 0.402188 0.289248 0.000018 0.858425 0.512939 -0.868675 0.445265 0.217124 -0.86867 -0.402173 -0.289257 0.112348 -0.976095 -0.186052 0.866333 -0.495855 -0.059963 0.865345 0.490777 0.101572 -0.080625 0.986621 0.141699 -0.945116 0.322494 0.05248 -0.755192 -0.646848 -0.106177 0 -0.999357 -0.035861 0.944774 -0.327519 -0.011537 0.755624 0.654659 0.021303 0.000000 0.999489 0.031963 -0.755625 0.654659 0.021303 -0.944774 -0.327519 -0.011536 -0.002234 -0.141173 0.989982 -0.865666 -0.094008 0.491716 -0.866807 0.046942 -0.49643 -0.112579 0.168119 -0.979317 0.822351 0.080322 -0.563282 0.000017 0.507438 -0.861688 0.868678 0.286676 -0.403999 0.866776 -0.046947 0.496483 0.868685 -0.21426 0.44663 0.000004 -0.50744 0.861687 -0.868688 -0.286661 0.403987 -0.868686 0.214261 -0.446629 0.000001 0.858431 -0.51293 0.868682 0.445257 -0.217112 0.86869 -0.402152 0.289224 0.000005 -0.858436 0.512921 -0.868692 -0.445243 0.217101 -0.868682 0.402165 -0.289232 0.112376 0.976096 -0.186034 0.866322 0.495875 -0.05995 0.865355 -0.490762 0.101556 -0.080642 -0.986618 0.141709 -0.945116 -0.322494 0.052479 -0.755189 0.646851 -0.10618 0.000000 0.999357 -0.035861 0.944786 0.327485 -0.011569 0.755653 -0.654625 0.021334 0.000000 -0.999486 0.032061 -0.755653 -0.654625 0.021334 -0.944785 0.327485 -0.011569</float_array>
+          <technique_common>
+            <accessor source="#cupboard_wood_door_RightShape-normals-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="cupboard_wood_door_RightShape-map1" name="map1">
+          <float_array id="cupboard_wood_door_RightShape-map1-array" count="168">0.9948 0.116671 0.9948 0.5179 0.8622 0.5179 0.8622 0.116671 0.8554 0.5316 0.7227 0.5316 0.7227 0.5179 0.8554 0.5179 0.7159 0.5179 0.7159 0.116671 0.7227 0.116671 0.7227 0.102627 0.8554 0.102627 0.8554 0.116671 0.3198 0.1736 0.3198 0.1545 0.3249 0.1545 0.3249 0.1736 0.3299 0.1545 0.3299 0.1736 0.335 0.1545 0.335 0.1736 0.34 0.1545 0.34 0.1736 0.3451 0.1545 0.3451 0.1736 0.3501 0.1545 0.3501 0.1736 0.3198 0.1354 0.3249 0.1354 0.3299 0.1354 0.335 0.1354 0.34 0.1354 0.3451 0.1354 0.3501 0.1354 0.3198 0.1163 0.3249 0.1163 0.3299 0.1163 0.335 0.1163 0.34 0.1163 0.3451 0.1163 0.3501 0.1163 0.3198 0.0971 0.3249 0.0971 0.3299 0.0971 0.335 0.0971 0.34 0.0971 0.3451 0.0971 0.3501 0.0971 0.34 0.3253 0.335 0.3253 0.3451 0.3253 0.3501 0.3253 0.3198 0.3253 0.3249 0.3253 0.3249 0.3444 0.3198 0.3444 0.3299 0.3253 0.3299 0.3444 0.335 0.3444 0.34 0.3444 0.3451 0.3444 0.3501 0.3444 0.3249 0.3636 0.3198 0.3636 0.3299 0.3636 0.335 0.3636 0.34 0.3636 0.3451 0.3636 0.3501 0.3636 0.3249 0.3827 0.3198 0.3827 0.3299 0.3827 0.335 0.3827 0.34 0.3827 0.3451 0.3827 0.3501 0.3827 0.3249 0.4018 0.3198 0.4018 0.3299 0.4018 0.335 0.4018 0.34 0.4018 0.3451 0.4018 0.3501 0.4018</float_array>
+          <technique_common>
+            <accessor source="#cupboard_wood_door_RightShape-map1-array" count="84" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="cupboard_wood_door_RightShape-vertices">
+          <input semantic="POSITION" source="#cupboard_wood_door_RightShape-positions"/>
+        </vertices>
+        <triangles material="lambert3SG" count="120">
+          <input semantic="VERTEX" source="#cupboard_wood_door_RightShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#cupboard_wood_door_RightShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#cupboard_wood_door_RightShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 3 2 3 3 2 3 1 1 1 2 3 2 2 4 4 1 5 5 5 6 7 5 6 7 1 5 5 4 7 6 1 8 8 0 9 9 4 10 6 4 10 6 0 9 9 6 11 10 0 12 11 3 13 12 6 14 10 6 14 10 3 13 12 7 15 13 3 16 3 2 17 2 7 18 13 7 18 13 2 17 2 5 19 7 6 20 10 7 21 13 4 22 6 4 22 6 7 21 13 5 23 7 8 24 14 9 25 15 11 26 17 11 26 17 9 25 15 10 27 16 11 26 17 10 27 16 13 28 19 13 28 19 10 27 16 12 29 18 13 28 19 12 29 18 15 30 21 15 30 21 12 29 18 14 31 20 15 30 21 14 31 20 17 32 23 17 32 23 14 31 20 16 33 22 17 32 23 16 33 22 19 34 25 19 34 25 16 33 22 18 35 24 19 34 25 18 35 24 8 24 27 8 24 27 18 35 24 9 25 26 9 25 15 20 36 28 10 27 16 10 27 16 20 36 28 21 37 29 10 27 16 21 37 29 12 29 18 12 29 18 21 37 29 22 38 30 12 29 18 22 38 30 14 31 20 14 31 20 22 38 30 23 39 31 14 31 20 23 39 31 16 33 22 16 33 22 23 39 31 24 40 32 16 33 22 24 40 32 18 35 24 18 35 24 24 40 32 25 41 33 18 35 24 25 41 33 9 25 26 9 25 26 25 41 33 20 36 34 20 36 28 26 42 35 21 37 29 21 37 29 26 42 35 27 43 36 21 37 29 27 43 36 22 38 30 22 38 30 27 43 36 28 44 37 22 38 30 28 44 37 23 39 31 23 39 31 28 44 37 29 45 38 23 39 31 29 45 38 24 40 32 24 40 32 29 45 38 30 46 39 24 40 32 30 46 39 25 41 33 25 41 33 30 46 39 31 47 40 25 41 33 31 47 40 20 36 34 20 36 34 31 47 40 26 42 41 26 42 35 32 48 42 27 43 36 27 43 36 32 48 42 33 49 43 27 43 36 33 49 43 28 44 37 28 44 37 33 49 43 34 50 44 28 44 37 34 50 44 29 45 38 29 45 38 34 50 44 35 51 45 35 51 45 36 52 46 29 45 38 29 45 38 36 52 46 30 46 39 36 52 46 37 53 47 30 46 39 30 46 39 37 53 47 31 47 40 37 53 47 32 48 48 31 47 40 31 47 40 32 48 48 26 42 41 15 30 21 17 32 23 39 54 50 39 54 50 17 32 23 38 55 49 17 32 23 19 34 25 38 55 49 38 55 49 19 34 25 40 56 51 19 34 25 8 24 27 40 56 51 40 56 51 8 24 27 41 57 52 41 57 53 42 58 54 44 59 56 44 59 56 42 58 54 43 60 55 42 58 54 45 61 57 43 60 55 43 60 55 45 61 57 46 62 58 45 61 57 39 54 50 46 62 58 46 62 58 39 54 50 47 63 59 39 54 50 38 55 49 47 63 59 47 63 59 38 55 49 48 64 60 38 55 49 40 56 51 48 64 60 48 64 60 40 56 51 49 65 61 40 56 51 41 57 52 49 65 61 49 65 61 41 57 52 44 59 62 44 59 56 43 60 55 51 66 64 51 66 64 43 60 55 50 67 63 43 60 55 46 62 58 50 67 63 50 67 63 46 62 58 52 68 65 46 62 58 47 63 59 52 68 65 52 68 65 47 63 59 53 69 66 47 63 59 48 64 60 53 69 66 53 69 66 48 64 60 54 70 67 48 64 60 49 65 61 54 70 67 54 70 67 49 65 61 55 71 68 49 65 61 44 59 62 55 71 68 55 71 68 44 59 62 51 66 69 51 66 64 50 67 63 57 72 71 57 72 71 50 67 63 56 73 70 50 67 63 52 68 65 56 73 70 56 73 70 52 68 65 58 74 72 52 68 65 53 69 66 58 74 72 58 74 72 53 69 66 59 75 73 53 69 66 54 70 67 59 75 73 59 75 73 54 70 67 60 76 74 54 70 67 55 71 68 60 76 74 60 76 74 55 71 68 61 77 75 55 71 68 51 66 69 61 77 75 61 77 75 51 66 69 57 72 76 57 72 71 56 73 70 63 78 78 63 78 78 56 73 70 62 79 77 56 73 70 58 74 72 62 79 77 62 79 77 58 74 72 64 80 79 58 74 72 59 75 73 64 80 79 64 80 79 59 75 73 65 81 80 60 76 74 66 82 81 59 75 73 59 75 73 66 82 81 65 81 80 61 77 75 67 83 82 60 76 74 60 76 74 67 83 82 66 82 81 57 72 76 63 78 83 61 77 75 61 77 75 63 78 83 67 83 82 11 26 17 42 58 54 8 24 14 8 24 14 42 58 54 41 57 53 11 26 17 13 28 19 42 58 54 42 58 54 13 28 19 45 61 57 13 28 19 15 30 21 45 61 57 45 61 57 15 30 21 39 54 50</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="cupboard_wood_door_Right" name="cupboard_wood_door_Right" type="NODE">
+        <translate sid="translate">56.7577 0 15.6219</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="scalePivotTranslation">-56.7577 0 -15.6219</translate>
+        <translate sid="scalePivot">56.7577 0 15.6219</translate>
+        <translate sid="scalePivotInverse">-56.7577 0 -15.6219</translate>
+        <instance_geometry url="#cupboard_wood_door_RightShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert3SG" target="#lambert3">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

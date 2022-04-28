@@ -1,0 +1,28 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/ornament/paintbucket/paintbucket_white.dae">
+            <SubMesh ID="4" Name="pCylinder1" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="636" Material="" />
+            <SubMesh ID="5" Name="polySurface1" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="312" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="2" Name="ShapeCylinder_1" CreStamp="1421398817" ModStamp="1421398840" WorldPos="0 0.25 0" Rotation="0 0 0" Scale="0.35 0.5 0" RelativeTranslation="0 0 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+        </Shapes>
+        <Bodies>
+            <Body ID="3" Name="Body_1" CreStamp="0" ModStamp="1421398907" WorldPos="0 0.25 0" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Children>
+                    <Child ID="4" />
+                    <Child ID="5" />
+                </Children>
+                <Shape ID="2" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

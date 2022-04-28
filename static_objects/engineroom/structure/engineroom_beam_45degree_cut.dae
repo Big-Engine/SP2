@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-30T14:23:12Z</created>
+    <keywords></keywords>
+    <modified>2012-07-30T14:23:12Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file1-image" name="file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/engineroom/machinery/engineroom_atlas_01.tga</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="phong1" name="phong1">
+      <instance_effect url="#phong1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="phong1-fx" name="phong1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface121-lib" name="polySurface121Mesh">
+      <mesh>
+        <source id="polySurface121-POSITION">
+          <float_array id="polySurface121-POSITION-array" count="108">
+100.000000 0.000000 190.000000
+200.000061 0.000000 90.000000
+100.000061 10.956940 190.000000
+121.891174 13.520340 168.108887
+121.891174 84.569717 168.108887
+100.000061 88.443024 190.000000
+100.000000 0.000000 190.000000
+100.000000 0.000000 190.000000
+100.000000 97.711517 190.000000
+200.000061 10.956940 90.000000
+178.108948 13.520340 111.891113
+178.109009 84.569717 111.891113
+200.000061 88.443024 90.000000
+200.000061 0.000000 90.000000
+200.000061 0.000000 90.000000
+200.000061 97.711517 90.000000
+200.000061 97.711517 90.000000
+100.000061 97.711517 190.000000
+900.000000 0.000000 189.999969
+900.000000 0.000000 189.999969
+900.000000 0.000000 189.999969
+900.000000 97.711517 189.999969
+800.000000 10.956940 90.000000
+821.891052 13.520340 111.891098
+821.891052 84.569717 111.891098
+800.000000 88.443024 90.000000
+800.000000 97.711517 90.000000
+800.000061 0.000000 90.000000
+900.000061 10.956940 190.000000
+878.108948 13.520340 168.108887
+878.108948 84.569717 168.108887
+900.000061 88.443024 190.000000
+800.000061 0.000000 90.000000
+800.000061 0.000000 90.000000
+800.000061 97.711517 90.000000
+900.000061 97.711517 190.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface121-POSITION-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface121-Normal0">
+          <float_array id="polySurface121-Normal0-array" count="234">
+0.000000 0.000002 1.000000
+0.000000 0.000002 1.000000
+0.000000 0.000002 1.000000
+0.000000 0.000002 1.000000
+0.000000 0.000002 1.000000
+0.000000 0.000002 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -0.000001 1.000000
+0.000000 -0.000001 1.000000
+0.000000 -0.000001 1.000000
+0.000000 -0.000001 1.000000
+0.000000 -0.000001 1.000000
+0.000000 -0.000001 1.000000
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface121-Normal0-array" count="78" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface121-UV0">
+          <float_array id="polySurface121-UV0-array" count="72">
+0.105447 0.297997
+0.205049 0.166523
+0.102284 0.619941
+0.124175 0.628216
+0.124175 0.703974
+0.102284 0.713530
+0.105447 0.297997
+0.102284 0.609148
+0.102284 0.722659
+0.797716 0.619941
+0.819607 0.628216
+0.819607 0.703974
+0.797716 0.713530
+0.205049 0.166523
+0.797716 0.609148
+0.797716 0.722659
+0.205049 0.297997
+0.105447 0.166523
+0.899181 0.297997
+0.899181 0.297997
+0.899192 0.609148
+0.899192 0.722660
+0.200808 0.619941
+0.178917 0.628216
+0.178917 0.703974
+0.200808 0.713530
+0.799579 0.297997
+0.799579 0.166523
+0.899192 0.619941
+0.877301 0.628216
+0.877301 0.703974
+0.899192 0.713530
+0.799579 0.166523
+0.200808 0.609148
+0.200808 0.722659
+0.899181 0.166523
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface121-UV0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface121-VERTEX">
+          <input semantic="POSITION" source="#polySurface121-POSITION"/>
+        </vertices>
+        <triangles count="26" material="phong1">
+          <input semantic="VERTEX" offset="0" source="#polySurface121-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#polySurface121-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#polySurface121-UV0"/>
+          <p> 5 0 5 21 1 21 8 2 8 21 3 21 5 4 5 31 5 31 9 6 9 22 7 22 14 8 14 33 9 33 14 10 14 22 11 22 10 12 10 23 13 23 9 14 9 9 15 9 23 16 23 22 17 22 11 18 11 23 19 23 10 20 10 23 21 23 11 22 11 24 23 24 24 24 24 11 25 11 25 26 25 25 27 25 11 28 11 12 29 12 18 30 18 1 31 1 27 32 27 1 33 1 18 34 18 0 35 0 2 36 2 20 37 20 28 38 28 20 39 20 2 40 2 7 41 7 3 42 3 28 43 28 29 44 29 2 45 2 28 46 28 3 47 3 4 48 4 29 49 29 30 50 30 29 51 29 4 52 4 3 53 3 30 54 30 5 55 5 4 56 4 31 57 31 5 58 5 30 59 30 25 60 25 15 61 15 34 62 34 15 63 15 25 64 25 12 65 12 19 66 19 13 67 13 32 68 32 13 69 13 19 70 19 6 71 6 26 72 26 17 73 17 35 74 35 17 75 17 26 76 26 16 77 16</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="polySurface121" id="polySurface121" sid="polySurface121">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 -100.000000 0.000000 1.000000 0.000000 -97.711517 0.000000 0.000000 1.000000 -190.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#polySurface121-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="phong1" target="#phong1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

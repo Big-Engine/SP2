@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>user</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/user/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-02-17T08:21:06Z</created>
+    <modified>2012-02-17T08:21:07Z</modified>
+    <unit meter="1" name="meter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="chest_of_drawers_medium_drawer_1" name="chest_of_drawers_medium_drawer_1">
+      <init_from>file:///E:/SVN_Server/application/entities/urban02/furniture/chest_of_drawers_medium/chest_of_drawers_medium_drawer.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="chest_of_drawers_medium_drawer_nrm_1" name="chest_of_drawers_medium_drawer_nrm_1">
+      <init_from>file:///E:/SVN_Server/application/entities/urban02/furniture/chest_of_drawers_medium/chest_of_drawers_medium_drawer_nrm.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="chest_of_drawers_medium_drawer_spec_1" name="chest_of_drawers_medium_drawer_spec_1">
+      <init_from>file:///E:/SVN_Server/application/entities/urban02/furniture/chest_of_drawers_medium/chest_of_drawers_medium_drawer_spec.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn5" name="blinn5">
+      <instance_effect url="#blinn5-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn5-fx">
+      <profile_COMMON>
+        <newparam sid="chest_of_drawers_medium_drawer_1-surface">
+          <surface type="2D">
+            <init_from>chest_of_drawers_medium_drawer_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="chest_of_drawers_medium_drawer_1-sampler">
+          <sampler2D>
+            <source>chest_of_drawers_medium_drawer_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="chest_of_drawers_medium_drawer_nrm_1-surface">
+          <surface type="2D">
+            <init_from>chest_of_drawers_medium_drawer_nrm_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="chest_of_drawers_medium_drawer_nrm_1-sampler">
+          <sampler2D>
+            <source>chest_of_drawers_medium_drawer_nrm_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="chest_of_drawers_medium_drawer_spec_1-surface">
+          <surface type="2D">
+            <init_from>chest_of_drawers_medium_drawer_spec_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="chest_of_drawers_medium_drawer_spec_1-sampler">
+          <sampler2D>
+            <source>chest_of_drawers_medium_drawer_spec_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="chest_of_drawers_medium_drawer_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="chest_of_drawers_medium_drawer_spec_1-sampler" texcoord="TEX2">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="chest_of_drawers_medium_drawer_nrm_1-sampler" texcoord="TEX1">
+                  <extra>
+                    <technique profile="MAYA">
+                      <wrapU>1</wrapU>
+                      <wrapV>1</wrapV>
+                      <mirrorU>0</mirrorU>
+                      <mirrorV>0</mirrorV>
+                      <coverageU>1</coverageU>
+                      <coverageV>1</coverageV>
+                      <translateFrameU>0</translateFrameU>
+                      <translateFrameV>0</translateFrameV>
+                      <rotateFrame>0</rotateFrame>
+                      <stagger>0</stagger>
+                      <fast>0</fast>
+                      <repeatU>1</repeatU>
+                      <repeatV>1</repeatV>
+                      <offsetU>0</offsetU>
+                      <offsetV>0</offsetV>
+                      <rotateUV>0</rotateUV>
+                      <noiseU>0</noiseU>
+                      <noiseV>0</noiseV>
+                      <blend_mode>NONE</blend_mode>
+                    </technique>
+                    <technique profile="MAX3D">
+                      <amount>1</amount>
+                      <bumpInterp>1</bumpInterp>
+                    </technique>
+                  </extra>
+                </texture>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="chest_of_drawers_medium_drawerShape" name="chest_of_drawers_medium_drawerShape">
+      <mesh>
+        <source id="chest_of_drawers_medium_drawerShape-positions" name="position">
+          <float_array id="chest_of_drawers_medium_drawerShape-positions-array" count="138">0.174286 0.726408 -0.221621 0.346219 0.704138 -0.22162 0.174286 0.704138 -0.221621 0.167424 0.703158 -0.2 0.167424 0.727387 -0.2 0.346219 0.726408 -0.22162 0.353082 0.727387 -0.2 0.353082 0.703158 -0.2 -0.346311 0.726408 -0.221621 -0.174379 0.726408 -0.22162 -0.346311 0.704138 -0.221621 -0.353174 0.727387 -0.2 -0.167516 0.727387 -0.2 -0.174379 0.704138 -0.22162 -0.353174 0.703158 -0.2 -0.521708 0.600786 0.173706 -0.521708 0.600786 -0.183691 0.521794 0.600786 0.173706 0.521794 0.818253 0.173706 -0.521708 0.818253 0.173706 0.521794 0.818253 -0.183691 -0.521708 0.600786 -0.201517 -0.521708 0.833221 -0.201517 0.521794 0.833221 -0.201517 0.521794 0.600786 -0.201517 -0.521708 0.818253 -0.183691 -0.499857 0.818253 0.154534 0.499857 0.818253 0.154534 -0.499857 0.613822 0.154534 0.499857 0.613822 0.154534 0.499857 0.818253 -0.183691 -0.499857 0.818253 -0.183691 0.499814 0.613854 -0.183691 -0.499857 0.613822 -0.183691 -0.521708 0.596588 -0.183691 -0.521708 0.596588 -0.1991 0.521794 0.596588 -0.1991 -0.521708 0.834438 -0.199099 -0.521708 0.834438 -0.183691 0.521794 0.834438 -0.183691 0.521794 0.834438 -0.199099 0.519484 0.59731 -0.201517 -0.520514 0.59731 -0.201517 0.521794 0.600786 -0.183691 0.521794 0.596588 -0.183691 -0.167516 0.703158 -0.2</float_array>
+          <technique_common>
+            <accessor source="#chest_of_drawers_medium_drawerShape-positions-array" count="46" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="chest_of_drawers_medium_drawerShape-normals" name="normal">
+          <float_array id="chest_of_drawers_medium_drawerShape-normals-array" count="678">-0.558359 0.292603 -0.776285 0.349944 -0.366771 -0.861985 -0.36442 -0.763886 -0.532612 -0.558359 0.292603 -0.776285 -0.953144 -0.000001 -0.302518 -0.953143 -0.000000 -0.302519 0.588272 0.61656 -0.523249 0 0.998975 -0.045265 0 0.998975 -0.045259 0.953142 0 -0.302524 0.953142 0 -0.302525 0.588272 0.61656 -0.523249 -0.36442 -0.763886 -0.532612 0.349944 -0.366771 -0.861985 0 -0.998975 -0.045267 -0.493985 0.517738 -0.698517 0.292383 0.612885 -0.734087 -0.558358 -0.292603 -0.776286 -0.558358 -0.292603 -0.776286 -0.953144 0 -0.302518 -0.493985 0.517738 -0.698517 0.292383 0.612885 -0.734087 -0.493985 0.517738 -0.698517 0 0.998975 -0.045265 0.292383 0.612885 -0.734087 0.953142 -0.000001 -0.302524 0.588271 -0.616559 -0.523252 0 -0.998975 -0.045272 -0.558358 -0.292603 -0.776286 0.588271 -0.616559 -0.523252 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 -0.80918 -0.04745 -0.585642 -0.608639 0.543719 -0.577865 0.869694 0.258961 -0.420205 0.797647 -0.088405 -0.59661 -1 0.00002 0.000011 -0.80918 -0.04745 -0.585642 -1 0 0 0 1 -0.000002 0 1 -0.000002 0 1 0.000005 0 0 -1 0 0 -1 0 0 -1 -1 0.000105 0.000063 -1 0 0 -1 0.000105 0.000063 0 0.000001 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 0 -0.707107 0.707107 0 -0.98129 -0.192536 0 -0.995355 -0.096274 0.797647 -0.088405 -0.59661 0.869694 0.258961 -0.420205 1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0.894427 0.447214 0 0.447214 0.894427 0 1 0 0 0.5547 0.83205 0 1 0 0 1 0 -1 0.00004 0.000022 -1 0.00002 0.000011 -1 0 -0.000015 0 0.316228 0.948683 0 0.707107 0.707107 0 0.5547 0.83205 1 0 0 1 0 0 0.869694 0.258961 -0.420205 0 0.447214 0.894427 0 0.894427 0.447214 0 0.316228 0.948683 0 0.707107 0.707107 0 0.5547 0.83205 0 0.707107 0.707107 0 0.972959 -0.23098 0 0.707107 0.707107 0 0.316228 0.948683 0 0.972959 -0.23098 0.869694 0.258961 -0.420205 -0.608639 0.543719 -0.577865 -0.80918 -0.04745 -0.585642 0.148343 -0.572047 -0.806695 -0.355247 -0.535174 -0.766412 0.148343 -0.572047 -0.806695 0.797647 -0.088405 -0.59661 0.955827 -0.146675 -0.254719 0 -0.707107 0.707107 0 0 1 0 0 1 -1 0 0 -0.80918 -0.04745 -0.585642 -1 0 0 0 -0.98129 -0.192536 -0.355247 -0.535174 -0.766412 0.148343 -0.572047 -0.806695 0.955827 -0.146675 -0.254719 0.797647 -0.088405 -0.59661 1 0 0 -0.95494 -0.148109 -0.257203 -0.80918 -0.04745 -0.585642 -0.355247 -0.535174 -0.766412 -0.000032 1 0.000095 -0.000032 1 0.000095 -0.000032 1 0.000095 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 0.707107 0.707107 0 1 0 0 0.5547 0.83205 0 1 -0.00001 0 1 -0.000002 0 1 -0.000002 0 0.894427 0.447214 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 -1 0.000105 0.000063 -1 0.000105 0.000063 -1 0.00021 0.000127 0 0 1 0 0 1 0 0 1 0 0.316228 0.948683 0 0.5547 0.83205 0 0.447214 0.894427 0.797647 -0.088405 -0.59661 1 0 0 1 0 0 0.955827 -0.146675 -0.254719 1 0 0 1 0 0 0.869694 0.258961 -0.420205 1 0 0 1 0 0 0 0.972962 -0.230965 0 0.707107 0.707107 0 0.972959 -0.23098 0 0.972959 -0.23098 -0.608639 0.543719 -0.577865 0 0.972962 -0.230965 -0.608639 0.543719 -0.577865 -0.80918 -0.04745 -0.585642 -1 0.00002 0.000011 0 -0.707107 0.707107 0 -0.995355 -0.096274 0 -0.707107 0.707107 0 -0.707107 0.707107 0 -0.707107 0.707107 0 0 1 -1 0 0 -0.80918 -0.04745 -0.585642 -0.95494 -0.148109 -0.257203 0 1 0 0 1 0 0 1 0 0.797647 -0.088405 -0.59661 0.148343 -0.572047 -0.806695 -0.80918 -0.04745 -0.585642 0 -0.98129 -0.192536 0.148343 -0.572047 -0.806695 0 -0.995355 -0.096274 -0.558359 0.292603 -0.776285 0.588272 0.61656 -0.523249 0.349944 -0.366771 -0.861985 -0.36442 -0.763886 -0.532612 -0.953144 -0.000001 -0.302518 -0.558359 0.292603 -0.776285 0.588272 0.61656 -0.523249 0.953142 0 -0.302525 0.349944 -0.366771 -0.861985 0.588272 0.61656 -0.523249 -0.558359 0.292603 -0.776285 0 0.998975 -0.045265 -0.558358 -0.292603 -0.776286 0.292383 0.612885 -0.734087 0.588271 -0.616559 -0.523252 -0.558358 -0.292603 -0.776286 -0.953144 0 -0.302518 -0.953144 0 -0.302518 0.292383 0.612885 -0.734087 0 0.998975 -0.045265 0 0.998975 -0.045259 0.588271 -0.616559 -0.523252 0.953142 -0.000001 -0.302524 0.953142 0 -0.302523 0 -0.998975 -0.045272 0.588271 -0.616559 -0.523252 0 -0.998975 -0.045266 -1 0.00004 0.000022 -0.608639 0.543719 -0.577865 -1 0.00002 0.000011 -0.36442 -0.763886 -0.532612 0 -0.998975 -0.045267 0 -0.998975 -0.045269</float_array>
+          <technique_common>
+            <accessor source="#chest_of_drawers_medium_drawerShape-normals-array" count="226" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="chest_of_drawers_medium_drawerShape-map1" name="map1">
+          <float_array id="chest_of_drawers_medium_drawerShape-map1-array" count="196">0.135438 0.842313 0.020593 0.824063 0.135438 0.824063 0.147802 0.824063 0.147809 0.842313 0.020593 0.842313 0.135438 0.858914 0.020593 0.858914 0.00823 0.842313 0.008223 0.824063 0.020593 0.80746 -0.864562 0.842313 -0.979407 0.842313 -0.864562 0.824063 -0.852191 0.842313 -0.864562 0.858914 -0.99177 0.842313 -0.979407 0.824063 -0.864562 0.80746 0.015842 0.791926 0.015842 0.702811 0.30484 0.791926 0.439234 0.545439 0.015236 0.545402 0.439241 0.434039 0.319522 0.791638 0.319522 0.704367 0.461701 0.791638 0.985082 0.721099 0.985118 0.863354 0.477568 0.863217 0.477673 0.721008 0.993783 0.854176 0.993711 0.721061 0.024445 0.55432 0.430651 0.554354 -1.56076 0.434042 -1.98475 0.545396 -1.98475 0.434002 -0.5385 0.704292 -0.5385 0.791568 -0.680327 0.791568 -0.984766 0.433894 -0.56075 0.434029 -0.984791 0.545289 -0.536785 0.807213 -0.536785 0.894489 -0.678612 0.894489 0.985128 0.707808 0.985128 0.717306 0.477583 0.717327 0.468905 0.854042 0.463203 0.894795 0.321188 0.894795 0.463203 0.807526 0.461701 0.800324 0.32867 0.800324 0.321188 0.903682 0.456324 0.903682 0.986295 0.864097 0.993791 0.864084 0.477562 0.8743 0.985107 0.874437 0.974478 0.884346 0.47639 0.86396 0.468896 0.863948 0.488233 0.884201 0.477562 0.884205 0.985107 0.884343 0.477567 0.864873 0.478636 0.718817 0.984613 0.718915 0.476795 0.718363 0.477583 0.705407 0.985128 0.705215 0.993682 0.718467 0.469065 0.720912 0.986076 0.718463 -0.984158 0.791926 -0.69516 0.702811 -0.69516 0.791926 0.461701 0.704367 0.015241 0.434003 0.321188 0.807526 0.30484 0.702811 -1.56077 0.545437 -0.678612 0.807213 -0.680327 0.704292 -0.560773 0.545438 0.46912 0.718302 0.985112 0.865009 0.477583 0.707952 -0.984158 0.702811 -0.852198 0.824063 -0.979407 0.858914 -0.991777 0.824063 -0.979407 0.80746 0.135438 0.80746</float_array>
+          <technique_common>
+            <accessor source="#chest_of_drawers_medium_drawerShape-map1-array" count="98" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="chest_of_drawers_medium_drawerShape-vertices">
+          <input semantic="POSITION" source="#chest_of_drawers_medium_drawerShape-positions"/>
+        </vertices>
+        <triangles material="blinn5SG" count="76">
+          <input semantic="VERTEX" source="#chest_of_drawers_medium_drawerShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#chest_of_drawers_medium_drawerShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#chest_of_drawers_medium_drawerShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 0 3 0 3 4 3 4 5 4 5 6 5 4 7 6 6 8 7 6 9 8 7 10 9 5 11 5 2 12 2 1 13 1 7 14 10 8 15 11 9 16 12 10 17 13 10 18 13 11 19 14 8 20 11 9 21 12 8 22 11 11 23 15 9 24 12 12 25 16 13 26 17 14 27 18 10 28 13 13 29 17 15 30 19 16 31 20 17 32 21 18 33 22 19 34 23 17 35 24 18 36 25 17 37 26 20 38 27 21 39 28 22 40 29 24 42 31 24 42 31 22 40 29 23 41 30 25 43 32 21 44 28 16 45 33 26 46 34 18 47 22 27 48 35 27 49 36 28 50 37 26 51 38 29 52 39 27 53 40 30 54 41 30 55 42 31 56 43 32 57 44 33 58 45 31 59 46 26 60 47 34 61 48 35 62 49 36 63 50 24 64 31 23 65 30 20 66 51 19 67 52 25 68 53 15 69 54 20 70 27 30 71 55 27 72 56 31 73 57 19 74 52 26 75 58 37 76 59 25 77 32 38 78 60 39 79 61 38 80 62 31 81 63 40 82 64 39 83 65 23 84 30 30 85 66 20 86 67 39 87 61 25 88 68 31 89 63 38 90 62 40 91 69 38 92 62 39 93 61 40 94 69 23 95 30 22 96 29 21 97 28 41 98 70 42 99 71 41 100 70 24 101 31 36 102 72 34 103 48 43 104 73 16 105 74 16 106 33 21 107 28 34 108 75 35 109 49 42 110 71 41 111 70 36 112 72 24 113 31 43 114 76 35 115 77 21 116 28 42 117 71 33 118 78 29 119 79 32 120 80 20 121 27 17 122 26 43 123 81 17 124 24 19 125 23 15 126 82 15 127 54 25 128 53 16 129 83 17 130 21 16 131 20 43 132 84 25 133 53 19 134 52 31 135 57 19 136 23 18 137 22 26 138 34 20 139 27 27 140 56 18 141 25 29 142 85 28 143 37 27 144 36 33 145 45 26 146 47 28 147 86 29 148 39 30 149 41 32 150 87 32 151 44 31 152 43 33 153 88 39 154 61 31 155 63 30 156 66 24 157 31 20 158 51 43 159 76 36 160 72 43 161 76 44 162 89 23 163 30 39 164 65 20 165 51 37 166 90 38 167 62 40 168 69 40 169 69 22 170 29 37 171 90 22 172 29 21 173 28 25 174 32 34 175 48 36 176 50 44 177 91 34 178 48 44 179 91 43 180 73 34 181 75 21 182 28 35 183 77 33 184 78 28 185 92 29 186 79 24 187 31 41 188 70 21 189 28 35 190 49 41 191 70 36 192 50 0 193 0 5 194 5 1 195 1 2 196 2 3 197 3 0 198 0 5 199 5 7 200 9 1 201 1 5 202 5 0 203 0 4 204 6 10 205 13 9 206 12 13 207 17 10 208 13 14 209 93 11 210 14 9 211 12 11 212 15 12 213 94 13 214 17 12 215 16 45 216 95 14 217 18 13 218 17 45 219 96 37 220 59 22 221 29 25 222 32 2 223 2 7 224 10 3 225 97</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="chest_of_drawers_medium_drawer" name="chest_of_drawers_medium_drawer" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#chest_of_drawers_medium_drawerShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn5SG" target="#blinn5">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX2" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,93 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="mods/GenericStory/entities/cantaffordaname/characters/enemy_suitor_fixed/enemy_suitor.dae">
+            <SubMesh ID="0" Name="Suitor" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="9183" Material="" />
+        </Mesh>
+        <Bones>
+            <Bone ID="1" Name="servant_grunt_A_CenterRoot" />
+            <Bone ID="2" Name="servant_grunt_A_CenterSpine" />
+            <Bone ID="3" Name="servant_grunt_A_CenterNeck" />
+            <Bone ID="4" Name="servant_grunt_A_CenterHead" />
+            <Bone ID="5" Name="servant_grunt_A_joint21" />
+            <Bone ID="6" Name="servant_grunt_A_RightCollar" />
+            <Bone ID="7" Name="servant_grunt_A_RightShoulder" />
+            <Bone ID="8" Name="servant_grunt_A_RightElbow" />
+            <Bone ID="9" Name="servant_grunt_A_joint23" />
+            <Bone ID="10" Name="servant_grunt_A_RightHand" />
+            <Bone ID="11" Name="servant_grunt_A_RightHand_servant_grunt_A_RightThumb" />
+            <Bone ID="12" Name="servant_grunt_A_RightHand_servant_grunt_A_RightThumb_servant_grunt_A_RightThumb" />
+            <Bone ID="13" Name="servant_grunt_A_RightIndexFinger01" />
+            <Bone ID="14" Name="servant_grunt_A_RightIndexFinger02" />
+            <Bone ID="15" Name="servant_grunt_A_RightIndexFinger03" />
+            <Bone ID="16" Name="servant_grunt_A_RightPinkyFinger01" />
+            <Bone ID="17" Name="servant_grunt_A_RightPinkyFinger02" />
+            <Bone ID="18" Name="servant_grunt_A_RightPinkyFinger03" />
+            <Bone ID="19" Name="servant_grunt_A_LeftCollar" />
+            <Bone ID="20" Name="servant_grunt_A_LeftShoulder" />
+            <Bone ID="21" Name="servant_grunt_A_LeftElbow" />
+            <Bone ID="22" Name="servant_grunt_A_joint22" />
+            <Bone ID="23" Name="servant_grunt_A_LeftHand" />
+            <Bone ID="24" Name="servant_grunt_A_LeftHandEnd" />
+            <Bone ID="25" Name="servant_grunt_A_LeftHip" />
+            <Bone ID="26" Name="servant_grunt_A_joint10" />
+            <Bone ID="27" Name="servant_grunt_A_joint11" />
+            <Bone ID="28" Name="servant_grunt_A_joint26" />
+            <Bone ID="29" Name="servant_grunt_A_joint27" />
+            <Bone ID="30" Name="servant_grunt_A_joint28" />
+            <Bone ID="31" Name="servant_grunt_A_RightHip" />
+            <Bone ID="32" Name="servant_grunt_A_joint5" />
+            <Bone ID="33" Name="servant_grunt_A_joint6" />
+            <Bone ID="34" Name="servant_grunt_A_joint7" />
+            <Bone ID="35" Name="servant_grunt_A_joint8" />
+            <Bone ID="36" Name="servant_grunt_A_joint25" />
+            <Bone ID="37" Name="Suitor" />
+        </Bones>
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations>
+            <Animation Name="idle" File="mods/GenericStory/entities/cantaffordaname/characters/enemy_suitor_fixed/animations/idle.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="walk" File="mods/GenericStory/entities/cantaffordaname/characters/enemy_suitor_fixed/animations/walk.dae_anim" Layer="Default" Speed="1.25">
+                <Event Name="Step_1" Time="0.383" Type="PlaySound" DestSocket="" Value="mods/GenericStory/sounds/attd/ptest/enemy/suitor/chains_monster_man_walk_soft.snt" />
+                <Event Name="New Event" Time="1.383" Type="PlaySound" DestSocket="" Value="mods/GenericStory/sounds/attd/ptest/enemy/suitor/chains_monster_man_walk_soft.snt" />
+            </Animation>
+            <Animation Name="run" File="mods/GenericStory/entities/cantaffordaname/characters/enemy_suitor_fixed/animations/run.dae_anim" Layer="Default" Speed="0.25">
+                <Event Name="Run_1" Time="0.199935" Type="PlaySound" DestSocket="" Value="mods/GenericStory/sounds/attd/ptest/enemy/suitor/chains_monster_man_run_soft.snt" />
+                <Event Name="Run_2" Time="0.73" Type="PlaySound" DestSocket="" Value="mods/GenericStory/sounds/attd/ptest/enemy/suitor/chains_monster_man_run_soft.snt" />
+            </Animation>
+            <Animation Name="notice1" File="mods/GenericStory/entities/cantaffordaname/characters/enemy_suitor_fixed/animations/notice1.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="notice2" File="mods/GenericStory/entities/cantaffordaname/characters/enemy_suitor_fixed/animations/notice2.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="idle_extra1" File="mods/GenericStory/entities/cantaffordaname/characters/enemy_suitor_fixed/animations/idle_extra1.dae_anim" Layer="Default" Speed="1" />
+            <Animation Name="idle_extra2" File="mods/GenericStory/entities/cantaffordaname/characters/enemy_suitor_fixed/animations/idle_extra2.dae_anim" Layer="Default" Speed="1" />
+        </Animations>
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Agent_Puppet">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="VoiceSourceBone" Value="" />
+        <Var Name="CastShadows" Value="true" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="CharBodySize" Value="1 1 1" />
+        <Var Name="MeshPositionOffset" Value="0 0 0" />
+        <Var Name="MeshRotationOffset" Value="0 0 0" />
+        <Var Name="MeshScaleOffset" Value="1 1 1" />
+        <Var Name="CharBodyPosBone" Value="Hip" />
+        <Var Name="CharBodyBoneIsFeet" Value="false" />
+        <Var Name="CharBodyBoneYOffset" Value="0" />
+        <Var Name="CustomScriptFile" Value="agent_suitor.hps" />
+        <Var Name="CustomScriptClass" Value="cScrAgentSuitor" />
+        <Var Name="IsAkers" Value="false" />
+        <Var Name="CharMover_IdleAnim" Value="idle" />
+        <Var Name="CharMover_WalkAnim" Value="walk" />
+        <Var Name="CharMover_RunAnim" Value="run" />
+        <Var Name="CharMover_BackwardAnim" Value="" />
+        <Var Name="CharMover_IdleExtraAnim" Value="idle_extra" />
+        <Var Name="CharMover_IdleExtraMinWait" Value="4" />
+        <Var Name="CharMover_IdleExtraMaxWait" Value="10" />
+        <Var Name="CharMover_IdleExtraPauseProcedural" Value="true" />
+    </UserDefinedVariables>
+</Entity>

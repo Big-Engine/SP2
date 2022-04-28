@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-03-12T22:45:11Z</created>
+    <keywords></keywords>
+    <modified>2012-03-12T22:45:11Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #1-image" name="Map #1">
+      <init_from>file://D:\amnesia_raw\StaticObjects\sewers\wall_tunnel.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #1" name="Material #1">
+      <instance_effect url="#Material #1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #1-fx" name="Material #1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="wall_half_height_tunnel-lib" name="wall_half_height_tunnelMesh">
+      <mesh>
+        <source id="wall_half_height_tunnel-POSITION">
+          <float_array id="wall_half_height_tunnel-POSITION-array" count="48">
+0.175639 2.000000 3.287168
+0.175639 -2.000000 3.287168
+0.141012 2.000000 2.561858
+0.141012 -2.000000 2.561858
+0.000000 2.000000 2.000000
+0.000000 -2.000000 2.000000
+-0.000000 2.000000 4.000000
+-0.000000 -2.000000 4.000000
+0.141012 -0.702659 2.561858
+0.175639 -0.702659 3.287168
+-0.000000 -0.702659 4.000000
+0.000000 -0.702659 2.000000
+-0.000000 0.702660 4.000000
+0.175639 0.702659 3.287168
+0.141012 0.702659 2.561858
+0.000000 0.702659 2.000000
+</float_array>
+          <technique_common>
+            <accessor source="#wall_half_height_tunnel-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wall_half_height_tunnel-Normal0">
+          <float_array id="wall_half_height_tunnel-Normal0-array" count="108">
+-0.989244 0.000000 0.146274
+-0.969920 0.000000 0.243425
+-0.969920 0.000000 0.243425
+-0.969920 0.000000 0.243425
+-0.989244 0.000000 0.146274
+-0.989244 0.000000 0.146274
+-0.970960 0.000000 -0.239241
+-0.970960 0.000000 -0.239241
+-0.995305 0.000000 -0.096788
+-0.995305 0.000000 -0.096788
+-0.995305 0.000000 -0.096788
+-0.970960 0.000000 -0.239241
+-0.989244 0.000000 0.146274
+-0.995305 0.000000 -0.096788
+-0.995305 0.000000 -0.096788
+-0.995305 0.000000 -0.096788
+-0.989244 0.000000 0.146274
+-0.989244 0.000000 0.146274
+-0.970960 0.000000 -0.239241
+-0.995305 0.000000 -0.096788
+-0.995305 0.000000 -0.096788
+-0.995305 0.000000 -0.096788
+-0.970960 0.000000 -0.239241
+-0.970960 0.000000 -0.239241
+-0.995305 0.000000 -0.096788
+-0.989244 0.000000 0.146274
+-0.989244 0.000000 0.146274
+-0.989244 0.000000 0.146274
+-0.995305 0.000000 -0.096788
+-0.995305 0.000000 -0.096788
+-0.989244 0.000000 0.146274
+-0.989244 0.000000 0.146274
+-0.969920 0.000000 0.243425
+-0.969920 0.000000 0.243425
+-0.969920 0.000000 0.243425
+-0.989244 0.000000 0.146274
+</float_array>
+          <technique_common>
+            <accessor source="#wall_half_height_tunnel-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wall_half_height_tunnel-UV0">
+          <float_array id="wall_half_height_tunnel-UV0-array" count="32">
+1.000000 0.500501
+0.000000 0.500501
+0.000000 0.322890
+1.000000 0.322890
+0.000000 0.141228
+1.000000 0.141228
+0.000000 -0.000000
+1.000000 -0.000000
+0.675665 0.141228
+0.675665 0.322890
+0.675162 0.500501
+0.675665 0.000000
+0.325738 0.500501
+0.324335 0.322890
+0.324335 0.141228
+0.324335 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#wall_half_height_tunnel-UV0-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="wall_half_height_tunnel-VERTEX">
+          <input semantic="POSITION" source="#wall_half_height_tunnel-POSITION"/>
+        </vertices>
+        <triangles count="12" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#wall_half_height_tunnel-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#wall_half_height_tunnel-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#wall_half_height_tunnel-UV0"/>
+          <p> 8 0 8 11 1 11 5 2 7 5 3 7 3 4 5 8 5 8 12 6 12 6 7 1 0 8 2 0 9 2 13 10 13 12 11 12 3 12 5 1 13 3 9 14 9 9 15 9 8 16 8 3 17 5 10 18 10 9 19 9 1 20 3 1 21 3 7 22 0 10 23 10 0 24 2 2 25 4 14 26 14 14 27 14 13 28 13 0 29 2 14 30 14 2 31 4 4 32 6 4 33 6 15 34 15 14 35 14</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="wall_half_height_tunnel" id="wall_half_height_tunnel" layer="walls" sid="wall_half_height_tunnel">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#wall_half_height_tunnel-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

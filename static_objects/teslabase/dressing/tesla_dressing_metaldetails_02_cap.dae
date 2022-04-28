@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-09T13:36:08Z</created>
+    <keywords></keywords>
+    <modified>2012-07-09T13:36:08Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_file1-image" name="tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/teslabase/dressing/tesla_dressing_metaldetails_01.tga</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_tesla_dressing_metaldetails_02" name="tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_tesla_dressing_metaldetails_02">
+      <instance_effect url="#tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_tesla_dressing_metaldetails_02-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_tesla_dressing_metaldetails_02-fx" name="tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_tesla_dressing_metaldetails_02">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">1.245731</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="lp_pipe_junction3-lib" name="lp_pipe_junction3Mesh">
+      <mesh>
+        <source id="lp_pipe_junction3-POSITION">
+          <float_array id="lp_pipe_junction3-POSITION-array" count="48">
+10.206543 6.731712 -10.206543
+0.000488 6.731712 -14.434326
+-10.206543 6.731712 -10.206543
+-14.434082 6.731712 0.000244
+-10.206543 6.731712 10.206543
+0.000488 6.731712 14.434326
+10.206543 6.731712 10.206543
+14.434082 6.731712 0.000244
+10.206543 -6.731712 -10.206543
+0.000488 -6.731712 -14.434326
+-10.206543 -6.731712 -10.206543
+-14.434082 -6.731712 0.000244
+-10.206543 -6.731712 10.206543
+0.000488 -6.731712 14.434326
+10.206543 -6.731712 10.206543
+14.434082 -6.731712 0.000244
+</float_array>
+          <technique_common>
+            <accessor source="#lp_pipe_junction3-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lp_pipe_junction3-Normal0">
+          <float_array id="lp_pipe_junction3-Normal0-array" count="252">
+0.707123 0.000000 -0.707091
+0.000017 0.000000 -1.000000
+0.000017 0.000000 -1.000000
+0.707123 0.000000 -0.707091
+0.000017 0.000000 -1.000000
+0.707123 0.000000 -0.707091
+0.000017 0.000000 -1.000000
+-0.707111 0.000000 -0.707103
+-0.707111 0.000000 -0.707103
+0.000017 0.000000 -1.000000
+-0.707111 0.000000 -0.707103
+0.000017 0.000000 -1.000000
+-1.000000 0.000000 0.000008
+-0.707111 0.000000 -0.707103
+-1.000000 0.000000 0.000008
+-1.000000 0.000000 0.000008
+-0.707111 0.000000 -0.707103
+-0.707111 0.000000 -0.707103
+-0.707105 0.000000 0.707109
+-0.707105 0.000000 0.707109
+-1.000000 0.000000 0.000008
+-0.707105 0.000000 0.707109
+-1.000000 0.000000 0.000008
+-1.000000 0.000000 0.000008
+-0.707105 0.000000 0.707109
+0.000017 0.000000 1.000000
+-0.707105 0.000000 0.707109
+0.000017 0.000000 1.000000
+-0.707105 0.000000 0.707109
+0.000017 0.000000 1.000000
+0.000017 0.000000 1.000000
+0.000017 0.000000 1.000000
+0.707117 0.000000 0.707097
+0.707117 0.000000 0.707097
+0.000017 0.000000 1.000000
+0.707117 0.000000 0.707097
+0.707117 0.000000 0.707097
+1.000000 0.000000 0.000008
+0.707117 0.000000 0.707097
+1.000000 0.000000 0.000008
+0.707117 0.000000 0.707097
+1.000000 0.000000 0.000008
+1.000000 0.000000 0.000008
+0.707123 0.000000 -0.707091
+1.000000 0.000000 0.000008
+0.707123 0.000000 -0.707091
+1.000000 0.000000 0.000008
+0.707123 0.000000 -0.707091
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#lp_pipe_junction3-Normal0-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="lp_pipe_junction3-UV0">
+          <float_array id="lp_pipe_junction3-UV0-array" count="68">
+0.012292 0.503267
+0.118335 0.442671
+0.012292 0.442671
+0.027441 0.503267
+0.027441 0.442671
+0.042590 0.442671
+0.042590 0.503267
+0.057739 0.503267
+0.057739 0.442671
+0.072888 0.503267
+0.072888 0.442671
+0.088037 0.503267
+0.118335 0.503267
+0.133484 0.442671
+0.103186 0.503267
+0.103186 0.442671
+0.133484 0.503267
+0.088037 0.442671
+0.254296 0.032334
+0.210725 0.050381
+0.203250 0.032334
+0.246820 0.014286
+0.246820 0.050381
+0.228773 0.057857
+0.210725 0.014286
+0.228773 0.006811
+0.043069 0.181240
+0.055162 0.196581
+0.008329 0.191038
+0.023670 0.178944
+0.052866 0.215980
+0.006033 0.210437
+0.037526 0.228074
+0.018126 0.225778
+</float_array>
+          <technique_common>
+            <accessor source="#lp_pipe_junction3-UV0-array" count="34" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="lp_pipe_junction3-VERTEX">
+          <input semantic="POSITION" source="#lp_pipe_junction3-POSITION"/>
+        </vertices>
+        <triangles count="28" material="tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_tesla_dressing_metaldetails_02">
+          <input semantic="VERTEX" offset="0" source="#lp_pipe_junction3-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#lp_pipe_junction3-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#lp_pipe_junction3-UV0"/>
+          <p> 8 0 1 9 1 13 1 2 16 8 3 1 1 4 16 0 5 12 9 6 2 10 7 4 2 8 3 9 9 2 2 10 3 1 11 0 3 12 6 2 13 3 11 14 5 11 15 5 2 16 3 10 17 4 12 18 8 4 19 7 11 20 5 4 21 7 3 22 6 11 23 5 12 24 8 5 25 9 4 26 7 5 27 9 12 28 8 13 29 10 5 30 9 13 31 10 6 32 11 6 33 11 13 34 10 14 35 17 14 36 17 7 37 14 6 38 11 7 39 14 14 40 17 15 41 15 15 42 15 0 43 12 7 44 14 0 45 12 15 46 15 8 47 1 7 48 18 3 49 20 6 50 21 3 51 20 7 52 18 2 53 19 15 54 27 10 55 28 8 56 26 8 57 26 10 58 28 9 59 29 2 60 19 7 61 18 0 62 22 2 63 19 0 64 22 1 65 23 6 66 21 3 67 20 4 68 24 6 69 21 4 70 24 5 71 25 14 72 30 12 73 33 11 74 31 12 75 33 14 76 30 13 77 32 11 78 31 15 79 27 14 80 30 15 81 27 11 82 31 10 83 28</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="lp_pipe_junction3" id="lp_pipe_junction3" sid="lp_pipe_junction3">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#lp_pipe_junction3-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_tesla_dressing_metaldetails_02" target="#tesla_dressing_metal_details_01_tesla_dressing_metal_details_01_tesla_dressing_metaldetails_02"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>marcus</author>
+      <authoring_tool>OpenCOLLADA2008 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=1;
+			exportCameras=1;exportJointsAndSkin=1;exportAnimations=0;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///D:/work/DropBox/Team/Depth_marcus/models/entities/urban/groceries/burger_takeout/burger_takeout.ma</source_data>
+    </contributor>
+    <created>2013-10-09T14:42:56</created>
+    <modified>2013-10-09T14:42:56</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="DDS" name="DDS">
+      <instance_effect url="#DDS-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="DDS-fx">
+      <profile_COMMON>
+        <newparam sid="file5-surface">
+          <surface type="2D">
+            <init_from>file5</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file5-sampler">
+          <sampler2D>
+            <source>file5-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file5-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="file5" name="file5">
+      <init_from>file:///D:/work/depth/redist/entities/urban/grocery/fastfood_burger_takeout/fastfood_burger_takeout.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>file5</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="polySurfaceShape17" name="polySurfaceShape17">
+      <mesh>
+        <source id="polySurfaceShape17-positions" name="polySurfaceShape17-positions">
+          <float_array id="polySurfaceShape17-positions-array" count="84">-0.03783026 0.01523856 0.07241592 -0.02895416 0.01523856 0.07947006 -0.05043623 0.01445438 -0.0642057 -0.04443998 0.01445438 -0.07382816 -0.03972372 0.003116426 -0.05753021 -0.03372747 0.003116426 -0.06715263 -0.02997694 0.003900614 0.06253429 -0.02110085 0.003900611 0.06958843 -0.006867561 0 0.02316162 -0.007363396 0.01133795 0.02733967 0.003895435 0.01133795 0.0286758 0.00439127 0 0.0244978 -0.01148468 0 -0.02235687 -0.01243151 0.01133795 -0.02645638 -0.001384487 0.01133795 -0.0290078 -4.3766e-4 0 -0.02490829 -0.005209503 0.01133795 0 -0.005209503 0 0 0.00612833 0 0 0.00612833 0.01133795 0 -0.02734413 0.01289616 -0.04944843 -0.01790272 0.01289616 -0.0557259 -0.01324369 0.001558213 -0.04871861 -0.02268509 0.001558213 -0.04244114 -0.01958128 0.01328825 0.05191597 -0.01626175 0.001950305 0.04418358 -0.005843391 0.001950305 0.0486562 -0.009162903 0.01328825 0.05638859</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape17-positions-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurfaceShape17-normals" name="polySurfaceShape17-normals">
+          <float_array id="polySurfaceShape17-normals-array" count="84">-0.940412 0.3085495 -0.1429069 0.3363057 0.1277546 0.9330473 -0.8837774 0.2674298 0.3839515 0.07171546 0.1698516 -0.9828567 -0.5757452 -0.7941451 0.194553 -8.44981e-4 -0.8356721 -0.5492278 -0.6006078 -0.7992211 -0.02271438 0.141799 -0.8263484 0.545015 -0.6961234 -0.7006794 -0.156399 -0.6589349 0.7247837 -0.2012297 0.695518 0.7021669 0.1523693 0.662949 -0.7218793 0.1984664 -0.663156 -0.7008772 0.2626692 -0.6298303 0.71926 0.2932211 0.6643719 0.7031142 -0.2534571 0.6358419 -0.7167783 -0.2862409 -0.6984727 0.7123876 0.06811556 -0.6984729 -0.7123874 0.06811559 0.6998768 -0.7114374 -0.0634777 0.6988803 0.7124242 -0.06338733 -0.4770214 0.7324953 0.4856967 0.5626958 0.6978453 -0.4431538 0.4875967 -0.7266477 -0.4839758 -0.5608736 -0.6927569 0.4533307 -0.5411149 0.7383782 -0.4024827 -0.6483297 -0.6770188 -0.3483016 0.5492983 -0.7329568 0.4013049 0.6473532 0.681727 0.340855</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape17-normals-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurfaceShape17-map1" name="polySurfaceShape17-map1">
+          <float_array id="polySurfaceShape17-map1-array" count="78">0.9672222 0.884445 0.9672754 0.7221275 0.9409075 0.7713239 0.9541323 0.7713248 0.9673594 0.7762322 0.9408929 0.8352306 0.9541159 0.8352393 0.9673449 0.8303412 0.9407514 0.8991415 0.9275618 0.8844011 0.9276769 0.830312 0.9276862 0.776234 0.9276158 0.722143 0.9408165 0.707413 0.9805678 0.8303549 0.9804435 0.8844715 0.9803979 0.90426 0.9805823 0.7762271 0.9804717 0.7023247 0.9804967 0.7221121 0.9671758 0.9042291 0.9539708 0.8991536 0.9672496 0.7023419 0.9540353 0.7074104 0.9409002 0.8032773 0.9276816 0.803273 0.9805751 0.803291 0.9673522 0.8032867 0.9541241 0.803282 0.9408221 0.8671861 0.9540434 0.8671964 0.9672836 0.8573931 0.9805057 0.8574132 0.9276193 0.8573565 0.940862 0.7393684 0.927651 0.7491885 0.9805395 0.7491696 0.9673173 0.7491798 0.9540838 0.7393676</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape17-map1-array" count="39" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurfaceShape17-vertices" name="polySurfaceShape17-vertices">
+          <input semantic="POSITION" source="#polySurfaceShape17-positions"/>
+          <input semantic="NORMAL" source="#polySurfaceShape17-normals"/>
+        </vertices>
+        <triangles material="blinn4SG" count="52">
+          <input semantic="VERTEX" source="#polySurfaceShape17-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#polySurfaceShape17-map1" offset="1" set="0"/>
+          <p>21 30 3 21 20 29 20 29 3 21 2 8 2 16 3 20 4 15 4 15 3 20 5 0 4 15 5 0 23 32 23 32 5 0 22 31 6 19 7 1 0 18 0 18 7 1 1 22 22 31 5 0 21 30 21 30 5 0 3 21 23 33 20 29 4 9 4 9 20 29 2 8 0 13 24 34 6 12 6 12 24 34 25 35 0 13 1 23 24 34 24 34 1 23 27 38 1 23 7 1 27 38 27 38 7 1 26 37 26 37 7 1 25 36 25 36 7 1 6 19 9 2 16 24 8 11 8 11 16 24 17 25 9 2 10 3 16 24 16 24 10 3 19 28 10 3 11 4 19 28 19 28 11 4 18 27 18 27 11 4 17 26 17 26 11 4 8 17 17 25 16 24 12 10 12 10 16 24 13 5 12 14 15 7 17 26 17 26 15 7 18 27 18 27 15 7 19 28 19 28 15 7 14 6 19 28 14 6 16 24 16 24 14 6 13 5 14 6 21 30 13 5 13 5 21 30 20 29 15 7 22 31 14 6 14 6 22 31 21 30 23 32 22 31 12 14 12 14 22 31 15 7 12 10 13 5 23 33 23 33 13 5 20 29 24 34 9 2 25 35 25 35 9 2 8 11 11 4 26 37 8 17 8 17 26 37 25 36 27 38 26 37 10 3 10 3 26 37 11 4 24 34 27 38 9 2 9 2 27 38 10 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>polySurfaceShape17</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="burger_takeout">
+      <node id="polySurface17" name="polySurface17" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#polySurfaceShape17">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn4SG" target="#DDS">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>polySurface17</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

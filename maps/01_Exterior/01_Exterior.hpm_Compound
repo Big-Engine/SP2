@@ -1,0 +1,38 @@
+<HPLMapTrack_Compound ID="F22F3DE2F4B88CB3D1A3B55BD24B10D0CB6AE5F0" MajorVersion="1" MinorVersion="1">
+    <Section Name="13733002251564882997">
+        <Objects>
+            <Compound ID="268436390" Name="Compound_8" CreStamp="1633369271" ModStamp="1633369283" WorldPos="95.25 22.5 -89.25" Rotation="0 0 0" Scale="1 1 1" UID="16 693 268436390">
+                <Component ID="268436216" />
+                <Component ID="268436217" />
+                <Component ID="268436218" />
+                <Component ID="268436219" />
+                <Component ID="268436220" />
+                <Component ID="268436221" />
+                <Component ID="268436222" />
+            </Compound>
+            <Compound ID="268436391" Name="Compound_1" CreStamp="0" ModStamp="1633379304" WorldPos="130.5 15.875 12.625" Rotation="0 0 0" Scale="1 1 1" UID="16 580 268436391">
+                <Component ID="268435481" />
+                <Component ID="268435499" />
+                <Component ID="268435520" />
+                <Component ID="268435521" />
+            </Compound>
+            <Compound ID="268436392" Name="Compound_2" CreStamp="1633379307" ModStamp="1633379324" WorldPos="107.634 10.125 -41.5715" Rotation="-0 3.40339 -0" Scale="1 1 1" UID="16 751 268436392">
+                <Component ID="268435522" />
+                <Component ID="268435523" />
+                <Component ID="268435524" />
+                <Component ID="268435525" />
+            </Compound>
+            <Compound ID="268436393" Name="Compound_3" CreStamp="1633381994" ModStamp="1633382006" WorldPos="-88.4485 11.25 95.5" Rotation="0 0.261799 0" Scale="1 1 1" UID="16 436 268436393">
+                <Component ID="268435529" />
+                <Component ID="268435530" />
+                <Component ID="268435531" />
+                <Component ID="268435532" />
+            </Compound>
+            <Compound ID="268436397" Name="Compound_4" CreStamp="0" ModStamp="1633579852" WorldPos="74 13.05 -64.5" Rotation="0 0 0" Scale="1 1 1.01" UID="16 883 268436397">
+                <Component ID="268436396" />
+                <Component ID="268436395" />
+                <Component ID="268436394" />
+            </Compound>
+        </Objects>
+    </Section>
+</HPLMapTrack_Compound>

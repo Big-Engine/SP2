@@ -1,0 +1,98 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/kitchen/cupboard_wood/cupboard_wood_door_right.dae">
+            <SubMesh ID="0" Name="cupboard_wood_door_Right" CreStamp="0" ModStamp="1421138642" WorldPos="0 0 0" Rotation="0 0 0" Scale="1.3 1.3 1.3" TriCount="120" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" CreStamp="0" ModStamp="0" WorldPos="0.367537 0.552953 0.225771" Rotation="0 0 0" Scale="0.721785 1.09306 0.0307706" RelativeTranslation="0.161475 0.250496 -0.028474" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="2" Name="Shape_2" CreStamp="0" ModStamp="0" WorldPos="0.0445868 0.139094 0.282719" Rotation="0 0 0" Scale="0.0154437 0.17498 0.0169064" RelativeTranslation="-0.161475 -0.163363 0.028474" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="3" Name="Shape_3" CreStamp="0" ModStamp="0" WorldPos="0.0447493 0.233662 0.260732" Rotation="-1.09801 -0 0" Scale="0.0155897 0.049269 0.0223386" RelativeTranslation="-0.161313 -0.0687947 0.006487" RelativeRotation="-1.09801 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="4" Name="Shape_4" CreStamp="0" ModStamp="0" WorldPos="0.0448201 0.0519604 0.264661" Rotation="0.975515 -0 0" Scale="0.0170045 0.0585827 0.0241185" RelativeTranslation="-0.161242 -0.250496 0.010416" RelativeRotation="0.975515 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="5" Name="Body_1" CreStamp="0" ModStamp="1421138651" WorldPos="0.206062 0.302457 0.254245" Rotation="0 0 0" Scale="1.3 1.3 1.3" Material="Wood Robust" Mass="2" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="1.5" MaxLinearSpeed="1.5" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="4" />
+                <Shape ID="2" />
+                <Shape ID="1" />
+                <Shape ID="3" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointHinge ID="6" Name="JointHinge_1" CreStamp="0" ModStamp="0" WorldPos="0.737899 0.572944 0.203322" Rotation="3.14159 -0 0" Scale="1 1 1" LimitStepCount="0" Stiffness="0" MinMoveSpeed="0.1" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveVolume="0.01" MaxMoveSpeed="2" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinLimitSound="" MinLimitMinSpeed="0" MinLimitMaxSpeed="0" MaxLimitSound="" MaxLimitMinSpeed="0" MaxLimitMaxSpeed="0" Breakable="false" BreakForce="0" BreakSound="" CollideBodies="true" StickyMinLimit="true" StickyMaxLimit="true" MoveSound="Entities_Urban/kitchen/cupboard_wood_door/cupboard_wood_creak" MoveType="Linear" MinAngle="0" MaxAngle="110" ConnectedParentBodyID="-1" ConnectedChildBodyID="5" />
+        </Joints>
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_SwingDoor">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="3" />
+        <Var Name="CanInteractWithStaticBody" Value="false" />
+        <Var Name="HandleBody" Value="" />
+        <Var Name="MoveMaxSpeed" Value="7" />
+        <Var Name="MoveSlowDownFactor" Value="4" />
+        <Var Name="MoveSpeedFactor" Value="5" />
+        <Var Name="CloseOnSound" Value="Entities_Urban/kitchen/cupboard_wood_door/cupboard_wood_close" />
+        <Var Name="CloseOffSound" Value="Entities_Urban/kitchen/cupboard_wood_door/cupboard_wood_open" />
+        <Var Name="LockOnSound" Value="" />
+        <Var Name="LockOffSound" Value="" />
+        <Var Name="InteractLockedSound" Value="" />
+        <Var Name="BlockOnSound" Value="" />
+        <Var Name="BlockOffSound" Value="" />
+        <Var Name="InteractBlockedSound" Value="" />
+        <Var Name="MoveSound" Value="" />
+        <Var Name="MinMoveSoundSpeed" Value="-1" />
+        <Var Name="MaxOpenSound" Value="" />
+        <Var Name="MaxOpenSoundMinSpeed" Value="0" />
+        <Var Name="Breakable" Value="false" />
+        <Var Name="DamageMesh1" Value="" />
+        <Var Name="DamageMesh2" Value="" />
+        <Var Name="BrokenEntity" Value="" />
+        <Var Name="HealthDamage1" Value="66" />
+        <Var Name="HealthDamage2" Value="33" />
+        <Var Name="DamageSound" Value="" />
+        <Var Name="DamagePS" Value="" />
+        <Var Name="BreakPS" Value="" />
+        <Var Name="HandleUpAnimation" Value="" />
+        <Var Name="HandleDownAnimation" Value="" />
+        <Var Name="HandleLockedAnimation" Value="" />
+        <Var Name="HandleMovingAnimation" Value="" />
+        <Var Name="HandleMovingRepetitionMin" Value="0.25" />
+        <Var Name="HandleMovingRepetitionMax" Value="0.5" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,70 @@
+﻿<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/statues/armour_nice/armour_nice_glove.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="Scene_Root" Rotation="0 0 -1.46356" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="-1.54528 -0.430023 0" TriCount="218" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="1" Name="Shape_1" RelativeRotation="-5.96356e-015 -8.23138e-010 -1.8546e-014" RelativeScale="0.219897 0.9 0.187256" RelativeTranslation="5.48771e-009 5.62145e-010 -2.21997e-010" Rotation="-7.0585e-015 -0.00853391 -1.5708" Scale="0.187256 0.9 0.187256" ShapeType="Box" Tag="" WorldPos="-0.0283427 0.0996663 -0.0137027" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="3" LinearDamping="0" Mass="3" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 -0.00853391 -1.5708" Scale="0.851563 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.0283427 0.0996663 -0.0137027">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Grab">
+        <Var Name="Health" Value="40" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="Grab_UseCustomDepth" Value="false" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="10" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="3" />
+        <Var Name="HitDamageAmount" Value="5" />
+        <Var Name="HitDamageStrength" Value="1" />
+        <Var Name="MinHitDamageSpeed" Value="3" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="IsFood" Value="false" />
+        <Var Name="Grab_CustomDepth" Value="1" />
+        <Var Name="Grab_MinDepth" Value="1.0" />
+        <Var Name="GrabDepthInc" Value="0.15" />
+        <Var Name="Grab_MaxDepth" Value="2.2" />
+        <Var Name="Grab_UseCustomOffset" Value="false" />
+        <Var Name="Grab_CustomPositionOffset" Value="0" />
+        <Var Name="Grab_CustomRotationOffset" Value="0" />
+        <Var Name="Grab_ThrowImpulse" Value="10" />
+        <Var Name="Grab_MassMul" Value="0.1" />
+        <Var Name="Grab_ForceMul" Value="1" />
+        <Var Name="Grab_TorqueMul" Value="1" />
+        <Var Name="GrabUseRotation" Value="true" />
+        <Var Name="GrabSkipNonOuterBodies" Value="false" />
+        <Var Name="MaxInteractDistance" Value="0" />
+    </UserDefinedVariables>
+</Entity>

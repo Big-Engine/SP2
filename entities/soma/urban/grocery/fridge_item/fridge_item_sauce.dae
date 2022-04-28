@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>user</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=1;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///D:/SVN_Server/application/fridge_item/fridge_item.ma</source_data>
+    </contributor>
+    <contributor>
+      <author>user</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/user/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-02-16T09:00:34Z</created>
+    <modified>2012-02-27T06:39:26Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="fridge_item_sauce_1" name="fridge_item_sauce_1">
+      <init_from>file:///E:/SVN_Server/application/entities/urban02/grocery/fridge_item/fridge_item_sauce.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn5" name="blinn5">
+      <instance_effect url="#blinn5-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn5-fx">
+      <profile_COMMON>
+        <newparam sid="fridge_item_sauce_1-surface">
+          <surface type="2D">
+            <init_from>fridge_item_sauce_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="fridge_item_sauce_1-sampler">
+          <sampler2D>
+            <source>fridge_item_sauce_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="fridge_item_sauce_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="fridge_item_sauceShape" name="fridge_item_sauceShape">
+      <mesh>
+        <source id="fridge_item_sauceShape-positions" name="position">
+          <float_array id="fridge_item_sauceShape-positions-array" count="96">-10.5518 0 0 -7.4612 0 -7.4612 0 0 -10.5518 7.4612 0 -7.4612 10.5518 0 0 -12.3513 17.0854 0 -8.7337 17.0854 -8.7337 0 17.0854 -12.3513 8.7336 17.0854 -8.7337 12.3513 17.0854 0 -7.4612 0 7.4612 0 0 10.5518 7.4612 0 7.4612 -8.7337 17.0854 8.7337 0 17.0854 12.3513 8.7336 17.0854 8.7337 -12.9473 19.6775 0 -9.1551 19.6775 -9.1551 0 19.6775 -12.9473 9.1551 19.6775 -9.1551 12.9473 19.6776 0 -12.9473 17.0056 0 -9.1551 17.0056 -9.1551 0 17.0056 -12.9473 9.1551 17.0056 -9.1551 12.9473 17.0056 0 -9.1551 19.6775 9.1551 0 19.6775 12.9473 9.1551 19.6775 9.1551 -9.1551 17.0056 9.1551 0 17.0056 12.9473 9.1551 17.0056 9.1551</float_array>
+          <technique_common>
+            <accessor source="#fridge_item_sauceShape-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="fridge_item_sauceShape-normals" name="normal">
+          <float_array id="fridge_item_sauceShape-normals-array" count="168">-0.994499 -0.104745 0 -0.994499 -0.104747 0 -0.792871 -0.103774 -0.600488 -0.60049 -0.103774 -0.79287 -0.136035 -0.103773 -0.985254 0.136039 -0.103772 -0.985254 0.600489 -0.103771 -0.792871 0.792868 -0.103771 -0.600492 0.994499 -0.104744 0 0.994499 -0.104744 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -0.792871 -0.103774 0.600488 -0.60049 -0.103774 0.79287 -0.136035 -0.103773 0.985254 0.136039 -0.103772 0.985254 0.600489 -0.103771 0.792871 0.792869 -0.103771 0.600492 0 -1 0 0 -1 0 0 -1 0 -0.603749 0 -0.797175 -0.797175 0 -0.603749 -1 0 0 -1 0 0 0.136775 0 -0.990602 -0.136775 0 -0.990602 0.797175 0 -0.603749 0.603749 0 -0.797174 1 0 0 1 0 0 -0.000003 1 0 -0.000001 1 -0.000003 -0.000001 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.000000 0 -1 0 -0.603749 0 0.797175 -0.797175 0 0.603749 0.136775 0 0.990602 -0.136775 0 0.990602 0.797175 0 0.603749 0.603749 0 0.797174 -0.000001 1 0.000003 0 1 0 0 1 0 0 -1 0 0 -1 0.000000 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#fridge_item_sauceShape-normals-array" count="56" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="fridge_item_sauceShape-map1" name="map1">
+          <float_array id="fridge_item_sauceShape-map1-array" count="140">-0.358573 0.673904 -0.358573 0.829086 -0.437202 0.829086 -0.437202 0.673904 -0.516357 0.829086 -0.516357 0.673904 -0.595529 0.829086 -0.595529 0.673904 -0.67421 0.829086 -0.67421 0.673904 -0.36858 0.3845 -0.342114 0.320863 -0.368581 0.257332 -0.432218 0.410967 -0.432218 0.231123 0.32579 0.673904 0.404418 0.673904 0.404418 0.829086 0.32579 0.829086 0.483573 0.673904 0.483573 0.829086 0.562746 0.673904 0.562746 0.829086 0.641427 0.673904 0.641427 0.829086 0.63142 0.3845 0.631419 0.257332 0.657886 0.320863 0.567782 0.410967 0.567782 0.231123 -0.427844 0.850344 -0.427844 0.872737 -0.344773 0.872737 -0.344773 0.850344 -0.510916 0.850344 -0.510916 0.872737 -0.593944 0.850344 -0.593944 0.872737 -0.676972 0.850344 -0.676972 0.872737 -0.341979 0.418679 -0.419681 0.448 -0.419681 0.60138 -0.341978 0.63559 -0.453892 0.523677 -0.341979 0.63559 -0.419682 0.60138 -0.419682 0.448 -0.341979 0.418679 -0.453892 0.523677 0.572156 0.850344 0.655227 0.850344 0.655227 0.872737 0.572156 0.872737 0.489084 0.850344 0.489084 0.872737 0.406056 0.850344 0.406056 0.872737 0.323028 0.850344 0.323028 0.872737 0.658021 0.418679 0.658022 0.63559 0.580319 0.60138 0.580319 0.448 0.546108 0.523677 -0.341979 0.63559 -0.341979 0.418679 -0.419682 0.448 -0.419682 0.60138 -0.453892 0.523677</float_array>
+          <technique_common>
+            <accessor source="#fridge_item_sauceShape-map1-array" count="70" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="fridge_item_sauceShape-vertices">
+          <input semantic="POSITION" source="#fridge_item_sauceShape-positions"/>
+        </vertices>
+        <triangles material="blinn5SG" count="50">
+          <input semantic="VERTEX" source="#fridge_item_sauceShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#fridge_item_sauceShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#fridge_item_sauceShape-map1" offset="2" set="0"/>
+          <p>0 0 0 5 1 1 1 2 3 1 2 3 5 1 1 6 3 2 1 2 3 6 3 2 2 4 5 2 4 5 6 3 2 7 5 4 2 4 5 7 5 4 3 6 7 3 6 7 7 5 4 8 7 6 3 6 7 8 7 6 4 8 9 4 8 9 8 7 6 9 9 8 1 10 10 2 11 11 3 12 12 0 13 13 1 10 10 4 14 14 4 14 14 1 10 10 3 12 12 0 0 15 10 15 16 5 1 18 5 1 18 10 15 16 13 16 17 10 15 16 11 17 19 13 16 17 13 16 17 11 17 19 14 18 20 11 17 19 12 19 21 14 18 20 14 18 20 12 19 21 15 20 22 12 19 21 4 8 23 15 20 22 15 20 22 4 8 23 9 9 24 10 21 25 12 22 26 11 23 27 0 13 28 4 14 29 10 21 25 10 21 25 4 14 29 12 22 26 17 24 30 22 25 31 16 26 33 16 26 33 22 25 31 21 27 32 18 28 34 23 29 35 17 24 30 17 24 30 23 29 35 22 25 31 19 30 36 24 31 37 18 28 34 18 28 34 24 31 37 23 29 35 20 32 38 25 33 39 19 30 36 19 30 36 25 33 39 24 31 37 20 34 40 19 35 41 16 36 43 16 36 43 19 35 41 17 37 42 19 35 41 18 38 44 17 37 42 21 39 45 22 40 46 25 41 48 25 41 48 22 40 46 24 42 47 22 40 46 23 43 49 24 42 47 26 44 50 16 26 51 29 45 53 29 45 53 16 26 51 21 27 52 27 46 54 26 44 50 30 47 55 30 47 55 26 44 50 29 45 53 28 48 56 27 46 54 31 49 57 31 49 57 27 46 54 30 47 55 20 32 58 28 48 56 25 33 59 25 33 59 28 48 56 31 49 57 20 34 60 16 36 61 28 50 63 28 50 63 16 36 61 26 51 62 28 50 63 26 51 62 27 52 64 21 39 65 25 41 66 29 53 68 29 53 68 25 41 66 31 54 67 29 53 68 31 54 67 30 55 69</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="fridge_item_sauce" name="fridge_item_sauce" type="NODE">
+        <translate sid="translate">0 9.8387 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="scalePivotTranslation">0 -9.8387 0</translate>
+        <translate sid="scalePivot">0 9.8387 0</translate>
+        <translate sid="scalePivotInverse">0 -9.8387 0</translate>
+        <instance_geometry url="#fridge_item_sauceShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn5SG" target="#blinn5">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

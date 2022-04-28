@@ -1,0 +1,84 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="false" Focused="2">
+            <Viewport CameraPos="0 0 200" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.0121421 200 -0.210464" CameraTarget="-0.0121421 0 -0.210464" Controller="Ortho" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="-1.36161" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0.4808 1.3555 -0.081302" CameraTarget="-0.200403 0 0.0226402" Controller="Maya" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/chest_of_drawers_bedside/chest_of_drawers_bedside_drawer.dae">
+            <SubMesh ID="0" Material="" Name="chest_of_drawers_bedside_drawer2" Rotation="0 0 0" Scale="1.247 1.247 1.21431" WorldPos="0 0 0.012796" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="6" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00170136 0.05756 0.280862" Rotation="0 0 0" Scale="0.589111 0.31425 0.0333307" ShapeType="Box" WorldPos="-0.00195987 0.579059 0.361374" />
+            <Shape ID="7" Name="Shape_2" RelativeRotation="1.5708 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00170136 -0.081402 -0.0351752" Rotation="1.5708 -0 0" Scale="0.590624 0.598043 0.0324667" ShapeType="Box" WorldPos="-0.00195987 0.440097 0.0453364" />
+            <Shape ID="8" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00170136 0.057954 -0.343121" Rotation="0 0 0" Scale="0.562451 0.314545 0.0314249" ShapeType="Box" WorldPos="-0.00195987 0.579453 -0.26261" />
+            <Shape ID="9" Name="Shape_4" RelativeRotation="-2.53518e-006 1.57045 -2.53518e-006" RelativeScale="1 1 1" RelativeTranslation="0.283253 0.057856 -0.0339087" Rotation="-2.53518e-006 1.57045 -2.53518e-006" Scale="0.649701 0.315779 0.0263504" ShapeType="Box" WorldPos="0.282995 0.579355 0.0466029" />
+            <Shape ID="10" Name="Shape_5" RelativeRotation="-2.53518e-006 1.57045 -2.53518e-006" RelativeScale="1 1 1" RelativeTranslation="-0.283253 0.0576 -0.0331532" Rotation="-2.53518e-006 1.57045 -2.53518e-006" Scale="0.64739 0.314 0.0285483" ShapeType="Box" WorldPos="-0.283512 0.579099 0.0473585" />
+            <Shape ID="11" Name="Shape_6" RelativeRotation="0 0.704058 0" RelativeScale="1 1 1" RelativeTranslation="-0.0508344 0.081085 0.320014" Rotation="0 0.704058 0" Scale="0.0271953 0.022969 0.0687462" ShapeType="Box" WorldPos="-0.0510929 0.602584 0.400526" />
+            <Shape ID="13" Name="Shape_7" RelativeRotation="-2.53518e-006 1.57045 -2.53518e-006" RelativeScale="1 1 1" RelativeTranslation="-0.000576531 0.081085 0.343121" Rotation="-2.53518e-006 1.57045 -2.53518e-006" Scale="0.0271953 0.0231168 0.0687462" ShapeType="Box" WorldPos="-0.000835036 0.602584 0.423633" />
+            <Shape ID="14" Name="Shape_8" RelativeRotation="-3.14159 0.715231 -3.14159" RelativeScale="1 1 1" RelativeTranslation="0.0522374 0.081402 0.318287" Rotation="-3.14159 0.715231 -3.14159" Scale="0.0271953 0.0217893 0.0701986" ShapeType="Box" WorldPos="0.0519789 0.602901 0.398799" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="17" LinearDamping="0.1" Mass="60" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1.247 1.247 1.247" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.000258505 0.521499 0.0805116">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="6" />
+                <Shape ID="13" />
+                <Shape ID="11" />
+                <Shape ID="9" />
+                <Shape ID="8" />
+                <Shape ID="7" />
+                <Shape ID="10" />
+                <Shape ID="14" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointSlider BreakForce="0" BreakSound="" Breakable="false" CollideBodies="true" ConnectedChildBodyID="17" ConnectedParentBodyID="-1" ID="19" LimitStepCount="1" MaxDistance="0.5" MaxLimitMaxSpeed="0" MaxLimitMinSpeed="0" MaxLimitSound="Entities_Urban/furniture/bedside_drawer/bedside_drawer_open" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveSpeed="2" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinDistance="0" MinLimitMaxSpeed="0" MinLimitMinSpeed="0" MinLimitSound="Entities_Urban/furniture/bedside_drawer/bedside_drawer_close" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveSpeed="0.1" MinMoveVolume="0.01" MoveSound="Entities_Urban/furniture/bedside_drawer/bedside_drawer_slide" MoveType="Linear" Name="JointSlider_1" Rotation="1.5708 -0 0" Scale="1 1 1" StickyMaxLimit="true" StickyMinLimit="true" Stiffness="0" WorldPos="0.000935478 0.589873 -0.261078" />
+        </Joints>
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Slide">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="SlideMaxSpeed" Value="1.25" />
+        <Var Name="SlideSlowDownFactor" Value="1" />
+        <Var Name="SlideSpeedFactor" Value="1" />
+		<Var Name="SlidePadMultiplier" Value="2" />
+    </UserDefinedVariables>
+</Entity>

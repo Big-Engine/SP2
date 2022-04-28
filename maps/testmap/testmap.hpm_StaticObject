@@ -1,0 +1,10 @@
+<HPLMapTrack_StaticObject ID="60DF0F9182808A1C42B62CE8D9042B8A429CB6DB" MajorVersion="1" MinorVersion="1">
+    <Section Name="13733002251564882997">
+        <FileIndex_StaticObjects NumOfFiles="1">
+            <File Id="0" Path="static_objects/technical/block_out_tools/block_out_box.dae" />
+        </FileIndex_StaticObjects>
+        <Objects>
+            <StaticObject ID="268435456" Name="technical_block_out_tools_block_out_box_1" CreStamp="1650778376" ModStamp="1650778388" WorldPos="0 -1 0" Rotation="0 0 0" Scale="20 1 20" FileIndex="0" Collides="true" CastShadows="true" IsOccluder="true" ColorMul="1 1 1 1" CulledByDistance="true" CulledByFog="true" IllumColor="1 1 1 1" IllumBrightness="1" UID="16 13 268435456" />
+        </Objects>
+    </Section>
+</HPLMapTrack_StaticObject>

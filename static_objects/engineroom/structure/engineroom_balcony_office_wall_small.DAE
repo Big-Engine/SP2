@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>
+      </author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments>
+      </comments>
+    </contributor>
+    <created>2013-01-24T13:02:22Z</created>
+    <keywords>
+    </keywords>
+    <modified>2013-01-24T13:02:22Z</modified>
+    <revision>
+    </revision>
+    <subject>
+    </subject>
+    <title>
+    </title>
+    <unit meter="1.000000" name="centimeter">
+    </unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #21-image" name="Map #21">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\engineroom\structure\engineroom_atlas_01.jpg</init_from>
+    </image>
+    <image id="Map #22-image" name="Map #22">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\teslabase\dressing\tesla_dressing_cupboard_01.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="engineroom_floor_02_blinn2SG" name="engineroom_floor_02_blinn2SG">
+      <instance_effect url="#engineroom_floor_02_blinn2SG-fx" />
+    </material>
+    <material id="_06 - Default" name="_06 - Default">
+      <instance_effect url="#_06 - Default-fx" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="engineroom_floor_02_blinn2SG-fx" name="engineroom_floor_02_blinn2SG">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #21-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #21-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">8.000001</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_06 - Default-fx" name="_06 - Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #22-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="balcony_straight_metal013-lib" name="balcony_straight_metal013Mesh">
+      <mesh>
+        <source id="balcony_straight_metal013-POSITION">
+          <float_array id="balcony_straight_metal013-POSITION-array" count="114">
+-0.066665 4.000000 4.040669
+0.052594 4.000000 4.040669
+0.052594 4.000000 3.998930
+-0.000000 4.000000 3.952918
+-0.000000 4.000000 3.593393
+0.076313 4.000000 3.549584
+0.076313 4.000000 3.501576
+0.024869 4.000000 3.463973
+-0.030803 4.000000 3.445795
+-0.084339 4.000000 3.445795
+-0.066664 -0.000112 4.040668
+0.052595 -0.000112 4.040668
+0.052595 -0.000112 3.998930
+0.000000 -0.000112 3.952917
+0.000000 -0.000112 3.593392
+0.076314 -0.000110 3.549583
+0.076314 -0.000110 3.501575
+0.024870 -0.000110 3.463972
+-0.030803 -0.000110 3.445794
+-0.084338 -0.000110 3.445794
+  -0.045864 -0.000112 4.040669 -0.165123 -0.000112 4.040669 -0.165123 -0.000112 3.998930 -0.112529 -0.000112 3.952918 -0.112529 -0.000112 3.593393 -0.188843 -0.000112 3.549584 -0.188843 -0.000112 3.501576 -0.137398 -0.000112 3.463973 -0.081726 -0.000112 3.445795 -0.045864 4.000000 4.040668 -0.165123 4.000000 4.040668 -0.165123 4.000000 3.998930 -0.112529 4.000000 3.952917 -0.112529 4.000000 3.593392 -0.188843 3.999998 3.549583 -0.188843 3.999998 3.501575 -0.137399 3.999998 3.463972 -0.081726 3.999998 3.445794 </float_array>
+          <technique_common>
+            <accessor source="#balcony_straight_metal013-POSITION-array" count="38" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="balcony_straight_metal013-Normal0">
+          <float_array id="balcony_straight_metal013-Normal0-array" count="306">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.658651 0.000000 0.752449
+0.658651 0.000000 0.752449
+0.658651 0.000000 0.752449
+0.658651 0.000000 0.752449
+0.658651 0.000000 0.752448
+0.658651 0.000000 0.752449
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.498092 0.000000 -0.867124
+0.498088 0.000000 -0.867126
+0.498088 0.000000 -0.867126
+0.498088 0.000000 -0.867126
+0.498088 0.000000 -0.867126
+0.498092 0.000000 -0.867124
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.590227 0.000000 0.807237
+0.590227 0.000000 0.807237
+0.456203 0.000000 0.889876
+0.456203 0.000000 0.889876
+0.456215 0.000000 0.889870
+0.590227 0.000000 0.807237
+0.456215 0.000000 0.889870
+0.456203 0.000000 0.889876
+0.157230 0.000000 0.987562
+0.157230 0.000000 0.987562
+0.157230 0.000000 0.987562
+0.456215 0.000000 0.889870
+0.157230 0.000000 0.987562
+0.157230 0.000000 0.987562
+-0.221908 0.000000 0.975068
+-0.221908 0.000000 0.975068
+-0.221908 0.000000 0.975068
+0.157230 0.000000 0.987562
+  0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -0.658651 0.000000 0.752449 -0.658651 0.000000 0.752448 -0.658651 0.000000 0.752449 -0.658651 0.000000 0.752449 -0.658651 0.000000 0.752448 -0.658651 0.000000 0.752449 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -0.498093 0.000000 -0.867124 -0.498088 0.000000 -0.867126 -0.498088 0.000000 -0.867126 -0.498088 0.000000 -0.867126 -0.498088 0.000000 -0.867126 -0.498093 0.000000 -0.867124 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -0.590227 0.000000 0.807237 -0.590228 0.000000 0.807236 -0.456203 0.000000 0.889876 -0.456203 0.000000 0.889876 -0.456215 0.000000 0.889870 -0.590227 0.000000 0.807237 -0.456215 0.000000 0.889870 -0.456203 0.000000 0.889876 -0.157230 0.000000 0.987562 -0.157230 0.000000 0.987562 -0.157229 0.000000 0.987562 -0.456215 0.000000 0.889870 </float_array>
+          <technique_common>
+            <accessor source="#balcony_straight_metal013-Normal0-array" count="102" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="balcony_straight_metal013-UV0">
+          <float_array id="balcony_straight_metal013-UV0-array" count="92">
+2.102569 0.334803
+2.102569 0.297354
+1.867121 0.618472
+1.867121 0.610717
+1.867121 0.629217
+1.867121 0.702271
+1.867122 0.712518
+1.867122 0.722131
+3.002876 0.021410
+3.002876 -0.000320
+3.002876 0.041341
+3.002876 0.059559
+2.939040 0.334803
+2.939039 0.297354
+2.604943 0.618463
+2.604943 0.610708
+2.604944 0.629209
+2.604944 0.702263
+2.604944 0.712509
+2.604944 0.722122
+4.308450 0.021409
+4.308450 -0.000322
+4.308450 0.041339
+4.308450 0.059558
+  2.102569 0.334803 2.102569 0.297354 1.867121 0.618472 1.867121 0.610717 1.867121 0.629217 1.867121 0.702271 1.867122 0.712518 1.867122 0.722131 3.002876 0.021410 3.002876 -0.000320 3.002876 0.041341 2.939040 0.334803 2.939039 0.297354 2.604943 0.618463 2.604943 0.610708 2.604944 0.629209 2.604944 0.702263 2.604944 0.712509 2.604944 0.722122 4.308450 0.021409 4.308450 -0.000322 4.308450 0.041339 </float_array>
+          <technique_common>
+            <accessor source="#balcony_straight_metal013-UV0-array" count="46" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="balcony_straight_metal013-VERTEX">
+          <input semantic="POSITION" source="#balcony_straight_metal013-POSITION" />
+        </vertices>
+        <polylist count="34" material="engineroom_floor_02_blinn2SG">
+          <input semantic="VERTEX" offset="0" source="#balcony_straight_metal013-VERTEX" />
+          <input semantic="NORMAL" offset="1" source="#balcony_straight_metal013-Normal0" />
+          <input semantic="TEXCOORD" offset="2" set="0" source="#balcony_straight_metal013-UV0" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p> 0 0 1 10 1 13 11 2 12 11 3 12 1 4 0 0 5 1 1 6 3 11 7 15 12 8 14 12 9 14 2 10 2 1 11 3 2 12 2 12 13 14 13 14 16 13 15 16 3 16 4 2 17 2 3 18 4 13 19 16 14 20 17 14 21 17 4 22 5 3 23 4 4 24 5 14 25 17 15 26 18 15 27 18 5 28 6 4 29 5 5 30 6 15 31 18 16 32 19 16 33 19 6 34 7 5 35 6 6 36 9 16 37 21 17 38 20 17 39 20 7 40 8 6 41 9 7 42 8 17 43 20 18 44 22 18 45 22 8 46 10 7 47 8 8 48 10 18 49 22 19 50 23 19 51 23 9 52 11 8 53 10 20 54 25 29 55 36 30 56 35 30 57 35 21 58 24 20 59 25 21 60 27 30 61 38 31 62 37 31 63 37 22 64 26 21 65 27 22 66 26 31 67 37 32 68 39 32 69 39 23 70 28 22 71 26 23 72 28 32 73 39 33 74 40 33 75 40 24 76 29 23 77 28 24 78 29 33 79 40 34 80 41 34 81 41 25 82 30 24 83 29 25 84 30 34 85 41 35 86 42 35 87 42 26 88 31 25 89 30 26 90 33 35 91 44 36 92 43 36 93 43 27 94 32 26 95 33 27 96 32 36 97 43 37 98 45 37 99 45 28 100 34 27 101 32</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Box026-lib" name="Box026Mesh">
+      <mesh>
+        <source id="Box026-POSITION">
+          <float_array id="Box026-POSITION-array" count="36">
+-0.084349 0.004270 0.000000
+0.024805 0.004270 0.000000
+-0.084349 0.004270 3.502078
+0.024805 0.004270 3.502078
+-0.084349 3.999979 0.000000
+0.024805 3.999979 0.000000
+-0.084349 3.999979 3.502078
+0.024805 3.999979 3.502078
+0.024805 2.002836 0.000000
+-0.084349 2.002836 0.000000
+-0.084349 2.002836 3.502078
+0.024805 2.002836 3.502078
+</float_array>
+          <technique_common>
+            <accessor source="#Box026-POSITION-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box026-Normal0">
+          <float_array id="Box026-Normal0-array" count="72">
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+-1.000000 -0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box026-Normal0-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box026-UV0">
+          <float_array id="Box026-UV0-array" count="32">
+0.007329 0.003426
+0.217771 0.003426
+0.217669 0.434060
+0.007228 0.434060
+0.007228 0.003209
+0.217669 0.003209
+0.217771 0.434278
+0.007329 0.434278
+0.007329 0.003426
+0.217771 0.003426
+0.217669 0.434060
+0.007228 0.434060
+0.007228 0.003209
+0.217669 0.003209
+0.217771 0.434278
+0.007329 0.434278
+</float_array>
+          <technique_common>
+            <accessor source="#Box026-UV0-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box026-VERTEX">
+          <input semantic="POSITION" source="#Box026-POSITION" />
+        </vertices>
+        <polylist count="8" material="_06 - Default">
+          <input semantic="VERTEX" offset="0" source="#Box026-VERTEX" />
+          <input semantic="NORMAL" offset="1" source="#Box026-Normal0" />
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box026-UV0" />
+          <vcount>3 3 3 3 3 3 3 3 </vcount>
+          <p> 2 0 6 10 1 7 9 2 0 9 3 0 0 4 1 2 5 6 1 6 4 8 7 5 11 8 2 11 9 2 3 10 3 1 11 4 10 12 14 6 13 15 4 14 8 4 15 8 9 16 9 10 17 14 8 18 12 5 19 13 7 20 10 7 21 10 11 22 11 8 23 12</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="balcony_straight_metal013" id="balcony_straight_metal013" layer="engineroom_balcony_office_wall" sid="balcony_straight_metal013">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#balcony_straight_metal013-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="engineroom_floor_02_blinn2SG" target="#engineroom_floor_02_blinn2SG" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="balcony_straight_metal014" id="balcony_straight_metal014" layer="engineroom_balcony_office_wall" sid="balcony_straight_metal014">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="balcony_straight_metal018" id="balcony_straight_metal018" layer="engineroom_balcony_office_wall" sid="balcony_straight_metal018">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Box026" id="Box026" layer="engineroom_balcony_office_wall" sid="Box026">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box026-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_06 - Default" target="#_06 - Default" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#">
+    </instance_visual_scene>
+  </scene>
+</COLLADA>

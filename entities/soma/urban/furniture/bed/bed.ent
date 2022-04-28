@@ -1,0 +1,45 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/bed/bed.dae">
+            <SubMesh ID="0" Name="bed" CreStamp="0" ModStamp="1441743479" WorldPos="0 0 0" Rotation="0 0 0" Scale="1.5 1.5 1.5" TriCount="431" Material="entities/urban/furniture/bed/bed.mat" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="3" Name="Shape_1" CreStamp="0" ModStamp="1441743276" WorldPos="-0.00117607 0.483426 0.00679152" Rotation="0 0 0" Scale="1.58392 0.0789481 2.98721" RelativeTranslation="-0.00352807 -0.36654 0.00872653" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="7" Name="Shape_4" CreStamp="0" ModStamp="1441743227" WorldPos="0.749045 0.385692 1.45918" Rotation="0 0 0" Scale="0.0406187 0.789422 0" RelativeTranslation="0.746693 -0.464274 1.46112" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="10" Name="Shape_7" CreStamp="0" ModStamp="1441743208" WorldPos="0.753757 0.712561 -1.4678" Rotation="0 0 0" Scale="0.0488661 1.42364 0" RelativeTranslation="0.751405 -0.137405 -1.46587" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="13" Name="Shape_10" CreStamp="0" ModStamp="1441743251" WorldPos="0.00323768 0.870316 -1.46724" Rotation="0 -0 1.5708" Scale="0.0283815 1.47446 0" RelativeTranslation="0.000885681 0.0203501 -1.4653" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="14" Name="Shape_5" CreStamp="1441743230" ModStamp="1441743236" WorldPos="-0.749053 0.385692 1.45918" Rotation="0 0 0" Scale="0.0406187 0.789422 0" RelativeTranslation="-0.751405 -0.464274 1.46112" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="15" Name="Shape_11" CreStamp="1441743230" ModStamp="1441743236" WorldPos="-0.744341 0.712561 -1.4678" Rotation="0 0 0" Scale="0.0488661 1.42364 0" RelativeTranslation="-0.746693 -0.137405 -1.46587" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="16" Name="Shape_12" CreStamp="1441743252" ModStamp="1441743254" WorldPos="0.00323768 1.08016 -1.46724" Rotation="0 -0 1.5708" Scale="0.0283815 1.47446 0" RelativeTranslation="0.000885681 0.230194 -1.4653" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="17" Name="Shape_13" CreStamp="1441743254" ModStamp="1441743259" WorldPos="0.00323768 1.31424 -1.46724" Rotation="0 -0 1.5708" Scale="0.0318682 1.47446 0" RelativeTranslation="0.000885681 0.464274 -1.4653" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="18" Name="Shape_14" CreStamp="1441743368" ModStamp="1441743378" WorldPos="0.00323768 0.696061 1.46393" Rotation="0 -0 1.5708" Scale="0.0283815 1.47446 0" RelativeTranslation="0.000885681 -0.153905 1.46587" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="19" Name="Shape_15" CreStamp="1441743381" ModStamp="1441743386" WorldPos="0.00323768 0.594939 1.46393" Rotation="0 -0 1.5708" Scale="0.0201653 1.47446 0" RelativeTranslation="0.000885681 -0.255027 1.46587" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="20" Name="Shape_2" CreStamp="1441743389" ModStamp="1441743399" WorldPos="0 0.634979 0.00388186" Rotation="0 0 0" Scale="1.48379 0.220279 2.90492" RelativeTranslation="0 -4.47035e-008 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="21" Name="Body_1" CreStamp="0" ModStamp="1441743901" WorldPos="0 0.634979 0.00388186" Rotation="0 0 0" Scale="1.5 1.5 1.5" Material="Bed Springy HiPrio" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="20" />
+            </Body>
+            <Body ID="22" Name="Body_2" CreStamp="0" ModStamp="1441743503" WorldPos="0.002352 0.849966 -0.00193501" Rotation="0 0 0" Scale="1.5 1.5 1.5" Material="Metal Pipe" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="7" />
+                <Shape ID="18" />
+                <Shape ID="19" />
+                <Shape ID="3" />
+                <Shape ID="10" />
+                <Shape ID="14" />
+                <Shape ID="17" />
+                <Shape ID="16" />
+                <Shape ID="13" />
+                <Shape ID="15" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

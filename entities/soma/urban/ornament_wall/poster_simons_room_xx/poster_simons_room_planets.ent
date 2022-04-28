@@ -1,0 +1,24 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/ornament_wall/poster_simons_room_xx/poster_simons_room_planets.dae">
+            <SubMesh ID="0" Name="poster_simons_room_planets_pPlane1__3_" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="37" Material="" />
+            <SubMesh ID="1" Name="polySurface64" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="200" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="2" Name="Shape_1" CreStamp="0" ModStamp="0" WorldPos="-0.000136724 0 -0.0180179" Rotation="0 0 0" Scale="2.08301 0.894362 0.0718783" RelativeTranslation="0 0 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="3" Name="Body_1" CreStamp="0" ModStamp="1439284862" WorldPos="-0.000136724 0 -0.0180179" Rotation="0 0 0" Scale="1 1 1" Material="Default" Mass="0" AngularDamping="0" LinearDamping="0" MaxAngularSpeed="0" MaxLinearSpeed="0" BuoyancyDensityMul="0" BlocksSound="false" ContinuousCollision="false" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="false" CollideNonCharacter="false" Volatile="false" UseSurfaceEffects="false" HasGravity="false" BlocksLight="false">
+                <Shape ID="2" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

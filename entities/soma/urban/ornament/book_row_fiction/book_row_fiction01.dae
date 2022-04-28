@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>user</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/user/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-02-13T06:08:18Z</created>
+    <modified>2012-02-13T06:08:18Z</modified>
+    <unit meter="1" name="meter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="book_row_fiction01_1" name="book_row_fiction01_1">
+      <init_from>file:///E:/SVN_Server/application/entities/urban02/ornament/book_row_fiction/book_row_fiction01.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="book_row_fiction_nrm01_1" name="book_row_fiction_nrm01_1">
+      <init_from>file:///E:/SVN_Server/application/entities/urban02/ornament/book_row_fiction/book_row_fiction_nrm01.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="book_row_fiction_spec01_1" name="book_row_fiction_spec01_1">
+      <init_from>file:///E:/SVN_Server/application/entities/urban02/ornament/book_row_fiction/book_row_fiction_spec01.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn10" name="blinn10">
+      <instance_effect url="#blinn10-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn10-fx">
+      <profile_COMMON>
+        <newparam sid="book_row_fiction01_1-surface">
+          <surface type="2D">
+            <init_from>book_row_fiction01_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="book_row_fiction01_1-sampler">
+          <sampler2D>
+            <source>book_row_fiction01_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="book_row_fiction_nrm01_1-surface">
+          <surface type="2D">
+            <init_from>book_row_fiction_nrm01_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="book_row_fiction_nrm01_1-sampler">
+          <sampler2D>
+            <source>book_row_fiction_nrm01_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="book_row_fiction_spec01_1-surface">
+          <surface type="2D">
+            <init_from>book_row_fiction_spec01_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="book_row_fiction_spec01_1-sampler">
+          <sampler2D>
+            <source>book_row_fiction_spec01_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="book_row_fiction01_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <texture texture="book_row_fiction_spec01_1-sampler" texcoord="TEX2">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="book_row_fiction_nrm01_1-sampler" texcoord="TEX1">
+                  <extra>
+                    <technique profile="MAYA">
+                      <wrapU>1</wrapU>
+                      <wrapV>1</wrapV>
+                      <mirrorU>0</mirrorU>
+                      <mirrorV>0</mirrorV>
+                      <coverageU>1</coverageU>
+                      <coverageV>1</coverageV>
+                      <translateFrameU>0</translateFrameU>
+                      <translateFrameV>0</translateFrameV>
+                      <rotateFrame>0</rotateFrame>
+                      <stagger>0</stagger>
+                      <fast>0</fast>
+                      <repeatU>1</repeatU>
+                      <repeatV>1</repeatV>
+                      <offsetU>0</offsetU>
+                      <offsetV>0</offsetV>
+                      <rotateUV>0</rotateUV>
+                      <noiseU>0</noiseU>
+                      <noiseV>0</noiseV>
+                      <blend_mode>NONE</blend_mode>
+                    </technique>
+                    <technique profile="MAX3D">
+                      <amount>1</amount>
+                      <bumpInterp>1</bumpInterp>
+                    </technique>
+                  </extra>
+                </texture>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="book_row_fiction01Shape" name="book_row_fiction01Shape">
+      <mesh>
+        <source id="book_row_fiction01Shape-positions" name="position">
+          <float_array id="book_row_fiction01Shape-positions-array" count="252">-0.101535 0.202237 0.059991 -0.101535 0.000693 0.059991 -0.092067 0.000693 0.064307 -0.092067 0.202237 0.064307 -0.077543 0.000693 0.064307 -0.077543 0.202237 0.064307 -0.068076 0.000693 0.059991 -0.068076 0.202237 0.059991 -0.068076 0.000738 -0.058103 -0.068076 0.203065 -0.058103 -0.101535 0.202789 -0.057908 -0.101535 0.000713 -0.058003 -0.085489 0.000726 -0.055745 -0.085489 0.201665 -0.055696 -0.050815 0.205055 0.054029 -0.050815 0.00065 0.054029 -0.038934 0.00065 0.058346 -0.038934 0.205055 0.058346 -0.020709 0.00065 0.058346 -0.020709 0.205055 0.058346 -0.008829 0.00065 0.054029 -0.008829 0.205055 0.054029 -0.008829 0.000696 -0.064064 -0.008829 0.205892 -0.064064 -0.050815 0.205613 -0.06387 -0.050815 0.000671 -0.063964 -0.03068 0.000684 -0.061706 -0.03068 0.204477 -0.061657 0.041495 0.194234 0.061252 0.041495 0.000714 0.061252 0.050617 0.000714 0.065568 0.050617 0.194234 0.065568 0.064611 0.000714 0.065568 0.064611 0.194234 0.065568 0.073732 0.000714 0.061252 0.073732 0.194234 0.061252 0.041495 0.194765 -0.056647 0.041495 0.000733 -0.056742 0.056955 0.000745 -0.054484 0.056955 0.193685 -0.054435 0.073732 0.000757 -0.056842 0.073732 0.195031 -0.056842 -0.008344 0.188111 0.053878 -0.008344 0.000792 0.050467 0.006129 0.000792 0.061793 0.006129 0.188111 0.061793 0.028332 0.000792 0.061793 0.028332 0.188111 0.061793 0.042805 0.000792 0.053878 0.042805 0.188111 0.053878 0.016185 0.000823 -0.052952 -0.008344 0.000811 -0.059012 -0.008344 0.188628 -0.055513 0.016185 0.187576 -0.052906 0.042805 0.000834 -0.055694 0.042805 0.188887 -0.055694 -0.067777 0.191532 0.053253 -0.067777 0.000758 0.053253 -0.063078 0.000758 0.061149 -0.063078 0.191532 0.061149 -0.055869 0.000758 0.061149 -0.055869 0.191532 0.061149 -0.05117 0.000758 0.053253 -0.05117 0.191532 0.053253 -0.059813 0.00079 -0.054695 -0.067777 0.000778 -0.05571 -0.067777 0.192057 -0.055623 -0.059813 0.190989 -0.054649 -0.05117 0.000801 -0.055802 -0.05117 0.19232 -0.055802 0.073587 0.204231 0.06249 0.073587 0.000735 0.06249 0.081496 0.000735 0.070392 0.081496 0.204231 0.070392 0.093627 0.000735 0.070392 0.093627 0.204231 0.070392 0.101535 0.000735 0.06249 0.101535 0.204231 0.06249 0.101535 0.00078 -0.070392 0.101535 0.20507 -0.070392 0.073587 0.20479 -0.070212 0.073587 0.000755 -0.070299 0.08699 0.000768 -0.069283 0.08699 0.203652 -0.069238</float_array>
+          <technique_common>
+            <accessor source="#book_row_fiction01Shape-positions-array" count="84" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="book_row_fiction01Shape-normals" name="normal">
+          <float_array id="book_row_fiction01Shape-normals-array" count="588">-0.414788 0 0.909918 -0.414788 0 0.909918 -0.212229 0 0.97722 -0.212228 0 0.97722 0.212248 0 0.977216 0.212248 0 0.977216 0.414824 0 0.909902 0.414825 0 0.909902 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.002602 0.000243 -0.999997 0.137971 0.000353 -0.990436 0.001216 0.000239 -0.999999 0.136595 0.000465 -0.990627 -0.13556 0.00012 -0.990769 -0.136928 0 -0.990581 0.000294 -1 -0.000272 -0.00006 -1 -0.00027 0.000061 -1 -0.000271 -0.001054 0.999988 -0.004696 -0.001988 0.999998 -0.000477 0.001059 0.999988 -0.004708 0.000478 -1 -0.000218 0.000834 -1 -0.000169 0.000637 -1 -0.000381 0.000257 -1 -0.000323 -0.079178 0.996836 0.006989 -0.040675 0.999172 0.001182 0.035698 0.999363 0.00001 0.069236 0.997589 0.00467 -0.341508 0 0.939879 -0.341508 0 0.939879 -0.17338 0 0.984855 -0.17338 0 0.984855 0.173393 0 0.984853 0.173394 0 0.984853 0.341534 0 0.93987 0.341533 0 0.93987 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.002089 0.00024 -0.999998 0.11036 0.000347 -0.993892 0.000989 0.000234 -1 0.109275 0.000455 -0.994011 -0.108392 0.000119 -0.994108 -0.109493 0 -0.993988 0.000234 -1 -0.00028 -0.000049 -1 -0.000279 0.00005 -1 -0.000279 0.000853 0.999988 -0.004758 -0.001605 0.999999 -0.000478 0.02877 0.999586 0.000013 0.055811 0.99843 0.004725 -0.063843 0.997935 0.007072 -0.032787 0.999462 0.001199 -0.000849 0.999988 -0.004745 0.000383 -1 -0.000227 0.000665 -1 -0.000177 0.000507 -1 -0.000389 0.000203 -1 -0.000332 -0.427685 0 0.903928 -0.427685 0 0.903928 -0.219172 0 0.975686 -0.219172 0 0.975686 0.219192 0 0.975682 0.219192 0 0.975682 0.427724 0 0.90391 0.427724 0 0.90391 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.002697 0.000253 -0.999996 0.143095 0.000367 -0.989709 0.001261 0.000249 -0.999999 0.141669 0.000484 -0.989914 -0.140598 0.000125 -0.990067 -0.142016 0 -0.989864 0.000292 -1 -0.000257 -0.000059 -1 -0.000254 0.000059 -1 -0.000255 -0.00105 0.999989 -0.004507 -0.001992 0.999998 -0.000452 0.001055 0.999989 -0.004518 0.000459 -1 -0.000206 0.000799 -1 -0.000161 0.000664 -1 -0.000364 0.000272 -1 -0.000307 0.035599 0.999366 0.000015 0.069047 0.997603 0.004493 -0.07901 0.996851 0.006727 -0.040586 0.999175 0.001144 -0.616221 -0.014339 0.787443 -0.380378 -0.004976 0.924818 -0.549871 -0.007193 0.835219 -0.164484 0 0.98638 0.24762 0 0.968857 0.24762 0 0.968857 0.479816 0 0.877369 0.479816 0 0.877369 0.069723 0.000245 -0.997566 0.173554 0.009401 -0.984779 0.035299 0.004803 -0.999365 0.106455 0.01852 -0.994145 -0.103313 0.000122 -0.994649 -0.104163 0 -0.99456 0.000192 -1 -0.000267 -0.000069 -1 -0.000262 0.000098 -1 -0.000261 -0.001205 0.999989 -0.004536 -0.001216 0.999999 -0.000345 0.001217 0.999989 -0.004557 -0.048449 0.998801 0.007073 -0.025437 0.999676 0.001332 0.022395 0.999749 0.000135 0.042347 0.999092 0.004721 0.000364 -1 -0.000213 0.000532 -1 -0.000173 0.000373 -1 -0.000383 0.000117 -1 -0.000319 -0.859341 0 0.511403 -0.859341 0 0.511403 -0.494266 0 0.869311 -0.494266 0 0.869311 0.494266 0 0.869311 0.494266 0 0.869311 0.859341 0 0.511403 0.859341 0 0.511403 -0.000311 0.000241 -1 0.123941 0.000345 -0.99229 -0.002871 0.000234 -0.999996 0.121455 0.000451 -0.992597 -0.129638 0.000119 -0.991561 -0.132232 0 -0.991219 0.000551 -1 -0.000275 -0.000219 -1 -0.000268 0.000221 -1 -0.000269 0.003761 0.999982 -0.004583 -0.003726 0.999983 -0.004562 -0.003787 0.999993 -0.000337 0.070068 0.997542 0.000151 0.132338 0.991193 0.004779 -0.079569 0.996828 0.001357 -0.151269 0.988467 0.007142 0.001222 -0.999999 -0.000394 0.000391 -1 -0.000327 0.000986 -1 -0.000223 0.00153 -0.999999 -0.000183 -0.706793 0 0.70742 -0.706794 0 0.70742 -0.382479 0 0.923964 -0.382479 0 0.923964 0.382508 0 0.923952 0.382508 0 0.923952 0.706838 0 0.707375 0.706838 0 0.707375 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.00022 0.000221 -1 0.07405 0.000323 -0.997254 -0.001759 0.000217 -0.999999 0.072514 0.000425 -0.997367 -0.077558 0.00011 -0.996988 -0.079091 0 -0.996867 0.000799 -1 -0.000338 0.000286 -1 -0.000282 0.000356 -1 -0.000235 -0.000112 -1 -0.00023 -0.001977 0.99999 -0.004052 -0.002445 0.999997 -0.000323 0.001993 0.99999 -0.004068 0.000113 -1 -0.000231 0.000604 -1 -0.000188 0.000981 -1 -0.00015 0.044178 0.999024 0.000104 0.084298 0.996432 0.004197 -0.096534 0.99531 0.006284 -0.050299 0.998733 0.001164</float_array>
+          <technique_common>
+            <accessor source="#book_row_fiction01Shape-normals-array" count="196" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="book_row_fiction01Shape-map1" name="map1">
+          <float_array id="book_row_fiction01Shape-map1-array" count="392">0.424598 0.372653 0.424598 0.00541 0.43128 0.00541 0.43128 0.372653 0.44153 0.00541 0.44153 0.372653 0.448212 0.00541 0.448212 0.372653 0.259399 0.003178 0.259399 0.376041 0.167088 0.374514 0.167088 0.004295 0.291493 0.374927 0.291392 0.003183 0.417257 0.00369 0.417257 0.373909 0.277213 0.003496 0.288538 0.003788 0.288538 0.375532 0.277213 0.375776 0.264924 0.003178 0.264924 0.376041 0.466352 0.006586 0.47196 0.348436 0.46171 0.348436 0.461706 0.34812 0.467314 0.006375 0.471956 0.34812 0.455028 0.339212 0.455028 0.003707 0.478641 0.003493 0.478641 0.339212 0.455024 0.003178 0.455024 0.338896 0.478638 0.003593 0.478638 0.338896 0.159659 0.005379 0.159659 0.375598 0.143272 0.375598 0.143272 0.005379 0.118136 0.375597 0.118136 0.005379 0.101751 0.375597 0.101751 0.005379 0.063275 0.380403 0.063275 0.753266 0.004107 0.751739 0.004107 0.38152 0.033943 0.377128 0.033893 0.005384 0.096727 0.005891 0.096727 0.37611 0.018664 0.005696 0.029988 0.005989 0.029988 0.377732 0.018664 0.377976 0.006374 0.005379 0.006374 0.378241 0.917414 0.766149 0.92646 0.984786 0.909926 0.984786 0.926454 0.984801 0.918966 0.766258 0.937232 0.763772 0.937232 0.976557 0.899141 0.763401 0.909919 0.984802 0.899141 0.976557 0.899147 0.976542 0.899147 0.763576 0.937238 0.763385 0.937238 0.976542 0.70275 0.767584 0.70275 0.996651 0.692413 0.996651 0.692413 0.767584 0.676558 0.996651 0.676557 0.767584 0.666222 0.996651 0.666222 0.767584 0.656141 0.76597 0.656296 0.99598 0.564455 0.995666 0.564455 0.7666 0.543171 0.766167 0.560688 0.766348 0.560688 0.996357 0.543171 0.996508 0.52416 0.76597 0.52416 0.996672 0.824719 0.765547 0.832752 0.984309 0.81807 0.984309 0.818064 0.984325 0.826096 0.765657 0.832746 0.984325 0.808498 0.976061 0.808498 0.762973 0.842322 0.762782 0.842322 0.976061 0.842317 0.763169 0.842317 0.976076 0.808494 0.762798 0.808494 0.976076 0.750815 0.756279 0.750816 0.383866 0.778428 0.383866 0.778428 0.756279 0.820785 0.383866 0.820785 0.756279 0.848395 0.383866 0.848395 0.756279 0.721668 0.384229 0.74241 0.384563 0.74241 0.758718 0.721668 0.758997 0.699157 0.383866 0.699158 0.7593 0.736633 0.763705 0.745139 0.984917 0.729592 0.984917 0.729873 0.985339 0.738379 0.764223 0.74542 0.98534 0.719739 0.977004 0.719739 0.761334 0.755555 0.761709 0.755555 0.977004 0.719457 0.976581 0.719457 0.761104 0.755273 0.760911 0.755273 0.976581 0.265908 0.759089 0.265908 0.993165 0.258675 0.993165 0.258675 0.759089 0.24758 0.993165 0.24758 0.759089 0.240348 0.993165 0.240348 0.759089 0.223482 0.759327 0.235739 0.759546 0.235739 0.994765 0.223482 0.994948 0.21018 0.759089 0.210179 0.995147 0.780272 0.76509 0.788305 0.985581 0.773623 0.985581 0.788299 0.986003 0.773617 0.986003 0.78165 0.765606 0.79787 0.7631 0.79787 0.977692 0.764047 0.977692 0.764047 0.762726 0.797875 0.762304 0.797875 0.977271 0.764052 0.977271 0.764052 0.762497 0.294059 0.752515 0.294059 0.384522 0.306765 0.384522 0.306765 0.752515 0.326253 0.384522 0.326253 0.752515 0.338957 0.384522 0.338957 0.752515 0.1945 0.386134 0.1945 0.748095 0.069015 0.746568 0.069015 0.387251 0.225919 0.75182 0.225818 0.387494 0.28945 0.388001 0.28945 0.750802 0.209173 0.382614 0.220498 0.382906 0.220498 0.75465 0.209173 0.754894 0.196884 0.382296 0.196884 0.755159 0.371161 0.381478 0.371161 0.721126 0.364479 0.73035 0.358871 0.384571 0.354225 0.730151 0.359833 0.385493 0.364475 0.730151 0.354229 0.73035 0.347547 0.721126 0.347547 0.381692 0.371157 0.382711 0.371157 0.720927 0.347544 0.382296 0.347544 0.720927</float_array>
+          <technique_common>
+            <accessor source="#book_row_fiction01Shape-map1-array" count="196" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="book_row_fiction01Shape-vertices">
+          <input semantic="POSITION" source="#book_row_fiction01Shape-positions"/>
+        </vertices>
+        <triangles material="blinn10SG" count="134">
+          <input semantic="VERTEX" source="#book_row_fiction01Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#book_row_fiction01Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#book_row_fiction01Shape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 3 2 3 3 2 3 1 1 1 2 3 2 2 3 2 4 4 4 3 2 3 3 2 3 4 4 4 5 5 5 5 5 5 4 4 4 7 6 7 7 6 7 4 4 4 6 7 6 9 8 9 7 9 10 8 10 8 8 10 8 7 9 10 6 11 11 10 12 12 11 13 13 0 14 15 0 14 15 11 13 13 1 15 14 12 16 16 11 17 17 13 18 19 13 18 19 11 17 17 10 19 18 12 16 16 13 18 19 8 20 20 8 20 20 13 18 19 9 21 21 12 22 22 4 23 23 2 24 24 5 25 25 13 26 26 3 27 27 2 24 24 1 28 28 12 22 22 12 22 22 1 28 28 11 29 29 8 30 30 6 31 31 12 22 22 12 22 22 6 31 31 4 23 23 9 32 32 13 26 26 7 33 33 7 33 33 13 26 26 5 25 25 3 27 27 13 26 26 0 34 35 0 34 35 13 26 26 10 35 34 14 36 36 15 37 37 17 38 39 17 38 39 15 37 37 16 39 38 16 39 38 18 40 40 17 38 39 17 38 39 18 40 40 19 41 41 19 41 41 18 40 40 21 42 43 21 42 43 18 40 40 20 43 42 23 44 45 21 45 46 22 46 44 22 46 44 21 45 46 20 47 47 24 48 48 25 49 49 14 50 51 14 50 51 25 49 49 15 51 50 26 52 52 25 53 53 27 54 55 27 54 55 25 53 53 24 55 54 26 52 52 27 54 55 22 56 56 22 56 56 27 54 55 23 57 57 26 58 58 18 59 59 16 60 60 17 61 61 27 62 62 14 63 64 14 63 64 27 62 62 24 64 63 23 65 65 27 62 62 21 66 67 21 66 67 27 62 62 19 67 66 19 67 66 27 62 62 17 61 61 16 60 60 15 68 68 26 58 58 26 58 58 15 68 68 25 69 69 22 70 70 20 71 71 26 58 58 26 58 58 20 71 71 18 59 59 28 72 72 29 73 73 31 74 75 31 74 75 29 73 73 30 75 74 30 75 74 32 76 76 31 74 75 31 74 75 32 76 76 33 77 77 33 77 77 32 76 76 35 78 79 35 78 79 32 76 76 34 79 78 36 80 80 37 81 81 28 82 83 28 82 83 37 81 81 29 83 82 38 84 84 37 85 85 39 86 87 39 86 87 37 85 85 36 87 86 38 84 84 39 86 87 40 88 88 40 88 88 39 86 87 41 89 89 38 90 90 32 91 91 30 92 92 33 93 93 39 94 94 31 95 95 30 92 92 29 96 96 38 90 90 38 90 90 29 96 96 37 97 97 40 98 98 34 99 99 38 90 90 38 90 90 34 99 99 32 91 91 31 95 95 39 94 94 28 100 101 28 100 101 39 94 94 36 101 100 41 102 102 39 94 94 35 103 103 35 103 103 39 94 94 33 93 93 43 104 105 44 105 106 42 106 104 42 106 104 44 105 106 45 107 107 44 105 106 46 108 108 45 107 107 45 107 107 46 108 108 47 109 109 47 109 109 46 108 108 49 110 111 49 110 111 46 108 108 48 111 110 50 112 112 51 113 113 53 114 115 53 114 115 51 113 113 52 115 114 50 112 112 53 114 115 54 116 116 54 116 116 53 114 115 55 117 117 50 118 118 46 119 119 44 120 120 47 121 121 53 122 122 45 123 123 55 124 125 53 122 122 49 125 124 49 125 124 53 122 122 47 121 121 45 123 123 53 122 122 42 126 127 42 126 127 53 122 122 52 127 126 44 120 120 43 128 128 50 118 118 50 118 118 43 128 128 51 129 129 54 130 130 48 131 131 50 118 118 50 118 118 48 131 131 46 119 119 56 132 132 57 133 133 59 134 135 59 134 135 57 133 133 58 135 134 58 135 134 60 136 136 59 134 135 59 134 135 60 136 136 61 137 137 61 137 137 60 136 136 63 138 139 63 138 139 60 136 136 62 139 138 64 140 140 65 141 141 67 142 143 67 142 143 65 141 141 66 143 142 64 140 140 67 142 143 68 144 144 68 144 144 67 142 143 69 145 145 64 146 146 60 147 147 58 148 148 59 149 149 61 150 150 67 151 151 59 149 149 67 151 151 56 152 153 56 152 153 67 151 151 66 153 152 61 150 150 63 154 154 67 151 151 67 151 151 63 154 154 69 155 155 68 156 156 62 157 157 64 146 146 64 146 146 62 157 157 60 147 147 58 148 148 57 158 158 64 146 146 64 146 146 57 158 158 65 159 159 70 160 160 71 161 161 73 162 163 73 162 163 71 161 161 72 163 162 72 163 162 74 164 164 73 162 163 73 162 163 74 164 164 75 165 165 75 165 165 74 164 164 77 166 167 77 166 167 74 164 164 76 167 166 79 168 169 77 169 170 78 170 168 78 170 168 77 169 170 76 171 171 80 172 172 81 173 173 70 174 175 70 174 175 81 173 173 71 175 174 82 176 176 81 177 177 83 178 179 83 178 179 81 177 177 80 179 178 82 176 176 83 178 179 78 180 180 78 180 180 83 178 179 79 181 181 78 182 182 76 183 183 82 184 185 82 184 185 76 183 183 74 185 184 75 186 186 83 187 187 73 188 188 72 189 189 71 190 190 82 184 185 82 184 185 71 190 190 81 191 191 82 184 185 74 185 184 72 189 189 73 188 188 83 187 187 70 192 193 70 192 193 83 187 187 80 193 192 79 194 194 83 187 187 77 195 195 77 195 195 83 187 187 75 186 186</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="book_row_fiction01" name="book_row_fiction01" type="NODE">
+        <translate sid="translate">0 0.103271 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="scalePivotTranslation">0 -0.103271 0</translate>
+        <translate sid="scalePivot">0 0.103271 0</translate>
+        <translate sid="scalePivotInverse">0 -0.103271 0</translate>
+        <instance_geometry url="#book_row_fiction01Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn10SG" target="#blinn10">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX2" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,33 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="0.0170979 0.0156584 200.027" CameraTarget="0.0170979 0.0156584 0.0270696" Controller="Ortho" GridHeights="0.0170979 0.0156584 0.0270696" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="0.44966" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200.017 0.0156584 0.0270696" CameraTarget="0.0170979 0.0156584 0.0270696" Controller="Ortho" GridHeights="0.0170979 0.0156584 0.0270696" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="0.44966" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0.0170979 200.016 0.0270696" CameraTarget="0.0170979 0.0156584 0.0270696" Controller="Ortho" GridHeights="0.0170979 0.0156584 0.0270696" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="0.44966" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.0889451 0.3352 0.248608" CameraTarget="0.0170979 0.0156584 0.0270696" Controller="Maya" GridHeights="0.0170979 0.0156584 0.0270696" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/ornament/magazine_pile/magazine_pile03.dae">
+            <SubMesh ID="0" Material="" Name="magazine_pile03" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0 0 0" Rotation="0 -0 0" Scale="0.238012 0.0266874 0.227338" ShapeType="Box" WorldPos="-0.0123822 0.0101141 0.0270696" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="4" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.0123822 0.0101141 0.0270696">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

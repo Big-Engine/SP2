@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-08-13T21:10:53Z</created>
+    <keywords></keywords>
+    <modified>2012-08-13T21:10:53Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #26-image" name="Map #26">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\cellarbase\barrel_wood_dirty.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="_11 - Default" name="_11 - Default">
+      <instance_effect url="#_11 - Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="_11 - Default-fx" name="_11 - Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #26-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Plane010-lib" name="Plane010Mesh">
+      <mesh>
+        <source id="Plane010-POSITION">
+          <float_array id="Plane010-POSITION-array" count="27">
+-2.000000 -2.000000 0.000000
+1.681046 -1.334013 0.000000
+-2.000000 2.000000 0.000000
+2.000000 2.000000 0.000000
+2.000000 -0.426217 0.000000
+1.908971 -0.896972 0.000000
+0.419315 -2.000000 0.000000
+0.902573 -1.905577 0.000000
+1.335730 -1.683408 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plane010-POSITION-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane010-Normal0">
+          <float_array id="Plane010-Normal0-array" count="63">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plane010-Normal0-array" count="21" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane010-UV0">
+          <float_array id="Plane010-UV0-array" count="24">
+0.000000 0.000000
+0.920261 0.166497
+0.000000 1.000000
+1.000000 1.000000
+1.000000 0.393446
+0.977243 0.275757
+0.000000 1.000000
+0.000001 0.999999
+0.604829 0.000000
+0.725643 0.023606
+0.833933 0.079148
+1.000000 0.149356
+</float_array>
+          <technique_common>
+            <accessor source="#Plane010-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane010-VERTEX">
+          <input semantic="POSITION" source="#Plane010-POSITION"/>
+        </vertices>
+        <triangles count="7" material="_11 - Default">
+          <input semantic="VERTEX" offset="0" source="#Plane010-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Plane010-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Plane010-UV0"/>
+          <p> 2 0 2 4 1 4 3 2 3 6 3 8 7 4 9 2 5 2 5 6 5 4 7 4 2 8 2 2 9 2 0 10 0 6 11 8 8 12 10 1 13 1 2 14 2 2 15 2 7 16 9 8 17 10 5 18 5 2 19 2 1 20 1</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Plane010" id="Plane010" layer="engineroom_office_woodfloor_corner" sid="Plane010">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Plane010-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="_11 - Default" target="#_11 - Default"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

@@ -1,0 +1,49 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/ornament/sweater_smiley/sweater_smiley.dae">
+            <SubMesh ID="0" Name="polymsh" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="366" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" CreStamp="0" ModStamp="0" WorldPos="-0.0733017 0.0417805 -0.0840039" Rotation="-8.92097e-010 -0.0605737 0.16058" Scale="0.0982976 0.0148842 0.127502" RelativeTranslation="-0.0715356 0.0123245 -0.103645" RelativeRotation="-8.92097e-010 -0.0605737 0.16058" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="2" Name="Shape_2" CreStamp="0" ModStamp="0" WorldPos="-0.0829374 0.0409973 0.0507523" Rotation="0.0490344 -0.00609063 0.28406" Scale="0.0858157 0.0148842 0.127502" RelativeTranslation="-0.0811713 0.0115413 0.0311108" RelativeRotation="0.0490344 -0.00609063 0.28406" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="3" Name="Shape_3" CreStamp="0" ModStamp="0" WorldPos="-0.0561247 0.0402102 0.13508" Rotation="0.196207 0.00335464 0.143704" Scale="0.0982976 0.0139503 0.0586629" RelativeTranslation="-0.0543586 0.0107542 0.115438" RelativeRotation="0.196207 0.00335464 0.143704" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="4" Name="Shape_4" CreStamp="0" ModStamp="0" WorldPos="0.00267911 0.0523751 0.0509417" Rotation="1.73018e-009 -2.82583e-010 1.7426e-010" Scale="0.0982976 0.0148842 0.127502" RelativeTranslation="0.00444521 0.0229191 0.0313002" RelativeRotation="1.73018e-009 -2.82583e-010 1.7426e-010" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="5" Name="Shape_5" CreStamp="0" ModStamp="0" WorldPos="0.00267911 0.0412691 0.137733" Rotation="0.401047 -2.82583e-010 1.7426e-010" Scale="0.0982976 0.0148842 0.0541308" RelativeTranslation="0.00444521 0.0118131 0.118091" RelativeRotation="0.401047 -2.82583e-010 1.7426e-010" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="6" Name="Shape_6" CreStamp="0" ModStamp="0" WorldPos="0.0786958 0.0432714 0.0495853" Rotation="0.0459624 0.0181419 -0.2151" Scale="0.0982976 0.0148842 0.127502" RelativeTranslation="0.0804619 0.0138154 0.0299438" RelativeRotation="0.0459624 0.0181419 -0.2151" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="7" Name="Shape_7" CreStamp="0" ModStamp="0" WorldPos="0.0794052 0.0388915 0.13931" Rotation="0.207583 0.00447026 -0.150088" Scale="0.0982976 0.0148842 0.0490458" RelativeTranslation="0.0811713 0.00943555 0.119668" RelativeRotation="0.207583 0.00447026 -0.150088" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="8" Name="Shape_8" CreStamp="0" ModStamp="0" WorldPos="0.078129 0.0480699 -0.0921108" Rotation="-0.0233006 -0.213184 -0.209756" Scale="0.0982976 0.0148842 0.128981" RelativeTranslation="0.0798951 0.0186139 -0.111752" RelativeRotation="-0.0233006 -0.213184 -0.209756" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="9" Name="Shape_9" CreStamp="0" ModStamp="0" WorldPos="-0.0647977 0.0100743 0.14269" Rotation="8.2493e-009 1.49707e-010 -0.0208273" Scale="0.117192 0.0139503 0.0586629" RelativeTranslation="-0.0630316 -0.0193817 0.123048" RelativeRotation="8.2493e-009 1.49707e-010 -0.0208273" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="10" Name="Shape_10" CreStamp="0" ModStamp="0" WorldPos="-0.0648714 0.00653681 0.0249915" Rotation="8.24091e-009 4.01022e-010 -0.0513054" Scale="0.117192 0.0139503 0.177305" RelativeTranslation="-0.0631053 -0.0229191 0.00535" RelativeRotation="8.24091e-009 4.01022e-010 -0.0513054" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="11" Name="Shape_11" CreStamp="0" ModStamp="0" WorldPos="-0.0647665 0.0102188 -0.103407" Rotation="8.24791e-009 2.12955e-010 -0.028495" Scale="0.117192 0.0139503 0.0903976" RelativeTranslation="-0.0630004 -0.0192372 -0.123048" RelativeRotation="8.24791e-009 2.12955e-010 -0.028495" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="12" Name="Shape_12" CreStamp="0" ModStamp="0" WorldPos="0.060003 0.00695131 0.0249915" Rotation="0.0292191 -7.476e-010 0.088054" Scale="0.135654 0.0139503 0.177305" RelativeTranslation="0.0617691 -0.0225046 0.00535" RelativeRotation="0.0292191 -7.476e-010 0.088054" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="13" Name="Shape_13" CreStamp="0" ModStamp="0" WorldPos="0.0602054 0.00928285 -0.103407" Rotation="8.24692e-009 -2.48183e-010 0.0274034" Scale="0.133838 0.0139503 0.0903976" RelativeTranslation="0.0619715 -0.0201731 -0.123048" RelativeRotation="8.24692e-009 -2.48183e-010 0.0274034" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="14" Name="Shape_14" CreStamp="0" ModStamp="0" WorldPos="0.0622673 0.0111577 0.14269" Rotation="8.24043e-009 -4.10774e-010 0.0471259" Scale="0.133929 0.0139503 0.0586629" RelativeTranslation="0.0640334 -0.0182983 0.123048" RelativeRotation="8.24043e-009 -4.10774e-010 0.0471259" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="15" Name="props_rigid" CreStamp="0" ModStamp="1421148665" WorldPos="-0.0017661 0.029456 0.0196415" Rotation="0 0 0" Scale="1 1 1" Material="Default Soft" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="7" />
+                <Shape ID="5" />
+                <Shape ID="14" />
+                <Shape ID="6" />
+                <Shape ID="4" />
+                <Shape ID="3" />
+                <Shape ID="9" />
+                <Shape ID="12" />
+                <Shape ID="2" />
+                <Shape ID="8" />
+                <Shape ID="10" />
+                <Shape ID="13" />
+                <Shape ID="1" />
+                <Shape ID="11" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

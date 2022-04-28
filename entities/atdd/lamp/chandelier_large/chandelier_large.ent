@@ -1,0 +1,113 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="mods/SP2/entities/atdd/lamp/chandelier_large/chandelier_large.dae">
+            <SubMesh ID="0" Name="top1" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="76" Material="" Static="true" />
+            <SubMesh ID="1" Name="polySurface109" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="544" Material="" Static="true" />
+            <SubMesh ID="2" Name="polySurface79" CreStamp="0" ModStamp="1637445840" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="4" Material="" Static="false" />
+            <SubMesh ID="3" Name="polySurface62" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="3214" Material="" Static="true" />
+            <SubMesh ID="4" Name="polySurface118" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="5" Name="polySurface119" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="6" Name="polySurface120" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="7" Name="polySurface121" CreStamp="0" ModStamp="1637445837" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="false" />
+            <SubMesh ID="8" Name="polySurface122" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="9" Name="polySurface123" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="10" Name="polySurface124" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="11" Name="polySurface125" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="12" Name="polySurface126" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="13" Name="polySurface127" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="14" Name="polySurface128" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="15" Name="polySurface129" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="16" Name="polySurface130" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="17" Name="polySurface131" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="18" Name="polySurface132" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="19" Name="polySurface133" CreStamp="0" ModStamp="0" WorldPos="0 0.0675621 0" Rotation="0 0 0" Scale="1 1 1" TriCount="29" Material="" Static="true" />
+            <SubMesh ID="20" Name="polySurface3" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="4" Material="" Static="true" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="42" Name="ShapeBox_1" CreStamp="1637445582" ModStamp="1637445623" WorldPos="0 -6 0" Rotation="0 0.785398 0" Scale="4 1 4" RelativeTranslation="0 -0.425 0" RelativeRotation="0 0.785398 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="43" Name="ShapeBox_2" CreStamp="1637445630" ModStamp="1637445632" WorldPos="0 -6 0" Rotation="0 -2.98023e-08 0" Scale="4 1 4" RelativeTranslation="0 -0.425 0" RelativeRotation="0 -2.98023e-08 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="45" Name="ShapeBox_3" CreStamp="1637445656" ModStamp="1637445691" WorldPos="0 -5.15 0" Rotation="0 0 0" Scale="0.5 0.75 0.5" RelativeTranslation="0 0.425 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="47" Name="ShapeBox_4" CreStamp="1637445711" ModStamp="1637445740" WorldPos="0 -2.75 0" Rotation="0 0 0" Scale="0.125 4.125 0.125" RelativeTranslation="0 0 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="49" Name="ShapeBox_5" CreStamp="1637445750" ModStamp="1637445773" WorldPos="0 -0.35 0" Rotation="0 0 0" Scale="1 0.75 1" RelativeTranslation="0 0 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="46" Name="Body_1" CreStamp="0" ModStamp="1637445887" WorldPos="0 -5.575 0" Rotation="0 0 0" Scale="1 1 1" Material="metal large" Mass="0" AngularDamping="0.5" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="false" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="43" />
+                <Shape ID="42" />
+                <Shape ID="45" />
+            </Body>
+            <Body ID="48" Name="Body_2" CreStamp="0" ModStamp="1637445899" WorldPos="0 -2.75 0" Rotation="0 0 0" Scale="1 1 1" Material="metal small" Mass="0" AngularDamping="0.5" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="false" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="47" />
+            </Body>
+            <Body ID="50" Name="Body_3" CreStamp="0" ModStamp="1637445777" WorldPos="0 -0.35 0" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="0" AngularDamping="0.5" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="false" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="49" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointBall ID="51" Name="JointBall_1" CreStamp="1637445789" ModStamp="1637445812" WorldPos="0 -0.75 0" Rotation="0 0 0" Scale="1 1 1" LimitStepCount="0" Stiffness="0" MinMoveSpeed="0.1" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveVolume="0.01" MaxMoveSpeed="2" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinLimitSound="" MinLimitMinSpeed="0" MinLimitMaxSpeed="0" MaxLimitSound="" MaxLimitMinSpeed="0" MaxLimitMaxSpeed="0" Breakable="false" BreakForce="0" BreakSound="" CollideBodies="false" StickyMinLimit="false" StickyMaxLimit="false" MoveSound="" MoveType="Linear" MaxConeAngle="0" MaxTwistAngle="0" ConnectedParentBodyID="50" ConnectedChildBodyID="48" />
+            <JointBall ID="52" Name="JointBall_2" CreStamp="1637445909" ModStamp="1637445924" WorldPos="0 -4.75 0" Rotation="0 0 0" Scale="1 1 1" LimitStepCount="0" Stiffness="0" MinMoveSpeed="0.1" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveVolume="0.01" MaxMoveSpeed="2" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinLimitSound="" MinLimitMinSpeed="0" MinLimitMaxSpeed="0" MaxLimitSound="" MaxLimitMinSpeed="0" MaxLimitMaxSpeed="0" Breakable="false" BreakForce="0" BreakSound="" CollideBodies="false" StickyMinLimit="false" StickyMaxLimit="false" MoveSound="" MoveType="Linear" MaxConeAngle="0" MaxTwistAngle="0" ConnectedParentBodyID="48" ConnectedChildBodyID="46" />
+        </Joints>
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Lamp">
+        <Var ObjectId="4294967295" Name="Health" Value="100" />
+        <Var ObjectId="4294967295" Name="Toughness" Value="0" />
+        <Var ObjectId="4294967295" Name="MaxInteractDistance" Value="0" />
+        <Var ObjectId="4294967295" Name="EventTag" Value="" />
+        <Var ObjectId="4294967295" Name="ShowHints" Value="true" />
+        <Var ObjectId="4294967295" Name="LifeLength" Value="0" />
+        <Var ObjectId="4294967295" Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var ObjectId="4294967295" Name="QuickSave" Value="false" />
+        <Var ObjectId="4294967295" Name="FullGameSave" Value="false" />
+        <Var ObjectId="4294967295" Name="BlocksLineOfSight" Value="MaterialBased" />
+        <Var ObjectId="4294967295" Name="MainPhysicsBody" Value="" />
+        <Var ObjectId="4294967295" Name="NoGravityWhenUnderwater" Value="false" />
+        <Var ObjectId="4294967295" Name="DisableFreezeAtStart" Value="false" />
+        <Var ObjectId="4294967295" Name="CustomScriptFile" Value="" />
+        <Var ObjectId="4294967295" Name="CustomScriptClass" Value="" />
+        <Var ObjectId="4294967295" Name="ShowMesh" Value="true" />
+        <Var ObjectId="4294967295" Name="DissolveOnDestruction" Value="false" />
+        <Var ObjectId="4294967295" Name="DissolveTime" Value="1.0" />
+        <Var ObjectId="4294967295" Name="RandomizeAnimationStart" Value="true" />
+        <Var ObjectId="4294967295" Name="RootMotionBone" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOnSound" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOffSound" Value="" />
+        <Var ObjectId="4294967295" Name="EffectsOnTime" Value="1" />
+        <Var ObjectId="4294967295" Name="EffectsOffTime" Value="1" />
+        <Var ObjectId="4294967295" Name="StaticMoveCheckCollision" Value="false" />
+        <Var ObjectId="4294967295" Name="StaticMoveStartSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveStopSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveLoopSound" Value="" />
+        <Var ObjectId="4294967295" Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var ObjectId="4294967295" Name="BreakActive" Value="false" />
+        <Var ObjectId="4294967295" Name="CustomBreakBehaviour" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakOnlyOnMainBody" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakDestroyJoints" Value="false" />
+        <Var ObjectId="4294967295" Name="BreakMinEnergy" Value="100" />
+        <Var ObjectId="4294967295" Name="BreakEntity" Value="" />
+        <Var ObjectId="4294967295" Name="BreakEntityAlignBody" Value="" />
+        <Var ObjectId="4294967295" Name="BreakSound" Value="" />
+        <Var ObjectId="4294967295" Name="BreakParticleSystem" Value="" />
+        <Var ObjectId="4294967295" Name="BreakImpulse" Value="4" />
+        <Var ObjectId="4294967295" Name="CanBeLitByPlayer" Value="true" />
+        <Var ObjectId="4294967295" Name="CanBeSnuffedOutByPlayer" Value="false" />
+        <Var ObjectId="4294967295" Name="CanBeGrabbed" Value="false" />
+        <Var ObjectId="4294967295" Name="RequiresMatches" Value="false" />
+        <Var ObjectId="4294967295" Name="RequiresOil" Value="false" />
+        <Var ObjectId="4294967295" Name="LightByDistance" Value="false" />
+        <Var ObjectId="4294967295" Name="LightDistance" Value="5.0" />
+        <Var ObjectId="4294967295" Name="FlickerMinOnTime" Value="0.05" />
+        <Var ObjectId="4294967295" Name="FlickerMaxOnTime" Value="1" />
+        <Var ObjectId="4294967295" Name="FlickerMinOffTime" Value="0.025" />
+        <Var ObjectId="4294967295" Name="FlickerMaxOffTime" Value="0.15" />
+        <Var ObjectId="4294967295" Name="FlickerFade" Value="false" />
+        <Var ObjectId="4294967295" Name="FlickerOnSound" Value="" />
+        <Var ObjectId="4294967295" Name="FlickerOffSound" Value="" />
+        <Var ObjectId="4294967295" Name="FlickerOnPS" Value="" />
+        <Var ObjectId="4294967295" Name="FlickerOffPS" Value="" />
+        <Var ObjectId="4294967295" Name="FlickerOffAlpha" Value="0" />
+    </UserDefinedVariables>
+</Entity>

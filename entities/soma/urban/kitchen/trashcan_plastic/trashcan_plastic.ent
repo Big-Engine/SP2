@@ -1,0 +1,33 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/kitchen/trashcan_plastic/trashcan_plastic.dae">
+            <SubMesh ID="0" Material="" Name="trashcan_plastic" Rotation="0 0 0" Scale="4 4 4" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="3" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00591819 -0.170599 -0.000767507" Rotation="0 0 0" Scale="0.39473 0.689102 0.377904" ShapeType="Box" WorldPos="-0.00183985 0.347462 0.00169709" />
+            <Shape ID="4" Name="Shape_2" RelativeRotation="0 -0 0.0999799" RelativeScale="1 1 1" RelativeTranslation="-0.2332 0.168566 0.00104894" Rotation="0 -0 0.0999799" Scale="0.0466191 0.22331 0.471681" ShapeType="Box" WorldPos="-0.229122 0.686627 0.00351354" />
+            <Shape ID="5" Name="Shape_3" RelativeRotation="-1.57077 1.45136 1.55285" RelativeScale="1 1 1" RelativeTranslation="-0.00849706 0.16807 0.219769" Rotation="-1.57077 1.45136 1.55285" Scale="0.0347055 0.22145 0.48548" ShapeType="Box" WorldPos="-0.00441872 0.686131 0.222234" />
+            <Shape ID="6" Name="Shape_4" RelativeRotation="1.5708 1.53551 -1.58877" RelativeScale="1 1 1" RelativeTranslation="-0.00563142 0.162735 -0.219769" Rotation="1.5708 1.53551 -1.58877" Scale="0.0443247 0.237042 0.48548" ShapeType="Box" WorldPos="-0.00155307 0.680796 -0.217305" />
+            <Shape ID="7" Name="Shape_5" RelativeRotation="0 -0 -0.166547" RelativeScale="1 1 1" RelativeTranslation="0.2332 0.170599 -0.00742996" Rotation="0 -0 -0.166547" Scale="0.0358016 0.214256 0.479229" ShapeType="Box" WorldPos="0.237279 0.68866 -0.00496536" />
+            <Shape ID="9" Name="Shape_6" RelativeRotation="0.319641 -0.372214 -0.310544" RelativeScale="1 1 1" RelativeTranslation="-0.0891391 0.133578 0.014466" Rotation="0.319641 -0.372214 -0.310544" Scale="0.299227 0.155795 0.218069" ShapeType="Box" WorldPos="-0.0850608 0.651639 0.0169306" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="false" ID="10" LinearDamping="0.1" Mass="0" Material="Plastic" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="0.00407834 0.518061 0.0024646">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="6" />
+                <Shape ID="7" />
+                <Shape ID="9" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

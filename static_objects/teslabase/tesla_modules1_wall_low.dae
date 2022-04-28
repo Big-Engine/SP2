@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Marc</author>
+      <authoring_tool>OpenCOLLADA2008</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=1;relativePaths=1;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=0;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=0;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=1;exportAnimations=1;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=0;exportVertexColors=1;exportVertexColorsPerVertex=0;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=0;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=0;doublePrecision=0
+		</comments>
+      <source_data>file:///F:/pig/Game/redist/static_objects/teslabase/tesla_modules1_wall_low.dae</source_data>
+    </contributor>
+    <created>2013-04-25T11:43:39</created>
+    <modified>2013-04-25T11:43:39</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+    <material id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+      <instance_effect url="#Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01-fx"/>
+    </material>
+    <material id="blinn1" name="blinn1">
+      <instance_effect url="#blinn1-fx"/>
+    </material>
+    <material id="tesla_modules_doors1_door_tesla_modules_floors_Tesla_Floor_01_and_02_SplashTest_Model_HPBackup1_blinn1" name="tesla_modules_doors1_door_tesla_modules_floors_Tesla_Floor_01_and_02_SplashTest_Model_HPBackup1_blinn1">
+      <instance_effect url="#tesla_modules_doors1_door_tesla_modules_floors_Tesla_Floor_01_and_02_SplashTest_Model_HPBackup1_blinn1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01-fx">
+      <profile_COMMON>
+        <newparam sid="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1_image-surface">
+          <surface type="2D">
+            <init_from>Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1_image-sampler">
+          <sampler2D>
+            <source>Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="blinn1-fx">
+      <profile_COMMON>
+        <newparam sid="file2_image-surface">
+          <surface type="2D">
+            <init_from>file2_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file2_image-sampler">
+          <sampler2D>
+            <source>file2_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file2_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>1.245731</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert1-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.4 0.4 0.4 1</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tesla_modules_doors1_door_tesla_modules_floors_Tesla_Floor_01_and_02_SplashTest_Model_HPBackup1_blinn1-fx">
+      <profile_COMMON>
+        <newparam sid="tesla_modules_doors1_door_file1_image-surface">
+          <surface type="2D">
+            <init_from>tesla_modules_doors1_door_file1_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tesla_modules_doors1_door_file1_image-sampler">
+          <sampler2D>
+            <source>tesla_modules_doors1_door_file1_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="tesla_modules_doors1_door_file1_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>1.245731</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="file2_image" name="file2_image">
+      <init_from>./dressing/tesla_dressing_wires_01.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>file2_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+    <image id="tesla_modules_doors1_door_file1_image" name="tesla_modules_doors1_door_file1_image">
+      <init_from>./tesla_generic_wall_brick_01.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>tesla_modules_doors1_door_file1_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+    <image id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1_image" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1_image">
+      <init_from>./tesla_modules_wall_01.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="polySurface131Shape" name="polySurface131Shape">
+      <mesh>
+        <source id="polySurface131Shape-positions" name="polySurface131Shape-positions">
+          <float_array id="polySurface131Shape-positions-array" count="84">0 -0.2478049 0 4 -0.2478049 0 3.75 0.00219505 0 3.75 -0.2478049 0 3.75 0.00219505 0.5 0.25 0.00219505 0 0.25 -0.2478049 0 0.25 0.00219505 0.5 0.25 4.730455 0.5 0.25 4.730455 0 0 4.730455 0 3.75 4.730455 0.5 3.75 4.730455 0 4 4.730455 0 0 6.252195 -0.00858697 4 6.252195 -0.00858697 4 4.775901 -0.00858697 0 4.775901 -0.00858697 0 4.815946 -0.00858697 4 4.815946 -0.00858697 3.780691 4.730455 0 3.780691 -0.02849567 0 3.75 4.730455 0.03884399 3.75 0.00219505 0.03884399 0.25 0.00219505 0.03884399 0.25 4.730455 0.03884399 0.2142303 4.730455 0 0.2142303 -0.03357441 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface131Shape-positions-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface131Shape-normals" name="polySurface131Shape-normals">
+          <float_array id="polySurface131Shape-normals-array" count="156">0 0 -0.9999999 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 -0.5547001 0 -0.8320502 0 0 -1 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 -0.1118672 -0.9937232 0 -0.1856716 -0.9826118 0 -0.5722507 -0.8200787 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.124264 -0.9922492 0 0 -0.9999999 0 0 -0.9999999 0 -0.6552552 -0.7554075 0 -0.1856596 -0.982614 0 -0.1856596 -0.982614 0 -0.1856596 -0.982614 0 0 -0.9999999 -0.7071068 0 -0.7071067 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0.9999999 0 0 0.9999999 0 0.5547001 0 -0.8320502 0.7071067 0 -0.7071067 0 -0.1856854 -0.9826092 0 -0.185662 -0.9826136 0 -0.185662 -0.9826136 0 -0.185662 -0.9826136</float_array>
+          <technique_common>
+            <accessor source="#polySurface131Shape-normals-array" count="52" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface131Shape-UVSet0" name="polySurface131Shape-UVSet0">
+          <float_array id="polySurface131Shape-UVSet0-array" count="96">0.04201 0.925388 0.014696 0.898074 0.649413 0.898074 0.649413 0.925388 0.734402 0.614823 0.738315 0.618736 0.734402 0.646698 0.740095 0.993341 0.740095 0.667129 0.765138 0.667129 0.765138 0.993341 0.736204 0.993341 0.69001 0.993341 0.69001 0.667129 0.736204 0.667129 0.04657 0.993697 0.04657 0.934901 0.649413 0.934901 0.649413 0.993696 0.729449 0.614823 0.670652 0.614823 0.670653 0.011981 0.729449 0.011981 0.983309 0.012746 0.989697 0.043566 0.989697 0.047879 0.866229 0.99719 0.790867 0.99719 0.790867 0.594586 0.866229 0.594586 0.977683 0.574876 0.977683 0.012746 0.983309 0.574876 0.989697 0.539743 0.989697 0.54477 0.989697 0.574876 0.734402 0.011981 0.738315 0.011981 0.014696 0.929949 0.775844 0.574876 0.775844 0.012746 0.766276 0.646698 0.766276 0.011981 0.04657 0.929949 0.649413 0.929948 0.784519 0.99719 0.784519 0.594586 0.989697 0.012746</float_array>
+          <technique_common>
+            <accessor source="#polySurface131Shape-UVSet0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface131Shape-vertices" name="polySurface131Shape-vertices">
+          <input semantic="POSITION" source="#polySurface131Shape-positions"/>
+        </vertices>
+        <triangles material="polySurface131SG" count="40">
+          <input semantic="VERTEX" source="#polySurface131Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polySurface131Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polySurface131Shape-UVSet0" offset="2" set="0"/>
+          <p>0 0 1 10 1 2 27 2 0 27 2 0 10 1 2 26 3 3 2 4 4 21 5 5 3 6 6 3 7 9 6 8 10 5 9 7 3 7 9 5 9 7 2 10 8 4 11 13 24 12 11 7 13 12 24 12 11 4 11 13 23 14 14 24 15 16 25 16 17 7 17 15 8 18 18 7 17 15 25 16 17 11 19 21 23 20 19 4 21 20 23 20 19 11 19 21 22 22 22 16 23 23 20 24 24 12 25 25 25 26 27 22 27 28 8 28 26 11 29 29 8 28 26 22 27 28 16 23 23 17 30 32 18 31 30 16 23 23 18 31 30 19 32 31 16 23 23 9 33 33 17 30 32 9 33 33 16 23 23 12 25 25 17 34 32 26 35 34 10 36 35 20 37 37 2 4 4 12 38 36 2 4 4 20 37 37 21 5 5 0 0 1 27 2 0 6 39 38 19 32 31 18 31 30 14 40 39 19 32 31 14 40 39 15 41 40 13 42 42 21 5 5 20 37 37 21 5 5 13 42 42 1 43 41 22 22 22 2 4 4 23 20 19 2 4 4 22 22 22 12 38 36 23 14 14 5 44 7 24 12 11 5 44 7 23 14 14 2 45 8 25 16 17 24 15 16 5 46 43 25 16 17 5 46 43 9 47 44 22 27 28 25 26 27 9 33 45 22 27 28 9 33 45 12 25 46 27 2 0 26 3 3 5 46 43 5 46 43 26 3 3 9 47 44 9 33 33 26 48 34 17 30 32 13 49 47 20 50 24 16 51 23 3 6 6 21 5 5 1 43 41 6 39 38 27 2 0 5 46 43</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>polySurface131Shape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="polySurface124Shape" name="polySurface124Shape">
+      <mesh>
+        <source id="polySurface124Shape-positions" name="polySurface124Shape-positions">
+          <float_array id="polySurface124Shape-positions-array" count="72">0.1399121 6.250333 -0.03586318 0.1399121 6.250333 -0.02127618 0.2026831 6.250333 -0.02127618 0.2026831 6.250333 0.00397557 -7.666e-4 6.250333 0 0.00755615 6.250333 -0.03586318 0.00832275 -0.2500003 -0.03586318 0.1399121 -0.2500003 -0.03586318 0.1399121 -0.2500003 -0.02127618 0.2026831 -0.2500003 -0.02127618 0.2026831 -0.2500003 0.00397557 0 -0.25 0 3.859321 -0.2499998 -0.03586318 3.859321 -0.2499998 -0.02127618 3.79655 -0.2499998 -0.02127618 3.79655 -0.2499998 0.00397557 4 -0.2500001 0 3.991677 -0.2500002 -0.03586318 3.990911 6.249667 -0.03586318 3.859321 6.249667 -0.03586318 3.859321 6.249667 -0.02127618 3.79655 6.249667 -0.02127618 3.79655 6.249667 0.00397557 3.999233 6.249667 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface124Shape-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface124Shape-normals" name="polySurface124Shape-normals">
+          <float_array id="polySurface124Shape-normals-array" count="120">0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 -0.9741128 -1.14879e-4 -0.2260619 -0.9741128 -1.14879e-4 -0.2260619 -0.9741128 -1.14879e-4 -0.2260619 -0.9741128 -1.14879e-4 -0.2260619 0 0 -0.9999999 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0.9741129 1.14881e-4 -0.226062 0.9741129 1.14881e-4 -0.226062 0.9741129 1.14881e-4 -0.226062 0.9741129 1.14881e-4 -0.226062 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -0.9999999</float_array>
+          <technique_common>
+            <accessor source="#polySurface124Shape-normals-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface124Shape-UVSet0" name="polySurface124Shape-UVSet0">
+          <float_array id="polySurface124Shape-UVSet0-array" count="48">-0.444727 0.820509 -0.444727 0.768897 1.5 0.831945 -0.444727 0.760723 1.5 0.734563 -0.444727 0.745443 1.5 0.745066 -0.444727 0.73473 -0.444727 0.832571 1.5 0.768858 1.5 0.819993 1.5 0.76064 -0.001809 0.745486 -0.001809 0.734563 1.942976 0.734396 1.942977 0.745109 1.942978 0.831814 -0.001809 0.832441 -0.001809 0.82049 1.942977 0.819975 -0.001809 0.768858 1.942977 0.768818 -0.001809 0.76064 1.942977 0.760557</float_array>
+          <technique_common>
+            <accessor source="#polySurface124Shape-UVSet0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface124Shape-vertices" name="polySurface124Shape-vertices">
+          <input semantic="POSITION" source="#polySurface124Shape-positions"/>
+        </vertices>
+        <triangles material="polySurface124SG" count="20">
+          <input semantic="VERTEX" source="#polySurface124Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polySurface124Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polySurface124Shape-UVSet0" offset="2" set="0"/>
+          <p>10 0 4 2 1 5 3 2 7 2 1 5 10 0 4 9 3 6 11 4 2 4 5 8 5 6 0 11 4 2 5 6 0 6 7 10 6 8 10 0 9 1 7 10 9 0 9 1 6 8 10 5 11 0 1 12 3 8 13 11 7 14 9 1 12 3 7 14 9 0 15 1 8 16 11 2 17 5 9 18 6 2 17 5 8 16 11 1 19 3 22 20 14 14 21 12 15 22 13 14 21 12 22 20 14 21 23 15 16 24 17 18 25 19 23 26 16 18 25 19 16 24 17 17 27 18 18 28 19 17 29 18 12 30 20 12 30 20 19 31 21 18 28 19 19 32 21 13 33 22 20 34 23 13 33 22 19 32 21 12 35 20 20 36 23 13 37 22 14 38 12 14 38 12 21 39 15 20 36 23</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>polySurface124Shape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="tesla_modules_doors1_polySurface129Shape" name="tesla_modules_doors1_polySurface129Shape">
+      <mesh>
+        <source id="tesla_modules_doors1_polySurface129Shape-positions" name="tesla_modules_doors1_polySurface129Shape-positions">
+          <float_array id="tesla_modules_doors1_polySurface129Shape-positions-array" count="360">0 4.727552 0.09062347 4 4.727552 0.09062357 0 0 0.09062347 4 0 0.09062357 3.573049 0 0.09062359 0.3656143 0 0.09062347 0.3656143 2.760815 0.09062347 3.573049 2.760815 0.09062359 1.65378 4.353108 0.09062363 1.289943 4.239901 0.09062347 0.9872049 4.054124 0.09062347 0.734863 3.800643 0.09062347 0.5727283 3.543521 0.09062347 0.4542242 3.255732 0.09062347 3.480643 3.255732 0.09062359 3.360236 3.54352 0.09062359 3.195028 3.800643 0.09062355 2.940636 4.054124 0.09062355 2.633269 4.239901 0.09062363 2.290668 4.353108 0.09062363 2.00244 4.383694 0.09062363 3.536972 3.03126 0.09062359 0.4009363 3.03126 0.09062347 0.5017874 3.400538 0.09062347 3.424812 3.400538 0.09062355 0.6530685 3.684043 0.09062347 3.278897 3.684043 0.09062355 3.06794 3.935079 0.09062355 0.8578513 3.935079 0.09062347 2.808356 4.140984 0.09062363 1.112979 4.140984 0.09062347 2.501069 4.295818 0.09062363 1.425884 4.295817 0.09062347 3.466567 0 0.2245449 0.4720956 0 0.224545 0.4720956 2.760815 0.224545 3.466567 2.760815 0.2245449 1.674715 4.353108 0.2245448 2.269316 4.353108 0.2245448 2.000241 4.383694 0.2245448 1.461967 4.295817 0.224545 2.465763 4.295818 0.2245448 1.335052 4.239901 0.224545 1.169838 4.140984 0.224545 2.589185 4.239901 0.2245448 2.752648 4.140984 0.2245448 1.052415 4.054124 0.224545 0.9316498 3.935079 0.224545 2.876144 4.054124 0.2245448 2.994996 3.935079 0.2245449 0.7404639 3.684043 0.224545 0.6654578 3.543521 0.224545 3.191946 3.684043 0.2245449 3.267885 3.54352 0.2245449 0.5992273 3.400538 0.224545 0.5548221 3.255732 0.224545 3.328174 3.400538 0.2245449 3.380297 3.255732 0.2245449 0.5050723 3.03126 0.224545 3.43338 3.03126 0.2245449 0.8168274 3.800643 0.224545 3.113646 3.800643 0.2245449 3.412291 3.400538 0.1079753 3.34827 3.543521 0.1079753 3.267631 3.684043 0.1079753 3.184483 3.800643 0.1079753 3.058489 3.935079 0.1079753 2.93228 4.054124 0.1079753 2.801138 4.140984 0.1079753 2.627557 4.239901 0.1079753 2.496494 4.295818 0.1079753 2.287901 4.353108 0.1079753 2.002155 4.383694 0.1079753 1.656493 4.353108 0.1079753 1.430559 4.295817 0.1079755 1.295788 4.239901 0.1079755 1.120346 4.140984 0.1079755 0.9956537 4.054124 0.1079755 0.867413 3.935079 0.1079755 0.7454828 3.800643 0.1079755 0.6643921 3.684043 0.1079755 0.5847427 3.543521 0.1079755 0.5144122 3.400538 0.1079755 0.4672583 3.255732 0.1079755 0.4144287 3.03126 0.1079755 0.3794107 2.760815 0.1079755 0.3794107 0 0.1079755 3.559252 0 0.1079753 3.559252 2.760815 0.1079753 3.52355 3.03126 0.1079753 3.467641 3.255732 0.1079753 0.3425586 0 0.09062347 0.3425586 2.760815 0.09062347 0.3786246 3.03126 0.09062347 0.4309375 3.255732 0.09062347 0.4765564 3.400538 0.09062347 0.5534457 3.547136 0.09062347 0.6372333 3.688932 0.09062347 0.7204053 3.808969 0.09062347 0.8433554 3.945427 0.09062347 0.9696857 4.061645 0.09062347 1.096967 4.154042 0.09062347 1.273296 4.250607 0.09062347 1.413754 4.308685 0.09062347 1.644426 4.366516 0.09062363 2.00233 4.398145 0.09062363 2.297547 4.366516 0.09062363 2.511058 4.308686 0.09062363 2.648211 4.250607 0.09062363 2.823166 4.154042 0.09062355 2.95714 4.061645 0.09062355 3.081803 3.945427 0.09062355 3.209084 3.808969 0.09062355 3.2945 3.688932 0.09062355 3.379474 3.547135 0.09062355 3.450322 3.400538 0.09062355 3.504153 3.255732 0.09062359 3.559581 3.03126 0.09062359 3.596477 2.760815 0.09062359 3.596477 0 0.09062359</float_array>
+          <technique_common>
+            <accessor source="#tesla_modules_doors1_polySurface129Shape-positions-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tesla_modules_doors1_polySurface129Shape-normals" name="tesla_modules_doors1_polySurface129Shape-normals">
+          <float_array id="tesla_modules_doors1_polySurface129Shape-normals-array" count="609">-0.2860136 0 -0.9582255 0 0 -0.9999999 0 0 -0.9999999 -0.4340606 -0.01923133 -0.9006783 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0.3720049 -0.03224206 -0.9276706 0.5720372 0 -0.8202277 0 0 -1 0.4988726 -0.1404909 -0.8552125 0.3467011 -0.06368206 -0.9358114 0 0 -1 0 0 -1 -0.4976187 -0.09517988 -0.862158 0 0 -1 0 0 -0.9999999 -0.4368472 -0.1480964 -0.8872609 0 0 -0.9999999 0.4349321 -0.1903386 -0.8801166 0 0 -1 0.3430858 -0.1830386 -0.9212974 0 0 -1 0.4288437 -0.2625422 -0.8643869 0 0 -1 0.3164009 -0.3156184 -0.8945812 0 0 -1 0.3767864 -0.44897 -0.8102209 0.3354732 -0.5188717 -0.786276 0 0 -1 0.2928856 -0.5753183 -0.7636929 0 0 -1 0.2255691 -0.6313203 -0.7419928 0 0 -1 0.1334381 -0.6790155 -0.7218949 0 0 -1 0 0 -1 -0.3464141 -0.144915 -0.9268209 0 0 -1 0 0 -1 -0.4338228 -0.2133689 -0.8753693 -0.4282864 -0.2666642 -0.8634008 0 0 -1 0 0 -1 -0.3988388 -0.3919007 -0.8290606 -0.3764038 -0.4509914 -0.8092755 0 0 -0.9999999 -0.3301302 -0.5266091 -0.7833881 -0.2968447 -0.5740249 -0.7631375 0 0 -1 0 0 -1 -0.2337364 -0.6279683 -0.7423092 -0.1461485 -0.6750785 -0.723125 0 0 -1 0 0 -0.9999999 -0.008149166 -0.8907507 -0.454419 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -1 0.4744053 -0.3800053 -0.7940627 0 0 -0.9999999 0 0 -0.9999999 0 0 -1 -0.4155695 -0.3275847 -0.8485224 0.7827373 0 -0.6223521 0.7827374 0 -0.6223519 -0.7827315 0 -0.6223594 -0.7827336 0 -0.6223568 0.08788652 -0.9960926 -0.008673072 0.08994209 -0.9959404 -0.003604863 -0.1061209 -0.9942825 -0.0118453 -0.1085994 -0.9940619 -0.006849044 0.2447366 -0.9679315 -0.05667939 0.2502522 -0.9669713 -0.048374 -0.2636564 -0.9627293 -0.06031265 -0.2695272 -0.96158 -0.05214281 0.4811273 -0.8557942 -0.1900864 0.4906168 -0.8527247 -0.1793202 -0.4852566 -0.8539855 -0.1877091 -0.4947703 -0.8508275 -0.1769038 0.6392097 -0.6905645 -0.3384253 0.6491966 -0.6854369 -0.329727 -0.6449015 -0.6856775 -0.3375626 -0.654845 -0.6804517 -0.3288824 0.7526178 -0.4212847 -0.506049 0.7565492 -0.4288177 -0.4937089 -0.7518222 -0.4260709 -0.5032165 -0.7557418 -0.4336871 -0.4906831 0.779103 -0.2544392 -0.5729389 0.7774641 -0.2482554 -0.5778569 -0.7707804 -0.2909247 -0.5667982 -0.7652671 -0.2925113 -0.5734136 0.7792994 -0.1839366 -0.5990488 0.7830949 -0.180701 -0.5950708 -0.7818512 -0.1952246 -0.5921113 -0.7794921 -0.1908854 -0.5966192 0.7831271 -0.1016956 -0.6134897 0.7811056 -0.09917913 -0.6164716 -0.7812772 -0.1034978 -0.6155437 -0.784209 -0.1010845 -0.6122074 0.7583145 -0.3740854 -0.5338718 0.7570165 -0.3651249 -0.5418578 -0.7684808 -0.3398228 -0.5421788 -0.7724298 -0.3458575 -0.5326675 0.7310045 -0.5020318 -0.462165 0.7335801 -0.5101773 -0.4489756 -0.7272455 -0.5121129 -0.4570058 -0.7297509 -0.5203889 -0.4434626 0.6814178 -0.6198242 -0.3892142 0.6834757 -0.607744 -0.4043614 -0.6700537 -0.6297828 -0.3929396 -0.6798782 -0.6245447 -0.3843299 0.5513346 -0.7937414 -0.2569137 0.5610107 -0.7892702 -0.2496393 -0.5342324 -0.8089013 -0.2455086 -0.5438793 -0.804732 -0.2379111 0.3795573 -0.9174457 -0.1192875 0.3874089 -0.9149649 -0.112932 -0.3886701 -0.9136075 -0.1194014 -0.396642 -0.9109851 -0.1130543 0 0 -0.9999999 0 0 -0.9999999 -0.76996 -0.334738 -0.5432422 -0.7673012 -0.3235348 -0.5536912 -0.7540987 -0.4201599 -0.504778 -0.7521629 -0.4064701 -0.5186837 -0.7304374 -0.5056801 -0.4590739 -0.730786 -0.4907404 -0.4744741 -0.680701 -0.618995 -0.3917797 -0.6941081 -0.6126026 -0.3780633 -0.669852 -0.6687629 -0.3225745 -0.6564297 -0.6752309 -0.3363976 -0.5466677 -0.8007346 -0.244905 -0.5594946 -0.795486 -0.2327396 -0.4977629 -0.8473747 -0.1849 -0.5103639 -0.8433899 -0.1679942 -0.3997681 -0.9089701 -0.1181475 -0.410257 -0.9055337 -0.1081566 -0.2719748 -0.960607 -0.05713077 -0.279691 -0.9590537 -0.04459621 -0.1096826 -0.9939221 -0.009411873 -0.1129424 -0.9935998 -0.001856118 0.09084193 -0.9958465 -0.006120957 0.09354541 -0.9956138 0.001537344 0.2525608 -0.9661089 -0.05335326 0.2598106 -0.9648051 -0.04061307 0.3904923 -0.9130101 -0.1180185 0.4008277 -0.9097663 -0.1079924 0.4935905 -0.8492738 -0.187356 0.506166 -0.8454152 -0.1704962 0.563724 -0.7851226 -0.2565109 0.576601 -0.7794863 -0.2448107 0.6507952 -0.6802049 -0.3373231 0.6642785 -0.6738762 -0.3234574 0.6878542 -0.6056371 -0.4000753 0.6893949 -0.5888164 -0.4219356 0.734084 -0.4956398 -0.4641787 0.7342638 -0.4808832 -0.479174 0.75484 -0.415409 -0.5075943 0.7528479 -0.401845 -0.5212873 0.75982 -0.362884 -0.5394337 0.7572383 -0.350759 -0.5509611 0.7793044 -0.2463977 -0.5761707 0.7765492 -0.2381308 -0.5833223 0.7817457 -0.1785831 -0.5974793 0.7872838 -0.1744858 -0.5913871 0.7822778 -0.09835075 -0.6151167 0.7791929 -0.09501066 -0.6195412 0.7827345 0 -0.6223556 0.7827345 0 -0.6223556 -0.7827355 0 -0.6223543 -0.7827356 0 -0.6223543 -0.782956 -0.09969881 -0.6140358 -0.7872799 -0.09660918 -0.6089802 -0.7812004 -0.1896798 -0.5947667 -0.7774963 -0.1838639 -0.6014094 -0.7718961 -0.2863714 -0.5675981 -0.7784323 -0.2801999 -0.5617216 0 0 -0.9999999 0 0 -0.9999999</float_array>
+          <technique_common>
+            <accessor source="#tesla_modules_doors1_polySurface129Shape-normals-array" count="203" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tesla_modules_doors1_polySurface129Shape-UVSet0" name="tesla_modules_doors1_polySurface129Shape-UVSet0">
+          <float_array id="tesla_modules_doors1_polySurface129Shape-UVSet0-array" count="298">0.145636 0.583984 0.145636 0 0.170204 0 0.843396 0 0.843396 0.583984 0.170204 0.583984 0.867356 0.583984 0.867356 0 0.847417 0.688672 0.859408 0.64119 0.153754 0.64119 0.166429 0.688672 0.836715 0.719302 0.79925 0.779271 0.820752 0.749547 0.716205 0.857553 0.750852 0.832371 0.643425 0.896849 0.685172 0.875926 0.565918 0.920796 0.608593 0.911526 0.923052 1 0.178992 0.719302 0.193522 0.749547 0.215251 0.779271 0.265015 0.832371 0.299235 0.857553 0.331677 0.875926 0.373076 0.896849 0.407261 0.911526 0.446659 0.920795 0.500631 0.926553 0.450658 0.915335 0.561998 0.916085 0.501043 0.92038 0.601836 0.906428 0.413872 0.906678 0.673317 0.875926 0.630098 0.896849 0.384947 0.896849 0.343292 0.875926 0.73313 0.832371 0.702286 0.857553 0.31425 0.857553 0.28255 0.832371 0.797388 0.749547 0.779313 0.779271 0.236589 0.779271 0.217802 0.749547 0.823782 0.688672 0.81254 0.719302 0.202736 0.719302 0.190508 0.688672 0.835476 0.64119 0.178813 0.639191 0.777889 0.803935 0.76087 0.803935 0.255468 0.803935 0.237078 0.803935 0.923052 0 0.076948 1 0.076948 0 0.181809 0.719302 0.196215 0.749547 0.217757 0.779271 0.239396 0.803935 0.267093 0.832371 0.301018 0.857553 0.333182 0.875926 0.374226 0.896849 0.408118 0.911157 0.447177 0.920088 0.500684 0.925753 0.565411 0.920088 0.607717 0.911157 0.642249 0.896849 0.683636 0.875926 0.714401 0.857553 0.748751 0.832371 0.775554 0.803935 0.796732 0.779271 0.818049 0.749547 0.833874 0.719302 0.844485 0.688672 0.856372 0.64119 0.864251 0.583984 0.864251 0 0.148741 0 0.148741 0.583984 0.156774 0.64119 0.169355 0.688672 0.177517 0.001405 0.834379 0.001405 0.834379 0.576982 0.177517 0.576982 0.440144 0.908945 0.570575 0.908945 0.499168 0.915322 0.617243 0.897001 0.397052 0.897001 0.681324 0.864722 0.645083 0.885344 0.369978 0.885344 0.334121 0.864722 0.733572 0.821794 0.707082 0.846613 0.307031 0.846613 0.28096 0.821794 0.791964 0.740162 0.775511 0.769458 0.237757 0.769458 0.2211 0.740162 0.816233 0.680163 0.806492 0.710353 0.207875 0.710353 0.196441 0.680163 0.827146 0.633365 0.184797 0.633365 0.758759 0.793767 0.254933 0.793767 0.872544 0 0.872544 0.583984 0.864428 0.64119 0.852657 0.688672 0.842392 0.719302 0.825091 0.750311 0.802772 0.780305 0.781067 0.805696 0.754039 0.83456 0.719944 0.859143 0.688511 0.878688 0.646775 0.899114 0.610864 0.913437 0.56767 0.923632 0.500597 0.929812 0.445371 0.923632 0.405391 0.913437 0.370069 0.899114 0.328589 0.878688 0.295712 0.859143 0.261968 0.83456 0.233988 0.805696 0.211781 0.780305 0.189193 0.750311 0.173252 0.719302 0.161139 0.688672 0.148667 0.64119 0.140365 0.583984 0.140365 0</float_array>
+          <technique_common>
+            <accessor source="#tesla_modules_doors1_polySurface129Shape-UVSet0-array" count="149" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tesla_modules_doors1_polySurface129Shape-vertices" name="tesla_modules_doors1_polySurface129Shape-vertices">
+          <input semantic="POSITION" source="#tesla_modules_doors1_polySurface129Shape-positions"/>
+        </vertices>
+        <triangles material="tesla_modules_doors1_polySurface129SG" count="226">
+          <input semantic="VERTEX" source="#tesla_modules_doors1_polySurface129Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tesla_modules_doors1_polySurface129Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tesla_modules_doors1_polySurface129Shape-UVSet0" offset="2" set="0"/>
+          <p>4 0 1 118 1 147 119 2 148 118 1 147 4 0 1 7 3 0 34 4 92 36 5 94 33 6 91 36 5 94 34 4 92 35 7 93 91 8 120 6 9 6 5 10 7 6 9 6 91 8 120 92 11 121 13 12 8 22 13 9 94 14 123 93 15 122 94 14 123 22 13 9 21 16 10 116 17 145 117 18 146 116 17 145 21 16 10 14 19 11 94 14 123 95 20 124 13 12 8 13 12 8 95 20 124 23 21 12 97 22 126 12 23 14 96 24 125 12 23 14 97 22 126 25 25 13 100 26 129 28 27 16 99 28 128 28 27 16 100 26 129 10 29 15 30 30 18 102 31 131 9 32 17 102 31 131 30 30 18 101 33 130 32 34 20 104 35 133 8 36 19 104 35 133 32 34 20 103 37 132 115 38 144 116 17 145 14 19 11 14 19 11 24 39 22 115 38 144 113 40 142 114 41 143 15 42 23 113 40 142 15 42 23 26 43 24 110 44 139 111 45 140 27 46 25 110 44 139 27 46 25 17 47 26 108 48 137 29 49 27 18 50 28 108 48 137 109 51 138 29 49 27 106 52 135 31 53 29 19 54 30 31 53 29 106 52 135 107 55 136 105 56 134 19 54 30 20 57 31 19 54 30 105 56 134 106 52 135 104 35 133 105 56 134 8 36 19 20 57 31 8 36 19 105 56 134 38 58 95 37 59 96 39 60 97 37 59 96 41 61 99 40 62 98 41 61 99 37 59 96 38 58 95 42 63 101 45 64 103 43 65 100 45 64 103 42 63 101 44 66 102 46 67 105 49 68 107 47 69 104 49 68 107 46 67 105 48 70 106 52 71 110 51 72 108 50 73 109 53 74 111 51 72 108 52 71 110 54 75 113 56 76 114 55 77 112 57 78 115 55 77 112 56 76 114 55 77 112 57 78 115 58 79 116 59 80 117 58 79 116 57 78 115 7 3 0 117 18 146 118 1 147 117 18 146 7 3 0 21 16 10 58 79 116 59 80 117 35 7 93 36 5 94 35 7 93 59 80 117 22 13 9 6 9 6 93 15 122 92 11 121 93 15 122 6 9 6 95 20 124 96 24 125 23 21 12 23 21 12 96 24 125 12 23 14 56 76 114 54 75 113 51 72 108 56 76 114 51 72 108 53 74 111 24 39 22 114 41 143 115 38 144 114 41 143 24 39 22 15 42 23 98 81 127 25 25 13 97 22 126 25 25 13 98 81 127 11 82 55 50 73 109 61 83 119 52 71 110 61 83 119 50 73 109 60 84 118 26 43 24 112 85 141 113 40 142 112 85 141 26 43 24 16 86 58 111 45 140 112 85 141 16 86 58 111 45 140 16 86 58 27 46 25 49 68 107 60 84 118 47 69 104 61 83 119 60 84 118 49 68 107 99 28 128 11 82 55 98 81 127 11 82 55 99 28 128 28 27 16 109 51 138 110 44 139 17 47 26 109 51 138 17 47 26 29 49 27 45 64 103 46 67 105 43 65 100 48 70 106 46 67 105 45 64 103 101 33 130 10 29 15 100 26 129 10 29 15 101 33 130 30 30 18 107 55 136 18 50 28 31 53 29 107 55 136 108 48 137 18 50 28 40 62 98 44 66 102 42 63 101 44 66 102 40 62 98 41 61 99 9 32 17 103 37 132 32 34 20 103 37 132 9 32 17 102 31 131 85 87 85 86 88 86 5 10 7 85 87 85 5 10 7 6 9 6 87 89 87 88 90 88 7 3 0 87 89 87 7 3 0 4 0 1 73 91 73 20 57 31 72 92 72 20 57 31 73 91 73 8 36 19 71 93 71 72 94 72 20 57 31 71 93 71 20 57 31 19 54 30 74 95 74 8 36 19 73 96 73 8 36 19 74 95 74 32 34 20 70 97 70 71 98 71 19 54 30 19 54 30 31 53 29 70 97 70 76 99 76 9 32 17 75 100 75 9 32 17 76 99 76 30 30 18 68 101 68 69 102 69 18 50 28 18 50 28 29 49 27 68 101 68 78 103 78 10 29 15 77 104 77 10 29 15 78 103 78 28 27 16 66 105 66 67 106 67 17 47 26 17 47 26 27 46 25 66 105 66 81 107 81 25 25 13 80 108 80 25 25 13 81 107 81 12 23 14 63 109 63 64 110 64 26 43 24 63 109 63 26 43 24 15 42 23 82 111 82 83 112 83 13 12 8 82 111 82 13 12 8 23 21 12 62 113 62 14 19 11 90 114 90 14 19 11 62 113 62 24 39 22 22 13 9 13 12 8 84 115 84 83 116 83 84 115 84 13 12 8 90 117 90 21 16 10 89 118 89 21 16 10 90 117 90 14 19 11 84 119 84 85 120 85 6 9 6 84 119 84 6 9 6 22 13 9 88 121 88 89 122 89 21 16 10 88 121 88 21 16 10 7 3 0 81 123 81 82 124 82 23 21 12 81 123 81 23 21 12 12 23 14 62 125 62 63 126 63 15 42 23 62 125 62 15 42 23 24 39 22 80 127 80 11 82 55 79 128 79 11 82 55 80 127 80 25 25 13 64 129 64 65 130 65 16 86 58 64 129 64 16 86 58 26 43 24 78 131 78 79 132 79 11 82 55 78 131 78 11 82 55 28 27 16 65 133 65 66 134 66 27 46 25 65 133 65 27 46 25 16 86 58 77 135 77 30 30 18 76 136 76 30 30 18 77 135 77 10 29 15 67 137 67 68 138 68 29 49 27 29 49 27 17 47 26 67 137 67 75 139 75 32 34 20 74 140 74 32 34 20 75 139 75 9 32 17 69 141 69 70 142 70 31 53 29 31 53 29 18 50 28 69 141 69 0 143 21 1 144 60 105 56 134 53 145 48 62 125 62 56 146 51 62 125 62 53 145 48 63 126 63 52 147 47 63 109 63 53 148 48 63 109 63 52 147 47 64 110 64 61 149 57 64 129 64 52 150 47 64 129 64 61 149 57 65 130 65 61 151 57 49 152 44 66 134 66 61 151 57 66 134 66 65 133 65 48 153 43 67 106 67 49 154 44 67 106 67 66 105 66 49 154 44 48 155 43 45 156 40 68 138 68 68 138 68 67 137 67 48 155 43 45 157 40 44 158 39 69 102 69 69 102 69 68 101 68 45 157 40 44 159 39 41 160 36 70 142 70 70 142 70 69 141 69 44 159 39 41 161 36 38 162 32 71 98 71 71 98 71 70 97 70 41 161 36 38 163 32 39 164 34 72 94 72 38 163 32 72 94 72 71 93 71 37 165 33 72 92 72 39 166 34 72 92 72 37 165 33 73 91 73 40 167 35 73 96 73 37 168 33 73 96 73 40 167 35 74 95 74 42 169 38 74 140 74 40 170 35 74 140 74 42 169 38 75 139 75 43 171 37 75 100 75 42 172 38 75 100 75 43 171 37 76 99 76 46 173 42 76 136 76 43 174 37 76 136 76 46 173 42 77 135 77 47 175 41 77 104 77 46 176 42 77 104 77 47 175 41 78 103 78 47 177 41 60 178 56 79 132 79 47 177 41 79 132 79 78 131 78 60 179 56 50 180 46 80 127 80 60 179 56 80 127 80 79 128 79 50 181 46 51 182 45 81 107 81 50 181 46 81 107 81 80 108 80 51 183 45 54 184 50 82 124 82 51 183 45 82 124 82 81 123 81 54 185 50 55 186 49 83 112 83 54 185 50 83 112 83 82 111 82 84 115 84 83 116 83 58 187 53 55 188 49 58 187 53 83 116 83 58 189 53 35 190 4 85 120 85 58 189 53 85 120 85 84 119 84 34 191 3 85 87 85 35 192 4 85 87 85 34 191 3 86 88 86 33 193 2 36 194 5 88 90 88 33 193 2 88 90 88 87 89 87 36 195 5 59 196 54 89 122 89 36 195 5 89 122 89 88 121 88 57 197 52 89 118 89 59 198 54 89 118 89 57 197 52 90 117 90 57 199 52 56 200 51 62 113 62 57 199 52 62 113 62 90 114 90 2 201 59 92 11 121 91 8 120 2 201 59 0 143 21 92 11 121 0 143 21 93 15 122 92 11 121 94 14 123 93 15 122 0 143 21 95 20 124 94 14 123 0 143 21 96 24 125 95 20 124 0 143 21 97 22 126 96 24 125 0 143 21 98 81 127 97 22 126 0 143 21 0 143 21 99 28 128 98 81 127 100 26 129 99 28 128 0 143 21 0 143 21 101 33 130 100 26 129 102 31 131 101 33 130 0 143 21 0 143 21 103 37 132 102 31 131 104 35 133 103 37 132 0 143 21 107 55 136 106 52 135 1 144 60 1 144 60 108 48 137 107 55 136 109 51 138 108 48 137 1 144 60 1 144 60 110 44 139 109 51 138 111 45 140 110 44 139 1 144 60 1 144 60 112 85 141 111 45 140 1 144 60 113 40 142 112 85 141 1 144 60 114 41 143 113 40 142 1 144 60 115 38 144 114 41 143 1 144 60 116 17 145 115 38 144 117 18 146 116 17 145 1 144 60 1 144 60 118 1 147 117 18 146 118 1 147 3 202 61 119 2 148 1 144 60 3 202 61 118 1 147 105 56 134 1 144 60 106 52 135 0 143 21 105 56 134 104 35 133</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>tesla_modules_doors1_polySurface129Shape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="polySurface136Shape" name="polySurface136Shape">
+      <mesh>
+        <source id="polySurface136Shape-positions" name="polySurface136Shape-positions">
+          <float_array id="polySurface136Shape-positions-array" count="54">0.1879102 0.4279731 0.02849074 0.1879102 0.4279731 0.1109938 0.1879102 0.503229 0.150371 0.1879099 -0.00257681 0.02849074 3.823655 -0.00165771 0.02849074 3.823655 0.427973 0.02849074 3.823655 0.427973 0.1109938 3.823655 0.5032291 0.150371 0.1879102 0.3191482 0.02849074 3.823655 0.3193802 0.02849074 0.1879102 0.2735439 0.05811852 3.823655 0.2738733 0.05811852 0.1879099 0.1552638 0.05811852 3.823655 0.1558456 0.05811852 0.1879099 0.1140766 0.02849074 3.823655 0.1147461 0.02849074 0.1879102 0.503229 0.2305513 3.823655 0.5032291 0.2305513</float_array>
+          <technique_common>
+            <accessor source="#polySurface136Shape-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface136Shape-normals" name="polySurface136Shape-normals">
+          <float_array id="polySurface136Shape-normals-array" count="96">0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.4636129 -0.8860378 0 0.4636132 -0.8860376 0 0.4636129 -0.8860378 0 0.4636126 -0.8860379 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 -0.5452036 -0.8383037 0 -0.5447937 -0.8385701 0 -0.5452036 -0.8383037 0 -0.5456133 -0.838037 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 -1.00558e-4 0.5843643 -0.8114915 -1.07529e-4 0.5839546 -0.8117863 -1.00558e-4 0.5843643 -0.8114915 0 0.5847738 -0.8111963 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0</float_array>
+          <technique_common>
+            <accessor source="#polySurface136Shape-normals-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface136Shape-UVSet0" name="polySurface136Shape-UVSet0">
+          <float_array id="polySurface136Shape-UVSet0-array" count="48">0 0.819764 1.274392 0.816895 0 0.973862 1.274392 0.973514 0 0.768858 0 0.920966 1.274392 0.973665 1.274392 0.923382 0 0.820674 1.274392 0.820587 0 0.842389 1.274392 0.842264 0 0.898707 1.274392 0.898487 0 0.918318 1.274392 0.918065 0 0.768504 1.274392 0.768504 1.274392 0.822094 0 0.822094 0 0.923382 0 0.973665 1.274392 0.920967 1.274392 0.768858</float_array>
+          <technique_common>
+            <accessor source="#polySurface136Shape-UVSet0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface136Shape-vertices" name="polySurface136Shape-vertices">
+          <input semantic="POSITION" source="#polySurface136Shape-positions"/>
+        </vertices>
+        <triangles material="polySurface136SG" count="16">
+          <input semantic="VERTEX" source="#polySurface136Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polySurface136Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polySurface136Shape-UVSet0" offset="2" set="0"/>
+          <p>4 0 3 3 1 2 14 2 14 4 0 3 14 2 14 15 3 15 1 4 6 6 5 21 5 6 5 1 4 6 5 6 5 0 7 22 6 8 7 1 9 20 2 10 0 6 8 7 2 10 0 7 11 1 9 12 9 8 13 8 0 14 4 9 12 9 0 14 4 5 15 23 11 16 11 10 17 10 8 18 8 11 16 11 8 18 8 9 19 9 13 20 13 12 21 12 10 22 10 13 20 13 10 22 10 11 23 11 15 24 15 14 25 14 12 26 12 15 24 15 12 26 12 13 27 13 16 28 18 17 29 19 7 30 16 16 28 18 7 30 16 2 31 17</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>polySurface136Shape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="tesla_modules1_wall_low">
+      <node id="polySurface131" name="polySurface131" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#polySurface131Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="polySurface131SG" target="#Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>polySurface131</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="polySurface124" name="polySurface124" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#polySurface124Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="polySurface124SG" target="#blinn1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>polySurface124</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="tesla_modules_doors1_polySurface129" name="tesla_modules_doors1_polySurface129" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#tesla_modules_doors1_polySurface129Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="tesla_modules_doors1_polySurface129SG" target="#tesla_modules_doors1_door_tesla_modules_floors_Tesla_Floor_01_and_02_SplashTest_Model_HPBackup1_blinn1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>tesla_modules_doors1_polySurface129</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="polySurface136" name="polySurface136" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#polySurface136Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="polySurface136SG" target="#blinn1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>polySurface136</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

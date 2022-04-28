@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>zaicheng</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/zaicheng/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-02-09T06:07:20Z</created>
+    <modified>2012-02-09T06:07:20Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="workdesk_corner_door_1" name="workdesk_corner_door_1">
+      <init_from>file:///F:/2pi/workdesk_corner/workdesk_corner_door.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn3" name="blinn3">
+      <instance_effect url="#blinn3-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn3-fx">
+      <profile_COMMON>
+        <newparam sid="workdesk_corner_door_1-surface">
+          <surface type="2D">
+            <init_from>workdesk_corner_door_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="workdesk_corner_door_1-sampler">
+          <sampler2D>
+            <source>workdesk_corner_door_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="workdesk_corner_door_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="workdesk_corner_doorShape" name="workdesk_corner_doorShape">
+      <mesh>
+        <source id="workdesk_corner_doorShape-positions" name="position">
+          <float_array id="workdesk_corner_doorShape-positions-array" count="204">-141.015 21.9306 74.0889 -84.0274 21.9306 17.1014 -141.015 185.032 74.0889 -84.0274 185.032 17.1014 -144.001 185.032 71.1031 -87.0133 185.032 14.1156 -144.001 21.9306 71.1031 -87.0133 21.9306 14.1156 -142.073 159.049 74.1606 -141.372 159.049 73.4596 -140.414 159.049 73.7162 -140.158 159.049 74.6738 -140.859 159.049 75.3748 -141.816 159.049 75.1182 -142.073 148.189 74.1606 -141.372 148.189 73.4596 -140.414 148.189 73.7162 -140.158 148.189 74.6738 -140.859 148.189 75.3748 -141.816 148.189 75.1182 -142.073 55.926 74.1606 -141.372 55.926 73.4596 -140.414 55.926 73.7162 -140.158 55.926 74.6738 -140.859 55.926 75.3748 -141.816 55.926 75.1182 -142.073 45.0661 74.1606 -141.372 45.0661 73.4596 -140.414 45.0661 73.7162 -140.158 45.0661 74.6738 -140.859 45.0661 75.3748 -141.816 45.0661 75.1182 -92.6 118.893 24.4681 -91.9023 118.889 23.7726 -91.546 119.74 23.4271 -91.8873 120.595 23.7773 -92.585 120.6 24.4728 -92.9414 119.749 24.8182 -87.2188 118.831 29.8664 -86.5211 118.827 29.1708 -86.1647 119.678 28.8254 -86.5061 120.534 29.1755 -87.2038 120.538 29.8711 -87.5602 119.687 30.2165 -88.2883 128.584 29.2413 -87.0841 128.577 28.0408 -85.4423 128.561 28.4834 -85.0048 128.553 30.1267 -86.209 128.56 31.3272 -87.8508 128.575 30.8845 -88.6385 88.5793 29.1311 -87.4342 88.5721 27.9306 -85.7925 88.5565 28.3732 -85.355 88.5481 30.0165 -86.5592 88.5553 31.217 -88.201 88.5709 30.7743 -92.7943 96.6971 24.407 -92.0966 96.6929 23.7114 -91.7403 97.5439 23.366 -92.0816 98.3992 23.7161 -92.7794 98.4034 24.4117 -93.1357 97.5523 24.7571 -87.4131 96.6351 29.8052 -86.7154 96.6309 29.1097 -86.3591 97.482 28.7643 -86.7004 98.3372 29.1144 -87.3981 98.3414 29.8099 -87.7545 97.4903 30.1554</float_array>
+          <technique_common>
+            <accessor source="#workdesk_corner_doorShape-positions-array" count="68" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="workdesk_corner_doorShape-normals" name="normal">
+          <float_array id="workdesk_corner_doorShape-normals-array" count="204">0.000001 -0.57735 0.816497 0.816497 -0.57735 0.000000 0.000001 0.577349 0.816497 0.816497 0.57735 0.000001 -0.816496 0.577351 0.000002 0.000000 0.577351 -0.816496 -0.816496 -0.577351 0.000001 0.000000 -0.57735 -0.816496 -0.836516 0.5 -0.224145 -0.224146 0.499999 -0.836516 0.462907 0.755928 -0.462914 0.836517 0.500001 0.22414 0.224143 0.5 0.836517 -0.462911 0.755929 0.462909 -0.836516 -0.5 -0.224145 -0.224146 -0.499999 -0.836516 0.462907 -0.755928 -0.462914 0.836517 -0.500001 0.22414 0.224143 -0.5 0.836517 -0.462911 -0.755929 0.462909 -0.836516 0.5 -0.224145 -0.224146 0.5 -0.836516 0.462907 0.755928 -0.462914 0.836517 0.500001 0.224139 0.224143 0.5 0.836516 -0.462911 0.755929 0.462909 -0.836516 -0.5 -0.224143 -0.224146 -0.5 -0.836516 0.462907 -0.755929 -0.462913 0.836517 -0.500001 0.224139 0.224143 -0.5 0.836516 -0.462911 -0.755928 0.46291 -0.361681 -0.86386 0.350616 0.346523 -0.868109 -0.3554 0.708199 -0.004251 -0.706 0.361687 0.863855 -0.350625 -0.346518 0.868117 0.355385 -0.708191 0.004257 0.706008 -0.361681 -0.86386 0.350616 0.346523 -0.868109 -0.3554 0.708199 -0.004251 -0.706 0.361687 0.863855 -0.350625 -0.346518 0.868117 0.355385 -0.708191 0.004257 0.706008 -0.831752 0.507921 -0.224067 -0.218439 0.504234 -0.835483 0.470235 0.753111 -0.460112 0.840507 0.492041 0.226813 0.227189 0.495728 0.838236 -0.457009 0.758685 0.464264 -0.840507 -0.49203 -0.226835 -0.227206 -0.495713 -0.83824 0.456994 -0.758683 -0.46428 0.831753 -0.507917 0.224071 0.21844 -0.504233 0.835484 -0.470249 -0.753112 0.460095 -0.361683 -0.863856 0.350626 0.34652 -0.868113 -0.355393 0.708194 -0.004248 -0.706005 0.361682 0.86386 -0.350617 -0.346521 0.868112 0.355394 -0.708193 0.004253 0.706006 -0.361683 -0.863856 0.350626 0.34652 -0.868113 -0.355393 0.708194 -0.004248 -0.706005 0.361682 0.86386 -0.350617 -0.346521 0.868112 0.355394 -0.708193 0.004253 0.706006</float_array>
+          <technique_common>
+            <accessor source="#workdesk_corner_doorShape-normals-array" count="68" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="workdesk_corner_doorShape-map1" name="map1">
+          <float_array id="workdesk_corner_doorShape-map1-array" count="244">0.557397 0.977857 0.557397 0.761843 0.737979 0.761843 0.737979 0.977857 0.742654 0.761843 0.742654 0.977857 0.184162 0.548119 0.184162 0.752551 0.014257 0.752551 0.014257 0.548119 0.552721 0.977857 0.552721 0.761843 0.557397 0.750526 0.737979 0.750526 0.557397 0.989174 0.737979 0.989174 0.900637 0.691389 0.89575 0.69139 0.89575 0.611977 0.900637 0.611977 0.890863 0.69139 0.890863 0.611977 0.885975 0.69139 0.885975 0.611977 0.881088 0.69139 0.881088 0.611977 0.8762 0.691389 0.876201 0.611977 0.871313 0.69139 0.871313 0.611977 -0.143006 0.910282 -0.137503 0.910207 -0.134721 0.921705 -0.14573 0.921864 -0.137446 0.933284 -0.142948 0.933362 -0.134964 0.955691 -0.13775 0.967203 -0.143255 0.967166 -0.145971 0.955607 -0.143183 0.944082 -0.137681 0.944128 -0.099362 0.691389 -0.10425 0.69139 -0.10425 0.611977 -0.099362 0.611977 -0.109137 0.69139 -0.109137 0.611977 -0.114025 0.69139 -0.114025 0.611977 -0.118912 0.69139 -0.118912 0.611977 -0.1238 0.691389 -0.123799 0.611977 -0.128687 0.69139 -0.128687 0.611977 0.856994 0.910282 0.862497 0.910207 0.865279 0.921705 0.85427 0.921864 0.862554 0.933284 0.857052 0.933362 0.865036 0.955691 0.86225 0.967203 0.856745 0.967166 0.854029 0.955607 0.856817 0.944082 0.862319 0.944128 -0.681233 0.02559 -0.67865 0.02559 -0.67865 0.074146 -0.681233 0.074146 -0.676134 0.02559 -0.676134 0.074146 -0.673619 0.02559 -0.673619 0.074146 -0.671103 0.02559 -0.671103 0.074146 -0.668588 0.02559 -0.668588 0.074146 -0.683826 0.02559 -0.683826 0.074146 -0.683826 0.083342 -0.681233 0.083342 -0.681233 0.226605 -0.683826 0.226605 -0.67865 0.083342 -0.67865 0.226605 -0.676134 0.083342 -0.676134 0.226605 -0.673619 0.083342 -0.673619 0.226605 -0.671103 0.083342 -0.671103 0.226605 -0.668588 0.083342 -0.668588 0.226605 -0.137116 0.897475 -0.143609 0.897475 -0.146857 0.883861 -0.133868 0.883861 -0.143609 0.870246 -0.137116 0.870246 -0.147122 0.849222 -0.143855 0.83553 -0.137324 0.83553 -0.134059 0.849222 -0.137324 0.862915 -0.143855 0.862915 -0.681233 0.02559 -0.67865 0.02559 -0.67865 0.074146 -0.681233 0.074146 -0.676134 0.02559 -0.676134 0.074146 -0.673619 0.02559 -0.673619 0.074146 -0.671103 0.02559 -0.671103 0.074146 -0.668588 0.02559 -0.668588 0.074146 -0.683826 0.02559 -0.683826 0.074146</float_array>
+          <technique_common>
+            <accessor source="#workdesk_corner_doorShape-map1-array" count="122" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="workdesk_corner_doorShape-vertices">
+          <input semantic="POSITION" source="#workdesk_corner_doorShape-positions"/>
+          <input semantic="NORMAL" source="#workdesk_corner_doorShape-normals"/>
+        </vertices>
+        <triangles material="blinn3SG" count="96">
+          <input semantic="VERTEX" source="#workdesk_corner_doorShape-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#workdesk_corner_doorShape-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 3 2 3 1 1 3 2 2 3 3 2 4 5 4 5 3 2 5 4 4 6 5 7 6 9 6 9 5 7 7 8 6 10 7 11 0 0 0 0 7 11 1 1 1 1 7 12 3 2 3 2 7 12 5 13 6 14 0 0 4 15 4 15 0 0 2 3 8 16 9 17 14 19 14 19 9 17 15 18 9 17 10 20 15 18 15 18 10 20 16 21 10 20 11 22 16 21 16 21 11 22 17 23 11 22 12 24 17 23 17 23 12 24 18 25 12 24 13 26 18 25 18 25 13 26 19 27 13 26 8 28 19 27 19 27 8 28 14 29 12 30 11 31 13 33 13 33 11 31 10 32 9 34 8 35 10 32 10 32 8 35 13 33 16 36 17 37 19 39 19 39 17 37 18 38 16 36 19 39 15 41 15 41 19 39 14 40 20 42 21 43 26 45 26 45 21 43 27 44 21 43 22 46 27 44 27 44 22 46 28 47 22 46 23 48 28 47 28 47 23 48 29 49 23 48 24 50 29 49 29 49 24 50 30 51 24 50 25 52 30 51 30 51 25 52 31 53 25 52 20 54 31 53 31 53 20 54 26 55 24 56 23 57 25 59 25 59 23 57 22 58 21 60 20 61 22 58 22 58 20 61 25 59 28 62 29 63 31 65 31 65 29 63 30 64 28 62 31 65 27 67 27 67 31 65 26 66 32 68 33 69 38 71 38 71 33 69 39 70 33 69 34 72 39 70 39 70 34 72 40 73 34 72 35 74 40 73 40 73 35 74 41 75 35 74 36 76 41 75 41 75 36 76 42 77 36 76 37 78 42 77 42 77 37 78 43 79 37 80 32 68 43 81 43 81 32 68 38 71 44 82 45 83 50 85 50 85 45 83 51 84 45 83 46 86 51 84 51 84 46 86 52 87 46 86 47 88 52 87 52 87 47 88 53 89 47 88 48 90 53 89 53 89 48 90 54 91 48 90 49 92 54 91 54 91 49 92 55 93 49 92 44 94 55 93 55 93 44 94 50 95 48 96 47 97 49 99 49 99 47 97 46 98 45 100 44 101 46 98 46 98 44 101 49 99 52 102 53 103 55 105 55 105 53 103 54 104 52 102 55 105 51 107 51 107 55 105 50 106 56 108 57 109 62 111 62 111 57 109 63 110 57 109 58 112 63 110 63 110 58 112 64 113 58 112 59 114 64 113 64 113 59 114 65 115 59 114 60 116 65 115 65 115 60 116 66 117 60 116 61 118 66 117 66 117 61 118 67 119 61 120 56 108 67 121 67 121 56 108 62 111</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="workdesk_corner_door" name="workdesk_corner_door" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#workdesk_corner_doorShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn3SG" target="#blinn3">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

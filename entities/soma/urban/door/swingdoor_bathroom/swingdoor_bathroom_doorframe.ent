@@ -1,0 +1,61 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="static_objects/urban/walls/livingroom_doorframe.dae">
+            <SubMesh ID="0" Name="pCube2" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="208" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" CreStamp="0" ModStamp="0" WorldPos="0.986709 1.4849 -0.126427" Rotation="0 0 0" Scale="0.179281 2.93427 0.376038" RelativeTranslation="0.987939 0.0468245 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="2" Name="Shape_2" CreStamp="0" ModStamp="0" WorldPos="-0.98917 1.4849 -0.126427" Rotation="0 0 0" Scale="0.179281 2.93427 0.392012" RelativeTranslation="-0.987939 0.0468245 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="3" Name="Shape_3" CreStamp="0" ModStamp="0" WorldPos="0.00948513 2.86449 -0.126427" Rotation="0 -0 1.5708" Scale="0.179281 2.08811 0.383142" RelativeTranslation="0.0107156 1.42641 0" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="4" Name="Shape_4" CreStamp="0" ModStamp="0" WorldPos="0.000933677 0.0116611 -0.126427" Rotation="0 -0 1.5708" Scale="0.0546784 1.79828 0.338957" RelativeTranslation="0.00216419 -1.42641 0" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="5" Name="Body_1" CreStamp="0" ModStamp="0" WorldPos="-0.00123051 1.43808 -0.126427" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="0" AngularDamping="0" LinearDamping="0" MaxAngularSpeed="0" MaxLinearSpeed="0" BuoyancyDensityMul="0" BlocksSound="true" ContinuousCollision="false" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="false" HasGravity="false" BlocksLight="true">
+                <Shape ID="3" />
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="4" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Rigid">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="0.2" />
+        <Var Name="EffectsOffTime" Value="0.2" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+    </UserDefinedVariables>
+</Entity>

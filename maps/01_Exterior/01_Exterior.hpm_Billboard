@@ -1,0 +1,8 @@
+<HPLMapTrack_Billboard ID="F22F3DE2F4B88CB3D1A3B55BD24B10D0CB6AE5F0" MajorVersion="1" MinorVersion="1">
+    <Section Name="13733002251564882997">
+        <Objects>
+            <Billboard ID="268436341" Name="Billboard_2" CreStamp="1633187433" ModStamp="1633205318" WorldPos="100 350 -100" Rotation="0 0 0" Scale="1 1 1" BillboardType="Point" MaterialFile="D:/Steam/steamapps/common/Amnesia Rebirth/mods/SP2/textures/environment/cantaffordaname/Moon.mat" IsHalo="false" BillboardSize="20 20" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="-100" BillboardColor="1 1 1 1" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="-1" RangeMinEnd="-1" RangeMaxStart="-1" RangeMaxEnd="-1" />
+            <Billboard ID="268436342" Name="Billboard_1" CreStamp="1633376443" ModStamp="1633376509" WorldPos="66.2 43.75 -76.5" Rotation="0 4.71239 0" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="D:/Steam/steamapps/common/Amnesia Rebirth/mods/SP2/textures/environment/cantaffordaname/FrictionalLogo.mat" IsHalo="false" BillboardSize="20 20" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="0" BillboardColor="1 1 1 1" Brightness="1" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="-1" RangeMinEnd="-1" RangeMaxStart="-1" RangeMaxEnd="-1" />
+        </Objects>
+    </Section>
+</HPLMapTrack_Billboard>

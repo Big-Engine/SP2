@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>marcus</author>
+      <authoring_tool>OpenCOLLADA2008 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=1;
+			exportCameras=1;exportJointsAndSkin=0;exportAnimations=0;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///C:/Users/marcus/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2013-04-23T16:31:52</created>
+    <modified>2013-04-23T16:31:52</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="atlas01" name="atlas01">
+      <instance_effect url="#atlas01-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="atlas01-fx">
+      <profile_COMMON>
+        <newparam sid="engineroom_machinery_02_file1_image-surface">
+          <surface type="2D">
+            <init_from>engineroom_machinery_02_file1_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="engineroom_machinery_02_file1_image-sampler">
+          <sampler2D>
+            <source>engineroom_machinery_02_file1_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="engineroom_machinery_02_file1_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>20</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="engineroom_machinery_02_file1_image" name="engineroom_machinery_02_file1_image">
+      <init_from>file:///D:/work/amfp/Game/redist/static_objects/engineroom/machinery/engineroom_atlas_01.mat</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>engineroom_machinery_02_file1_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="polySurfaceShape1" name="polySurfaceShape1">
+      <mesh>
+        <source id="polySurfaceShape1-positions" name="polySurfaceShape1-positions">
+          <float_array id="polySurfaceShape1-positions-array" count="216">0.6271707 -2.78549e-4 -0.1178217 0.373815 1.188877 -0.1178217 0.373815 1.188877 0.1178223 0.6271707 -2.78549e-4 0.1178223 0.373815 -2.78397e-4 -0.1178217 0.373815 -2.78397e-4 0.1178223 0.6271707 0.04665092 -0.1178217 0.4207446 0.04665092 -0.1178217 0.4207446 0.04665092 0.1178223 0.6271707 0.04665092 0.1178223 0.4207446 1.188877 -0.1178217 0.4207446 1.188877 0.1178223 -0.1178217 -2.78549e-4 -0.6271707 -0.1178217 1.188877 -0.373815 0.1178223 1.188877 -0.373815 0.1178223 -2.78549e-4 -0.6271707 -0.1178217 -2.78397e-4 -0.373815 0.1178223 -2.78397e-4 -0.373815 -0.1178217 0.04665092 -0.6271707 -0.1178217 0.04665092 -0.4207446 0.1178223 0.04665092 -0.4207446 0.1178223 0.04665092 -0.6271707 -0.1178217 1.188877 -0.4207446 0.1178223 1.188877 -0.4207446 -0.6271707 -2.78549e-4 0.1178217 -0.373815 1.188877 0.1178217 -0.373815 1.188877 -0.1178223 -0.6271707 -2.78549e-4 -0.1178223 -0.373815 -2.78397e-4 0.1178217 -0.373815 -2.78397e-4 -0.1178223 -0.6271707 0.04665092 0.1178217 -0.4207446 0.04665092 0.1178217 -0.4207446 0.04665092 -0.1178223 -0.6271707 0.04665092 -0.1178223 -0.4207446 1.188877 0.1178217 -0.4207446 1.188877 -0.1178223 0.1178217 -2.78549e-4 0.6271707 0.1178217 1.188877 0.373815 -0.1178223 1.188877 0.373815 -0.1178223 -2.78549e-4 0.6271707 0.1178217 -2.78397e-4 0.373815 -0.1178223 -2.78397e-4 0.373815 0.1178217 0.04665092 0.6271707 0.1178217 0.04665092 0.4207446 -0.1178223 0.04665092 0.4207446 -0.1178223 0.04665092 0.6271707 0.1178217 1.188877 0.4207446 -0.1178223 1.188877 0.4207446 -0.375 0 -0.375 -0.375 8 -0.375 0.375 8 -0.375 0.375 0 -0.375 0.375 0 0.375 0.375 8 0.375 -0.375 8 0.375 -0.375 0 0.375 -0.3214685 8 0.375 -0.3214685 0 0.375 -0.375 8 0.3214685 -0.375 0 0.3214685 0.3073792 0 0.3750003 0.3073792 7.999999 0.3750003 0.375 0 0.302182 0.375 8 0.302182 0.3098669 8 -0.375 0.3098669 0 -0.375 0.3750006 8 -0.3161908 0.3750006 0 -0.3161908 -0.2906976 0 -0.375 -0.2906976 8.000001 -0.375 -0.375 0 -0.28927 -0.375 8 -0.28927</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape1-positions-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurfaceShape1-normals" name="polySurfaceShape1-normals">
+          <float_array id="polySurfaceShape1-normals-array" count="648">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 -0.894428 0 0.4472121 -0.4472152 0 0.8944264 -1 0 0 -1 0 0 0.9069991 0 0.4211327 0.4740789 0 0.8804824 1 0 0 1 0 0 -1 0 0 -1 0 0 -0.7130193 0 -0.7011445 -0.7130193 0 -0.7011445 1 0 0 1 0 0 0.8748184 0 -0.4844509 0.4114659 0 -0.9114252</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape1-normals-array" count="216" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurfaceShape1-map1" name="polySurfaceShape1-map1">
+          <float_array id="polySurfaceShape1-map1-array" count="160">0.582836 0.77082 0.614789 0.77082 0.582836 0.800957 0.614789 0.800957 0.582836 0.951963 0.614789 0.951963 0.618447 0.76576 0.618447 0.800957 0.579178 0.76576 0.579178 0.800956 0.618447 0.957023 0.579178 0.957023 0.582836 0.77082 0.614789 0.77082 0.582836 0.800957 0.614789 0.800957 0.582836 0.951963 0.614789 0.951963 0.618447 0.76576 0.618447 0.800957 0.579178 0.76576 0.579178 0.800956 0.618447 0.957023 0.579178 0.957023 0.582836 0.77082 0.614789 0.77082 0.582836 0.800957 0.614789 0.800957 0.582836 0.951963 0.614789 0.951963 0.618447 0.76576 0.618447 0.800957 0.579178 0.76576 0.579178 0.800956 0.618447 0.957023 0.579178 0.957023 0.582836 0.77082 0.614789 0.77082 0.582836 0.800957 0.614789 0.800957 0.582836 0.951963 0.614789 0.951963 0.618447 0.76576 0.618447 0.800957 0.579178 0.76576 0.579178 0.800956 0.618447 0.957023 0.579178 0.957023 -0.16464 0.17794 1.16464 0.17794 1.16464 0.283219 -0.16464 0.283219 -0.16464 0.286143 1.16464 0.175907 1.16464 0.286143 -0.16464 0.175907 1.16464 0.298185 -0.16464 0.298185 -0.16464 0.288613 1.16464 0.288613 -0.16464 0.165474 1.16464 0.165474 1.16464 0.179288 -0.16464 0.179288 -0.16464 0.165474 1.16464 0.165474 1.16464 0.181551 -0.16464 0.181551 -0.16464 0.165474 1.16464 0.165474 1.16464 0.298185 -0.16464 0.298185 -0.16464 0.287688 1.16464 0.287688 1.16464 0.298185 -0.16464 0.298185 -0.16464 0.165474 1.16464 0.165474 -0.16464 0.298185 1.16464 0.298185</float_array>
+          <technique_common>
+            <accessor source="#polySurfaceShape1-map1-array" count="80" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurfaceShape1-vertices" name="polySurfaceShape1-vertices">
+          <input semantic="POSITION" source="#polySurfaceShape1-positions"/>
+        </vertices>
+        <triangles material="beam_support_8m1SG" count="88">
+          <input semantic="VERTEX" source="#polySurfaceShape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polySurfaceShape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polySurfaceShape1-map1" offset="2" set="0"/>
+          <p>9 0 0 6 1 1 8 2 2 6 3 1 7 4 3 8 5 2 11 6 4 7 7 3 10 8 5 7 9 3 11 10 4 8 11 2 7 12 3 6 13 1 0 14 6 0 15 6 4 16 7 7 17 3 3 18 8 8 19 2 5 20 9 8 21 2 3 22 8 9 23 0 6 24 1 9 25 0 3 26 8 6 27 1 3 28 8 0 29 6 7 30 3 1 31 10 10 32 5 1 33 10 7 34 3 4 35 7 11 36 4 10 37 5 1 38 10 11 39 4 1 40 10 2 41 11 8 42 2 11 43 4 2 44 11 2 45 11 5 46 9 8 47 2 21 48 12 18 49 13 20 50 14 18 51 13 19 52 15 20 53 14 23 54 16 19 55 15 22 56 17 19 57 15 23 58 16 20 59 14 19 60 15 18 61 13 12 62 18 12 63 18 16 64 19 19 65 15 15 66 20 20 67 14 17 68 21 20 69 14 15 70 20 21 71 12 18 72 13 21 73 12 15 74 20 18 75 13 15 76 20 12 77 18 19 78 15 13 79 22 22 80 17 13 81 22 19 82 15 16 83 19 23 84 16 22 85 17 13 86 22 23 87 16 13 88 22 14 89 23 20 90 14 23 91 16 14 92 23 14 93 23 17 94 21 20 95 14 33 96 24 30 97 25 32 98 26 30 99 25 31 100 27 32 101 26 35 102 28 31 103 27 34 104 29 31 105 27 35 106 28 32 107 26 31 108 27 30 109 25 24 110 30 24 111 30 28 112 31 31 113 27 27 114 32 32 115 26 29 116 33 32 117 26 27 118 32 33 119 24 30 120 25 33 121 24 27 122 32 30 123 25 27 124 32 24 125 30 31 126 27 25 127 34 34 128 29 25 129 34 31 130 27 28 131 31 35 132 28 34 133 29 25 134 34 35 135 28 25 136 34 26 137 35 32 138 26 35 139 28 26 140 35 26 141 35 29 142 33 32 143 26 45 144 36 42 145 37 44 146 38 42 147 37 43 148 39 44 149 38 47 150 40 43 151 39 46 152 41 43 153 39 47 154 40 44 155 38 43 156 39 42 157 37 36 158 42 36 159 42 40 160 43 43 161 39 39 162 44 44 163 38 41 164 45 44 165 38 39 166 44 45 167 36 42 168 37 45 169 36 39 170 44 42 171 37 39 172 44 36 173 42 43 174 39 37 175 46 46 176 41 37 177 46 43 178 39 40 179 43 47 180 40 46 181 41 37 182 46 47 183 40 37 184 46 38 185 47 44 186 38 47 187 40 38 188 47 38 189 47 41 190 45 44 191 38 64 192 48 65 193 49 68 194 50 68 194 50 69 195 51 64 192 48 61 196 52 57 197 53 60 198 54 57 197 53 61 196 52 56 199 55 55 200 56 54 201 57 58 202 58 55 200 56 58 202 58 59 203 59 53 204 60 52 205 61 62 206 62 53 204 60 62 206 62 63 207 63 54 201 64 57 197 53 56 199 55 57 197 53 54 201 64 55 200 65 70 208 66 71 209 67 49 210 68 70 208 66 49 210 68 48 211 69 61 196 52 52 205 70 53 204 71 52 205 70 61 196 52 60 198 54 66 212 72 67 213 73 51 214 74 66 212 72 51 214 74 50 215 75 50 215 76 51 214 77 65 193 49 65 193 49 64 192 48 50 215 76 63 207 63 62 206 62 67 213 73 63 207 63 67 213 73 66 212 72 68 194 50 49 210 78 69 195 51 49 210 78 68 194 50 48 211 79 59 203 59 58 202 58 71 209 67 59 203 59 71 209 67 70 208 66</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>polySurfaceShape1</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="polySurface132" name="polySurface132" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#polySurfaceShape1">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="beam_support_8m1SG" target="#atlas01">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>polySurface132</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

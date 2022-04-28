@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-08-24T09:42:32Z</created>
+    <keywords></keywords>
+    <modified>2012-08-24T09:42:32Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #26-image" name="Map #26">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\engineroom\structure\engineroom_walls_01.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="engineroom_floor_01_blinn1SG" name="engineroom_floor_01_blinn1SG">
+      <instance_effect url="#engineroom_floor_01_blinn1SG-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="engineroom_floor_01_blinn1SG-fx" name="engineroom_floor_01_blinn1SG">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #26-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">8.000001</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="walls_004-lib" name="walls_004Mesh">
+      <mesh>
+        <source id="walls_004-POSITION">
+          <float_array id="walls_004-POSITION-array" count="24">
+-9.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 8.000000
+-7.048719 0.000000 0.000000
+-7.048719 0.000000 8.000000
+-1.000000 0.000000 4.720060
+-9.000000 0.000000 4.720060
+-7.048719 0.000000 4.720060
+</float_array>
+          <technique_common>
+            <accessor source="#walls_004-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="walls_004-Normal0">
+          <float_array id="walls_004-Normal0-array" count="54">
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#walls_004-Normal0-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="walls_004-UV0">
+          <float_array id="walls_004-UV0-array" count="16">
+0.000000 0.000000
+2.000000 0.000000
+2.000000 1.000000
+0.487820 0.000000
+0.487820 1.000000
+2.000000 0.590008
+0.000000 0.590008
+0.487820 0.590008
+</float_array>
+          <technique_common>
+            <accessor source="#walls_004-UV0-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="walls_004-VERTEX">
+          <input semantic="POSITION" source="#walls_004-POSITION"/>
+        </vertices>
+        <triangles count="6" material="engineroom_floor_01_blinn1SG">
+          <input semantic="VERTEX" offset="0" source="#walls_004-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#walls_004-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#walls_004-UV0"/>
+          <p> 3 0 3 7 1 7 6 2 6 6 3 6 0 4 0 3 5 3 1 6 1 5 7 5 7 8 7 7 9 7 3 10 3 1 11 1 2 12 2 4 13 4 7 14 7 7 15 7 5 16 5 2 17 2</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="walls_004" id="walls_004" layer="engineroom_walls_01_door_right" sid="walls_004">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#walls_004-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="engineroom_floor_01_blinn1SG" target="#engineroom_floor_01_blinn1SG"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>3.333333</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

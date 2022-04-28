@@ -1,0 +1,29 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/toilet/shower_nozzle/shower_nozzle.dae">
+            <SubMesh ID="0" Material="" Name="shower_nozzle" Rotation="0 0 0" Scale="2 2 2" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="2" Name="Shape_1" RelativeRotation="1.56377 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.000949823 0.0180815 -0.0276299" Rotation="1.56377 -0 0" Scale="0.011302 0.0892398 0" ShapeType="Cylinder" WorldPos="-0.00120023 0.0986351 -0.0478794" />
+            <Shape ID="3" Name="Shape_2" RelativeRotation="2.13945 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.000949823 0.00338671 0.0393908" Rotation="2.13945 -0 0" Scale="0.0100204 0.0623116 0" ShapeType="Cylinder" WorldPos="-0.00120023 0.0839403 0.0191413" />
+            <Shape ID="4" Name="Shape_3" RelativeRotation="2.13945 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.000949823 -0.0180815 0.0746223" Rotation="2.13945 -0 0" Scale="0.0646074 0.0260616 0" ShapeType="Cylinder" WorldPos="0.000699415 0.0624721 0.0543728" />
+            <Shape ID="5" Name="Shape_4" RelativeRotation="1.56377 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.000949823 0.0180815 -0.0746223" Rotation="1.56377 -0 0" Scale="0.0335406 0.0102459 0" ShapeType="Cylinder" WorldPos="-0.00120023 0.0986351 -0.0948718" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="6" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="2 2 2" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.000250409 0.0805536 -0.0202495">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

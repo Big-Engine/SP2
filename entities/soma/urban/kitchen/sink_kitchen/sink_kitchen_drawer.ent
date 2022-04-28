@@ -1,0 +1,86 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/kitchen/sink_kitchen/sink_kitchen_drawer.dae">
+            <SubMesh ID="5" Name="sink_kitchen_drawer" CreStamp="0" ModStamp="1421138729" WorldPos="0 0 0" Rotation="0 0 0" Scale="1.3 1.3 1.3" TriCount="92" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" CreStamp="0" ModStamp="0" WorldPos="-0.076544 0.634056 0.220186" Rotation="0 0 0" Scale="0.429102 0.0149881 0.348265" RelativeTranslation="0.014733 -0.095697 -0.001501" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="2" Name="Shape_2" CreStamp="0" ModStamp="0" WorldPos="-0.30074 0.740148 0.222636" Rotation="0 0 0" Scale="0.0218258 0.266657 0.42433" RelativeTranslation="-0.209463 0.010395 0.000949" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="3" Name="Shape_3" CreStamp="0" ModStamp="0" WorldPos="-0.318909 0.82545 0.222702" Rotation="0 0 0" Scale="0.0214335 0.0219405 0.136646" RelativeTranslation="-0.227632 0.095697 0.00101501" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="6" Name="Shape_4" CreStamp="0" ModStamp="0" WorldPos="-0.0792761 0.709295 0.398754" Rotation="1.5708 -0 0" Scale="0.419663 0.0149881 0.14052" RelativeTranslation="0.0120009 -0.020458 0.177067" RelativeRotation="1.5708 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="7" Name="Shape_5" CreStamp="0" ModStamp="0" WorldPos="-0.0814971 0.710033 0.04462" Rotation="1.5708 -0 0" Scale="0.418098 0.0149881 0.141243" RelativeTranslation="0.00977988 -0.01972 -0.177067" RelativeRotation="1.5708 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="8" Name="Shape_6" CreStamp="0" ModStamp="0" WorldPos="0.136355 0.709835 0.221141" Rotation="-1.5708 1.5708 3.14159" Scale="0.340444 0.0161796 0.140524" RelativeTranslation="0.227632 -0.019918 -0.000545997" RelativeRotation="1.57079 1.5708 -2.53518e-006" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="9" Name="Body_1" CreStamp="0" ModStamp="1421154978" WorldPos="-0.091277 0.729753 0.221687" Rotation="0 0 0" Scale="0.98 0.98 0.98" Material="" Mass="60" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="0.75" MaxLinearSpeed="0.75" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="false" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Children>
+                    <Child ID="5" />
+                </Children>
+                <Shape ID="3" />
+                <Shape ID="2" />
+                <Shape ID="6" />
+                <Shape ID="1" />
+                <Shape ID="7" />
+                <Shape ID="8" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointSlider ID="10" Name="JointSlider_1" CreStamp="0" ModStamp="0" WorldPos="0.12184 0.705 0.22" Rotation="0 -0 1.5708" Scale="1 1 1" LimitStepCount="0" Stiffness="0" MinMoveSpeed="0.1" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveVolume="0.01" MaxMoveSpeed="2" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinLimitSound="Entities_Urban/kitchen/drawer_metal_slide/drawer_close" MinLimitMinSpeed="0" MinLimitMaxSpeed="0" MaxLimitSound="Entities_Urban/kitchen/drawer_metal_slide/drawer_open" MaxLimitMinSpeed="0" MaxLimitMaxSpeed="0" Breakable="false" BreakForce="0" BreakSound="" CollideBodies="true" StickyMinLimit="true" StickyMaxLimit="true" MoveSound="Entities_Urban/kitchen/drawer_metal_slide/drawer_slide" MoveType="Linear" MinDistance="0.01" MaxDistance="0.33" ConnectedParentBodyID="-1" ConnectedChildBodyID="9" />
+        </Joints>
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Slide">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="SlideMaxSpeed" Value="2" />
+        <Var Name="SlideSlowDownFactor" Value="3" />
+        <Var Name="SlideSpeedFactor" Value="4" />
+        <Var Name="AutoOpenAmount" Value="1" />
+        <Var Name="SlidePadMultiplier" Value="4" />
+        <Var Name="LockOnSound" Value="" />
+        <Var Name="LockOffSound" Value="" />
+        <Var Name="InteractLockedSound" Value="" />
+        <Var Name="MoveSound" Value="" />
+        <Var Name="MinMoveSoundSpeed" Value="-1" />
+        <Var Name="AtMaxSound" Value="" />
+        <Var Name="AtMaxSoundMinSpeed" Value="0.1" />
+        <Var Name="AtMinSound" Value="" />
+        <Var Name="AtMinSoundMinSpeed" Value="0.1" />
+        <Var Name="GrabStartSound" Value="" />
+        <Var Name="GrabEndSound" Value="" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-08-17T11:23:42Z</created>
+    <keywords></keywords>
+    <modified>2012-08-17T11:23:42Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.001000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1-image" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/teslabase/tesla_props_fuse_01.jpg</init_from>
+    </image>
+    <image id="file3-image" name="file3">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/teslabase/tesla_props_fuse_light_02.jpg</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+      <instance_effect url="#Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01-fx"/>
+    </material>
+    <material id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_04" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_04">
+      <instance_effect url="#Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_04-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01-fx" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_04-fx" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_04">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file3-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface102-lib" name="polySurface102Mesh">
+      <mesh>
+        <source id="polySurface102-POSITION">
+          <float_array id="polySurface102-POSITION-array" count="66">
+200.000000 -0.973994 400.000000
+200.000000 -0.973994 200.000000
+200.000000 -0.973994 0.000000
+0.000000 -0.973994 0.000000
+0.000000 -0.973994 200.000000
+24.440002 -7.381048 24.439945
+24.440002 -7.381048 175.560059
+175.559998 -7.381048 175.560059
+175.559998 -7.381048 24.439945
+24.441528 -29.578264 24.441406
+24.440002 -29.578264 175.560059
+175.559998 -29.578264 175.560059
+175.559998 -29.578264 24.439941
+0.000000 -0.973994 400.000000
+24.439941 -7.381048 375.560059
+175.560059 -7.381048 375.560059
+175.560059 -7.381048 224.440002
+24.439941 -7.381048 224.440002
+24.441406 -29.578264 375.558472
+175.560059 -29.578264 375.560059
+175.560059 -29.578264 224.440002
+24.439941 -29.578264 224.440002
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface102-POSITION-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface102-Normal0">
+          <float_array id="polySurface102-Normal0-array" count="288">
+-0.128882 0.983249 -0.128882
+-0.128882 0.983249 0.128882
+-0.128882 0.983249 -0.128882
+-0.128882 0.983249 -0.128882
+-0.128882 0.983249 0.128882
+-0.128882 0.983249 0.128882
+-0.128882 0.983249 0.128882
+0.128882 0.983249 0.128882
+0.128882 0.983249 0.128882
+-0.128882 0.983249 0.128882
+0.128882 0.983249 0.128882
+-0.128882 0.983249 0.128882
+0.128882 0.983249 0.128882
+0.128882 0.983249 -0.128882
+0.128882 0.983249 -0.128882
+0.128882 0.983249 0.128882
+0.128882 0.983249 -0.128882
+0.128882 0.983249 0.128882
+0.128882 0.983249 -0.128882
+-0.128882 0.983249 -0.128882
+-0.128882 0.983249 -0.128882
+0.128882 0.983249 -0.128882
+-0.128882 0.983249 -0.128882
+0.128882 0.983249 -0.128882
+1.000000 0.000034 0.000005
+1.000000 0.000034 0.000005
+1.000000 0.000034 0.000005
+1.000000 0.000034 0.000005
+1.000000 0.000034 0.000005
+1.000000 0.000034 0.000005
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000005 0.000033 1.000000
+0.000005 0.000033 1.000000
+0.000005 0.000033 1.000000
+0.000005 0.000033 1.000000
+0.000005 0.000033 1.000000
+0.000005 0.000033 1.000000
+0.128882 0.983249 0.128882
+-0.128882 0.983249 0.128882
+-0.128882 0.983249 0.128882
+0.128882 0.983249 0.128882
+-0.128882 0.983249 0.128882
+0.128882 0.983249 0.128882
+0.128882 0.983249 -0.128882
+0.128882 0.983249 0.128882
+0.128882 0.983249 0.128882
+0.128882 0.983249 0.128882
+0.128882 0.983249 -0.128882
+0.128882 0.983249 -0.128882
+0.128882 0.983249 -0.128882
+-0.128882 0.983249 -0.128882
+-0.128882 0.983249 -0.128882
+0.128882 0.983249 -0.128882
+-0.128882 0.983249 -0.128882
+0.128882 0.983249 -0.128882
+-0.128882 0.983249 -0.128882
+-0.128882 0.983249 0.128882
+-0.128882 0.983249 -0.128882
+-0.128882 0.983249 0.128882
+-0.128882 0.983249 -0.128882
+-0.128882 0.983249 0.128882
+0.000005 0.000036 -1.000000
+0.000005 0.000036 -1.000000
+0.000005 0.000036 -1.000000
+0.000005 0.000036 -1.000000
+0.000005 0.000036 -1.000000
+0.000005 0.000036 -1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+1.000000 0.000033 -0.000005
+1.000000 0.000033 -0.000005
+1.000000 0.000033 -0.000005
+1.000000 0.000033 -0.000005
+1.000000 0.000033 -0.000005
+1.000000 0.000033 -0.000005
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface102-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface102-UV0">
+          <float_array id="polySurface102-UV0-array" count="116">
+0.640809 0.988410
+0.519741 0.988410
+0.500161 0.971931
+0.660389 0.971931
+0.820616 0.971932
+0.801035 0.988411
+0.679968 0.988410
+0.980842 0.971937
+0.961262 0.988415
+0.840195 0.988412
+0.480582 0.988410
+0.359514 0.988410
+0.339934 0.971931
+0.058976 0.500516
+0.178590 0.500516
+0.178590 0.540113
+0.058976 0.540113
+0.058976 0.548422
+0.178590 0.548423
+0.178590 0.588019
+0.058976 0.588019
+0.058976 0.403049
+0.178590 0.403043
+0.178590 0.442639
+0.058976 0.442645
+0.058976 0.450868
+0.178590 0.450861
+0.178590 0.490458
+0.058976 0.490464
+0.640809 0.988410
+0.519741 0.988410
+0.500161 0.971931
+0.660389 0.971931
+0.820616 0.971932
+0.801035 0.988411
+0.679968 0.988410
+0.980842 0.971937
+0.961262 0.988415
+0.840195 0.988412
+0.480582 0.988410
+0.359514 0.988410
+0.339934 0.971931
+0.058976 0.500516
+0.178590 0.500516
+0.178590 0.540113
+0.058976 0.540113
+0.058976 0.548422
+0.178590 0.548423
+0.178590 0.588019
+0.058976 0.588019
+0.058976 0.403049
+0.178590 0.403043
+0.178590 0.442639
+0.058976 0.442645
+0.058976 0.450868
+0.178590 0.450861
+0.178590 0.490458
+0.058976 0.490464
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface102-UV0-array" count="58" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface102-VERTEX">
+          <input semantic="POSITION" source="#polySurface102-POSITION"/>
+        </vertices>
+        <triangles count="32" material="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+          <input semantic="VERTEX" offset="0" source="#polySurface102-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#polySurface102-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#polySurface102-UV0"/>
+          <p> 1 0 2 8 1 0 7 2 1 1 3 2 2 4 3 8 5 0 2 6 3 3 7 4 5 8 5 2 9 3 5 10 5 8 11 6 5 12 9 4 13 7 6 14 8 3 15 4 4 16 7 5 17 9 6 18 11 1 19 2 7 20 10 4 21 12 1 22 2 6 23 11 6 24 14 9 25 16 5 26 13 9 27 16 6 28 14 10 29 15 11 30 19 10 31 20 6 32 17 11 33 19 6 34 17 7 35 18 11 36 24 8 37 22 12 38 23 8 39 22 11 40 24 7 41 21 8 42 25 5 43 26 9 44 27 8 45 25 9 46 27 12 47 28 17 48 29 16 49 30 1 50 31 17 51 29 1 52 31 4 53 32 13 54 33 17 55 35 4 56 32 17 57 35 13 58 33 14 59 34 14 60 38 0 61 36 15 62 37 13 63 33 0 64 36 14 65 38 0 66 41 16 67 39 15 68 40 16 69 39 0 70 41 1 71 31 18 72 45 15 73 43 19 74 44 15 75 43 18 76 45 14 77 42 20 78 48 19 79 49 15 80 46 15 81 46 16 82 47 20 83 48 16 84 50 17 85 51 21 86 52 16 87 50 21 88 52 20 89 53 18 90 56 17 91 54 14 92 55 17 93 54 18 94 56 21 95 57</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polySurface105-lib" name="polySurface105Mesh">
+      <mesh>
+        <source id="polySurface105-POSITION">
+          <float_array id="polySurface105-POSITION-array" count="24">
+675.560059 -29.578264 375.560059
+675.560059 -29.578264 224.440002
+524.439941 -29.578264 224.440002
+524.441406 -29.578264 375.558472
+524.440002 -29.578264 175.560059
+675.559998 -29.578264 175.560059
+675.559998 -29.578264 24.439941
+524.441528 -29.578264 24.441406
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface105-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface105-Normal0">
+          <float_array id="polySurface105-Normal0-array" count="24">
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface105-Normal0-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface105-UV0">
+          <float_array id="polySurface105-UV0-array" count="16">
+0.963504 0.036496
+0.963504 0.963504
+0.036496 0.963504
+0.036496 0.036496
+0.036496 0.036496
+0.963504 0.036496
+0.963504 0.963504
+0.036496 0.963504
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface105-UV0-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface105-VERTEX">
+          <input semantic="POSITION" source="#polySurface105-POSITION"/>
+          <input semantic="NORMAL" source="#polySurface105-Normal0"/>
+        </vertices>
+        <triangles count="4" material="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_04">
+          <input semantic="VERTEX" offset="0" source="#polySurface105-VERTEX"/>
+          <input semantic="TEXCOORD" offset="1" set="0" source="#polySurface105-UV0"/>
+          <p> 3 3 1 1 2 2 1 1 3 3 0 0 5 5 7 7 4 4 7 7 5 5 6 6</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="polySurface102" id="polySurface102" sid="polySurface102">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#polySurface102-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01" target="#Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="polySurface105" id="polySurface105" sid="polySurface105">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 -5000.000000 0.000000 10.000000 0.000000 133.382080 0.000000 0.000000 10.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#polySurface105-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_04" target="#Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_04"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

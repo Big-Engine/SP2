@@ -1,0 +1,35 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/chest_of_drawers_bedside/chest_of_drawers_bedside.dae">
+            <SubMesh ID="0" Material="" Name="chest_of_drawers_bedside" Rotation="0 0 0" Scale="1.25 1.25 1.25" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="15" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.338027 -0.00870502 0.169123" Rotation="0 0 0" Scale="0.069127 0.811215 0.757436" ShapeType="Box" WorldPos="0.337798 0.405478 -0.00177511" />
+            <Shape ID="17" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.338027 -0.00870502 0.169123" Rotation="0 0 0" Scale="0.0722966 0.811215 0.757436" ShapeType="Box" WorldPos="-0.338255 0.405478 -0.00177511" />
+            <Shape ID="18" Name="Shape_3" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.00469741 0.36269 0.169123" Rotation="0 -0 1.5708" Scale="0.0633054 0.610701 0.757436" ShapeType="Box" WorldPos="-0.0049259 0.776873 -0.00177511" />
+            <Shape ID="19" Name="Shape_4" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.00220654 -0.36269 0.169123" Rotation="0 -0 1.5708" Scale="0.103398 0.610701 0.757436" ShapeType="Box" WorldPos="-0.00243503 0.051493 -0.00177511" />
+            <Shape ID="20" Name="Shape_5" RelativeRotation="3.14159 1.5708 -1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.00220654 0.013236 -0.169123" Rotation="3.14159 1.5708 -1.5708" Scale="0.0809869 0.610701 0.62941" ShapeType="Box" WorldPos="-0.00243503 0.427419 -0.340022" />
+            <Shape ID="22" Name="Shape_6" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-1.10849e-011 6.118e-009 2.96848e-011" Rotation="0 0 0" Scale="0.750549 0.801259 0.759127" ShapeType="Box" WorldPos="0.000232667 0.410572 -0.00191414" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="21" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1.25 1.25 1.25" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.000228494 0.414183 -0.170899">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="19" />
+                <Shape ID="15" />
+                <Shape ID="20" />
+                <Shape ID="18" />
+                <Shape ID="17" />
+            </Body>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="false" ContinuousCollision="false" HasGravity="false" ID="23" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1.25 1.25 1.25" UseSurfaceEffects="false" Volatile="false" WorldPos="0.000232667 0.410572 -0.00191414">
+                <Shape ID="22" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp" />
+</Entity>

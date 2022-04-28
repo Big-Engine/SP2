@@ -1,0 +1,197 @@
+<PreloadCache>
+    <Materials>
+        <Material Path="d:/svn/depth_trunk/redist/billboards/halo/lampglow_cone01.mat" DebugPos="-7.808271 : 1.047651 : 0.439753" />
+        <Material Path="d:/svn/depth_trunk/redist/billboards/halo/lampglow_generic_no_depth.mat" DebugPos="-13.250000 : 3.750000 : 14.500000" />
+        <Material Path="entities/_temp/marc/carpet_tent/carpet04.mat" DebugPos="-8.250000 : 0.001250 : 5.000000" />
+        <Material Path="entities/_temp/tdd_ents/door/mansion/mansion_damage1.mat" DebugPos="-9.133482 : 1.500072 : 10.520892" />
+        <Material Path="entities/_temp/tdd_ents/door/mansion/mansion_damage2.mat" DebugPos="-9.133482 : 1.500072 : 10.520892" />
+        <Material Path="entities/bedouin/beduin_carpet/beduin_carpet.mat" DebugPos="-13.379819 : -0.017003 : 4.016953" />
+        <Material Path="entities/bedouin/beduin_carpet/rope.mat" DebugPos="-12.934193 : -0.016946 : 5.099477" />
+        <Material Path="entities/dream/apartment_furniture/apartment_bookshelf/apartment_bookshelf.mat" DebugPos="-9.250000 : 1.525001 : 17.250000" />
+        <Material Path="entities/dream/apartment_furniture/apartment_chair/apartment_chair.mat" DebugPos="-12.750000 : 0.675684 : 13.712620" />
+        <Material Path="entities/dream/apartment_props/apartment_letters/envelope_dream.mat" DebugPos="-1.245507 : 0.025000 : 12.252594" />
+        <Material Path="entities/dream/furniture/apartment_desk_lamp/apartment_desk_lamp.mat" DebugPos="-4.898680 : 1.283969 : 13.893800" />
+        <Material Path="entities/french_colonization/furniture/french_desk_wooden/french_desk_wooden.mat" DebugPos="-8.250000 : 0.523825 : 0.421711" />
+        <Material Path="entities/nonexclusive/gameplay/lantern_new/lantern_new.mat" DebugPos="-3.250000 : 0.983270 : 6.250000" />
+        <Material Path="entities/nonexclusive/gameplay/matchbook/matchbook.mat" DebugPos="-1.394852 : 0.200033 : 7.382646" />
+        <Material Path="entities/nonexclusive/gameplay/oil_flask_tin_hinan/oil_flask_tin_hinan.mat" DebugPos="-3.276627 : 0.835076 : 6.759223" />
+        <Material Path="entities/urban/clothes/jacket_hanging/jacket_hanging.mat" DebugPos="-1.749500 : 2.390723 : 14.001200" />
+        <Material Path="entities/urban/clothes/shirt_pile/shirt_pile.mat" DebugPos="-5.751420 : 0.466415 : 7.539530" />
+        <Material Path="entities/urban/clothes/shoe_sneaker/shoe_sneaker.mat" DebugPos="-1.634485 : 0.361790 : 13.748258" />
+        <Material Path="entities/urban/door/exit_apartment/exit_apartment.mat" DebugPos="-0.370650 : 1.498534 : 12.208793" />
+        <Material Path="entities/urban/door/swingdoor_bathroom/swingdoor_bathroom.mat" DebugPos="-10.004948 : 1.391079 : 3.995561" />
+        <Material Path="entities/urban/furniture/armchair_modern/armchair_modern.mat" DebugPos="-3.205703 : 0.472719 : 14.923275" />
+        <Material Path="entities/urban/furniture/bed/bed.mat" DebugPos="-2.750000 : 0.704587 : 6.252626" />
+        <Material Path="entities/urban/furniture/bed/bed_sheets_untidy.mat" DebugPos="-2.823725 : 0.463948 : 5.496994" />
+        <Material Path="entities/urban/furniture/chair_work/chair_work.mat" DebugPos="-5.522640 : 0.861275 : 3.546940" />
+        <Material Path="entities/urban/furniture/chest_of_drawers_bedside/chest_of_drawers_bedside.mat" DebugPos="-1.249951 : 0.401533 : 7.250658" />
+        <Material Path="entities/urban/furniture/chest_of_drawers_medium/chest_of_drawers_medium.mat" DebugPos="-1.750000 : 0.562670 : 2.250000" />
+        <Material Path="entities/urban/furniture/chest_of_drawers_medium/chest_of_drawers_medium_drawer.mat" DebugPos="-1.750054 : 0.893577 : 2.279947" />
+        <Material Path="entities/urban/furniture/clothes_box/clothes_box_jeans.mat" DebugPos="-1.750392 : 0.223037 : 2.270012" />
+        <Material Path="entities/urban/furniture/desk_work/desk_work.mat" DebugPos="-4.279096 : 0.916510 : 2.565302" />
+        <Material Path="entities/urban/furniture/paper_basket/paper_basket.mat" DebugPos="-12.995800 : 0.224922 : 1.888890" />
+        <Material Path="entities/urban/furniture/pillow_bed/pillow_bed.mat" DebugPos="0.000000 : 0.000000 : 0.122318" />
+        <Material Path="entities/urban/furniture/rack_shoes/rack_shoes.mat" DebugPos="-1.254362 : 0.166213 : 13.750093" />
+        <Material Path="entities/urban/furniture/shelf_glass_doors/shelf_glass_doors.mat" DebugPos="-11.682975 : 2.072000 : 1.556113" />
+        <Material Path="entities/urban/furniture/table_dinner_small/table_dinner_small.mat" DebugPos="-5.024221 : 0.513482 : 14.038022" />
+        <Material Path="entities/urban/furniture/table_waitroom/table_waitroom.mat" DebugPos="-4.750000 : 0.346427 : 17.500000" />
+        <Material Path="entities/urban/grocery/fastfood_pizza_box/fastfood_pizza_box.mat" DebugPos="-10.862700 : 1.353561 : 17.455000" />
+        <Material Path="entities/urban/kitchen/bowl/plate.mat" DebugPos="-10.749106 : 1.938453 : 14.885985" />
+        <Material Path="entities/urban/kitchen/cupboard_wood/cupboard_wood.mat" DebugPos="-10.866665 : 0.551287 : 14.486500" />
+        <Material Path="entities/urban/kitchen/cupboard_wood/cupboard_wood_door_left.mat" DebugPos="-11.258209 : 0.550825 : 14.836512" />
+        <Material Path="entities/urban/kitchen/cupboard_wood/cupboard_wood_door_right.mat" DebugPos="-11.256881 : 0.550714 : 14.107103" />
+        <Material Path="entities/urban/kitchen/fridge/fridge.mat" DebugPos="-11.387413 : 1.211219 : 17.469795" />
+        <Material Path="entities/urban/kitchen/sink_kitchen/sink_kitchen.mat" DebugPos="-10.734211 : 0.587239 : 16.532600" />
+        <Material Path="entities/urban/kitchen/sink_kitchen/sink_kitchen_drawer.mat" DebugPos="-10.837692 : 0.170970 : 16.752659" />
+        <Material Path="entities/urban/kitchen/stove/stove.mat" DebugPos="-10.863190 : 0.585974 : 15.663000" />
+        <Material Path="entities/urban/kitchen/trashcan_plastic/trashcan_plastic.mat" DebugPos="-10.870839 : 0.500131 : 13.421267" />
+        <Material Path="entities/urban/lamp/desklamp_scanroom/desklamp_scanroom.mat" DebugPos="-7.572494 : 1.333992 : 0.291854" />
+        <Material Path="entities/urban/lamp/flourescent_ceiling_small/flourescent_ceiling_small.mat" DebugPos="-12.993456 : 3.857719 : 14.495370" />
+        <Material Path="entities/urban/lamp/lamp_bedside/lamp_bedside.mat" DebugPos="-1.372340 : 1.103343 : 7.378490" />
+        <Material Path="entities/urban/ornament/planet_ficus/plant_ficus.mat" DebugPos="-2.927630 : 1.156747 : 17.538416" />
+        <Material Path="entities/urban/ornament_wall/drapes_waitroom/drapes_waitroom_bar.mat" DebugPos="-14.374492 : 2.557457 : 3.997875" />
+        <Material Path="entities/urban/tech/televison_small/television_small_gui.mat" DebugPos="-4.750000 : 1.692600 : 18.028690" />
+        <Material Path="entities/urban/tech/televison_small/televison_small.mat" DebugPos="-4.750000 : 0.817408 : 18.249071" />
+        <Material Path="entities/urban/toilet/bottle_of_shaving_foam/bottle_of_shaving_foam.mat" DebugPos="-11.730300 : 1.666430 : 1.359100" />
+        <Material Path="entities/urban/toilet/laundry_basket/laundry_basket.mat" DebugPos="-5.739020 : 0.508359 : 7.559590" />
+        <Material Path="entities/urban/toilet/paper_holder/paper_holder.mat" DebugPos="-14.171323 : 0.976757 : 2.380284" />
+        <Material Path="entities/urban/toilet/racks_xx/racks_xx.mat" DebugPos="-13.397521 : 1.876670 : 5.065790" />
+        <Material Path="entities/urban/toilet/razor/razor.mat" DebugPos="-11.594301 : 1.538922 : 1.391710" />
+        <Material Path="entities/urban/toilet/shower_cubicle_drain/shower_cubicle_drain.mat" DebugPos="-15.250000 : -0.066591 : 4.000000" />
+        <Material Path="entities/urban/toilet/shower_curtain/shower_curtain.mat" DebugPos="-14.374996 : 1.000000 : 3.967483" />
+        <Material Path="entities/urban/toilet/shower_nozzle/shower_nozzle.mat" DebugPos="-16.150522 : 2.315245 : 4.000000" />
+        <Material Path="entities/urban/toilet/shower_tap/shower_tap.mat" DebugPos="-16.242388 : 1.262279 : 4.000000" />
+        <Material Path="entities/urban/toilet/sink_toilet/sink_toilet.mat" DebugPos="-11.500000 : 0.476774 : 1.675385" />
+        <Material Path="entities/urban/toilet/sink_toilet_tap/sink_toilet_tap.mat" DebugPos="-11.500000 : 1.291389 : 1.459390" />
+        <Material Path="entities/urban/toilet/toilet_chair/toilet_chair_base.mat" DebugPos="-13.559228 : 0.696330 : 1.953711" />
+        <Material Path="entities/urban/toilet/toilet_chair/toilet_chair_hand.mat" DebugPos="-13.824423 : 1.289846 : 1.701701" />
+        <Material Path="entities/urban/toilet/toilet_chair/toilet_chair_lid.mat" DebugPos="-13.496401 : 1.083225 : 1.823702" />
+        <Material Path="entities/urban/toilet/toilet_chair/toilet_chair_seat.mat" DebugPos="-13.496400 : 0.686127 : 2.258017" />
+        <Material Path="entities/urban/toilet/tooth_brush/tooth_brush.mat" DebugPos="-11.106354 : 1.148192 : 1.379010" />
+        <Material Path="entities/urban/toilet/tooth_paste/tooth_paste.mat" DebugPos="-11.233700 : 1.552144 : 1.398370" />
+        <Material Path="mods/sp2/entities/soma/urban/door/swingdoor_scanroom_corridor/swingdoor_scanroom_corridor.mat" DebugPos="-6.488171 : 1.281269 : 6.479933" />
+        <Material Path="mods/sp2/entities/soma/urban/grocery/food_box/food_box_coffee.mat" DebugPos="-10.705300 : 0.665539 : 13.940100" />
+        <Material Path="mods/sp2/static_objects/station/floor/tau_floor_white_tiles.mat" DebugPos="-11.500000 : 0.934500 : 1.780000" />
+        <Material Path="mods/sp2/static_objects/urban/floor/bathroom_tiles_tiling.mat" DebugPos="-12.250000 : -0.000419 : 3.250000" />
+        <Material Path="mods/sp2/static_objects/urban/floor/livingroom_wood_tiling.mat" DebugPos="-3.250000 : -0.000661 : 5.000000" />
+        <Material Path="static_objects/dream/apartment/ceiling/apartment_ceiling.mat" DebugPos="-8.250000 : 3.999393 : 5.000000" />
+        <Material Path="static_objects/dream/apartment/floor/apartment_floor.mat" DebugPos="-8.250000 : -0.000500 : 5.000000" />
+        <Material Path="static_objects/dream/apartment/walls/apartment_walls.mat" DebugPos="-9.499817 : 0.967499 : 4.375000" />
+        <Material Path="static_objects/urban/ornaments/carpet_patterned.mat" DebugPos="-1.250000 : 0.008046 : 12.250000" />
+        <Material Path="static_objects/urban/walls/blinds.mat" DebugPos="-0.147024 : 2.022186 : 3.988204" />
+        <Material Path="static_objects/urban/walls/urban_apartment.mat" DebugPos="-7.975642 : 3.374540 : 4.625000" />
+        <Material Path="static_objects/urban/walls/urban_scanroom_corridor_wall.mat" DebugPos="-8.251644 : 1.484370 : 5.000000" />
+        <Material Path="static_objects/urban/walls/urban_waitingroom.mat" DebugPos="-3.250000 : 1.934839 : 3.747608" />
+        <Material Path="static_objects/urban/walls/urban_waitingroom02.mat" DebugPos="-8.250000 : 3.911382 : 5.000000" />
+        <Material Path="player_damage_screen.mat" DebugPos="Script" />
+        <Material Path="player_damage_screen_minor.mat" DebugPos="Script" />
+        <Material Path="player_damage_screen_major.mat" DebugPos="Script" />
+        <Material Path="vignette_screen_strong.mat" DebugPos="Script" />
+        <Material Path="vignette_screen_strongest.mat" DebugPos="Script" />
+        <Material Path="d:/frictional_svn/amnesia2/trunk/redist/entities/darkworld/alchemists_lab/dw_orb/dw_orb_2_billboard.mat" DebugPos="Script" />
+        <Material Path="d:/_job/frictionalgames/amnesia2/amnesia2/redist/billboards/special/level_specific/02_07_alchemists_lab/alchemists_lab_town_view/alchemists_lab_town_view.mat" DebugPos="Script" />
+        <Material Path="c:/users/aaron/documents/work/amnesia2/trunk/redist/billboards/special/matchflame/matchflame_large/matchflame_large.mat" DebugPos="Script" />
+        <Material Path="e:/work/svn/amnesia2/redist/billboards/special/matchflame/matchflame_dying/matchflame_dying.mat" DebugPos="Script" />
+        <Material Path="c:/users/aaron/documents/work/amnesia2/trunk/redist/billboards/halo/lampglow_large_no_depth.mat" DebugPos="Script" />
+        <Material Path="d:/work/studio/frictional games/amnesia2/trunk/redist/lights/lensflare/flare_star_simple.mat" DebugPos="Script" />
+        <Material Path="d:/work/studio/frictional games/amnesia2/trunk/redist/lights/lensflare/multi_iris_simple.mat" DebugPos="Script" />
+        <Material Path="baby_reduce_fear_screen.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/pf_tentacle/test_mul_tex_01.mat" DebugPos="Script" />
+        <Material Path="tentacle_focus_mat.mat" DebugPos="Script" />
+        <Material Path="c:/amnesia2/trunk/redist/billboards/halo/lampglow_curie.mat" DebugPos="Script" />
+        <Material Path="e:/work/svn/amnesia2/redist/textures/technical/simple_white_illum.mat" DebugPos="Script" />
+        <Material Path="babykick_screen.mat" DebugPos="Script" />
+        <Material Path="entities/_temp/tdd_ents/door/mansion/mansion_broken.mat" DebugPos="Script" />
+        <Material Path="entities/_temp/tdd_ents/door/mansion/mansion_broken.mat" DebugPos="Script" />
+        <Material Path="entities/_temp/tdd_ents/door/mansion/mansion_broken.mat" DebugPos="Script" />
+        <Material Path="entities/_temp/tdd_ents/door/mansion/mansion_broken.mat" DebugPos="Script" />
+        <Material Path="entities/_temp/tdd_ents/door/mansion/mansion_broken.mat" DebugPos="Script" />
+        <Material Path="entities/character/player/hand/hands_human_shirt.mat" DebugPos="Script" />
+        <Material Path="entities/character/player/hand/hands_human_skin.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/radio_receiver/scr536_radio_controls.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/radio_receiver/scr536_radio.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/amulet_lid.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/amulet_lid.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/travelers_locket/travelers_locket.mat" DebugPos="Script" />
+        <Material Path="entities/darkworld/alchemists_lab/dw_orb/dw_orb_new_02.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/match_lit/match_lit.mat" DebugPos="Script" />
+        <Material Path="entities/tin_hinan/storage/vitae_canister/smokey.mat" DebugPos="Script" />
+        <Material Path="entities/tin_hinan/storage/vitae_canister/vitae_canister.mat" DebugPos="Script" />
+        <Material Path="entities/survivors/ornaments/doll_monkey/doll_monkey.mat" DebugPos="Script" />
+        <Material Path="entities/technical/block_box/block_box.mat" DebugPos="Script" />
+        <Material Path="entities/technical/block_box/block_box.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/pf_tentacle/test_mul_tex_01.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/pf_baby/fetus_dream_3_months.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/pf_baby/fetus_dream_4_months.mat" DebugPos="Script" />
+        <Material Path="entities/nonexclusive/gameplay/pf_baby/fetus_dream_6_months.mat" DebugPos="Script" />
+    </Materials>
+    <EntFiles>
+        <EntFile Path="door/mansion/mansion_broken.ent" DebugPos="Script" />
+        <EntFile Path="entities/dream/apartment_props/apartment_letters/envelope_dream.ent" DebugPos="Script" />
+        <EntFile Path="character/player/hands/hands_human.ent" DebugPos="Script" />
+        <EntFile Path="lantern_new_hand.ent" DebugPos="Script" />
+        <EntFile Path="radio_receiver_held.ent" DebugPos="Script" />
+        <EntFile Path="travelers_locket.ent" DebugPos="Script" />
+        <EntFile Path="travelers_locket_accessory.ent" DebugPos="Script" />
+        <EntFile Path="dw_orb_new_02_inverted_pickup.ent" DebugPos="Script" />
+        <EntFile Path="match_lit.ent" DebugPos="Script" />
+        <EntFile Path="vitae_canister.ent" DebugPos="Script" />
+        <EntFile Path="doll_monkey_held.ent" DebugPos="Script" />
+        <EntFile Path="heat_effect_sun.ent" DebugPos="Script" />
+        <EntFile Path="heat_effect_refraction.ent" DebugPos="Script" />
+        <EntFile Path="pf_tentacle.ent" DebugPos="Script" />
+        <EntFile Path="pf_baby_unknown.ent" DebugPos="Script" />
+        <EntFile Path="pf_baby_4_month.ent" DebugPos="Script" />
+        <EntFile Path="pf_baby_6_month.ent" DebugPos="Script" />
+    </EntFiles>
+    <ParticleSystems>
+        <ParticleSystem Path="underwater.ps" DebugPos="Script" />
+        <ParticleSystem Path="d:/work/studio/frictional games/amnesia2/trunk/redist/particles/fire/heat_refraction_distant.ps" DebugPos="Script" />
+        <ParticleSystem Path="c:/amnesia2/trunk/redist/particles/fog/fog_ambient_large.ps" DebugPos="Script" />
+        <ParticleSystem Path="extender_direction_indicator.ps" DebugPos="Script" />
+        <ParticleSystem Path="extender_direction_indicator_in.ps" DebugPos="Script" />
+        <ParticleSystem Path="extender_direction_indicator_trail.ps" DebugPos="Script" />
+    </ParticleSystems>
+    <AINodes />
+    <EntFiles>
+        <EntFile Path="door/mansion/mansion_broken.ent" DebugPos="Script" />
+        <EntFile Path="entities/dream/apartment_props/apartment_letters/envelope_dream.ent" DebugPos="Script" />
+        <EntFile Path="character/player/hands/hands_human.ent" DebugPos="Script" />
+        <EntFile Path="lantern_new_hand.ent" DebugPos="Script" />
+        <EntFile Path="radio_receiver_held.ent" DebugPos="Script" />
+        <EntFile Path="travelers_locket.ent" DebugPos="Script" />
+        <EntFile Path="travelers_locket_accessory.ent" DebugPos="Script" />
+        <EntFile Path="dw_orb_new_02_inverted_pickup.ent" DebugPos="Script" />
+        <EntFile Path="match_lit.ent" DebugPos="Script" />
+        <EntFile Path="vitae_canister.ent" DebugPos="Script" />
+        <EntFile Path="doll_monkey_held.ent" DebugPos="Script" />
+        <EntFile Path="heat_effect_sun.ent" DebugPos="Script" />
+        <EntFile Path="heat_effect_refraction.ent" DebugPos="Script" />
+        <EntFile Path="pf_tentacle.ent" DebugPos="Script" />
+        <EntFile Path="pf_baby_unknown.ent" DebugPos="Script" />
+        <EntFile Path="pf_baby_4_month.ent" DebugPos="Script" />
+        <EntFile Path="pf_baby_6_month.ent" DebugPos="Script" />
+    </EntFiles>
+    <ParticleSystems>
+        <ParticleSystem Path="underwater.ps" DebugPos="Script" />
+        <ParticleSystem Path="d:/work/studio/frictional games/amnesia2/trunk/redist/particles/fire/heat_refraction_distant.ps" DebugPos="Script" />
+        <ParticleSystem Path="c:/amnesia2/trunk/redist/particles/fog/fog_ambient_large.ps" DebugPos="Script" />
+        <ParticleSystem Path="extender_direction_indicator.ps" DebugPos="Script" />
+        <ParticleSystem Path="extender_direction_indicator_in.ps" DebugPos="Script" />
+        <ParticleSystem Path="extender_direction_indicator_trail.ps" DebugPos="Script" />
+    </ParticleSystems>
+    <AINodes />
+</PreloadCache>

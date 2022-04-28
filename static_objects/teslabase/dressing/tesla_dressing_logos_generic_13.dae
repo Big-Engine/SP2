@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-09T09:54:21Z</created>
+    <keywords></keywords>
+    <modified>2012-07-09T09:54:21Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file4-image" name="file4">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/teslabase/tesla_generic_logos_01.tga</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn1" name="blinn1">
+      <instance_effect url="#blinn1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn1-fx" name="blinn1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file4-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">1.245731</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="tesla_dressing_logo_generic_013-lib" name="tesla_dressing_logo_generic_013Mesh">
+      <mesh>
+        <source id="tesla_dressing_logo_generic_013-POSITION">
+          <float_array id="tesla_dressing_logo_generic_013-POSITION-array" count="24">
+2.334106 3.369324 -673.805664
+2.334106 -34.903107 -673.805664
+2.334106 -34.903107 -752.846313
+2.334106 3.369324 -752.846313
+-2.334106 3.369324 -752.846313
+-2.334106 -34.903107 -752.846313
+-2.334106 -34.903107 -673.805664
+-2.334106 3.369324 -673.805664
+</float_array>
+          <technique_common>
+            <accessor source="#tesla_dressing_logo_generic_013-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tesla_dressing_logo_generic_013-Normal0">
+          <float_array id="tesla_dressing_logo_generic_013-Normal0-array" count="108">
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#tesla_dressing_logo_generic_013-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tesla_dressing_logo_generic_013-UV0">
+          <float_array id="tesla_dressing_logo_generic_013-UV0-array" count="48">
+0.776790 0.109368
+0.776790 0.000752
+0.999629 0.000752
+0.999629 0.109368
+0.776791 0.109375
+0.776791 0.000759
+0.999631 0.000759
+0.999631 0.109375
+0.012294 0.447139
+0.012294 0.431119
+0.541246 0.431119
+0.541246 0.447139
+0.541246 0.431119
+0.541246 0.447139
+0.012294 0.447139
+0.012294 0.431119
+0.434642 0.447139
+0.131294 0.447139
+0.131294 0.431119
+0.434642 0.431119
+0.131294 0.447139
+0.131294 0.431119
+0.434642 0.431119
+0.434642 0.447139
+</float_array>
+          <technique_common>
+            <accessor source="#tesla_dressing_logo_generic_013-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tesla_dressing_logo_generic_013-VERTEX">
+          <input semantic="POSITION" source="#tesla_dressing_logo_generic_013-POSITION"/>
+        </vertices>
+        <triangles count="12" material="blinn1">
+          <input semantic="VERTEX" offset="0" source="#tesla_dressing_logo_generic_013-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#tesla_dressing_logo_generic_013-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#tesla_dressing_logo_generic_013-UV0"/>
+          <p> 1 0 1 2 1 2 0 2 0 0 3 0 2 4 2 3 5 3 7 6 7 4 7 4 6 8 6 6 9 6 4 10 4 5 11 5 5 12 10 1 13 8 6 14 9 1 15 8 5 16 10 2 17 11 3 18 14 7 19 12 0 20 13 7 21 12 3 22 14 4 23 15 7 24 18 1 25 16 0 26 17 1 27 16 7 28 18 6 29 19 5 30 21 4 31 22 2 32 20 2 33 20 4 34 22 3 35 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="tesla_dressing_logo_generic_013" id="tesla_dressing_logo_generic_013" sid="tesla_dressing_logo_generic_013">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 713.325989 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#tesla_dressing_logo_generic_013-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn1" target="#blinn1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

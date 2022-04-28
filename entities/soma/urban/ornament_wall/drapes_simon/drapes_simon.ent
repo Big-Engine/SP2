@@ -1,0 +1,96 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/ornament_wall/drapes_simon/drapes_simon.fbx">
+            <SubMesh ID="0" Name="drapes" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="540" Material="Default Soft" />
+        </Mesh>
+        <Bones>
+            <Bone ID="1" Name="root" />
+            <Bone ID="2" Name="drapes_left_left" />
+            <Bone ID="3" Name="Skeleton_root (3)" />
+            <Bone ID="4" Name="drapes_left_right" />
+            <Bone ID="5" Name="Skeleton_root (2)" />
+            <Bone ID="6" Name="drapes_right_right" />
+            <Bone ID="7" Name="Skeleton_root (5)" />
+            <Bone ID="8" Name="drapes_right_left" />
+            <Bone ID="9" Name="Skeleton_root" />
+            <Bone ID="10" Name="drapes" />
+            <Bone ID="11" Name="Texture Group" />
+        </Bones>
+        <Shapes>
+            <Shape ID="12" Name="ShapeBox_1" CreStamp="1431943467" ModStamp="1431945512" WorldPos="0.0200328 1.50728 0" Rotation="0 0 0" Scale="2.15009 3.09475 0.140014" RelativeTranslation="0 0 0" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="14" Name="Body_1" CreStamp="0" ModStamp="1431945515" WorldPos="0.0200328 1.50728 0" Rotation="0 0 0" Scale="1 1 1" Material="Default Soft" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="12" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations>
+            <Animation Name="drapes_simon_open" File="entities/urban/ornament_wall/drapes_simon/animation/drapes_simon_open.fbx" Layer="Default" Speed="1" />
+        </Animations>
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_MovingButton">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="MaterialBased" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="0.2" />
+        <Var Name="EffectsOffTime" Value="0.2" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="UseColorChange" Value="false" />
+        <Var Name="ColorChangeOn" Value="0.1 1 0.1 1" />
+        <Var Name="ColorChangeOff" Value="0.75 0.5 0.1 1" />
+        <Var Name="ColorChangeLocked" Value="1 0.1 0.1 1" />
+        <Var Name="ColorChangeDisabled" Value="0 0 0 1" />
+        <Var Name="Sound_InteractOn" Value="" />
+        <Var Name="Sound_InteractOff" Value="" />
+        <Var Name="Sound_InteractLocked" Value="" />
+        <Var Name="Sound_InteractDisabled" Value="" />
+        <Var Name="InteractOnWaitTime" Value="0.5" />
+        <Var Name="InteractOffWaitTime" Value="0.5" />
+        <Var Name="LockedBlinkCount" Value="3" />
+        <Var Name="LockedBlinkTime" Value="0.3" />
+        <Var Name="MoveBody" Value="" />
+        <Var Name="OnPosOffset" Value="0 0 0" />
+        <Var Name="OnRotOffset" Value="0 0 0" />
+        <Var Name="CanOnlyInteractWithMainBody" Value="true" />
+        <Var Name="MinMoveSpeed" Value="0.005" />
+        <Var Name="MaxMoveSpeed" Value="0.01" />
+        <Var Name="MinMoveLength" Value="0.3" />
+        <Var Name="HasInputDirection" Value="false" />
+        <Var Name="InputDirectionToOn" Value="1 0" />
+        <Var Name="ChangeStateAmount" Value="0.3" />
+        <Var Name="SimplePressInteraction" Value="false" />
+        <Var Name="CustomInteractIcon" Value="PullSideways" />
+        <Var Name="StateAmountOnSpeed" Value="0.5" />
+        <Var Name="StateAmountOffSpeed" Value="0.5" />
+    </UserDefinedVariables>
+</Entity>

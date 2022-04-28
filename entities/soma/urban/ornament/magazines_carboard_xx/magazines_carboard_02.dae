@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>zaicheng</author>
+      <authoring_tool>Maya8.5 Service Pack 1 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=1;exportCameraAsLookat=0;
+exportLights=1;exportCameras=1;exportJointsAndSkin=1;
+exportAnimations=1;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=1;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=1;exportConstraints=1;exportPhysics=1;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Users/zaicheng/Documents/maya/projects/default/untitled</source_data>
+    </contributor>
+    <created>2012-05-17T08:42:22Z</created>
+    <modified>2012-05-17T08:42:22Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_physics_scenes>
+    <physics_scene id="MayaNativePhysicsScene">
+      <technique_common>
+        <gravity>0 -980 0</gravity>
+        <time_step>0.083</time_step>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <library_images>
+    <image id="magazines_carboard_02_1" name="magazines_carboard_02_1">
+      <init_from>file:///F:/3pi/magazines_carboard_xx/magazines_carboard_02.dds</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="magazines_carboard_xx_nrm_1" name="magazines_carboard_xx_nrm_1">
+      <init_from>file:///F:/3pi/magazines_carboard_xx/magazines_carboard_xx_nrm.tga</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="blinn11" name="blinn11">
+      <instance_effect url="#blinn11-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn11-fx">
+      <profile_COMMON>
+        <newparam sid="magazines_carboard_02_1-surface">
+          <surface type="2D">
+            <init_from>magazines_carboard_02_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="magazines_carboard_02_1-sampler">
+          <sampler2D>
+            <source>magazines_carboard_02_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <newparam sid="magazines_carboard_xx_nrm_1-surface">
+          <surface type="2D">
+            <init_from>magazines_carboard_xx_nrm_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="magazines_carboard_xx_nrm_1-sampler">
+          <sampler2D>
+            <source>magazines_carboard_xx_nrm_1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="magazines_carboard_02_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="magazines_carboard_xx_nrm_1-sampler" texcoord="TEX1">
+                  <extra>
+                    <technique profile="MAYA">
+                      <wrapU>1</wrapU>
+                      <wrapV>1</wrapV>
+                      <mirrorU>0</mirrorU>
+                      <mirrorV>0</mirrorV>
+                      <coverageU>1</coverageU>
+                      <coverageV>1</coverageV>
+                      <translateFrameU>0</translateFrameU>
+                      <translateFrameV>0</translateFrameV>
+                      <rotateFrame>0</rotateFrame>
+                      <stagger>0</stagger>
+                      <fast>0</fast>
+                      <repeatU>1</repeatU>
+                      <repeatV>1</repeatV>
+                      <offsetU>0</offsetU>
+                      <offsetV>0</offsetV>
+                      <rotateUV>0</rotateUV>
+                      <noiseU>0</noiseU>
+                      <noiseV>0</noiseV>
+                      <blend_mode>NONE</blend_mode>
+                    </technique>
+                    <technique profile="MAX3D">
+                      <amount>1</amount>
+                      <bumpInterp>1</bumpInterp>
+                    </technique>
+                  </extra>
+                </texture>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="magazines_carboard_02Shape" name="magazines_carboard_02Shape">
+      <mesh>
+        <source id="magazines_carboard_02Shape-positions" name="position">
+          <float_array id="magazines_carboard_02Shape-positions-array" count="147">4.28106 30.1091 1.36861 5.58715 30.1467 1.36861 5.58715 30.1467 -2.07502 4.28273 30.1246 -2.06799 5.58715 0.146687 -2.07502 4.28196 0.146687 -2.06757 5.58715 0.146687 1.36861 4.2829 0.146687 1.36861 2.65925 36.6491 -2.40837 2.65925 36.6491 1.3686 4.3034 36.6491 1.3686 4.3034 36.6491 -2.40837 2.65925 0.146687 -2.40837 4.3034 0.146687 -2.40837 2.61679 0.146687 -1.61777 2.61679 0.146687 1.36861 2.60527 29.6 -1.65258 2.61679 29.6076 1.36861 1.25136 29.6382 1.36861 1.25136 29.6382 -1.61271 1.25136 0.146687 -1.61271 1.25136 0.146687 1.36861 -0.149588 29.6382 1.36861 -0.149588 29.6382 -1.61271 -0.149588 0.146687 -1.61271 -0.149588 0.146687 1.36861 -1.06241 29.6382 1.36861 -1.06241 29.6382 -1.61271 -1.06241 0.146687 -1.61271 -1.06241 0.146687 1.36861 -2.51522 29.6382 1.36861 -2.51522 29.6382 -1.61271 -2.51522 0.146687 -1.61271 -2.51522 0.146687 1.36861 -3.95104 29.6382 1.36861 -3.95104 29.6382 -1.61271 -3.95104 0.146687 -1.61271 -3.95104 0.146687 1.36861 -5.3673 29.624 1.36861 -5.3673 29.6398 -1.62961 -5.3673 0.146687 -1.60576 -5.3673 0.146687 1.36861 -7.6154 30.7409 1.36861 -5.34416 30.7409 1.36861 -5.34416 30.7409 -2.22646 -7.6154 30.7409 -2.22646 -5.34416 0.146687 -2.22646 -7.6154 0.146687 -2.22646 -7.6154 0.146687 1.36861</float_array>
+          <technique_common>
+            <accessor source="#magazines_carboard_02Shape-positions-array" count="49" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazines_carboard_02Shape-normals" name="normal">
+          <float_array id="magazines_carboard_02Shape-normals-array" count="570">-0.022876 0.999736 0.002249 0.698972 0.715147 0.001609 0.566742 0.583163 -0.582 -0.020118 0.707669 -0.706258 -0.020118 0.707669 -0.706258 0.566742 0.583163 -0.582 0.575212 -0.578423 -0.57841 -0.003921 -0.707109 -0.707093 -0.003921 -0.707109 -0.707093 0.575212 -0.578423 -0.57841 0.707107 -0.707107 0 0 -1 0 0.707107 -0.707107 0 0.575212 -0.578423 -0.57841 0.566742 0.583163 -0.582 0.698972 0.715147 0.001609 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.99952 -0.00165 0.030923 0.99952 -0.00165 0.030923 0.999995 -0.003286 0.000225 0.999995 -0.003286 0.000225 -0.999521 0.003365 -0.030766 -0.999975 0.006935 0.001687 -0.999975 0.006935 0.001687 -0.999521 0.003365 -0.030766 0.025262 0.99968 -0.001319 0.025262 0.99968 -0.001319 0.006176 0.706352 -0.707834 0.006176 0.706352 -0.707834 0.006176 0.706352 -0.707834 0.006176 0.706352 -0.707834 -0.011683 -0.707317 -0.7068 -0.011683 -0.707317 -0.7068 -0.011683 -0.707317 -0.7068 -0.011683 -0.707317 -0.7068 0 -1 0 0 -1 0 0 1 0 0 1 0 0 0.707107 -0.707107 0 0.707107 -0.707107 0 0.707107 -0.707107 0 0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -1 0 0 -1 0 0 1 0 0 1 0 0 0.707107 -0.707107 0 0.707107 -0.707107 0 0.707107 -0.707107 0 0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -1 0 0 -1 0 0 1 0 0 1 0 0 0.707107 -0.707107 0 0.707107 -0.707107 0 0.707107 -0.707107 0 0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -1 0 0 -1 0 0 1 0 0 1 0 0 0.707107 -0.707107 0 0.707107 -0.707107 0 0.707107 -0.707107 0 0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -0.707107 -0.707107 0 -1 0 0 -1 0 -0.004441 0.999987 0.00264 -0.004441 0.999987 0.00264 -0.000657 0.707895 -0.706317 -0.000657 0.707895 -0.706317 -0.000657 0.707895 -0.706317 -0.000657 0.707895 -0.706317 0.002483 -0.70725 -0.706959 0.002483 -0.70725 -0.706959 0.002483 -0.70725 -0.706959 0.002483 -0.70725 -0.706959 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.999766 -0.010432 0.018978 0.999278 0.000015 0.037997 0.999278 0.000015 0.037997 0.999766 -0.010432 0.018978 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.999766 -0.010432 0.018978 0.999766 -0.010432 0.018978 0.999782 -0.020875 -0.00005 0.999782 -0.020875 -0.00005 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.000001 0 1 0 0 1 0 0 1 -0.000001 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.99952 -0.00165 0.030923 0.99952 -0.00165 0.030923 0.998101 -0.000011 0.061592 0.998101 -0.000011 0.061592 -0.999521 0.003365 -0.030766 -0.999521 0.003365 -0.030766 -0.998002 -0.000208 -0.063186 -0.998002 -0.000208 -0.063186 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#magazines_carboard_02Shape-normals-array" count="190" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazines_carboard_02Shape-map1" name="map1">
+          <float_array id="magazines_carboard_02Shape-map1-array" count="228">0.99247 0.158836 0.973114 0.158835 0.973114 0.056711 0.99244 0.05692 0.972786 0.018028 0.52869 0.056711 0.52869 0.018004 0.509355 0.056932 0.52869 0.158835 0.509369 0.158835 0.994298 0.841579 0.994298 0.900416 0.980464 0.900416 0.980464 0.841579 0.673084 0.813891 0.980464 0.813891 0.673084 0.841579 0.666278 0.813891 0.670188 0.841579 0.641316 0.841782 0.641316 0.813891 0.925436 0.84733 0.925436 0.900415 0.920658 0.800557 0.920658 0.745529 0.980464 0.745529 0.484407 0.505701 0.484491 0.542139 0.444213 0.542139 0.444661 0.505701 0.051565 0.542139 0.051504 0.505701 0.011774 0.542139 0.011781 0.505701 0.486617 0.456713 0.48661 0.49404 0.44693 0.49404 0.446937 0.456713 0.05442 0.49404 0.054427 0.456713 0.014754 0.49404 0.014761 0.456713 0.484103 0.421002 0.484124 0.44525 0.444596 0.44525 0.444576 0.421002 0.053573 0.44525 0.053552 0.421002 0.014028 0.44525 0.014008 0.421002 0.483255 0.372298 0.483253 0.410802 0.443783 0.410802 0.443785 0.372298 0.053344 0.410802 0.053346 0.372298 0.013884 0.410802 0.013887 0.372298 0.488208 0.320887 0.4882 0.359396 0.448257 0.359396 0.448265 0.320887 0.05315 0.359396 0.053159 0.320887 0.013222 0.359396 0.013231 0.320887 0.48843 0.267563 0.488282 0.305845 0.448056 0.305845 0.447975 0.267563 0.05012 0.305846 0.050017 0.267563 0.009878 0.305846 0.009869 0.267563 0.991615 0.401338 0.991615 0.456929 0.947547 0.456929 0.947547 0.401338 0.570453 0.456929 0.570453 0.401338 0.562418 0.456929 0.525816 0.456929 0.525816 0.401338 0.933188 0.473218 0.570453 0.473217 0.947547 0.313129 0.570453 0.313129 0.947547 0.550426 0.933188 0.550426 0.63797 0.946935 0.649654 0.994014 0.329604 0.994014 0.329604 0.946935 0.638118 0.917276 0.329604 0.917276 0.638118 0.887207 0.329604 0.887208 0.638118 0.856783 0.329604 0.856783 0.329604 0.837667 0.638118 0.837667 0.638118 0.808329 0.329604 0.808329 0.637798 0.779734 0.329604 0.779734 0.711461 0.778845 0.643044 0.744881 0.711461 0.744414 0.329604 0.744843 0.643438 0.71753 0.329604 0.71753 0.673084 0.847331 0.673084 0.800557 0.649654 0.94645</float_array>
+          <technique_common>
+            <accessor source="#magazines_carboard_02Shape-map1-array" count="114" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazines_carboard_02Shape-map1-tangents">
+          <float_array id="magazines_carboard_02Shape-map1-tangents-array" count="180">0.999738 0.022876 0.000013 0.715149 -0.69897 -0.001616 0.999658 0.025664 -0.00276 0.823807 -0.390741 0.410688 0.406846 -0.812355 -0.417799 -0.407867 -0.815737 0.410144 -0.020149 -0.706544 -0.707382 0.003922 -0.707104 0.707099 -0.818004 -0.406736 -0.406736 -0.707107 -0.707107 -0.000005 -0.999992 0.002774 0.00277 -1 0 -0.000000 0.715145 -0.698974 0.001646 1 0 0 0 -1 0 -0.003273 0 0.999995 -0.001636 0 0.999997 0 0 1 -0.001515 -0.999989 -0.004362 -0.003285 -0.99999 -0.002201 -0.001584 -0.999994 -0.002148 -0.003286 -0.999995 0.00001 -0.006935 -0.999976 0.000001 -0.006932 -0.999974 0.001354 -0.003411 -0.999992 0.00146 -0.003453 -0.99999 0.002838 -0.000033 -0.001318 -0.999999 -0.001907 -0.001271 -0.999996 -0.008865 -0.707778 -0.706374 -0.011543 -0.70775 -0.706369 0.006162 -0.707861 -0.706325 0.006446 -0.707861 -0.706323 0.011952 -0.706896 0.707216 0.012215 -0.706896 0.707212 -0.011672 -0.706704 0.707413 0 0 -1 0 -0.707107 -0.707107 0 -0.707107 0.707107 -0.000011 0.002639 -0.999996 0.000659 -0.706317 -0.707895 -0.000659 -0.706317 -0.707895 -0.002482 -0.706964 0.707246 0.002481 -0.706955 0.707254 -0.000015 -1 0.000809 -0.000000 -1 0.000404 -0.010437 -0.999945 0.000206 -0.01043 -0.999946 -0.000197 -0.009926 -0.999598 -0.026548 -0.020871 -0.999603 -0.013378 -0.010181 -0.999772 -0.013176 -0.020875 -0.999782 0 -0.062793 0 0.998027 -0.058209 0 0.998294 -0.053625 0 0.998561 -0.001649 -0.999999 -0.000051 -0.003363 -0.999994 -0.000103 0.000171 -1 0.000589 -0.003381 -0.999994 0.00048 0.000134 -0.999999 0.001165 -0.037255 0 0.999306</float_array>
+          <technique_common>
+            <accessor source="#magazines_carboard_02Shape-map1-tangents-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazines_carboard_02Shape-map1-binormals">
+          <float_array id="magazines_carboard_02Shape-map1-binormals-array" count="162">-0.000037 0.002248 -0.999997 0.016172 -0.706078 -0.707949 0.012086 -0.71221 -0.701863 -0.716436 0 -0.697653 -0.709067 -0.000005 -0.705141 -0.999595 -0.000000 0.028473 -0.999985 -0.000001 0.005546 0.000005 0.707102 -0.707112 0.000004 0.000004 -1 0.002301 0 -0.999997 -1 0 0 -0.999995 0 -0.003273 -0.999999 0 -0.001636 0.030929 0.004313 -0.999512 0.000232 0.0022 -0.999998 0.030926 0.002098 -0.999519 0.000224 -0.00001 -1 0.001686 -0.00001 0.999999 0.001696 0.001342 0.999998 -0.03076 0.001564 0.999526 -0.030756 0.002943 0.999523 -0.999681 0.025262 0 -0.999679 0.025264 0.001874 -0.999942 0.010638 0.001891 -0.999914 0.012533 0.003782 -0.999962 0 -0.008724 -0.99996 -0.000201 -0.008925 -0.99986 -0.000185 0.016712 -0.999857 -0.000371 0.016898 -0.999864 0.016515 0 -0.99999 -0.004441 0 -1 -0.00093 -0.000002 -1 0.000000 0.00093 -0.999994 -0.000000 -0.003511 -0.999994 -0.00351 0 0.037997 -0.000809 -0.999278 0.037997 -0.000404 -0.999278 0.018974 -0.000404 -0.99982 0.018979 0 -0.99982 0 0 1 0.019247 0.026353 -0.999467 0.000229 0.013377 -0.999911 0.019112 0.012981 -0.999733 1 0 0 -0.998027 0 -0.062793 -0.998304 0 -0.058209 -0.998561 0 -0.053625 0.030923 0 -0.999522 0.061592 -0.000006 -0.998101 -0.030766 0 0.999527 -0.063186 0.000577 0.998002 -0.030764 0.000584 0.999527 -0.063186 0.001154 0.998001 -0.999306 0 -0.037255</float_array>
+          <technique_common>
+            <accessor source="#magazines_carboard_02Shape-map1-binormals-array" count="54" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="magazines_carboard_02Shape-vertices">
+          <input semantic="POSITION" source="#magazines_carboard_02Shape-positions"/>
+        </vertices>
+        <triangles material="blinn11SG" count="94">
+          <input semantic="VERTEX" source="#magazines_carboard_02Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#magazines_carboard_02Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#magazines_carboard_02Shape-map1" offset="2" set="0"/>
+          <input semantic="TEXTANGENT" source="#magazines_carboard_02Shape-map1-tangents" offset="3" set="0"/>
+          <input semantic="TEXBINORMAL" source="#magazines_carboard_02Shape-map1-binormals" offset="4" set="0"/>
+          <p>0 0 0 0 0 1 1 1 1 0 3 3 3 2 1 3 3 3 2 1 1 1 1 1 0 2 2 2 3 2 2 5 2 4 3 4 6 5 5 4 3 4 4 6 5 3 4 4 6 5 4 6 5 5 4 5 7 6 7 6 4 9 5 8 7 6 10 8 9 8 5 8 7 10 7 5 8 7 10 7 6 10 8 9 8 7 11 9 11 8 6 12 8 9 8 4 13 5 5 4 1 15 1 12 9 1 15 1 12 9 4 13 5 5 4 2 14 2 4 3 8 16 10 13 8 9 17 11 13 8 11 19 13 13 8 11 19 13 13 8 9 17 11 13 8 10 18 12 13 8 12 20 14 14 10 8 21 15 14 10 13 23 16 14 10 13 23 16 14 10 8 21 15 14 10 11 22 13 14 10 5 25 18 15 11 7 26 19 16 12 14 24 17 16 12 14 24 17 16 12 7 26 19 16 12 15 27 20 17 10 11 29 13 18 13 10 30 12 19 14 3 28 21 20 15 3 28 21 20 15 10 30 12 19 14 0 31 22 21 16 17 33 24 22 17 9 34 25 23 18 16 32 23 24 19 16 32 23 24 19 9 34 25 23 18 8 35 15 25 20 18 36 26 26 21 17 37 27 27 22 19 39 29 28 23 19 39 29 28 23 17 37 27 27 22 16 38 28 29 24 19 40 29 30 25 16 41 28 31 26 20 43 31 32 27 20 43 31 32 27 16 41 28 31 26 14 42 30 33 28 14 45 30 34 29 15 46 32 17 10 20 44 31 34 29 20 44 31 34 29 15 46 32 17 10 21 47 33 17 10 22 48 34 35 10 18 49 35 35 10 23 51 37 36 10 23 51 37 36 10 18 49 35 35 10 19 50 36 36 10 23 52 37 36 10 19 53 36 36 10 24 55 39 37 10 24 55 39 37 10 19 53 36 36 10 20 54 38 37 10 24 56 39 37 10 20 57 38 37 10 25 59 41 17 10 25 59 41 17 10 20 57 38 37 10 21 58 40 17 10 26 60 42 35 10 22 61 43 35 10 27 63 45 36 10 27 63 45 36 10 22 61 43 35 10 23 62 44 36 10 27 64 45 36 10 23 65 44 36 10 28 67 47 37 10 28 67 47 37 10 23 65 44 36 10 24 66 46 37 10 28 68 47 37 10 24 69 46 37 10 29 71 49 17 10 29 71 49 17 10 24 69 46 37 10 25 70 48 17 10 30 72 50 35 10 26 73 51 35 10 31 75 53 36 10 31 75 53 36 10 26 73 51 35 10 27 74 52 36 10 31 76 53 36 10 27 77 52 36 10 32 79 55 37 10 32 79 55 37 10 27 77 52 36 10 28 78 54 37 10 32 80 55 37 10 28 81 54 37 10 33 83 57 17 10 33 83 57 17 10 28 81 54 37 10 29 82 56 17 10 34 84 58 35 10 30 85 59 35 10 35 87 61 36 10 35 87 61 36 10 30 85 59 35 10 31 86 60 36 10 35 88 61 36 10 31 89 60 36 10 36 91 63 37 10 36 91 63 37 10 31 89 60 36 10 32 90 62 37 10 36 92 63 37 10 32 93 62 37 10 37 95 65 17 10 37 95 65 17 10 32 93 62 37 10 33 94 64 17 10 34 97 67 38 30 35 98 68 39 31 38 96 66 38 30 38 96 66 38 30 35 98 68 39 31 39 99 69 39 31 39 100 69 40 32 35 101 68 40 32 40 103 71 41 33 40 103 71 41 33 35 101 68 40 32 36 102 70 41 33 36 105 70 42 34 37 106 72 17 10 40 104 71 42 34 40 104 71 42 34 37 106 72 17 10 41 107 73 17 10 42 108 74 35 10 43 109 75 35 10 45 111 77 35 10 45 111 77 35 10 43 109 75 35 10 44 110 76 35 10 45 112 77 14 10 44 113 76 14 10 47 115 79 14 10 47 115 79 14 10 44 113 76 14 10 46 114 78 14 10 41 117 81 17 10 48 118 82 17 10 40 116 80 17 10 40 116 80 17 10 48 118 82 17 10 47 119 79 17 10 40 121 84 43 35 46 122 78 44 36 39 120 83 45 37 39 120 83 45 37 46 122 78 44 36 44 123 76 46 38 42 124 85 14 39 45 125 77 14 39 48 127 86 14 39 48 127 86 14 39 45 125 77 14 39 47 126 79 14 39 44 129 76 47 40 43 130 87 48 41 39 128 83 49 42 39 128 83 49 42 43 130 87 48 41 38 131 88 50 8 42 133 90 14 43 48 134 91 14 43 38 132 89 14 43 38 132 89 14 43 48 134 91 14 43 41 135 92 14 43 34 136 93 14 43 38 137 89 14 43 37 139 94 14 43 37 139 94 14 43 38 137 89 14 43 41 138 92 14 43 30 140 95 14 43 34 141 93 14 43 33 143 96 14 43 33 143 96 14 43 34 141 93 14 43 37 142 94 14 43 26 144 97 14 43 30 145 95 14 43 29 147 98 14 43 29 147 98 14 43 30 145 95 14 43 33 146 96 14 43 29 148 98 14 43 25 149 99 14 43 26 151 97 14 43 26 151 97 14 43 25 149 99 14 43 22 150 100 14 43 18 152 101 14 43 22 153 100 14 43 21 155 102 14 43 21 155 102 14 43 22 153 100 14 43 25 154 99 14 43 18 157 101 14 43 21 158 102 14 43 17 156 103 14 43 17 156 103 14 43 21 158 102 14 43 15 159 104 14 43 17 161 103 14 43 0 162 106 14 43 9 160 105 14 43 9 160 105 14 43 0 162 106 14 43 10 163 107 14 43 0 164 106 14 43 17 165 103 14 43 7 167 108 14 43 7 167 108 14 43 17 165 103 14 43 15 166 104 14 43 1 168 109 14 43 0 169 106 14 43 6 171 110 14 43 6 171 110 14 43 0 169 106 14 43 7 170 108 14 43 13 173 16 51 44 5 174 18 52 45 12 172 14 52 45 12 172 14 52 45 5 174 18 52 45 14 175 17 53 46 11 176 13 54 47 3 177 21 54 47 13 179 16 14 48 13 179 16 14 48 3 177 21 54 47 5 178 111 14 48 8 181 15 55 49 12 182 14 56 50 16 180 23 57 51 16 180 23 57 51 12 182 14 56 50 14 183 112 58 52 47 184 79 59 53 46 185 78 59 53 40 186 80 59 53 38 187 89 14 43 43 188 113 14 43 42 189 90 14 43</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="untitled">
+      <node id="magazines_carboard_02" name="magazines_carboard_02" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">0.790958 0.790958 0.790958</scale>
+        <instance_geometry url="#magazines_carboard_02Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn11SG" target="#blinn11">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_physics_scene url="#MayaNativePhysicsScene"/>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

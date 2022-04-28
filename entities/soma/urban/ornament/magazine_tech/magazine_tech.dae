@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>illerulf</author>
+      <authoring_tool>OpenCOLLADA2011 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=1;exportAnimations=0;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///E:/Maya/deeper/scenes/books.mb</source_data>
+    </contributor>
+    <created>2012-11-19T14:31:05</created>
+    <modified>2012-11-19T14:31:05</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="blinn3" name="magazine_tech1">
+      <instance_effect url="#blinn3-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn3-fx">
+      <profile_COMMON>
+        <newparam sid="magazine_tech_1-surface">
+          <surface type="2D">
+            <init_from>magazine_tech_1</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="magazine_tech_1-sampler">
+          <sampler2D>
+            <source>magazine_tech_1-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="magazine_tech_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="magazine_tech_1" name="magazine_tech_1">
+      <init_from>file:///E:/depth/redist/entities/urban/ornament/magazine_tech/magazine_tech.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>magazine_tech_1</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="magazine_techShape" name="magazine_techShape">
+      <mesh>
+        <source id="magazine_techShape-positions" name="magazine_techShape-positions">
+          <float_array id="magazine_techShape-positions-array" count="48">-10.6174 0.027466 14.0088 10.6174 0.027466 14.0088 -10.6174 0.892373 14.0088 10.6174 0.892373 14.0088 -10.6174 0.892373 -14.0088 10.6174 0.892373 -14.0088 -10.6174 0.027466 -14.0088 10.6174 0.027466 -14.0088 -10.6174 0.6791609 14.0088 -10.6174 0.6791609 -14.0088 10.6174 0.6791609 -14.0088 10.6174 0.6791609 14.0088 -10.6174 0.2294286 14.0088 -10.6174 0.2294286 -14.0088 10.6174 0.2294286 -14.0088 10.6174 0.2294286 14.0088</float_array>
+          <technique_common>
+            <accessor source="#magazine_techShape-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazine_techShape-normals" name="magazine_techShape-normals">
+          <float_array id="magazine_techShape-normals-array" count="120">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.7071068 0 0.7071068 -0.7071068 0 0.7071068 0 -1 0 0 -1 0 -0.7071068 0 0.7071068 -0.7071068 0 -0.7071068 0 -1 0 0.7071068 0 -0.7071068 0.7071068 0 0.7071068 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 -0.7071068 0 -0.7071068 0.7071068 0 -0.7071068 0 -1 0 -0.5773503 0.5773503 -0.5773503 -0.6666778 0.6666778 0.3332889 0 1 0 0 1 0 0.3332889 0.6666778 -0.6666778 -0.5773503 0.5773503 -0.5773503 0 1 0 0 1 0 0.6666778 0.3332889 0.6666778 0.3332889 0.6666778 -0.6666778 0 1 0 0 1 0 -0.6666778 0.6666778 0.3332889 0.6666778 0.3332889 0.6666778 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#magazine_techShape-normals-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazine_techShape-magazine_techShape-map1" name="magazine_techShape-magazine_techShape-map1">
+          <float_array id="magazine_techShape-magazine_techShape-map1-array" count="60">0.7577466 0.5208964 0.02858979 0.0303048 0.3864106 0.03030507 0.38641 0.507238 0.7577447 0.01664675 0.7577447 0.0303058 0.3999325 0.0303058 0.3999325 0.01664675 0.02859265 0.5072394 0.3999299 0.5072373 0.3999299 0.5208964 0.7577466 0.5072373 0.7712668 0.0303058 0.7712668 0.5072373 0.3965991 0.03030561 0.3999325 0.02693864 0.3965971 0.5072374 0.3999299 0.5106044 0.7577466 0.5106044 0.7610795 0.5072373 0.7577447 0.02693864 0.7610781 0.0303058 0.3895681 0.03030524 0.3999325 0.01983625 0.389567 0.5072379 0.3999299 0.5177069 0.7577466 0.5177069 0.7681097 0.5072373 0.7577447 0.01983625 0.7681093 0.0303058</float_array>
+          <technique_common>
+            <accessor source="#magazine_techShape-magazine_techShape-map1-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="magazine_techShape-vertices" name="magazine_techShape-vertices">
+          <input semantic="POSITION" source="#magazine_techShape-positions"/>
+        </vertices>
+        <triangles material="magazine_tech_blinn3SG" count="28">
+          <input semantic="VERTEX" source="#magazine_techShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#magazine_techShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#magazine_techShape-magazine_techShape-map1" offset="2" set="0"/>
+          <p>6 0 3 7 1 8 0 3 2 0 3 2 7 1 8 1 2 1 0 4 7 1 5 4 12 7 23 12 7 23 1 5 4 15 6 28 6 8 3 0 9 2 13 11 24 13 11 24 0 9 2 12 10 22 7 12 13 14 13 27 1 15 12 1 15 12 14 13 27 15 14 29 5 16 11 4 17 9 3 19 5 3 19 5 4 17 9 2 18 6 6 20 10 13 21 25 7 23 0 7 23 0 13 21 25 14 22 26 9 24 16 8 25 14 4 27 9 4 27 9 8 25 14 2 26 6 10 28 18 9 29 17 5 31 11 5 31 11 9 29 17 4 30 9 11 32 21 10 33 19 3 35 5 3 35 5 10 33 19 5 34 11 8 36 15 11 37 20 2 39 6 2 39 6 11 37 20 3 38 5 13 11 24 12 10 22 9 24 16 9 24 16 12 10 22 8 25 14 14 22 26 13 21 25 10 28 18 10 28 18 13 21 25 9 29 17 15 14 29 14 13 27 11 32 21 11 32 21 14 13 27 10 33 19 12 7 23 15 6 28 8 36 15 8 36 15 15 6 28 11 37 20</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>magazine_techShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="books">
+      <node id="magazine_tech" name="magazine_tech" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <translate sid="rotatePivot">0 0.011217 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">0 -0.011217 0</translate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#magazine_techShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="magazine_tech_blinn3SG" target="#blinn3">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>magazine_tech</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

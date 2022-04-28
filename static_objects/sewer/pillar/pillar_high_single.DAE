@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-10T12:23:43Z</created>
+    <keywords></keywords>
+    <modified>2012-07-10T12:23:43Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #17-image" name="Map #17">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\tunnels\concrete_wall_small.psd</init_from>
+    </image>
+    <image id="Map #2-image" name="Map #2">
+      <init_from>file://C:\AMFP_Raw_data\StaticObjects\sewers\ceiling01.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #139" name="Material #139">
+      <instance_effect url="#Material #139-fx"/>
+    </material>
+    <material id="Material #1" name="Material #1">
+      <instance_effect url="#Material #1-fx"/>
+    </material>
+    <material id="Material #2" name="Material #2">
+      <instance_effect url="#Material #2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #139-fx" name="Material #139">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #17-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #1-fx" name="Material #1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588000  0.588000 0.588000 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material #2-fx" name="Material #2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="high_pillars_single_cap-lib" name="high_pillars_single_capMesh">
+      <mesh>
+        <source id="high_pillars_single_cap-POSITION">
+          <float_array id="high_pillars_single_cap-POSITION-array" count="72">
+-2.105229 -0.201537 3.497238
+-2.105229 0.211687 3.497238
+-1.696918 0.211687 3.497238
+-1.696918 -0.201537 3.497238
+-2.105229 -0.201537 3.813903
+-1.696918 -0.201537 3.813903
+-1.696918 0.211687 3.813903
+-2.105229 0.211687 3.813903
+-2.105229 -0.231537 3.527238
+-1.696918 -0.231537 3.527238
+-1.696918 -0.231537 3.783903
+-2.105229 -0.231537 3.783903
+-1.666918 -0.201537 3.527238
+-1.666918 0.211687 3.527238
+-1.666918 0.211687 3.783903
+-1.666918 -0.201537 3.783903
+-1.696918 0.241687 3.527238
+-2.105229 0.241687 3.527238
+-2.105229 0.241687 3.783903
+-1.696918 0.241687 3.783903
+-2.135229 0.211687 3.527238
+-2.135229 -0.201537 3.527238
+-2.135229 -0.201537 3.783903
+-2.135229 0.211687 3.783903
+</float_array>
+          <technique_common>
+            <accessor source="#high_pillars_single_cap-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="high_pillars_single_cap-Normal0">
+          <float_array id="high_pillars_single_cap-Normal0-array" count="396">
+0.341586 -0.341586 -0.875579
+-0.341586 -0.341586 -0.875579
+0.341586 0.341586 -0.875579
+-0.341586 -0.341586 -0.875579
+-0.341586 0.341586 -0.875579
+0.341586 0.341586 -0.875579
+0.341586 0.341586 0.875579
+-0.341586 0.341586 0.875579
+-0.341586 -0.341586 0.875579
+0.341586 0.341586 0.875579
+-0.341586 -0.341586 0.875579
+0.341586 -0.341586 0.875579
+0.341586 -0.875578 0.341586
+-0.341586 -0.875578 0.341586
+-0.341586 -0.875578 -0.341586
+0.341586 -0.875578 0.341586
+-0.341586 -0.875578 -0.341586
+0.341586 -0.875578 -0.341586
+0.875579 0.341586 0.341586
+0.875579 -0.341586 0.341586
+0.875579 -0.341586 -0.341586
+0.875579 0.341586 0.341586
+0.875579 -0.341586 -0.341586
+0.875579 0.341586 -0.341586
+-0.341586 0.875579 0.341586
+0.341586 0.875579 0.341586
+0.341586 0.875579 -0.341586
+-0.341586 0.875579 0.341586
+0.341586 0.875579 -0.341586
+-0.341586 0.875579 -0.341586
+-0.875579 -0.341586 0.341586
+-0.875579 0.341586 0.341586
+-0.875579 0.341586 -0.341586
+-0.875579 -0.341586 0.341586
+-0.875579 0.341586 -0.341586
+-0.875579 -0.341586 -0.341586
+-0.341586 -0.875578 -0.341586
+-0.875579 -0.341586 -0.341586
+-0.341586 -0.341586 -0.875579
+0.341586 -0.341586 -0.875579
+0.875579 -0.341586 -0.341586
+0.341586 -0.875578 -0.341586
+-0.875579 0.341586 -0.341586
+-0.341586 0.875579 -0.341586
+-0.341586 0.341586 -0.875579
+0.341586 0.341586 -0.875579
+0.341586 0.875579 -0.341586
+0.875579 0.341586 -0.341586
+-0.341586 -0.875578 0.341586
+-0.341586 -0.341586 0.875579
+-0.875579 -0.341586 0.341586
+0.875579 -0.341586 0.341586
+0.341586 -0.341586 0.875579
+0.341586 -0.875578 0.341586
+-0.875579 0.341586 0.341586
+-0.341586 0.341586 0.875579
+-0.341586 0.875579 0.341586
+0.341586 0.875579 0.341586
+0.341586 0.341586 0.875579
+0.875579 0.341586 0.341586
+-0.875579 0.341586 -0.341586
+-0.341586 -0.341586 -0.875579
+-0.875579 -0.341586 -0.341586
+-0.341586 -0.341586 -0.875579
+-0.875579 0.341586 -0.341586
+-0.341586 0.341586 -0.875579
+-0.341586 0.875579 -0.341586
+0.341586 0.875579 -0.341586
+-0.341586 0.341586 -0.875579
+0.341586 0.341586 -0.875579
+-0.341586 0.341586 -0.875579
+0.341586 0.875579 -0.341586
+0.341586 -0.341586 -0.875579
+0.341586 0.341586 -0.875579
+0.875579 -0.341586 -0.341586
+0.875579 -0.341586 -0.341586
+0.341586 0.341586 -0.875579
+0.875579 0.341586 -0.341586
+-0.341586 -0.875578 -0.341586
+0.341586 -0.341586 -0.875579
+0.341586 -0.875578 -0.341586
+0.341586 -0.341586 -0.875579
+-0.341586 -0.875578 -0.341586
+-0.341586 -0.341586 -0.875579
+-0.341586 -0.875578 0.341586
+0.341586 -0.875578 0.341586
+-0.341586 -0.341586 0.875579
+0.341586 -0.341586 0.875579
+-0.341586 -0.341586 0.875579
+0.341586 -0.875578 0.341586
+0.341586 0.341586 0.875579
+0.341586 -0.341586 0.875579
+0.875579 0.341586 0.341586
+0.875579 0.341586 0.341586
+0.341586 -0.341586 0.875579
+0.875579 -0.341586 0.341586
+-0.341586 0.875579 0.341586
+0.341586 0.341586 0.875579
+0.341586 0.875579 0.341586
+0.341586 0.341586 0.875579
+-0.341586 0.875579 0.341586
+-0.341586 0.341586 0.875579
+-0.875579 -0.341586 0.341586
+-0.341586 0.341586 0.875579
+-0.875579 0.341586 0.341586
+-0.341586 0.341586 0.875579
+-0.875579 -0.341586 0.341586
+-0.341586 -0.341586 0.875579
+0.341586 -0.875578 0.341586
+0.341586 -0.875578 -0.341586
+0.875579 -0.341586 0.341586
+0.875579 -0.341586 0.341586
+0.341586 -0.875578 -0.341586
+0.875579 -0.341586 -0.341586
+-0.875579 -0.341586 0.341586
+-0.875579 -0.341586 -0.341586
+-0.341586 -0.875578 0.341586
+-0.341586 -0.875578 0.341586
+-0.875579 -0.341586 -0.341586
+-0.341586 -0.875578 -0.341586
+0.875579 0.341586 0.341586
+0.875579 0.341586 -0.341586
+0.341586 0.875579 0.341586
+0.341586 0.875579 0.341586
+0.875579 0.341586 -0.341586
+0.341586 0.875579 -0.341586
+-0.341586 0.875579 0.341586
+-0.341586 0.875579 -0.341586
+-0.875579 0.341586 0.341586
+-0.875579 0.341586 0.341586
+-0.341586 0.875579 -0.341586
+-0.875579 0.341586 -0.341586
+</float_array>
+          <technique_common>
+            <accessor source="#high_pillars_single_cap-Normal0-array" count="132" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="high_pillars_single_cap-UV0">
+          <float_array id="high_pillars_single_cap-UV0-array" count="84">
+0.939411 0.567204
+0.939411 0.737273
+0.771364 0.737273
+0.771364 0.567204
+0.771363 0.567204
+0.939411 0.567204
+0.939411 0.737273
+0.771363 0.737273
+0.497928 0.975264
+0.253233 0.971656
+0.253985 0.819491
+0.498689 0.818309
+0.229048 0.973753
+-0.019660 0.971442
+-0.018887 0.816960
+0.229829 0.817150
+1.037289 0.975436
+0.792504 0.976635
+0.793221 0.819690
+1.037979 0.823092
+0.768465 0.974156
+0.521992 0.973005
+0.522713 0.820796
+0.769172 0.821947
+0.518511 0.996883
+0.249098 0.995446
+0.771724 0.998064
+1.040934 0.999432
+1.061449 0.978568
+0.519454 0.796887
+0.250084 0.795661
+0.772656 0.798071
+1.041842 0.799129
+1.062167 0.820178
+0.793232 1.002358
+-0.019896 0.996976
+0.228809 0.999288
+0.496898 1.000991
+0.497923 0.792575
+0.229849 0.791615
+-0.018867 0.791423
+0.794177 0.793974
+</float_array>
+          <technique_common>
+            <accessor source="#high_pillars_single_cap-UV0-array" count="42" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="high_pillars_single_cap-VERTEX">
+          <input semantic="POSITION" source="#high_pillars_single_cap-POSITION"/>
+        </vertices>
+        <triangles count="44" material="Material #139">
+          <input semantic="VERTEX" offset="0" source="#high_pillars_single_cap-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#high_pillars_single_cap-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#high_pillars_single_cap-UV0"/>
+          <p> 3 0 3 0 1 0 2 2 2 0 3 0 1 4 1 2 5 2 6 6 6 7 7 7 4 8 4 6 9 6 4 10 4 5 11 5 10 12 10 11 13 11 8 14 8 10 15 10 8 16 8 9 17 9 14 18 14 15 19 15 12 20 12 14 21 14 12 22 12 13 23 13 18 24 18 19 25 19 16 26 16 18 27 18 16 28 16 17 29 17 22 30 22 23 31 23 20 32 20 22 33 22 20 34 20 21 35 21 8 36 8 21 37 21 0 38 24 3 39 25 12 40 12 9 41 9 20 42 20 17 43 17 1 44 26 2 45 27 16 46 16 13 47 28 11 48 11 4 49 29 22 50 22 15 51 15 5 52 30 10 53 10 23 54 23 7 55 31 18 56 18 19 57 19 6 58 32 14 59 33 20 60 20 0 61 24 21 62 21 0 63 24 20 64 20 1 65 26 17 66 17 16 67 16 1 68 34 2 69 27 1 70 34 16 71 16 3 72 36 2 73 35 12 74 12 12 75 12 2 76 35 13 77 13 8 78 8 3 79 25 9 80 9 3 81 25 8 82 8 0 83 37 11 84 11 10 85 10 4 86 38 5 87 30 4 88 38 10 89 10 6 90 40 5 91 39 14 92 14 14 93 14 5 94 39 15 95 15 18 96 18 6 97 32 19 98 19 6 99 32 18 100 18 7 101 41 22 102 22 7 103 31 23 104 23 7 105 31 22 106 22 4 107 29 10 108 10 9 109 9 15 110 15 15 111 15 9 112 9 12 113 12 22 114 22 21 115 21 11 116 11 11 117 11 21 118 21 8 119 8 14 120 33 13 121 28 19 122 19 19 123 19 13 124 28 16 125 16 18 126 18 17 127 17 23 128 23 23 129 23 17 130 17 20 131 20</p>
+        </triangles>
+        <triangles count="44" material="Material #1">
+          <input semantic="VERTEX" offset="0" source="#high_pillars_single_cap-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#high_pillars_single_cap-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#high_pillars_single_cap-UV0"/>
+          <p> 3 0 3 0 1 0 2 2 2 0 3 0 1 4 1 2 5 2 6 6 6 7 7 7 4 8 4 6 9 6 4 10 4 5 11 5 10 12 10 11 13 11 8 14 8 10 15 10 8 16 8 9 17 9 14 18 14 15 19 15 12 20 12 14 21 14 12 22 12 13 23 13 18 24 18 19 25 19 16 26 16 18 27 18 16 28 16 17 29 17 22 30 22 23 31 23 20 32 20 22 33 22 20 34 20 21 35 21 8 36 8 21 37 21 0 38 24 3 39 25 12 40 12 9 41 9 20 42 20 17 43 17 1 44 26 2 45 27 16 46 16 13 47 28 11 48 11 4 49 29 22 50 22 15 51 15 5 52 30 10 53 10 23 54 23 7 55 31 18 56 18 19 57 19 6 58 32 14 59 33 20 60 20 0 61 24 21 62 21 0 63 24 20 64 20 1 65 26 17 66 17 16 67 16 1 68 34 2 69 27 1 70 34 16 71 16 3 72 36 2 73 35 12 74 12 12 75 12 2 76 35 13 77 13 8 78 8 3 79 25 9 80 9 3 81 25 8 82 8 0 83 37 11 84 11 10 85 10 4 86 38 5 87 30 4 88 38 10 89 10 6 90 40 5 91 39 14 92 14 14 93 14 5 94 39 15 95 15 18 96 18 6 97 32 19 98 19 6 99 32 18 100 18 7 101 41 22 102 22 7 103 31 23 104 23 7 105 31 22 106 22 4 107 29 10 108 10 9 109 9 15 110 15 15 111 15 9 112 9 12 113 12 22 114 22 21 115 21 11 116 11 11 117 11 21 118 21 8 119 8 14 120 33 13 121 28 19 122 19 19 123 19 13 124 28 16 125 16 18 126 18 17 127 17 23 128 23 23 129 23 17 130 17 20 131 20</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="high_pillars_post_single-lib" name="high_pillars_post_singleMesh">
+      <mesh>
+        <source id="high_pillars_post_single-POSITION">
+          <float_array id="high_pillars_post_single-POSITION-array" count="48">
+-1.719072 -0.200000 3.525153
+-2.079072 -0.200000 3.525153
+-1.699072 0.180000 3.525153
+-1.699072 -0.180000 3.525153
+-2.079072 0.200000 3.525153
+-1.719072 0.200000 3.525153
+-2.099072 -0.180000 3.525153
+-2.099072 0.180000 3.525153
+-2.079072 -0.200000 -2.500000
+-1.719072 -0.200000 -2.500000
+-1.699072 -0.180000 -2.500000
+-1.699072 0.180000 -2.500000
+-1.719072 0.200000 -2.500000
+-2.079072 0.200000 -2.500000
+-2.099072 0.180000 -2.500000
+-2.099072 -0.180000 -2.500000
+</float_array>
+          <technique_common>
+            <accessor source="#high_pillars_post_single-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="high_pillars_post_single-Normal0">
+          <float_array id="high_pillars_post_single-Normal0-array" count="144">
+-0.382685 -0.923879 0.000000
+-0.382685 -0.923879 0.000000
+0.382685 -0.923879 0.000000
+0.382685 -0.923879 0.000000
+-0.382685 -0.923879 0.000000
+0.382685 -0.923879 0.000000
+0.923880 -0.382682 0.000000
+0.923880 0.382683 0.000000
+0.923880 0.382683 0.000000
+0.923880 0.382683 0.000000
+0.923880 -0.382682 0.000000
+0.923880 -0.382682 0.000000
+0.382683 0.923880 0.000000
+0.382683 0.923880 0.000000
+-0.382683 0.923880 0.000000
+-0.382683 0.923880 0.000000
+0.382683 0.923880 0.000000
+-0.382683 0.923880 0.000000
+-0.923880 0.382683 0.000000
+-0.923880 0.382683 0.000000
+-0.923880 -0.382682 0.000000
+-0.923880 -0.382682 0.000000
+-0.923880 0.382683 0.000000
+-0.923880 -0.382682 0.000000
+0.382685 -0.923879 0.000000
+0.923880 -0.382682 0.000000
+0.923880 -0.382682 0.000000
+0.923880 -0.382682 0.000000
+0.382685 -0.923879 0.000000
+0.382685 -0.923879 0.000000
+-0.923880 -0.382682 0.000000
+-0.382685 -0.923879 0.000000
+-0.923880 -0.382682 0.000000
+-0.382685 -0.923879 0.000000
+-0.923880 -0.382682 0.000000
+-0.382685 -0.923879 0.000000
+0.923880 0.382683 0.000000
+0.923880 0.382683 0.000000
+0.382683 0.923880 0.000000
+0.382683 0.923880 0.000000
+0.923880 0.382683 0.000000
+0.382683 0.923880 0.000000
+-0.382683 0.923880 0.000000
+-0.923880 0.382683 0.000000
+-0.923880 0.382683 0.000000
+-0.923880 0.382683 0.000000
+-0.382683 0.923880 0.000000
+-0.382683 0.923880 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#high_pillars_post_single-Normal0-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="high_pillars_post_single-UV0">
+          <float_array id="high_pillars_post_single-UV0-array" count="54">
+0.727220 0.727164
+0.791623 0.727162
+0.791624 1.000018
+0.727220 1.000020
+0.796680 0.727159
+0.861081 0.727155
+0.861082 1.000011
+0.796681 1.000015
+0.866136 0.727151
+0.930538 0.727148
+0.930540 1.000002
+0.866138 1.000006
+0.935596 0.727146
+1.000000 0.727145
+1.000000 1.000000
+0.935596 1.000000
+0.727219 -0.077902
+0.791623 -0.077904
+0.796680 -0.077907
+0.861081 -0.077911
+0.866136 -0.077915
+0.930537 -0.077918
+0.935596 -0.077920
+1.000000 -0.077921
+0.722161 0.727165
+0.722161 1.000021
+0.722160 -0.077902
+</float_array>
+          <technique_common>
+            <accessor source="#high_pillars_post_single-UV0-array" count="27" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="high_pillars_post_single-VERTEX">
+          <input semantic="POSITION" source="#high_pillars_post_single-POSITION"/>
+        </vertices>
+        <triangles count="16" material="Material #2">
+          <input semantic="VERTEX" offset="0" source="#high_pillars_post_single-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#high_pillars_post_single-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#high_pillars_post_single-UV0"/>
+          <p> 1 0 3 8 1 16 0 2 2 0 3 2 8 4 16 9 5 17 3 6 7 11 7 19 2 8 6 11 9 19 3 10 7 10 11 18 5 12 11 12 13 20 4 14 10 4 15 10 12 16 20 13 17 21 7 18 15 14 19 22 6 20 14 6 21 14 14 22 22 15 23 23 0 24 2 10 25 18 3 26 7 10 27 18 0 28 2 9 29 17 15 30 26 1 31 3 6 32 25 1 33 3 15 34 26 8 35 16 2 36 6 11 37 19 5 38 11 5 39 11 11 40 19 12 41 20 4 42 10 14 43 22 7 44 15 14 45 22 4 46 10 13 47 21</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="high_pillars_single_cap" id="high_pillars_single_cap" layer="walls" sid="high_pillars_single_cap">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#high_pillars_single_cap-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #139" target="#Material #139"/>
+              <instance_material symbol="Material #1" target="#Material #1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="high_pillars_post_single" id="high_pillars_post_single" layer="walls" sid="high_pillars_post_single">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#high_pillars_post_single-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #2" target="#Material #2"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

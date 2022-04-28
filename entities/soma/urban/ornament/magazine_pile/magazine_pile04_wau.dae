@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>illerulf</author>
+      <authoring_tool>OpenCOLLADA2011 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=1;relativePaths=1;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=1;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=1;exportAnimations=1;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///E:/Maya/deeper/scenes/books.mb</source_data>
+    </contributor>
+    <created>2012-12-14T13:48:39</created>
+    <modified>2012-12-14T13:48:39</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="blinn1" name="magazine_pile">
+      <instance_effect url="#blinn1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn1-fx">
+      <profile_COMMON>
+        <newparam sid="magazine_row01_1-surface">
+          <surface type="2D">
+            <init_from>magazine_row01_1</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="magazine_row01_1-sampler">
+          <sampler2D>
+            <source>magazine_row01_1-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="magazine_row01_1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU sid="coverageU">1</coverageU>
+                    <coverageV sid="coverageV">1</coverageV>
+                    <fast sid="fast">0</fast>
+                    <mirrorU sid="mirrorU">0</mirrorU>
+                    <mirrorV sid="mirrorV">0</mirrorV>
+                    <noiseU sid="noiseU">0</noiseU>
+                    <noiseV sid="noiseV">0</noiseV>
+                    <offsetU sid="offsetU">0</offsetU>
+                    <offsetV sid="offsetV">0</offsetV>
+                    <repeatU sid="repeatU">1</repeatU>
+                    <repeatV sid="repeatV">1</repeatV>
+                    <rotateFrame sid="rotateFrame">0</rotateFrame>
+                    <rotateUV sid="rotateUV">0</rotateUV>
+                    <stagger sid="stagger">0</stagger>
+                    <translateFrameU sid="translateFrameU">0</translateFrameU>
+                    <translateFrameV sid="translateFrameV">0</translateFrameV>
+                    <wrapU sid="wrapU">1</wrapU>
+                    <wrapV sid="wrapV">1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">0.3</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="magazine_row01_1" name="magazine_pile01_magazine_row01_1">
+      <init_from>./magazine_pile_wau.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>magazine_pile01_magazine_row01_1</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="magazine_pile0Shape4" name="magazine_pile0Shape4">
+      <mesh>
+        <source id="magazine_pile0Shape4-positions" name="magazine_pile0Shape4-positions">
+          <float_array id="magazine_pile0Shape4-positions-array" count="99">4.961325 1.454156 12.35524 -9.44611 1.437598 12.36575 -9.44611 1.604831 -8.705613 4.961325 1.615033 -8.710659 4.961325 1.893995 12.36087 -9.44611 1.970704 12.35188 -9.44611 2.198398 -8.719715 4.961325 2.05487 -8.70526 -8.74229 0.9430389 -8.703525 4.929766 0.9634558 -8.703525 4.929766 0.9486999 11.88292 -8.545138 0.9470831 11.88292 4.929766 1.606056 11.87824 -8.545138 1.45249 11.88528 -8.74229 1.600399 -8.707961 4.929766 1.620816 -8.707961 -0.9968998 0.5012919 -10.88158 -15.36862 0.6955172 -5.114686 -7.970942 0.5518116 16.60805 6.397976 0.6321536 10.84363 -7.981686 0.03785133 16.4891 6.387219 0.1181849 10.72468 -15.34964 0.1944221 -5.14895 -0.9598699 2.46644e-4 -10.86317 10.66582 0.8788205 -9.87702 -4.115533 0.8908073 -5.509172 1.0225 0.9034272 14.55902 15.80189 0.9763747 10.19192 1.045245 0.5453035 14.73004 15.82462 0.6182653 10.36293 -4.090964 0.5420696 -5.333011 13.24753 0.3968192 0.348888 10.65525 0.4045631 -9.649115</float_array>
+          <technique_common>
+            <accessor source="#magazine_pile0Shape4-positions-array" count="33" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazine_pile0Shape4-normals" name="magazine_pile0Shape4-normals">
+          <float_array id="magazine_pile0Shape4-normals-array" count="294">0.01163677 -0.999796 -0.01650927 0.01572343 -0.99969 -0.01930424 0.01163677 -0.999796 -0.01650927 0.007552131 -0.9998775 -0.01371494 -7.96953e-4 -0.01282639 0.9999174 -1.6e-4 0.001634029 0.9999986 4.74957e-4 0.01609188 0.9998704 -1.6e-4 0.001634029 0.9999986 0.01754317 0.9997099 0.01650682 0.02162758 0.9995798 0.01930137 0.01754317 0.9997099 0.01650682 0.01346056 0.9998154 0.01371433 1.02e-4 -0.002055533 -0.9999979 -4.41976e-4 0.01227129 -0.9999247 1.02e-4 -0.002055533 -0.9999979 6.47938e-4 -0.01638146 -0.9998656 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -0.9999806 -0.006225882 0 -0.9999806 -0.006225882 0 -0.9999806 -0.006225882 0 -0.9999806 -0.006225882 2.21e-4 0.001225522 0.9999992 0 -0.004669949 0.9999891 2.21e-4 0.001225522 0.9999992 4.41992e-4 0.007119052 0.9999744 0 -0.006749555 -0.9999772 0 -0.006749555 -0.9999772 0 -0.006749555 -0.9999772 0 -0.006749555 -0.9999772 1 0 0 1 0 0 1 0 0 1 0 0 -0.9999542 0 0.009575002 -0.9999542 0 0.009576 -0.9999542 0 0.009575002 -0.9999542 0 0.009573 -0.005329659 0.9999227 0.01123974 -0.005329659 0.9999227 0.01123974 -0.005329659 0.9999227 0.01123974 -0.005329659 0.9999227 0.01123974 0.3703118 0.07705637 0.925706 0.3703118 0.07705637 0.925706 0.3703118 0.07705637 0.925706 0.3703118 0.07705637 0.925706 0.005119523 -0.9999171 -0.01181287 0.005119523 -0.9999171 -0.01181287 0.005119523 -0.9999171 -0.01181287 0.005119523 -0.9999171 -0.01181287 -0.3521787 -0.2994815 -0.8867248 -0.3521787 -0.2994815 -0.8867248 -0.3521787 -0.2994815 -0.8867248 -0.3521787 -0.2994815 -0.8867248 -0.9452907 0.04915686 0.3225044 -0.9452907 0.04915686 0.3225044 -0.9452907 0.04915686 0.3225044 -0.9452907 0.04915686 0.3225044 0.9454241 -0.0490122 -0.3221352 0.9454241 -0.0490122 -0.3221352 0.9454241 -0.0490122 -0.3221352 0.9454241 -0.0490122 -0.3221352 -0.002508607 0.9999943 -0.002256357 -0.002508607 0.9999943 -0.002256357 -0.002508607 0.9999943 -0.002256357 -0.002508607 0.9999943 -0.002256357 0.1879984 0.4298973 0.8830884 0.1879984 0.4298973 0.8830884 0.1879984 0.4298973 0.8830884 0.1879984 0.4298973 0.8830884 -0.009232736 -0.9999563 0.001497597 -0.009232736 -0.9999563 0.001497597 -0.009232736 -0.9999563 0.001497597 -0.009232736 -0.9999563 0.001497597 0.009170601 -0.9997557 0.0201122 0.009170601 -0.9997557 0.0201122 0.009170601 -0.9997557 0.0201122 -0.1909435 -0.4294513 -0.8826733 -0.1909435 -0.4294513 -0.8826733 -0.1909435 -0.4294513 -0.8826733 -0.1909435 -0.4294513 -0.8826733 -0.9830787 0.05687075 0.1741329 -0.9830787 0.05687075 0.1741329 -0.9830787 0.05687075 0.1741329 -0.9830787 0.05687075 0.1741329 0.9828033 -0.06233557 -0.1738164 0.9828033 -0.06233557 -0.1738164 0.9828033 -0.06233557 -0.1738164 0.9828033 -0.06233557 -0.1738164 0.9743119 -0.1407699 -0.175785 0.9743119 -0.1407699 -0.175785 0.9743119 -0.1407699 -0.175785</float_array>
+          <technique_common>
+            <accessor source="#magazine_pile0Shape4-normals-array" count="98" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="magazine_pile0Shape4-map1" name="magazine_pile0Shape4-map1">
+          <float_array id="magazine_pile0Shape4-map1-array" count="160">0.6270274 1.000349 0.627027 0.5018802 0.7712791 0.5018794 0.7712792 1.000349 0.9468546 0.1368611 0.9879071 0.1368611 0.9879071 0.49022 0.9468545 0.49022 0.7826284 1.000349 0.7826284 0.501879 0.9342149 0.5018789 0.9342151 1.000349 0.9879071 0.4890552 0.9468547 0.4890552 0.9468546 0.1356963 0.9879072 0.1356963 0.9946293 0.9082053 0.9513217 0.9082055 0.9513218 0.5232887 0.9946293 0.523289 0.002332389 0.4962791 0.002332568 0.00203377 0.1517055 0.003048599 0.1517054 0.4962893 0.9488864 0.1326087 0.9856892 0.1325684 0.98608 0.4848805 0.949277 0.4849209 0.3097927 0.2307411 0.1627153 0.4962881 0.1627154 0.003076613 0.3097968 0.001986563 0.3099691 0.4963155 0.9928838 0.483732 0.9560809 0.4837728 0.9556903 0.1314606 0.9924932 0.13142 0.9505312 0.5223088 0.9958469 0.5223088 0.9958469 0.7243216 0.9505311 0.9084458 0.9958469 0.9084458 0.4589134 0.4974994 0.3116694 0.4974994 0.3116694 0.002719402 0.4589133 0.002825528 0.9931676 0.5951901 0.9931676 0.8397244 0.9669021 0.8397244 0.9669021 0.5951901 0.4668879 0.00285089 0.6230768 0.002955973 0.6230768 0.4974994 0.4668879 0.4974994 0.9931288 0.8397244 0.9668633 0.8397244 0.9668633 0.5951901 0.9931288 0.59519 0.9566337 0.3494452 0.9577119 0.09320694 0.9837531 0.0933989 0.9826733 0.3496355 0.6271414 0.9978971 0.6271386 0.5010882 0.7737437 0.5010831 0.7737437 0.9978936 0.958356 0.09392327 0.9830172 0.09368908 0.9842204 0.4721165 0.9595591 0.4723506 0.9830172 0.09375888 0.9842204 0.4721863 0.9595591 0.4724205 0.958356 0.09399539 0.7808203 0.9978871 0.7807706 0.5010734 0.9568464 0.3494949 0.9579262 0.09325844 0.9839657 0.09344864 0.9828876 0.3496851</float_array>
+          <technique_common>
+            <accessor source="#magazine_pile0Shape4-map1-array" count="80" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="magazine_pile0Shape4-vertices" name="magazine_pile0Shape4-vertices">
+          <input semantic="POSITION" source="#magazine_pile0Shape4-positions"/>
+        </vertices>
+        <triangles material="magazine_pile01_blinn1SG" count="48">
+          <input semantic="VERTEX" source="#magazine_pile0Shape4-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#magazine_pile0Shape4-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#magazine_pile0Shape4-map1" offset="2" set="0"/>
+          <p>1 1 43 2 2 44 0 0 42 0 0 42 2 2 44 3 3 45 4 4 46 5 5 47 0 7 49 0 7 49 5 5 47 1 6 48 6 9 51 5 10 52 7 8 50 7 8 50 5 10 52 4 11 53 7 12 54 3 13 55 6 15 57 6 15 57 3 13 55 2 14 56 4 16 53 0 17 42 7 19 50 7 19 50 0 17 42 3 18 45 1 21 59 5 22 60 2 20 58 2 20 58 5 22 60 6 23 61 8 25 63 9 26 64 11 24 62 11 24 62 9 26 64 10 27 65 13 28 66 11 29 67 12 31 69 12 31 69 11 29 67 10 30 68 14 32 70 15 33 71 8 35 73 8 35 73 15 33 71 9 34 72 12 36 74 10 37 65 15 39 75 15 39 75 10 37 65 9 38 64 8 40 76 11 41 77 14 43 79 14 43 79 11 41 77 13 42 78 16 45 1 17 46 2 19 44 0 19 44 0 17 46 2 18 47 3 21 48 4 19 49 5 20 51 7 20 51 7 19 49 5 18 50 6 20 52 8 22 53 9 21 55 11 21 55 11 22 53 9 23 54 10 17 57 13 16 58 14 22 56 12 22 56 12 16 58 14 23 59 15 18 60 3 17 61 2 20 63 8 20 63 8 17 61 2 22 62 9 23 64 16 16 65 17 21 67 19 21 67 19 16 65 17 19 66 18 24 69 21 25 70 22 27 68 20 27 68 20 25 70 22 26 71 23 27 73 25 26 74 26 29 72 24 29 72 24 26 74 26 28 75 27 28 77 29 30 78 30 31 76 28 31 76 28 30 78 30 32 79 31 28 80 29 31 81 28 29 82 32 30 83 33 25 84 34 32 86 36 32 86 36 25 84 34 24 85 35 25 88 22 30 89 30 26 87 23 26 87 23 30 89 30 28 90 29 29 92 38 31 93 39 27 91 37 27 91 37 31 93 39 24 94 40 32 95 41 24 96 40 31 97 39</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>magazine_pile0Shape4</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="books">
+      <node id="magazine_pile04" name="magazine_pile04" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#magazine_pile0Shape4">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="magazine_pile01_blinn1SG" target="#blinn1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>magazine_pile04</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

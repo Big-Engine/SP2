@@ -1,0 +1,77 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="0 0 200" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0 200 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.089315 0.2668 0.641993" CameraTarget="0 0 0" Controller="Maya" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/tech/monitor/monitor_wall.dae">
+            <SubMesh ID="0" Material="" Name="monitor1" Rotation="0 0 0" Scale="1 1 1" TriCount="398" WorldPos="0 0 0" />
+            <SubMesh ID="1" Material="" Name="screen2" Rotation="0 0 0" Scale="1 1 1" TriCount="2" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="2" Name="Shape_1" RelativeRotation="0.197287 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00164458 0.06635 0.0821343" Rotation="0.197287 -0 0" Scale="0.446286 0.345912 0.0621831" ShapeType="Box" WorldPos="-0.00477739 0.1327 0.173782" />
+            <Shape ID="3" Name="Shape_2" RelativeRotation="1.5708 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.00313281 -0.06635 -0.0821343" Rotation="1.5708 -0 0" Scale="0.141649 0.0203673 0" ShapeType="Cylinder" WorldPos="0 0 0.00951333" />
+            <Shape ID="4" Name="Shape_3" RelativeRotation="1.5708 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00313281 -0.06635 -0.0110788" Rotation="1.5708 -0 0" Scale="0.0310819 0.113606 0" ShapeType="Cylinder" WorldPos="-0.00626562 0 0.0805689" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="5" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.00313281 0.06635 0.0916477">
+                <Children>
+                    <Child ID="0" />
+                    <Child ID="1" />
+                </Children>
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="2" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Terminal">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="Entities_Urban/tech/computer/monitor_on" />
+        <Var Name="EffectsOffSound" Value="Entities_Urban/tech/computer/monitor_off" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="ConnectedSubmesh" Value="screen2" />
+        <Var Name="ClearColor" Value="0 0 0 1" />
+        <Var Name="ScreenSize" Value="512 512" />
+        <Var Name="OfflineClearColor" Value="0 0 0 1" />
+        <Var Name="ScreenPosition" Value="0 0 0" />
+        <Var Name="ScreenNormal" Value="0 0 1" />
+        <Var Name="TargetCameraDistance" Value="1" />
+    </UserDefinedVariables>
+</Entity>

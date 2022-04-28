@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-05-10T16:02:22Z</created>
+    <keywords></keywords>
+    <modified>2012-05-10T16:02:22Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #4-image" name="Map #4">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\factorybase\factory_gate.psd</init_from>
+    </image>
+    <image id="Map #5-image" name="Map #5">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\factorybase\fence_grating.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="factory_gate" name="factory_gate">
+      <instance_effect url="#factory_gate-fx"/>
+    </material>
+    <material id="fence_grating" name="fence_grating">
+      <instance_effect url="#fence_grating-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="factory_gate-fx" name="factory_gate">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #4-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="fence_grating-fx" name="fence_grating">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #5-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Box004-lib" name="Box004Mesh">
+      <mesh>
+        <source id="Box004-POSITION">
+          <float_array id="Box004-POSITION-array" count="48">
+0.050001 2.000000 0.000000
+0.050000 -2.000000 0.000000
+0.050000 2.000000 4.000000
+0.049999 -2.000000 4.000000
+-0.049999 2.000000 0.000000
+-0.050000 -2.000000 0.000000
+-0.050000 2.000000 4.000000
+-0.050001 -2.000000 4.000000
+-0.049999 1.900000 0.100000
+-0.050000 -1.900000 0.100000
+-0.050001 -1.900000 3.900000
+-0.050000 1.900000 3.900000
+0.050001 1.900000 0.100000
+0.050000 -1.900000 0.100000
+0.049999 -1.900000 3.900000
+0.050000 1.900000 3.900000
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-POSITION-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004-Normal0">
+          <float_array id="Box004-Normal0-array" count="288">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-Normal0-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Box004-UV0">
+          <float_array id="Box004-UV0-array" count="128">
+0.333368 -0.000153
+0.819764 -0.000153
+0.819764 0.012006
+0.333368 0.012006
+0.284411 0.000828
+0.770808 0.000828
+0.770808 0.012988
+0.284411 0.012988
+0.247693 0.000337
+0.734090 0.000337
+0.734090 0.012497
+0.247693 0.012497
+0.731642 0.012255
+0.245246 0.012255
+0.245246 0.000095
+0.731642 0.000095
+0.981645 0.999340
+0.495248 0.999340
+0.507408 0.987180
+0.969485 0.987180
+0.714957 1.001130
+0.252880 1.001130
+0.734986 1.001073
+0.272909 1.001073
+0.252880 0.988970
+0.714957 0.988970
+0.272909 0.988913
+0.734986 0.988913
+0.001100 0.999889
+0.013260 0.987729
+0.773766 0.990188
+0.761606 1.002348
+-0.006657 0.001309
+0.479740 0.001309
+0.467580 0.013469
+0.005503 0.013469
+0.147186 1.001628
+0.159345 0.989468
+-0.001422 0.013285
+0.010738 0.001125
+0.334184 0.989809
+0.796261 0.989809
+0.796261 1.001969
+0.334184 1.001969
+0.708388 0.013963
+0.246311 0.013963
+0.246311 0.001803
+0.708388 0.001803
+0.489590 0.001373
+0.487497 0.999889
+0.475337 0.987729
+0.477430 0.013533
+0.287369 0.990188
+0.299529 1.002348
+0.003193 0.001373
+0.015353 0.013533
+0.952563 -0.000480
+0.633582 1.001628
+0.621423 0.989468
+0.940403 0.011680
+0.484975 0.013285
+0.472815 0.001125
+0.466166 -0.000480
+0.478326 0.011680
+</float_array>
+          <technique_common>
+            <accessor source="#Box004-UV0-array" count="64" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Box004-VERTEX">
+          <input semantic="POSITION" source="#Box004-POSITION"/>
+        </vertices>
+        <triangles count="32" material="factory_gate">
+          <input semantic="VERTEX" offset="0" source="#Box004-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Box004-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Box004-UV0"/>
+          <p> 1 0 1 4 1 3 0 2 0 4 3 3 1 4 1 5 5 2 3 6 5 5 7 7 1 8 4 5 9 7 3 10 5 7 11 6 6 12 10 3 13 8 2 14 9 3 15 8 6 16 10 7 17 11 4 18 14 6 19 15 2 20 12 2 21 12 0 22 13 4 23 14 2 24 17 12 25 19 0 26 16 12 27 19 2 28 17 15 29 18 2 30 49 3 31 28 14 32 29 2 33 49 14 34 29 15 35 50 3 36 52 1 37 30 13 38 31 3 39 52 13 40 31 14 41 53 1 42 54 0 43 48 12 44 51 1 45 54 12 46 51 13 47 55 4 48 32 5 49 33 9 50 34 4 51 32 9 52 34 8 53 35 7 54 36 9 55 58 5 56 57 9 57 58 7 58 36 10 59 37 7 60 60 6 61 38 11 62 39 7 63 60 11 64 39 10 65 61 6 66 62 4 67 56 8 68 59 6 69 62 8 70 59 11 71 63 13 72 24 12 73 25 8 74 20 8 75 20 9 76 21 13 77 24 14 78 42 9 79 40 10 80 41 9 81 40 14 82 42 13 83 43 14 84 27 11 85 23 15 86 26 11 87 23 14 88 27 10 89 22 15 90 47 8 91 45 12 92 46 8 93 45 15 94 47 11 95 44</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Plane006-lib" name="Plane006Mesh">
+      <mesh>
+        <source id="Plane006-POSITION">
+          <float_array id="Plane006-POSITION-array" count="24">
+-0.004931 -1.948426 0.054177
+-0.004931 1.941411 0.054176
+-0.004930 -1.948427 3.954360
+-0.004931 1.941411 3.954360
+0.004479 -1.948426 0.054177
+0.004478 1.941411 0.054176
+0.004479 -1.948427 3.954360
+0.004479 1.941411 3.954360
+</float_array>
+          <technique_common>
+            <accessor source="#Plane006-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane006-Normal0">
+          <float_array id="Plane006-Normal0-array" count="36">
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+1.000000 0.000000 -0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Plane006-Normal0-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane006-UV0">
+          <float_array id="Plane006-UV0-array" count="16">
+31.528177 -2.313950
+-1.302119 30.534573
+-37.890854 -6.033843
+-5.060555 -38.882366
+-1.360249 30.601116
+-37.948986 -5.967298
+-5.118700 -38.815842
+31.470039 -2.247421
+</float_array>
+          <technique_common>
+            <accessor source="#Plane006-UV0-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane006-VERTEX">
+          <input semantic="POSITION" source="#Plane006-POSITION"/>
+        </vertices>
+        <triangles count="4" material="fence_grating">
+          <input semantic="VERTEX" offset="0" source="#Plane006-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Plane006-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Plane006-UV0"/>
+          <p> 0 0 3 2 1 0 3 2 1 3 3 1 1 4 2 0 5 3 4 6 5 5 7 6 7 8 7 7 9 7 6 10 4 4 11 5</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Box004" id="Box004" layer="fence_frame_01" sid="Box004">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Box004-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="factory_gate" target="#factory_gate"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Plane006" id="Plane006" layer="fence_frame_01" sid="Plane006">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Plane006-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="fence_grating" target="#fence_grating"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>0.066667</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

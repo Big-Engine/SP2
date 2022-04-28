@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-04-25T08:08:11Z</created>
+    <keywords></keywords>
+    <modified>2012-04-25T08:08:11Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #9-image" name="Map #9">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\factorybase\rainpipes01.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="rainpipes01" name="rainpipes01">
+      <instance_effect url="#rainpipes01-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="rainpipes01-fx" name="rainpipes01">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #9-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+              <texture texture="Map #9-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Object057-lib" name="Object057Mesh">
+      <mesh>
+        <source id="Object057-POSITION">
+          <float_array id="Object057-POSITION-array" count="24">
+4.556715 -0.943432 4.857695
+4.556715 -0.943432 4.918550
+-3.336344 -0.943432 4.857695
+-3.336344 -0.943432 4.918550
+4.556715 2.616770 4.918550
+4.556715 2.616771 4.857695
+-3.336344 2.616770 4.857695
+-3.336344 2.616771 4.918550
+</float_array>
+          <technique_common>
+            <accessor source="#Object057-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Object057-Normal0">
+          <float_array id="Object057-Normal0-array" count="90">
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+1.000000 -0.000000 -0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-1.000000 0.000000 -0.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Object057-Normal0-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Object057-UV0">
+          <float_array id="Object057-UV0-array" count="40">
+0.000000 0.000000
+0.000000 1.000000
+1.000000 0.000000
+1.000000 1.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+0.000000 1.000000
+0.500000 1.000000
+0.500000 0.000000
+0.500000 0.000000
+0.500000 0.000000
+0.500000 0.000000
+0.500000 1.000000
+0.500000 1.000000
+0.500000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Object057-UV0-array" count="20" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Object057-VERTEX">
+          <input semantic="POSITION" source="#Object057-POSITION"/>
+        </vertices>
+        <triangles count="10" material="rainpipes01">
+          <input semantic="VERTEX" offset="0" source="#Object057-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Object057-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Object057-UV0"/>
+          <p> 0 0 6 1 1 7 3 2 9 3 3 9 2 4 8 0 5 6 4 6 13 7 7 19 3 8 11 3 9 11 1 10 10 4 11 13 1 12 1 0 13 0 5 14 14 5 15 14 4 16 12 1 17 1 2 18 2 3 19 3 7 20 18 7 21 18 6 22 16 2 23 2 0 24 4 2 25 5 6 26 17 6 27 17 5 28 15 0 29 4</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Object058-lib" name="Object058Mesh">
+      <mesh>
+        <source id="Object058-POSITION">
+          <float_array id="Object058-POSITION-array" count="24">
+4.556714 -2.370092 4.788319
+4.556714 -2.370092 4.849174
+-3.336344 -2.370092 4.788318
+-3.336344 -2.370092 4.849174
+4.556715 1.081763 4.849174
+4.556715 1.081763 4.788319
+-3.336344 1.081763 4.788319
+-3.336344 1.081763 4.849174
+</float_array>
+          <technique_common>
+            <accessor source="#Object058-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Object058-Normal0">
+          <float_array id="Object058-Normal0-array" count="90">
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+-0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Object058-Normal0-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Object058-UV0">
+          <float_array id="Object058-UV0-array" count="32">
+0.000000 0.000000
+0.000000 1.000000
+1.000000 0.000000
+1.000000 1.000000
+1.000000 0.000000
+1.000000 1.000000
+0.000000 0.000000
+0.000000 1.000000
+0.500000 1.000000
+0.500000 0.000000
+0.500000 0.000000
+0.500000 0.000000
+0.500000 0.000000
+0.500000 1.000000
+0.500000 1.000000
+0.500000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Object058-UV0-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Object058-VERTEX">
+          <input semantic="POSITION" source="#Object058-POSITION"/>
+        </vertices>
+        <triangles count="10" material="rainpipes01">
+          <input semantic="VERTEX" offset="0" source="#Object058-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Object058-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Object058-UV0"/>
+          <p> 4 0 9 7 1 15 3 2 7 3 3 7 1 4 6 4 5 9 1 6 1 0 7 0 5 8 10 5 9 10 4 10 8 1 11 1 2 12 2 3 13 3 7 14 14 7 15 14 6 16 12 2 17 2 0 18 4 2 19 5 6 20 13 6 21 13 5 22 11 0 23 4 6 24 13 7 25 14 4 26 9 4 27 9 5 28 10 6 29 13</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Object057" id="Object057" layer="conveyor_hatch_02" sid="Object057">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Object057-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="rainpipes01" target="#rainpipes01"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <node name="Object058" id="Object058" layer="conveyor_hatch_02" sid="Object058">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Object058-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="rainpipes01" target="#rainpipes01"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>6.666667</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

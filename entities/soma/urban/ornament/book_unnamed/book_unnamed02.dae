@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>illerulf</author>
+      <authoring_tool>OpenCOLLADA2011 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=0;exportAnimations=0;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///E:/Maya/deeper/scenes/books.mb</source_data>
+    </contributor>
+    <created>2012-09-28T15:36:16</created>
+    <modified>2012-09-28T15:36:16</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="book02" name="book02">
+      <instance_effect url="#book02-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="book02-fx">
+      <profile_COMMON>
+        <newparam sid="file2-surface">
+          <surface type="2D">
+            <init_from>file2</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file2-sampler">
+          <sampler2D>
+            <source>file2-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file2-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="file2" name="file2">
+      <init_from>file:///E:/Maya/deeper/books/book_unnamed02.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>file2</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="bookShape2" name="bookShape2">
+      <mesh>
+        <source id="bookShape2-positions" name="bookShape2-positions">
+          <float_array id="bookShape2-positions-array" count="102">-7.892697 1.573706 -11.82614 -7.892696 1.573706 11.82614 5.621752 1.590997 11.82614 5.621753 1.590997 -11.82614 1.48938 1.71793 11.82614 1.48938 1.71793 -11.82614 7.00488 1.576539 11.82614 7.00488 1.576539 -11.82614 -8.385029 -1.71793 -11.82614 0.20709 -1.316395 -11.82614 -0.8488975 -1.326257 11.82614 -8.385029 -1.71793 11.82614 5.232832 -1.398215 11.82614 7.125192 -1.686926 11.82614 5.232832 -1.398215 -11.82614 7.125192 -1.686926 -11.82614 3.012646 -1.546307 11.82614 3.012646 -1.546307 -11.82614 8.183439 0.1544528 -11.82614 8.183439 0.1544528 11.82614 8.088303 1.575201 -11.82614 8.151957 1.522143 -11.82614 8.088303 1.575201 11.82614 8.151956 1.522143 11.82614 8.331098 -1.584849 -11.82614 8.385029 -1.53589 -11.82614 8.331098 -1.584849 11.82614 8.385029 -1.53589 11.82614 8.222459 0.845306 -11.82614 8.222459 0.845306 11.82614 8.305084 -0.6440077 11.82614 8.305084 -0.6440077 -11.82614 3.65176 1.395283 11.82614 3.65176 1.395283 -11.82614</float_array>
+          <technique_common>
+            <accessor source="#bookShape2-positions-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bookShape2-normals" name="bookShape2-normals">
+          <float_array id="bookShape2-normals-array" count="246">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0.06632391 0.9977981 0 -0.01537049 0.9998819 0 -0.01537049 0.9998819 0 0.06632391 0.9977981 0 0.9997195 0.02368284 0 0.9997195 0.02368284 0 0.9984089 -0.05639011 0 0.9984089 -0.05639011 0 -0.9889985 0.1479253 0 -0.9889985 0.1479253 0 -0.9889985 0.1479253 0 -0.9889985 0.1479253 0 0 0 1 0 0 1 0 0 1 0 0 1 -0.04427046 0.9990196 0 -0.04427046 0.9990196 0 0.005843831 0.999983 0 0.005843831 0.999983 0 0.02454452 0.9996987 0 0.02454452 0.9996987 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0.001235199 0.9999993 0 0.001235199 0.9999993 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.0491219 -0.9987924 8.88331e-4 0.0491219 -0.9987924 8.88331e-4 -0.009122911 -0.9999582 -4.12119e-4 -0.009122911 -0.9999582 -4.12119e-4 0.9927737 0.120002 0 0.9927737 0.120002 0 0.988593 0.1506116 0 0.988593 0.1506116 0 -0.042385 -0.9991014 0 -0.03347009 -0.9994397 0 -0.03347009 -0.9994397 0 -0.042385 -0.9991014 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -3.91886e-4 -0.9999996 -8.57509e-4 -3.91886e-4 -0.9999996 -8.57509e-4 0 0 -1 0 0 -1 0.08434635 -0.9964366 0 0.08434635 -0.9964366 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.6402767 0.7681445 0 0.6402767 0.7681445 0 0.6402767 0.7681445 0 0.6402767 0.7681445 0 0.6721489 -0.740416 0 0.6721489 -0.740416 0 0.6721489 -0.740416 0 0.6721489 -0.740416 0 0.9946187 0.1036039 0 0.9946187 0.1036039 0 0.9960068 0.08927778 0 0.9960068 0.08927778 0</float_array>
+          <technique_common>
+            <accessor source="#bookShape2-normals-array" count="82" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bookShape2-map1" name="bookShape2-map1">
+          <float_array id="bookShape2-map1-array" count="144">0.005917847 0.2532794 0.005916774 0.9943489 0.2052497 0.9943489 0.2052481 0.2532794 0.2227265 0.2532794 0.2227308 0.9943489 0.1478223 0.9943489 0.1478226 0.2532794 0.5300126 0.2532794 0.5300168 0.9943489 0.4035352 0.9943489 0.4195021 0.2532794 0.327308 0.9943489 0.3072288 0.9943489 0.3071809 0.2532794 0.3271916 0.2532794 0.3591201 0.9943489 0.3588198 0.2532794 0.2511363 0.9943489 0.1795759 0.2532794 0.1795741 0.9943489 0.2880539 0.9943489 0.2880405 0.2532794 0.2511308 0.2532794 0.259988 0.2532794 0.2599935 0.9943489 0.2728328 0.2532794 0.2728399 0.9943489 0.2406239 0.9943489 0.2393323 0.9943489 0.2393266 0.2532794 0.2406182 0.2532794 0.2869408 0.9943489 0.2869275 0.2532794 0.6977417 0.0412885 0.9260156 0.04110555 0.9379945 0.1993185 0.7546339 0.1990302 0.6606792 0.1991922 0.6451291 0.04087925 0.5971974 0.0411275 0.6066601 0.1990831 0.5635448 0.04110914 0.5606173 0.1992956 0.5348693 0.1130841 0.5339199 0.07760912 0.5356354 0.04104018 0.5371841 0.04110748 0.5312768 0.1992205 0.5299645 0.1991845 0.5319096 0.1540851 0.4385355 0.02202708 0.9887432 0.02202679 0.9887432 0.2191888 0.4385355 0.2191889 0.7390181 0.1681667 0.5299644 0.1676574 0.5419432 0.01006007 0.7702173 0.009935856 0.8072796 0.1678751 0.8228299 0.01021376 0.8707615 0.01004517 0.8612987 0.168063 0.9044141 0.01005763 0.9073414 0.1676967 0.9330894 0.08207506 0.9360491 0.12866 0.9379942 0.1678883 0.9366821 0.1678262 0.9307747 0.01005879 0.9323235 0.01010449 0.9340389 0.04659986</float_array>
+          <technique_common>
+            <accessor source="#bookShape2-map1-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="bookShape2-vertices" name="bookShape2-vertices">
+          <input semantic="POSITION" source="#bookShape2-positions"/>
+        </vertices>
+        <triangles material="blinn8SG" count="64">
+          <input semantic="VERTEX" source="#bookShape2-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#bookShape2-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#bookShape2-map1" offset="2" set="0"/>
+          <p>11 2 36 10 3 37 1 1 35 1 1 35 10 3 37 4 0 34 10 3 37 16 4 38 4 0 34 4 0 34 16 4 38 32 5 39 5 6 6 0 7 1 4 9 7 4 9 7 0 7 1 1 8 0 28 10 18 29 11 23 18 13 25 18 13 25 29 11 23 19 12 24 1 14 51 0 15 52 11 17 54 11 17 54 0 15 52 8 16 53 2 19 40 12 20 41 6 18 42 6 18 42 12 20 41 13 21 43 3 22 2 2 23 3 7 25 5 7 25 5 2 23 3 6 24 4 5 6 6 4 9 7 33 27 20 33 27 20 4 9 7 32 26 19 6 18 42 13 21 43 22 31 47 22 31 47 13 21 43 23 30 46 23 30 46 13 21 43 29 29 45 29 29 45 13 21 43 19 28 44 19 28 44 13 21 43 30 34 50 13 21 43 26 32 48 30 34 50 26 32 48 27 33 49 30 34 50 7 25 5 6 24 4 20 36 29 20 36 29 6 24 4 22 35 30 8 38 56 0 39 57 9 37 55 9 37 55 0 39 57 5 40 58 11 41 8 8 42 9 10 44 11 10 44 11 8 42 9 9 43 10 30 45 26 31 46 27 19 48 24 19 48 24 31 46 27 18 47 25 14 49 12 15 50 13 12 52 15 12 52 15 15 50 13 13 51 14 15 54 64 14 55 62 7 53 63 7 53 63 14 55 62 3 56 61 17 57 16 14 49 12 16 58 17 16 58 17 14 49 12 12 52 15 3 56 61 14 55 62 33 60 60 33 60 60 14 55 62 17 59 59 17 57 16 16 58 17 9 43 10 9 43 10 16 58 17 10 44 11 9 37 55 5 40 58 17 59 59 17 59 59 5 40 58 33 60 60 15 50 13 24 61 21 13 51 14 13 51 14 24 61 21 26 62 22 15 54 64 7 53 63 24 66 68 24 66 68 7 53 63 25 65 67 25 65 67 7 53 63 31 64 66 31 64 66 7 53 63 18 63 65 18 63 65 7 53 63 28 69 71 7 53 63 20 67 69 28 69 71 20 67 69 21 68 70 28 69 71 21 70 28 20 71 29 23 73 31 23 73 31 20 71 29 22 72 30 24 74 21 25 75 32 26 77 22 26 77 22 25 75 32 27 76 33 21 78 28 23 79 31 28 10 18 28 10 18 23 79 31 29 11 23 27 80 33 25 81 32 30 45 26 30 45 26 25 81 32 31 46 27 2 19 40 32 5 39 12 20 41 12 20 41 32 5 39 16 4 38 33 27 20 32 26 19 3 22 2 3 22 2 32 26 19 2 23 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>bookShape2</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="books">
+      <node id="book2" name="book2" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#bookShape2">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn8SG" target="#book02">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>book2</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

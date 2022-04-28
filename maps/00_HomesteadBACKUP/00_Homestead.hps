@@ -1,0 +1,254 @@
+#include "interfaces/Map_Interface.hps"
+#include "base/Inputhandler_Types.hps"
+
+#include "helpers/helper_map.hps"
+#include "helpers/helper_props.hps"
+#include "helpers/helper_effects.hps"
+#include "helpers/helper_audio.hps"
+#include "helpers/helper_imgui.hps"
+#include "helpers/helper_sequences.hps"
+#include "helpers/helper_game.hps"
+#include "helpers/helper_modules.hps"
+#include "helpers/helper_ai.hps"
+#include "helpers/helper_player.hps"
+#include "helpers/helper_areas.hps"
+#include "helpers/helper_agent.hps"
+#include "custom/helpers/helper_player_custom.hps"
+#include "custom/helpers/helper_modules_custom.hps"
+#include "custom/helpers/helper_agent.hps"
+#include "custom/agents/agent_types_custom.hps"
+#include "helpers/helper_message.hps"
+
+//--------------------------------------------------
+ 
+/*Place any global values here. These must be const variables as they will not be saved*/
+/*This is also the place for enums and classes, but these should be avoided whenever possible*/
+ 
+//--------------------------------------------------
+ 
+class cScrMap : iScrMap
+{
+	//--------------------------------------------
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN CALLBACKS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	////////////////////////////
+	// Set up map environment
+	void Setup()
+	{
+		GetBase().SetDisplayNameEntry("xx-xx-dummy-level");
+
+		
+		Item_RemoveFromInventory(ItemType_GetFirstInInventory("CurseMedallion"));
+		cScript_SetGlobalVarBool("HideAmuletBracelet", true);
+	}
+	
+	//-------------------------------------------------------
+		
+	void PreloadData()
+	{
+		/////////////////
+		// Preload gui
+		//ImGui_PreloadImage("some_image");
+
+		///////////////
+		// Preload particles
+		//ParticleSystem_Preload("some_particle.ps");
+
+		//////////////
+		// Preload screen effects
+		//Material_Preload("some_material.mat");
+	}
+	
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run first time starting map
+	void OnStart()
+	{
+		//Game_AutoSave();
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when entering map
+	void OnEnter()
+	{	
+		PlayerBody_SetModel("PlayerArms.ent");
+		PlayerBody_SetActive(true);
+		Player_SetAllowHideMode(false);
+		Player_SetAllowCheckBaby(false);
+		Player_SetNightVisionEnabled(false);
+		Player_SetVertigoActive(false);
+		//Player_SetRunSpeedMul(1.5f);
+		//Player_SetJumpForceMul(2.0f);
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when leaving map
+	void OnLeave()
+	{
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// The player has died.
+	void OnPlayerKilled(int alRecentDeaths, const tString&in asSource)
+	{
+		cLux_AddTodoMessage("The Player was killed by " + asSource);
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player HP reaches 0
+	bool OnDeath(const tString &in asSource)
+	{
+		cLux_AddTodoMessage("DEAD : SOURCE = " + asSource);
+		
+		if (asSource == "SomeReason")
+		{
+			Effect_Fade_Out(1.0f);
+			return true; // return true to completely override base behaviour
+		}
+		
+		// return false for default behaviour
+		return false;
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player should respawn (after death)
+	bool OnRespawn(const tString &in asSource)
+	{		
+		// return false for default behaviour (fadeout and death area)
+		return false;
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// To get when player makes input (mostly used for debug)
+	void OnAction(int alAction, bool abPressed) 
+	{
+		if(abPressed==false) return;
+		
+		if(alAction == eAction_Test1)
+		{
+		}
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// This only used for pure debug purposes when info needs to printed.
+	float DrawDebugOutput(cGuiSet @apSet,iFontData @apFont,float afY)
+	{
+		//afY = cLux_DrawDebugText("My Debug value:"+..., afY);
+		return afY;
+	}
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN CALLBACKS
+ 
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN FUNCTIONS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any variables that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any functions that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN FUNCTIONS
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// SCENE X *NAME OF SCENE*
+	// ==============
+	//{//////////////////////////////////////////////////////////////////////////////////////
+ 
+		/////////////////////////////////////////
+		// General
+		//{//////////////////////////////////////
+		 
+		//-------------------------------------------------------
+	 
+		/*Put any variables that are used by many events in Scene X here.*/
+	 
+		//-------------------------------------------------------
+	 
+		/*Put any functions that are used in more than one event in Scene X here.*/
+	 
+		//-------------------------------------------------------
+		
+		//} END General	
+	 
+		/////////////////////////////////////////
+		// Event *Name Of Event*
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		/*Put any variables that are only used in Scene X, Event X here.*/
+
+		//-------------------------------------------------------
+
+		/*Put any functions that are only used in Scene X, Event X here.*/
+
+		//-------------------------------------------------------
+
+		//} END Event *Name Of Event*
+	 
+	//} END SCENE X
+	
+	/*bool OnCollide_Player_TestSpawn(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		if(alState == 1)
+		{
+			Entity_SetActive("servant_grunt_1", true);
+			Ghoul_SetAllowPlayerThrow("servant_grunt_1", false); 
+			Ghoul_SetSmellingActive("servant_grunt_1", false);
+		}
+		return false;
+	}*/
+	
+	void exit_OnPlayerInteract(const tString &in asEntity)
+	{
+		SetMessage("00_Homestead", "ExitMessage", 4.0f, eMessagePosition_BottomCenter, eMessageAlignment_Center, 1.3f, -0.3f);
+	}
+	
+	void Sink_OnConnectionStateChange(const tString &in asEntity, int alState)
+	{
+		SetMessage("00_Homestead", "SinkMessage", 4.0f, eMessagePosition_BottomCenter, eMessageAlignment_Center, 1.3f, -0.3f);
+	}
+	void Shower_OnPlayerInteract(const tString &in asEntity)
+	{
+		SetMessage("00_Homestead", "ShowerMessage", 4.0f, eMessagePosition_BottomCenter, eMessageAlignment_Center, 1.3f, -0.3f);
+	}
+	
+	void TV_OnPlayerInteract(const tString &in asEntity)
+	{
+		SetMessage("00_Homestead", "TVMessage", 4.0f, eMessagePosition_BottomCenter, eMessageAlignment_Center, 1.3f, -0.3f);
+	}
+}

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-05-02T15:06:52Z</created>
+    <keywords></keywords>
+    <modified>2012-05-02T15:06:52Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #2-image" name="Map #2">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\sewers\ceiling01.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Material #2" name="Material #2">
+      <instance_effect url="#Material #2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material #2-fx" name="Material #2">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #2-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="stone_arch005-lib" name="stone_arch005Mesh">
+      <mesh>
+        <source id="stone_arch005-POSITION">
+          <float_array id="stone_arch005-POSITION-array" count="60">
+0.748418 -1.999990 0.280060
+0.648031 -1.999991 0.087239
+0.544219 -1.999990 0.030321
+0.379935 -1.999991 0.000678
+-0.380050 -1.999991 0.000678
+-0.544334 -1.999990 0.030321
+-0.648146 -1.999989 0.087240
+-0.748534 -1.999990 0.280060
+0.748419 1.999999 0.280059
+0.648031 1.999999 0.087239
+0.544219 1.999999 0.030321
+0.379935 1.999999 0.000678
+-0.380051 1.999999 0.000678
+-0.544334 2.000000 0.030322
+-0.648146 2.000000 0.087240
+-0.748534 2.000000 0.280060
+0.714645 -1.999990 0.172030
+-0.714760 -1.999990 0.172031
+0.714645 1.999999 0.172030
+-0.714760 2.000000 0.172031
+</float_array>
+          <technique_common>
+            <accessor source="#stone_arch005-POSITION-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="stone_arch005-Normal0">
+          <float_array id="stone_arch005-Normal0-array" count="162">
+-0.954443 0.000000 0.298393
+-0.884926 0.000000 0.465732
+-0.884926 0.000000 0.465732
+-0.884926 0.000000 0.465732
+-0.954443 0.000000 0.298393
+-0.954443 0.000000 0.298393
+-0.646663 0.000000 0.762776
+-0.646662 0.000000 0.762776
+-0.333507 -0.000000 0.942748
+-0.333507 -0.000000 0.942748
+-0.333507 -0.000000 0.942747
+-0.646663 0.000000 0.762776
+-0.333507 -0.000000 0.942747
+-0.333507 -0.000000 0.942748
+-0.089142 -0.000000 0.996019
+-0.089142 -0.000000 0.996019
+-0.089142 -0.000000 0.996019
+-0.333507 -0.000000 0.942747
+-0.089142 -0.000000 0.996019
+-0.089142 -0.000000 0.996019
+0.089143 -0.000000 0.996019
+0.089143 -0.000000 0.996019
+0.089142 -0.000000 0.996019
+-0.089142 -0.000000 0.996019
+0.089142 -0.000000 0.996019
+0.089143 -0.000000 0.996019
+0.333509 -0.000000 0.942747
+0.333509 -0.000000 0.942747
+0.333508 -0.000000 0.942747
+0.089142 -0.000000 0.996019
+0.333508 -0.000000 0.942747
+0.333509 -0.000000 0.942747
+0.646664 -0.000000 0.762775
+0.646664 -0.000000 0.762775
+0.646663 -0.000000 0.762776
+0.333508 -0.000000 0.942747
+0.646664 -0.000000 0.762775
+0.884925 -0.000000 0.465734
+0.884925 -0.000000 0.465733
+0.884925 -0.000000 0.465733
+0.646663 -0.000000 0.762776
+0.646664 -0.000000 0.762775
+-0.646662 0.000000 0.762776
+-0.646663 0.000000 0.762776
+-0.884926 0.000000 0.465732
+-0.884926 0.000000 0.465732
+-0.884926 0.000000 0.465732
+-0.646662 0.000000 0.762776
+0.954443 -0.000000 0.298395
+0.954443 -0.000000 0.298395
+0.884925 -0.000000 0.465733
+0.884925 -0.000000 0.465733
+0.884925 -0.000000 0.465734
+0.954443 -0.000000 0.298395
+</float_array>
+          <technique_common>
+            <accessor source="#stone_arch005-Normal0-array" count="54" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="stone_arch005-UV0">
+          <float_array id="stone_arch005-UV0-array" count="40">
+0.872191 0.497756
+0.015521 0.497756
+0.015521 0.539052
+0.872191 0.539052
+0.872191 0.561285
+0.015521 0.561285
+0.872191 0.596469
+0.015521 0.596469
+0.872191 0.744164
+0.015521 0.744164
+0.015522 0.801581
+0.872192 0.801581
+0.872191 0.779348
+0.015521 0.779348
+0.872191 0.520892
+0.015521 0.520892
+0.872192 0.819741
+0.015522 0.819741
+0.015521 0.842877
+0.872191 0.842877
+</float_array>
+          <technique_common>
+            <accessor source="#stone_arch005-UV0-array" count="20" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="stone_arch005-VERTEX">
+          <input semantic="POSITION" source="#stone_arch005-POSITION"/>
+        </vertices>
+        <triangles count="18" material="Material #2">
+          <input semantic="VERTEX" offset="0" source="#stone_arch005-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#stone_arch005-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#stone_arch005-UV0"/>
+          <p> 8 0 0 18 1 14 16 2 15 16 3 15 0 4 1 8 5 0 1 6 2 9 7 3 10 8 4 10 9 4 2 10 5 1 11 2 2 12 5 10 13 4 11 14 6 11 15 6 3 16 7 2 17 5 3 18 7 11 19 6 12 20 8 12 21 8 4 22 9 3 23 7 4 24 9 12 25 8 13 26 12 13 27 12 5 28 13 4 29 9 5 30 13 13 31 12 14 32 11 14 33 11 6 34 10 5 35 13 14 36 11 19 37 16 17 38 17 17 39 17 6 40 10 14 41 11 9 42 3 1 43 2 16 44 15 16 45 15 18 46 14 9 47 3 15 48 19 7 49 18 17 50 17 17 51 17 19 52 16 15 53 19</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="stone_arch005" id="stone_arch005" layer="wall_tunnel_floor" sid="stone_arch005">
+        <matrix sid="matrix">0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#stone_arch005-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material #2" target="#Material #2"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

@@ -1,0 +1,15 @@
+<Material>
+    <Main BlendMode="Add" DepthTest="true" PhysicsMaterial="Rock" Type="soliddiffuse" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/pig/Game/redist/static_objects/teslabase/tesla_modules_floor_01_d.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <NMap AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/pig/Game/redist/static_objects/teslabase/tesla_modules_floor_01_n.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <Specular AnimFrameTime="0" AnimMode="None" Compress="true" File="C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/pig/Game/redist/static_objects/teslabase/tesla_modules_floor_01_s.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+    </TextureUnits>
+    <SpecificVariables>
+        <Var Name="HeightMapScale" Value="0.05000000074505806" />
+        <Var Name="HeightMapBias" Value="0" />
+        <Var Name="FrenselBias" Value="-0.69999998807907104" />
+        <Var Name="FrenselPow" Value="3.0999999046325684" />
+        <Var Name="AlphaDissolveFilter" Value="false" />
+    </SpecificVariables>
+</Material>

@@ -1,0 +1,416 @@
+#include "interfaces/Map_Interface.hps"
+#include "base/Inputhandler_Types.hps"
+
+#include "helpers/helper_map.hps"
+#include "helpers/helper_props.hps"
+#include "helpers/helper_effects.hps"
+#include "helpers/helper_audio.hps"
+#include "helpers/helper_imgui.hps"
+#include "helpers/helper_sequences.hps"
+#include "helpers/helper_game.hps"
+#include "helpers/helper_modules.hps"
+#include "helpers/helper_ai.hps"
+#include "helpers/helper_player.hps"
+#include "helpers/helper_areas.hps"
+#include "helpers/helper_agent.hps"
+#include "custom/helpers/helper_player_custom.hps"
+#include "custom/helpers/helper_modules_custom.hps"
+#include "custom/helpers/helper_agent.hps"
+#include "custom/agents/agent_types_custom.hps"
+
+//--------------------------------------------------
+ 
+/*Place any global values here. These must be const variables as they will not be saved*/
+/*This is also the place for enums and classes, but these should be avoided whenever possible*/
+ 
+//--------------------------------------------------
+ 
+class cScrMap : iScrMap
+{
+	//--------------------------------------------
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN CALLBACKS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	////////////////////////////
+	// Set up map environment
+	void Setup()
+	{
+		// Put display name entry in english.lang / Levels
+		GetBase().SetDisplayNameEntry("xx-xx-dummy-level");
+		
+		// Set up color grading etc.
+		
+		//Setting up a Lighting preset which restores the normal lighting.
+		Map_Preset_SetupDirLight("EnvLight_LightningOff", true, cColor(0.325,0.333,0.345,1), 0.1f, cVector3f(-0.182, -0.966, 0.182), cColor(0.196,0.231,0.243,0), cColor(0.038,0.082,0.146,1));
+		Map_Preset_SetupSkybox("EnvLight_LightningOff", cColor(0.102,0.137,0.192,1), 1.25f);
+		
+		//Setting up a Lighting preset which is enabled when lightning occurs.
+		Map_Preset_SetupDirLight("EnvLight_LightningOn", true, cColor(1.0,1.0,1.0,1), 1.0f, cVector3f(-0.182, -0.966, 0.182), cColor(0,0,0,0), cColor(1.0,1.0,1.0,1));
+		Map_Preset_SetupSkybox("EnvLight_LightningOn", cColor(0.094,0.176,0.252,1), 50.25f);
+		Map_Preset_SetupBloom("EnvLight_LightningOn", 5, 0.02f, 0.5f, cColor(1, 1, 1, 1));
+	}
+	
+	//-------------------------------------------------------
+		
+	void PreloadData()
+	{
+		/////////////////
+		// Preload gui
+		//ImGui_PreloadImage("some_image");
+
+		///////////////
+		// Preload particles
+		//ParticleSystem_Preload("some_particle.ps");
+
+		//////////////
+		// Preload screen effects
+		//Material_Preload("some_material.mat");
+	}
+	
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run first time starting map
+	void OnStart()
+	{
+		//Game_AutoSave();
+		//Start the lightning sequence.
+		Map_AddTimer("LightningDelayTimer", 8.0f, "LightningDelayTimer");
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when entering map
+	void OnEnter()
+	{	
+		//Game_AutoSave();
+		
+		//Set up the player.
+		PlayerBody_SetModel("PlayerArms.ent");
+		PlayerBody_SetActive(true);
+		Player_SetAllowHideMode(false);
+		Player_SetAllowCheckBaby(false);
+		Player_SetNightVisionEnabled(false);
+		Player_SetVertigoActive(false);
+		//Player_SetRunSpeedMul(1.5f);
+		//Player_SetJumpForceMul(2.0f);
+		
+		Amulet_StartTracking(true, "rift_simple_1");
+		Music_Play("general_rain_m.ogg", 1.0f, true, eMusicPrio_BgAmb);
+		
+		//Set up the environment's directional light.
+		Map_Preset_Fade("EnvLight_LightningOff", 1.0f);
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// Run when leaving map
+	void OnLeave()
+	{
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// The player has died.
+	void OnPlayerKilled(int alRecentDeaths, const tString&in asSource)
+	{
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player HP reaches 0
+	bool OnDeath(const tString &in asSource)
+	{
+		cLux_AddTodoMessage("DEAD : SOURCE = " + asSource);
+		
+		if (asSource == "SomeReason")
+		{
+			Effect_Fade_Out(1.0f);
+			return true; // return true to completely override base behaviour
+		}
+		
+		// return false for default behaviour
+		return false;
+	}
+	
+	//-------------------------------------------------------
+	
+	////////////////////////////////////
+	// Called when player should respawn (after death)
+	bool OnRespawn(const tString &in asSource)
+	{		
+		// return false for default behaviour (fadeout and death area)
+		return false;
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// To get when player makes input (mostly used for debug)
+	void OnAction(int alAction, bool abPressed) 
+	{
+		if(abPressed==false) return;
+		
+		if(alAction == eAction_Test1)
+		{
+		}
+	}
+
+	//-------------------------------------------------------
+
+	////////////////////////////
+	// This only used for pure debug purposes when info needs to printed.
+	float DrawDebugOutput(cGuiSet @apSet,iFontData @apFont,float afY)
+	{
+		//afY = cLux_DrawDebugText("My Debug value:"+..., afY);
+		return afY;
+	}
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN CALLBACKS
+ 
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// MAIN FUNCTIONS
+	// ==============
+	//{///////////////////////////////////////////////////////////////////////////////////////
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any variables that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	/*Put any functions that are used in more than one scene here.*/
+ 
+	//-------------------------------------------------------
+ 
+	//} END MAIN FUNCTIONS
+ 
+	//////////////////////////////////////////////////////////////////////////////////////////
+	// ==============
+	// SCENE 1
+	// ==============
+	//{//////////////////////////////////////////////////////////////////////////////////////
+ 
+		/////////////////////////////////////////
+		// General
+		//{//////////////////////////////////////
+		 
+		//-------------------------------------------------------
+	 
+		/*Put any variables that are used by many events in Scene 1 here.*/
+		
+		//Used to cause lightning strikes at random times.
+		float timeUntilNextStrike =  cMath_RandRectf(8.0f, 16.0f);
+		
+		//Used to determine if a lightning strike should occur.
+		bool canStrike = true;
+	 
+		//-------------------------------------------------------
+	 
+		/*Put any functions that are used in more than one event in Scene 1 here.*/
+		
+		void CauseLightningStrike()
+		{
+			Map_Preset_Fade("EnvLight_LightningOn", 0.4f);
+			Sound_CreateAtEntity("LightningSFX", "01_04_dark_world_ledge/storm/thunder_strike", "player", 0, false, 1, 1, 0.5f);
+		}
+		
+		void ResetLightningStrike()
+		{
+			Map_Preset_Fade("EnvLight_LightningOff", 1.0f);
+			Effect_Bloom_FadeBrightPass(0.3f, 3);
+			Effect_Bloom_FadeBloomWidth(128, 1);
+			Effect_Bloom_FadeBloomFalloff(1.5f, 2);
+			Effect_Bloom_FadeBloomTint(1, 1, 1, 2);
+		}
+		
+		void LightningDelayTimer(const tString &in asTimer)
+		{
+			Seq_Lightning("");
+		}
+	 
+		//-------------------------------------------------------
+		
+		//} END General	
+	 
+		/////////////////////////////////////////
+		// Event *LIGHTNING STORM*
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		/*Put any variables that are only used in Scene 1, Event LIGHTNING STORM here.*/
+		
+		//-------------------------------------------------------
+
+		/*Put any functions that are only used in Scene 1, Event LIGHTNING STORM here.*/
+		
+		cSequenceStatesData mLightningSequence;
+		
+		void Seq_Lightning(const tString &in asTimer)
+		{
+			Sequence_Begin("Seq_Lightning", mLightningSequence);
+			if(Sequence_DoStepAndWait(0.4f))
+			{
+				//Trigger the lightning.
+				if(canStrike)
+				{
+					CauseLightningStrike();
+				}
+			}
+			else if(Sequence_DoStepAndContinue())
+			{
+				//Reset lighting to default and prepare for next strike.
+				ResetLightningStrike();
+				
+				//Pasting these outside the function to prevent x2 lightning strikes after reveal sequence.
+				timeUntilNextStrike =  cMath_RandRectf(8.0f, 16.0f);
+				cLux_AddDebugMessage("Next strike in " + timeUntilNextStrike + " seconds.");
+				Map_AddTimer("LightningDelayTimer", timeUntilNextStrike, "LightningDelayTimer");
+			}
+			Sequence_End();
+		}
+
+		//-------------------------------------------------------
+
+		//} END Event *Name Of Event*
+		
+		/////////////////////////////////////////
+		// Event *Reveal FG Building*
+		//{//////////////////////////////////////
+
+		//-------------------------------------------------------
+
+		/*Put any variables that are only used in Scene 1, Event Reveal FG Building here.*/
+
+		//-------------------------------------------------------
+
+		/*Put any functions that are only used in Scene 1, Event Reveal FG Building here.*/
+		
+		cSequenceStatesData mRevealSequence;
+		
+		void Seq_Reveal(const tString &in asTimer)
+		{
+			Sequence_Begin("Seq_Reveal", mRevealSequence);
+			if(Sequence_DoStepAndWait(6.58f))
+			{
+				//Start the animation and prevent the player from looking around.
+				Player_SetLookSpeedMul(0);
+				PlayerBody_PlayCutsceneAtEntity("custom_reveal_building", "CutsceneLocation", false, 0.5f);
+			}
+			else if(Sequence_DoStepAndWait(1.0f))
+			{
+				//Play some rockin' tunes.
+				Music_PlayOverlay("ToccataAndFugueInDMinor.ogg", 1.0f);
+			}
+			else if(Sequence_DoStepAndWait(0.4f))
+			{
+				//Trigger a lightning strike to really bring it all together.
+				CauseLightningStrike();
+			}
+			else if(Sequence_DoStepAndWait(2.12f))
+			{
+				//Reset lightning.
+				ResetLightningStrike();
+				canStrike = true;
+			}
+			else if(Sequence_DoStepAndContinue())
+			{
+				//Reenable looking around.
+				Player_SetLookSpeedMul(1);
+			}
+			Sequence_End();
+		}
+
+		//-------------------------------------------------------
+
+		//} END Event *Name Of Event*
+	 
+	//} END SCENE X
+	
+	//Causes rain to stop falling and disables lightning strikes.
+	bool OnCollide_Player_DisableRain(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		if(alState == 1)
+		{
+			Music_Stop(2.0f, eMusicPrio_BgAmb);
+			canStrike = false;
+		}
+		return true;
+	}
+	
+	//Triggers the reveal sequence.
+	bool OnCollide_Player_RevealBuilding(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		if(alState == 1)
+		{
+			Seq_Reveal("");
+		}
+		return true;
+	}
+	
+	//Causes rain to start falling and enables lightning strikes.
+	bool OnCollide_Player_EnableRain(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		if(alState == 1)
+		{
+			Music_Play("general_rain_m.ogg", 1.0f, true, eMusicPrio_BgAmb);
+			canStrike = true;
+		}
+		return true;
+	}
+	
+	//Specifically for Building Reveal, disables lightning for the set up.
+	bool OnCollide_Player_EnableLightning(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		if(alState == 1)
+		{
+			canStrike = true;
+		}
+		return true;
+	}
+	
+	//If the player goes backwards for some reason.
+	bool OnCollide_Player_DisableLightning(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		if(alState == 1)
+		{
+			canStrike = false;
+		}
+		return true;
+	}
+	
+	//Enable Night Vision.
+	bool OnCollide_Player_EnableNightVision(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		if(alState == 1)
+		{
+			Player_SetNightVisionEnabled(true);
+		}
+		return true;
+	}
+	
+	//Disable Night Vision.
+	bool OnCollide_Player_DisableNightVision(const tString &in asParent, const tString &in asChild, int alState)
+	{
+		if(alState == 1)
+		{
+			Player_SetNightVisionEnabled(false);
+		}
+		return true;
+	}
+}

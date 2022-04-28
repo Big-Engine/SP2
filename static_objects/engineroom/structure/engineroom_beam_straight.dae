@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-07-30T14:23:54Z</created>
+    <keywords></keywords>
+    <modified>2012-07-30T14:23:54Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file1-image" name="file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/engineroom/machinery/engineroom_atlas_01.tga</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="phong1" name="phong1">
+      <instance_effect url="#phong1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="phong1-fx" name="phong1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.500000  0.500000 0.500000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">20.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">0.500000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="polySurface120-lib" name="polySurface120Mesh">
+      <mesh>
+        <source id="polySurface120-POSITION">
+          <float_array id="polySurface120-POSITION-array" count="72">
+1000.000000 -0.000002 190.000000
+199.999969 -0.000002 190.000000
+200.000000 0.000000 90.000000
+1000.000000 0.000000 90.000000
+199.999969 10.956938 190.000000
+199.999969 13.520336 168.108887
+199.999969 84.569717 168.108902
+199.999969 88.443024 190.000000
+199.999969 97.711517 190.000000
+1000.000000 10.956938 190.000000
+1000.000000 13.520336 168.108887
+1000.000000 84.569717 168.108887
+1000.000000 88.443024 190.000000
+1000.000000 97.711517 190.000000
+1000.000000 10.956940 90.000000
+1000.000000 13.520338 111.891113
+1000.000000 84.569717 111.891098
+1000.000000 88.443024 90.000000
+1000.000000 97.711517 90.000000
+200.000000 10.956940 90.000000
+199.999985 13.520338 111.891113
+199.999985 84.569717 111.891113
+200.000000 88.443024 90.000000
+200.000000 97.711517 90.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface120-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface120-Normal0">
+          <float_array id="polySurface120-Normal0-array" count="234">
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 0.993214 0.116303
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 -0.984705 0.174229
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+0.000000 0.993214 -0.116303
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.000000 -1.000000
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+-0.000000 -0.984705 -0.174229
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 -1.000000 -0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface120-Normal0-array" count="78" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polySurface120-UV0">
+          <float_array id="polySurface120-UV0-array" count="72">
+1.000000 0.297997
+0.000000 0.297997
+0.000000 0.166523
+1.000000 0.166523
+1.000000 0.619941
+0.200000 0.619941
+0.200000 0.609148
+1.000000 0.609148
+1.000000 0.628216
+0.200000 0.628216
+1.000000 0.703974
+0.200000 0.703974
+0.200000 0.713530
+1.000000 0.713530
+0.200000 0.722659
+1.000000 0.722660
+0.800000 0.619941
+0.000000 0.619941
+0.000000 0.609148
+0.800000 0.609148
+0.800000 0.628216
+0.000000 0.628216
+0.800000 0.703974
+0.000000 0.703974
+0.000000 0.713530
+0.800000 0.713530
+0.000000 0.722659
+0.800000 0.722659
+1.000000 0.297997
+0.000000 0.297997
+0.000000 0.166523
+1.000000 0.166523
+1.000000 0.297997
+0.000000 0.297997
+0.000000 0.166523
+1.000000 0.166523
+</float_array>
+          <technique_common>
+            <accessor source="#polySurface120-UV0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polySurface120-VERTEX">
+          <input semantic="POSITION" source="#polySurface120-POSITION"/>
+        </vertices>
+        <triangles count="26" material="phong1">
+          <input semantic="VERTEX" offset="0" source="#polySurface120-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#polySurface120-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#polySurface120-UV0"/>
+          <p> 0 0 0 1 1 1 2 2 2 0 3 0 2 4 2 3 5 3 9 6 4 4 7 5 1 8 6 9 9 4 1 10 6 0 11 7 10 12 8 5 13 9 9 14 4 4 15 5 9 16 4 5 17 9 11 18 10 6 19 11 5 20 9 11 21 10 5 22 9 10 23 8 6 24 11 12 25 13 7 26 12 12 27 13 6 28 11 11 29 10 7 30 12 12 31 13 8 32 14 13 33 15 8 34 14 12 35 13 3 36 18 2 37 19 19 38 16 3 39 18 19 40 16 14 41 17 15 42 21 19 43 16 20 44 20 19 45 16 15 46 21 14 47 17 15 48 21 20 49 20 21 50 22 15 51 21 21 52 22 16 53 23 16 54 23 22 55 25 17 56 24 22 57 25 16 58 23 21 59 22 22 60 25 18 61 26 17 62 24 18 63 26 22 64 25 23 65 27 0 66 28 1 67 29 2 68 30 0 69 28 2 70 30 3 71 31 13 72 35 23 73 33 8 74 34 23 75 33 13 76 35 18 77 32</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="polySurface120" id="polySurface120" sid="polySurface120">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 -200.000000 0.000000 1.000000 0.000000 -97.711517 0.000000 0.000000 1.000000 -90.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#polySurface120-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="phong1" target="#phong1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

@@ -1,0 +1,72 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="0 0 200" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0 200 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="7.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="1.25026 1.81034 -0.944208" CameraTarget="0.0720551 0 0.773556" Controller="Maya" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/bed/bed_sheets_untidy.dae">
+            <SubMesh ID="3" Material="" Name="bed_sheets_undiy" Rotation="0 0 0" Scale="1.5 1.5 1.5" TriCount="675" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="11" Name="Shape_1" RelativeRotation="-0.0013514 0.189789 0.0728691" RelativeScale="1 1 1" RelativeTranslation="-0.553632 0.200115 -0.366038" Rotation="-0.0013514 0.189789 0.0728691" Scale="0.36633 0.108117 0.655787" ShapeType="Box" WorldPos="-0.382965 0.767738 0.574641" />
+            <Shape ID="13" Name="Shape_2" RelativeRotation="2.42724 1.43478 2.42265" RelativeScale="1 1 1" RelativeTranslation="-0.189878 0.16456 -0.0734615" Rotation="2.42724 1.43478 2.42265" Scale="1.05139 0.108117 1.19536" ShapeType="Box" WorldPos="-0.0192106 0.732183 0.867217" />
+            <Shape ID="14" Name="Shape_3" RelativeRotation="-0.387548 1.22252 -0.461605" RelativeScale="1 1 1" RelativeTranslation="-0.0807646 0.16688 -0.524751" Rotation="-0.387548 1.22252 -0.461605" Scale="0.626345 0.0728982 1.19957" ShapeType="Box" WorldPos="0.0899029 0.734503 0.415927" />
+            <Shape ID="15" Name="Shape_4" RelativeRotation="1.674 0.106086 1.58176" RelativeScale="1 1 1" RelativeTranslation="-0.145683 -0.172714 0.524752" Rotation="1.674 0.106086 1.58176" Scale="0.654006 0.127893 0.531779" ShapeType="Box" WorldPos="0.0249844 0.394909 1.46543" />
+            <Shape ID="16" Name="Shape_5" RelativeRotation="3.11923 0.0779923 1.67167" RelativeScale="1 1 1" RelativeTranslation="0.553632 -0.200116 -0.225971" Rotation="3.11923 0.0779923 1.67167" Scale="0.708669 0.147117 0.83295" ShapeType="Box" WorldPos="0.7243 0.367507 0.714707" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="17" LinearDamping="0.1" Mass="0" Material="Default Soft" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1.5 1.5 1.5" UseSurfaceEffects="true" Volatile="false" WorldPos="0.170668 0.567622 0.940678">
+                <Children>
+                    <Child ID="3" />
+                </Children>
+                <Shape ID="16" />
+                <Shape ID="11" />
+                <Shape ID="13" />
+                <Shape ID="15" />
+                <Shape ID="14" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Rigid">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+    </UserDefinedVariables>
+</Entity>

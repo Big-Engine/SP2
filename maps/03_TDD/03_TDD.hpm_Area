@@ -1,0 +1,84 @@
+<HPLMapTrack_Area ID="9C302B56781204C6C7F22FFA4AD4B8402A0A08EA" MajorVersion="1" MinorVersion="1">
+    <Section Name="13733002251564882997">
+        <Objects>
+            <Area ID="268435456" Name="Start_Hub" CreStamp="1633748173" ModStamp="1633748187" WorldPos="4 1 0" Rotation="0 1.5708 0" Scale="0.7 1.9 0.7" Active="true" Mesh="" UID="16 47 268435456" AreaType="PlayerStart">
+                <UserVariables>
+                    <Var ObjectId="268435456" Name="Note" Value="" />
+                    <Var ObjectId="268435456" Name="Crouching" Value="false" />
+                </UserVariables>
+            </Area>
+            <Area ID="268435457" Name="Fear_1" CreStamp="1634355798" ModStamp="1634356210" WorldPos="52.5 8.75 -8" Rotation="0 0 0" Scale="40 10 60" Active="true" Mesh="" UID="16 355 268435457" AreaType="Fear">
+                <UserVariables>
+                    <Var ObjectId="268435457" Name="Priority" Value="0" />
+                    <Var ObjectId="268435457" Name="Safe" Value="false" />
+                    <Var ObjectId="268435457" Name="NoFear" Value="false" />
+                    <Var ObjectId="268435457" Name="DarknessFear" Value="true" />
+                    <Var ObjectId="268435457" Name="BabyKickRateMultiplier" Value="0" />
+                    <Var ObjectId="268435457" Name="Locked" Value="false" />
+                    <Var ObjectId="268435457" Name="AllowProgressWithToken" Value="true" />
+                    <Var ObjectId="268435457" Name="AllowProgressWithoutToken" Value="false" />
+                    <Var ObjectId="268435457" Name="MaxProgressCount" Value="0" />
+                    <Var ObjectId="268435457" Name="ProgressAmount" Value="0" />
+                    <Var ObjectId="268435457" Name="SafeMusic" Value="fear_system_safe_01" />
+                    <Var ObjectId="268435457" Name="NonAgentRateCap" Value="0.8" />
+                    <Var ObjectId="268435457" Name="CC_Entities" Value="" />
+                    <Var ObjectId="268435457" Name="CC_Funcs" Value="" />
+                </UserVariables>
+            </Area>
+            <Area ID="268435458" Name="InteractAux_1" CreStamp="1634705687" ModStamp="1634766004" WorldPos="-30 51.4 29.95" Rotation="0 0 0" Scale="1.5 2.75 0.5" Active="true" Mesh="" UID="16 356 268435458" AreaType="InteractAux">
+                <UserVariables>
+                    <Var ObjectId="268435458" Name="Note" Value="" />
+                    <Var ObjectId="268435458" Name="InteractParent" Value="MainHub_LevelDoor" />
+                    <Var ObjectId="268435458" Name="UseParentMainBody" Value="true" />
+                    <Var ObjectId="268435458" Name="OverrideParentMainBody" Value="false" />
+                    <Var ObjectId="268435458" Name="MaxFocusDistance" Value="-1" />
+                    <Var ObjectId="268435458" Name="CustomInteractIcon" Value="Default" />
+                    <Var ObjectId="268435458" Name="DeactivateOnInteract" Value="false" />
+                </UserVariables>
+            </Area>
+            <Area ID="268435459" Name="Fear_2" CreStamp="1634766868" ModStamp="1634766946" WorldPos="47.5 7.75 -12.25" Rotation="0 0 0" Scale="13.5 8 8.5" Active="true" Mesh="" UID="16 323 268435459" AreaType="Fear">
+                <UserVariables>
+                    <Var ObjectId="268435459" Name="Priority" Value="1" />
+                    <Var ObjectId="268435459" Name="Safe" Value="false" />
+                    <Var ObjectId="268435459" Name="NoFear" Value="false" />
+                    <Var ObjectId="268435459" Name="DarknessFear" Value="false" />
+                    <Var ObjectId="268435459" Name="BabyKickRateMultiplier" Value="0" />
+                    <Var ObjectId="268435459" Name="Locked" Value="false" />
+                    <Var ObjectId="268435459" Name="AllowProgressWithToken" Value="true" />
+                    <Var ObjectId="268435459" Name="AllowProgressWithoutToken" Value="false" />
+                    <Var ObjectId="268435459" Name="MaxProgressCount" Value="0" />
+                    <Var ObjectId="268435459" Name="ProgressAmount" Value="0" />
+                    <Var ObjectId="268435459" Name="SafeMusic" Value="fear_system_safe_01" />
+                    <Var ObjectId="268435459" Name="NonAgentRateCap" Value="0.8" />
+                    <Var ObjectId="268435459" Name="CC_Entities" Value="" />
+                    <Var ObjectId="268435459" Name="CC_Funcs" Value="" />
+                </UserVariables>
+            </Area>
+            <Area ID="268436318" Name="PathNodeGenerator_1" CreStamp="1637976490" ModStamp="1637976490" WorldPos="19.5 -10 35.75" Rotation="0 0 0" Scale="1 1 1" Active="true" Mesh="" UID="16 886 268436318" AreaType="PathNodeGenerator">
+                <UserVariables>
+                    <Var ObjectId="268436318" Name="Note" Value="" />
+                    <Var ObjectId="268436318" Name="MaxSlopeAmount" Value="0.5" />
+                    <Var ObjectId="268436318" Name="Density" Value="1" />
+                </UserVariables>
+            </Area>
+            <Area ID="268436319" Name="Fear_3" CreStamp="1637978069" ModStamp="1637978120" WorldPos="25.75 -10 31.75" Rotation="0 0 0" Scale="31.75 20 39" Active="true" Mesh="" UID="16 901 268436319" AreaType="Fear">
+                <UserVariables>
+                    <Var ObjectId="268436319" Name="Priority" Value="0" />
+                    <Var ObjectId="268436319" Name="Safe" Value="false" />
+                    <Var ObjectId="268436319" Name="NoFear" Value="false" />
+                    <Var ObjectId="268436319" Name="DarknessFear" Value="true" />
+                    <Var ObjectId="268436319" Name="BabyKickRateMultiplier" Value="0" />
+                    <Var ObjectId="268436319" Name="Locked" Value="false" />
+                    <Var ObjectId="268436319" Name="AllowProgressWithToken" Value="true" />
+                    <Var ObjectId="268436319" Name="AllowProgressWithoutToken" Value="false" />
+                    <Var ObjectId="268436319" Name="MaxProgressCount" Value="0" />
+                    <Var ObjectId="268436319" Name="ProgressAmount" Value="0" />
+                    <Var ObjectId="268436319" Name="SafeMusic" Value="fear_system_safe_01" />
+                    <Var ObjectId="268436319" Name="NonAgentRateCap" Value="0.8" />
+                    <Var ObjectId="268436319" Name="CC_Entities" Value="" />
+                    <Var ObjectId="268436319" Name="CC_Funcs" Value="" />
+                </UserVariables>
+            </Area>
+        </Objects>
+    </Section>
+</HPLMapTrack_Area>

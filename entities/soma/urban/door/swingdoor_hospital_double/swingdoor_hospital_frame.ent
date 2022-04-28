@@ -1,0 +1,37 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="-1.65154 0 200" CameraTarget="-1.65154 0 0" Controller="Ortho" GridHeights="-1.65154 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="1.93425" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="198.348 0 0" CameraTarget="-1.65154 0 0" Controller="Ortho" GridHeights="-1.65154 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="1.93425" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-1.65154 200 0" CameraTarget="-1.65154 0 0" Controller="Ortho" GridHeights="-1.65154 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="1.93425" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-2.17003 1.91342 3.33948" CameraTarget="-0.376064 1.36607 -0.426072" Controller="Maya" GridHeights="-1.65154 0 0" GridPlane="1" LockToGrid="false" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/door/swingdoor_hospital_double/swingdoor_hospital_frame.dae">
+            <SubMesh ID="0" Material="" Name="frame__2_" Rotation="0 0 0" Scale="1 1 1" TriCount="54" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="1.65888 -0.731777 0" Rotation="0 0 0" Scale="0.207398 3.03573 0.27298" ShapeType="Box" WorldPos="1.65669 1.4824 0" />
+            <Shape ID="3" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-1.65888 -0.731777 0" Rotation="0 0 0" Scale="0.207398 3.03573 0.27298" ShapeType="Box" WorldPos="-1.66107 1.4824 0" />
+            <Shape ID="4" Name="Shape_4" RelativeRotation="0 -0 -1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.0599949 0.731777 0" Rotation="0 -0 -1.5708" Scale="0.0865233 3.03573 0.27298" ShapeType="Box" WorldPos="-0.0621853 2.94595 0" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="5" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.00219047 2.21417 0">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="4" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,41 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="-0.000170201 0.181733 199.775" CameraTarget="-0.000170201 0.181733 -0.22526" Controller="Ortho" GridHeights="-0.000170201 0.181733 -0.22526" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="0.607235" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0.181733 -0.22526" CameraTarget="-0.000170201 0.181733 -0.22526" Controller="Ortho" GridHeights="-0.000170201 0.181733 -0.22526" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="0.607235" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0.0143658 200.182 -0.413157" CameraTarget="0.0143658 0.181733 -0.413157" Controller="Ortho" GridHeights="-0.000170201 0.181733 -0.22526" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="0.607235" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="1.70433 1.48611 -1.89336" CameraTarget="-0.000170201 0.181733 -0.22526" Controller="Maya" GridHeights="-0.000170201 0.181733 -0.22526" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/table_waitroom/table_waitroom.dae">
+            <SubMesh ID="0" Material="" Name="pCube1" Rotation="0 0 0" Scale="1 1 1" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.000297486 0.168319 0.000279076" Rotation="0 0 0" Scale="1.34448 0.0756621 2.04493" ShapeType="Box" WorldPos="0.000127494 0.655925 0.000119604" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.553509 -0.168318 0.958422" Rotation="0 0 0" Scale="0.237687 0.634211 0.129237" ShapeType="Box" WorldPos="0.553339 0.319288 0.958262" />
+            <Shape ID="3" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.553509 -0.168318 0.958422" Rotation="0 0 0" Scale="0.237687 0.634211 0.129237" ShapeType="Box" WorldPos="-0.553679 0.319288 0.958262" />
+            <Shape ID="4" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.553509 -0.168318 -0.958422" Rotation="0 0 0" Scale="0.237687 0.634211 0.129237" ShapeType="Box" WorldPos="0.553339 0.319288 -0.958581" />
+            <Shape ID="5" Name="Shape_5" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.553509 -0.168318 -0.958422" Rotation="0 0 0" Scale="0.237687 0.634211 0.129237" ShapeType="Box" WorldPos="-0.553679 0.319288 -0.958581" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="6" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1.75 1.75 1.75" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.000169992 0.487606 -0.000159472">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="1" />
+                <Shape ID="3" />
+                <Shape ID="2" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

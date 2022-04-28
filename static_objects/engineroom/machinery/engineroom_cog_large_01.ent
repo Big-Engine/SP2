@@ -1,0 +1,24 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="0" UsingEnlargedViewport="false">
+            <Viewport CameraPosition="0 1.90735e-006 179.995" CameraTarget="0 1.90735e-006 -0.004776" CameraZoom="1.82011" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 1.90735e-006 0" CameraTarget="-2.38419e-007 1.90735e-006 0" CameraZoom="1.82011" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-2.38419e-007 180 -0.004776" CameraTarget="-2.38419e-007 0 -0.004776" CameraZoom="1.82011" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="2.80149 2.80149 2.80149" CameraTarget="0 0 0" CameraZoom="2.33257" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="static_objects/engineroom/machinery/engineroom_cog_large_01.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="machinery_cog_large_sheet" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="machinery_cog_large_cylinder" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes />
+        <Bodies />
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+</Entity>

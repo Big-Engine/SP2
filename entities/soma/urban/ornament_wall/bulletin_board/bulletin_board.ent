@@ -1,0 +1,31 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/ornament_wall/bulletin_board/bulletin_board.dae">
+            <SubMesh ID="0" Name="polySurface60" CreStamp="0" ModStamp="0" WorldPos="0 0 0" Rotation="0 0 0" Scale="1 1 1" TriCount="788" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" CreStamp="0" ModStamp="1435963078" WorldPos="0 0 0.00195582" Rotation="0 0 0" Scale="1.74042 1.04028 0.00772776" RelativeTranslation="-0.000906318 -0.00270279 -0.00960226" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="2" Name="Shape_2" CreStamp="1435963083" ModStamp="1435963118" WorldPos="-0.854611 0 0.0211603" Rotation="0 0 0" Scale="0.0277722 1.04028 0.0177207" RelativeTranslation="-0.855517 -0.00270279 0.00960226" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="3" Name="Shape_3" CreStamp="1435963120" ModStamp="1435963138" WorldPos="0.856423 0 0.0211603" Rotation="0 0 0" Scale="0.0289454 1.04028 0.0177207" RelativeTranslation="0.855517 -0.00270279 0.00960226" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="4" Name="Shape_4" CreStamp="1435963139" ModStamp="1435963164" WorldPos="-0.00370277 0.499192 0.0211603" Rotation="0 0 0" Scale="1.6829 0.0402101 0.0177207" RelativeTranslation="-0.00460909 0.496489 0.00960226" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+            <Shape ID="5" Name="Shape_5" CreStamp="1435963167" ModStamp="1435963173" WorldPos="-0.00370277 -0.493786 0.0211603" Rotation="0 0 0" Scale="1.6829 0.0402101 0.0177207" RelativeTranslation="-0.00460909 -0.496489 0.00960226" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Box" />
+        </Shapes>
+        <Bodies>
+            <Body ID="6" Name="Body_1" CreStamp="0" ModStamp="1435963188" WorldPos="0.000906318 0.00270279 0.0115581" Rotation="0 0 0" Scale="1 1 1" Material="Wood Brittle" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="5" />
+                <Shape ID="2" />
+                <Shape ID="4" />
+                <Shape ID="3" />
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <author>user</author>
+            <authoring_tool>modo 601 [Build 48460], Microsoft Windows 7 Service Pack 1 (6.1.7601 Service Pack 1)</authoring_tool>
+            <comments>Plug-in: [Build 48460]; Use Absolute Path: No; Merge Reference Items: No; Save Hidden Items: No; Save Cameras: No; Save Lights: No; Save Locators: Yes; Save Triangles as Triangles: No; Bake Matrices: Yes; Save Vertex Normals: Yes; Save UV Texture Coordinates: Yes; Save Vertex Colors: Yes; Save Vertex Weights: Yes; Save Animation: Yes; Sample Animation: Yes; Sample Animation Start: 1; Sample Animation End: 20; Save modo Profile: Yes; Save Maya Profile: No; Save 3ds Max Profile: No; Formatted Arrays: No;</comments>
+            <source_data>file:///D:/Work/Dropbox/Frictional%20Games%20-%20Team/Aaron/models/entities/urban/kitchen/sink_kitchen/sink_kitchen_drawer.lxo</source_data>
+        </contributor>
+        <created>2013-08-06T13:39:55Z</created>
+        <modified>2013-08-06T13:39:55Z</modified>
+        <unit name="game" meter="1" />
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_images>
+        <image id="Image0001" name="Image0001">
+            <init_from>file:///D:/Work/Dropbox/Frictional%20Games%20-%20Team/Aaron/models/entities/urban/kitchen/sink_kitchen/sink_kitchen_drawer.tga</init_from>
+        </image>
+    </library_images>
+    <library_materials>
+        <material id="Material-blinn8" name="blinn8">
+            <instance_effect url="#Effect-blinn8" />
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="Effect-blinn8" name="blinn8">
+            <profile_COMMON>
+                <newparam sid="Image0001-surface">
+                    <surface type="2D">
+                        <init_from>Image0001</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="Image0001-sampler">
+                    <sampler2D>
+                        <source>Image0001-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <phong>
+                        <diffuse>
+                            <texture texture="Image0001-sampler" texcoord="map1" />
+                        </diffuse>
+                        <specular>
+                            <color sid="specular_effect_rgb">0.5 0.5 0.5 1</color>
+                        </specular>
+                        <shininess>
+                            <float sid="specular_effect_rgb">256</float>
+                        </shininess>
+                        <reflective>
+                            <color sid="reflective_effect_rgb">0 0 0 1</color>
+                        </reflective>
+                        <reflectivity>
+                            <float sid="reflectivity_effect_float">0.5</float>
+                        </reflectivity>
+                        <transparent opaque="RGB_ZERO">
+                            <color sid="transparent_effect_rgb">0 0 0 1</color>
+                        </transparent>
+                        <transparency>
+                            <float sid="transparency_effect_float">1</float>
+                        </transparency>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="Geometry-sink_kitchen_drawer" name="sink_kitchen_drawer">
+            <mesh>
+                <source id="Geometry-sink_kitchen_drawer-positions" name="positions">
+                    <float_array id="Geometry-sink_kitchen_drawer-positions-array" count="156">-0.237268 0.643551 0.225517 -0.242355 0.642912 0.225517 -0.253638 0.632422 0.225517 -0.254659 0.626906 0.225517 -0.251058 0.637061 0.225517 -0.24717 0.640676 0.225517 -0.252584 0.626903 0.122962 -0.252584 0.626903 0.222349 -0.254659 0.626906 0.119787 -0.237263 0.626901 0.222343 -0.23727 0.641452 0.222349 -0.251058 0.637061 0.119787 -0.253638 0.632422 0.119787 -0.24717 0.640676 0.119787 -0.242355 0.642912 0.119787 -0.237268 0.643551 0.119787 -0.241498 0.639906 0.222347 -0.241498 0.639906 0.12296 -0.23727 0.641452 0.122962 -0.245426 0.638082 0.222347 -0.245426 0.638082 0.12296 -0.248597 0.635133 0.222347 -0.248597 0.635133 0.12296 -0.250703 0.631349 0.222347 -0.250703 0.631349 0.12296 -0.237263 0.626901 0.119787 -0.237263 0.626901 0.122956 -0.222428 0.462453 0.339439 -0.239311 0.462453 0.339439 -0.239311 0.462453 0.004654 -0.222428 0.462453 0.004654 -0.239311 0.677854 0.004654 -0.239311 0.677854 0.339439 -0.222428 0.677854 0.339439 -0.222428 0.677854 0.004654 0.105718 0.601197 0.302309 0.105719 0.49177 0.302309 -0.226021 0.49177 0.302309 -0.226022 0.601197 0.302309 0.105677 0.49177 0.039113 -0.226063 0.49177 0.039113 0.105678 0.601197 0.039113 -0.226062 0.601197 0.039113 -0.22602 0.601197 0.313315 -0.22602 0.481721 0.313315 0.119748 0.481721 0.313312 0.119748 0.601197 0.313312 0.119704 0.601197 0.027604 -0.226065 0.601197 0.027658 0.119704 0.481721 0.027604 -0.226065 0.481721 0.027658 -0.237263 0.626901 0.225517</float_array>
+                    <technique_common>
+                        <accessor count="52" source="#Geometry-sink_kitchen_drawer-positions-array" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="Geometry-sink_kitchen_drawer-normals" name="normals">
+                    <float_array id="Geometry-sink_kitchen_drawer-normals-array" count="201">-0.000627062 -1 -0.000256444 -0.000836544 -1 0.000192757 -0.0010726 -0.999999 -0.000256444 -0.000876401 -1 0.000385514 -0.787124 0.616794 0 -0.940977 0.338469 0 -0.513383 0.85816 0 -0.600919 0.79931 0 -0.225898 0.974151 0 -0.325805 0.945437 0 -0.124651 0.992201 0 0.395558 -0.918441 0 0.369626 -0.929181 0 0.343424 -0.93918 0 0.600975 -0.799268 0 0.513399 -0.85815 0 0.818462 -0.574561 0 0.753492 -0.657457 0 0.906406 -0.422409 0 0.890661 -0.454667 0 0.920964 -0.389648 0 -0.983297 0.182008 0 1 -0.000321285 0.0004118 1 -0.000276358 0.0002059 1 0.000391457 0.0004118 1 0.000481311 0 -0.000208098 -1 -0.000384666 -0.000128383 -1 0 1 -0.000528914 -0.000275138 1 -5.37531e-005 -0.000275138 0 0 -1 -0.000127696 0.000148705 -1 -0.00016025 0.000238842 -1 9.93273e-005 0.000338276 -1 -9.96964e-005 -0.000339542 1 0.000128175 -0.000149262 1 -0.000323254 -0.000412342 1 0.00016085 -0.000239737 1 0.00022438 -0.00017619 1 0.000321214 7.27514e-005 1 0.000391507 0.00028515 1 0.000322053 0.000410805 -1 -0.000223542 0.000175532 -1 -0.000320016 -7.24827e-005 -1 -0.000390047 -0.000284092 -1 0 -1 0 0 1 0 -1 0 0 0 0 1 1 0 0 8.70536e-006 0 1 1 0 -0.000154014 -1 3.14839e-005 0.0001364 -1 -4.49376e-006 0.000136745 -1 2.16391e-005 0.000144345 -1 -8.98751e-006 0.000181424 -0.000156173 0 -1 -1 -9.12369e-006 0.000152015 -1 -3.4036e-008 0.000155794 -1 9.05561e-006 0.000159573 -1 1.02734e-005 0.000166601 -1 2.58939e-005 0.000188879 -1 4.56184e-006 0.000219192 -1 9.12369e-006 0.00026277 1 0.000391457 -0.000412708 -0.000128383 -1 0 -0.000208098 -1 0.000385514</float_array>
+                    <technique_common>
+                        <accessor count="67" source="#Geometry-sink_kitchen_drawer-normals-array" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="Geometry-sink_kitchen_drawer-map1" name="map1">
+                    <float_array id="Geometry-sink_kitchen_drawer-map1-array" count="284">0.984479 0.477209 0.917676 0.476982 0.986631 0.474181 0.915569 0.474181 0.98565 0.458142 0.98565 0.464228 0.916553 0.458142 0.916553 0.464228 0.916553 0.4534 0.98565 0.4534 0.916553 0.44708 0.98565 0.44708 0.916553 0.440401 0.98565 0.440398 0.920177 0.429472 0.98198 0.429472 0.920177 0.435023 0.98198 0.435023 0.920177 0.424316 0.98198 0.424316 0.920177 0.420152 0.98198 0.420152 0.920177 0.415187 0.98198 0.415187 0.920177 0.409355 0.98198 0.409355 0.916553 0.471464 0.98565 0.471464 0.983551 0.43765 0.98565 0.418554 0.983551 0.418565 0.836295 0.819884 0.848542 0.819891 0.837755 0.825003 0.848541 0.824999 0.918602 0.437647 0.844957 0.794078 0.841568 0.797683 0.848539 0.793047 0.83883 0.803511 0.837014 0.81099 0.849102 0.824912 0.854849 0.842938 0.852084 0.845879 0.845561 0.845966 0.848537 0.848459 0.842795 0.843026 0.840562 0.838272 0.83908 0.83217 0.849107 0.848372 0.857082 0.838184 0.858564 0.832082 0.859889 0.824914 0.161047 0.22805 0.155777 0.22805 0.161047 0.01811 0.155777 0.018109 0.082224 0.01811 0.082224 0.22805 0.076954 0.01811 0.076954 0.22805 0.152389 0.018109 0.152389 0.22805 0.085147 0.01811 0.085147 0.22805 0.074031 0.243435 0.006788 0.243435 0.074031 0.232847 0.006788 0.232847 0.074031 0.01811 0.074031 0.22805 0.006788 0.01811 0.006788 0.22805 0.006788 0.013891 0.006788 0.003303 0.074031 0.013891 0.074031 0.003303 0.711122 0.068114 0.739313 0.068125 0.711104 0.251046 0.739295 0.251058 0.456306 0.068114 0.522818 0.068114 0.456306 0.251046 0.522818 0.251046 0.526191 0.068114 0.554003 0.068114 0.526191 0.251046 0.554003 0.251046 0.701275 0.251046 0.670909 0.251046 0.701293 0.068114 0.670909 0.068114 0.559659 0.068114 0.559645 0.251046 0.556734 0.068114 0.556734 0.251046 0.593169 0.014792 0.667656 0.014792 0.593169 0.064363 0.667656 0.064363 0.739294 0.260044 0.711104 0.260032 0.739295 0.253958 0.711104 0.253946 0.590458 0.251046 0.561974 0.251046 0.590458 0.068114 0.561988 0.068114 0.456306 0.014792 0.522818 0.014792 0.456306 0.064363 0.522818 0.064363 0.593169 0.068114 0.667656 0.068114 0.593169 0.251046 0.667656 0.251046 0.593169 0.012193 0.593169 0.004958 0.667656 0.012193 0.667656 0.004958 0.704004 0.068114 0.707869 0.068114 0.703986 0.251046 0.707851 0.251046 0.526191 0.260032 0.526191 0.253946 0.554003 0.260032 0.554003 0.253946 0.456306 0.253946 0.522818 0.253946 0.456306 0.260032 0.522818 0.260032 0.852697 0.793987 0.849104 0.819794 0.849116 0.79295 0.860635 0.810913 0.86135 0.819808 0.85882 0.80343 0.856085 0.797598 0.916553 0.418559 0.918602 0.418559</float_array>
+                    <technique_common>
+                        <accessor count="142" source="#Geometry-sink_kitchen_drawer-map1-array" stride="2">
+                            <param name="S" type="float" />
+                            <param name="T" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Geometry-sink_kitchen_drawer-vertices">
+                    <input semantic="POSITION" source="#Geometry-sink_kitchen_drawer-positions" />
+                </vertices>
+                <polylist count="92" material="Material-blinn8">
+                    <input semantic="VERTEX" source="#Geometry-sink_kitchen_drawer-vertices" offset="0" />
+                    <input semantic="NORMAL" source="#Geometry-sink_kitchen_drawer-normals" offset="1" />
+                    <input semantic="TEXCOORD" source="#Geometry-sink_kitchen_drawer-map1" offset="2" set="0" />
+                    <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3</vcount>
+                    <p>6 0 0 7 1 1 8 2 2 8 2 2 7 1 1 3 3 3 11 4 4 12 5 5 4 4 6 4 4 6 12 5 5 2 5 7 5 6 8 13 7 9 4 4 6 4 4 6 13 7 9 11 4 4 1 8 10 14 9 11 5 6 8 5 6 8 14 9 11 13 7 9 0 10 12 15 10 13 1 8 10 1 8 10 15 10 13 14 9 11 16 11 14 17 12 15 10 13 16 10 13 16 17 12 15 18 13 17 19 14 18 20 15 19 16 11 14 16 11 14 20 15 19 17 12 15 21 16 20 22 17 21 19 14 18 19 14 18 22 17 21 20 15 19 23 18 22 24 19 23 21 16 20 21 16 20 24 19 23 22 17 21 7 20 24 6 20 25 23 18 22 23 18 22 6 20 25 24 19 23 2 5 7 12 5 5 3 21 26 3 21 26 12 5 5 8 21 27 15 22 13 18 23 28 25 24 29 25 24 29 18 23 28 26 25 30 8 2 31 25 26 32 6 0 33 6 0 33 25 26 32 26 27 34 15 22 13 0 28 12 18 23 28 18 23 28 0 28 12 10 29 35 14 30 36 25 30 32 13 30 37 15 30 38 25 30 32 14 30 36 11 30 39 25 30 32 12 30 40 13 30 37 25 30 32 11 30 39 12 30 40 25 30 32 8 30 31 9 31 41 19 32 42 16 33 43 17 34 44 26 35 34 18 36 45 26 35 34 20 37 46 22 38 47 17 34 44 20 37 46 26 35 34 26 35 34 24 39 48 6 40 33 26 35 34 22 38 47 24 39 48 9 31 41 16 33 43 10 41 49 21 42 50 9 31 41 23 43 51 21 42 50 19 32 42 9 31 41 23 43 51 9 31 41 7 44 52 27 45 53 28 45 54 30 45 55 30 45 55 28 45 54 29 45 56 31 46 57 32 46 58 34 46 59 34 46 59 32 46 58 33 46 60 29 47 61 28 47 62 31 47 63 31 47 63 28 47 62 32 47 64 32 48 65 28 48 66 33 48 67 33 48 67 28 48 66 27 48 68 34 49 69 33 49 70 30 49 71 30 49 71 33 49 70 27 49 72 30 30 73 29 30 74 34 30 75 34 30 75 29 30 74 31 30 76 35 30 77 36 30 78 38 30 79 38 30 79 36 30 78 37 30 80 36 46 81 39 46 82 37 46 83 37 46 83 39 46 82 40 46 84 39 48 85 41 48 86 40 48 87 40 48 87 41 48 86 42 48 88 43 50 89 44 50 90 46 50 91 46 50 91 44 50 90 45 50 92 47 46 93 48 46 94 41 46 95 41 46 95 48 46 94 42 46 96 47 51 97 46 51 98 49 51 99 49 51 99 46 51 98 45 51 100 44 52 101 43 53 102 37 54 103 37 54 103 43 53 102 38 55 104 50 56 105 48 56 106 49 56 107 49 56 107 48 56 106 47 56 108 35 57 109 41 58 110 36 58 111 36 58 111 41 58 110 39 59 112 49 45 113 45 45 114 50 45 115 50 45 115 45 45 114 44 45 116 47 46 117 41 46 118 46 46 119 46 46 119 41 46 118 35 46 120 46 46 121 35 46 122 43 46 123 43 46 123 35 46 122 38 46 124 50 60 125 40 61 126 48 62 127 48 62 127 40 61 126 42 63 128 37 54 129 40 61 130 44 52 131 44 52 131 40 61 130 50 60 132 1 48 133 51 48 134 0 48 135 51 48 134 2 48 136 3 48 137 51 48 134 4 48 138 2 48 136 51 48 134 5 48 139 4 48 138 51 48 134 1 48 133 5 48 139 0 28 12 51 64 140 10 29 35 10 29 35 51 64 140 9 25 141 9 65 41 51 66 134 7 1 52 7 1 52 51 66 134 3 3 137</p>
+                </polylist>
+                <extra>
+                    <technique profile="modo401">
+                        <param sid="render" name="Render" type="Name">default</param>
+                        <param sid="dissolve" name="Dissolve" type="float">0</param>
+                        <param sid="curves" name="Render_Curves" type="bool">false</param>
+                        <param sid="radius" name="Curve_Radius" type="float">0.05</param>
+                    </technique>
+                </extra>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_nodes id="shader_tree" name="Shader_Tree">
+        <node sid="shader_tree_render" name="Render">
+            <extra>
+                <technique profile="modo401">
+                    <param sid="first" name="Frame_Range_First" type="int">1</param>
+                    <param sid="last" name="Frame_Range_Last" type="int">120</param>
+                    <param sid="dpi" name="Frame_DPI" type="float">300</param>
+                    <param sid="resUnit" name="Resolution_Unit" type="Name">pixels</param>
+                    <param sid="pAspect" name="Frame_Pixel_Aspect_Ratio" type="float">1</param>
+                    <param sid="bucketX" name="Bucket_Width" type="int">32</param>
+                    <param sid="bucketY" name="Bucket_Height" type="int">32</param>
+                    <param sid="bktOrder" name="Bucket_Order" type="Name">hilbert</param>
+                    <param sid="bktSkip" name="Skip_Existing_Buckets" type="bool">false</param>
+                    <param sid="region" name="Render_Region" type="bool">false</param>
+                    <param sid="regX0" name="Render_Region_Left" type="float">0</param>
+                    <param sid="regX1" name="Render_Region_Right" type="float">1</param>
+                    <param sid="regY0" name="Render_Region_Top" type="float">0</param>
+                    <param sid="regY1" name="Render_Region_Bottom" type="float">1</param>
+                    <param sid="aa" name="Render_Antialiasing" type="Name">s8</param>
+                    <param sid="aaFilter" name="Render_Antialiasing_Filter" type="Name">gaussian</param>
+                    <param sid="fineRate" name="Refinement_Shading_Rate" type="float">0.25</param>
+                    <param sid="fineThresh" name="Refinement_Threshold" type="float">0.1</param>
+                    <param sid="bktRefine" name="Refine_Bucket_Borders" type="bool">false</param>
+                    <param sid="dof" name="Render_Depth_of_Field" type="bool">false</param>
+                    <param sid="mBlur" name="Render_Motion_Blur" type="bool">false</param>
+                    <param sid="stereo" name="Render_Stereoscopic" type="bool">false</param>
+                    <param sid="rayShadow" name="Ray_Tracing_Shadows" type="bool">true</param>
+                    <param sid="reflDepth" name="Reflection_Depth" type="int">8</param>
+                    <param sid="refrDepth" name="Refraction_Depth" type="int">8</param>
+                    <param sid="rayThresh" name="Ray_Threshold" type="float">0.001</param>
+                    <param sid="subdAdapt" name="Adaptive_Subdivision" type="bool">false</param>
+                    <param sid="subdRate" name="Subdivision_Rate" type="float">10</param>
+                    <param sid="dispEnable" name="Micropoly_Displacement" type="bool">true</param>
+                    <param sid="dispRate" name="Displacement_Rate" type="float">1</param>
+                    <param sid="dispRatio" name="Displacement_Ratio" type="float">4</param>
+                    <param sid="edgeMin" name="Minimum_Edge_Length" type="float">0.0001</param>
+                    <param sid="dispSmooth" name="Smooth_Positions" type="bool">true</param>
+                    <param sid="ambRad" name="Ambient_Intensity" type="float">0.05</param>
+                    <param sid="ambColor" name="Ambient_Color" type="color">1 1 1</param>
+                    <param sid="globEnable" name="Enable_Indirect_Illumination" type="bool">false</param>
+                    <param sid="globScope" name="Indirect_Illumination_Scope" type="Name">all</param>
+                    <param sid="globRays" name="Indirect_Rays" type="int">64</param>
+                    <param sid="globLimit" name="Indirect_Bounces" type="int">1</param>
+                    <param sid="globRange" name="Indirect_Range" type="float">0</param>
+                    <param sid="globSubs" name="Subsurface_Scattering" type="int">0</param>
+                    <param sid="globVols" name="Volumetrics_Affect_Indirect" type="bool">false</param>
+                    <param sid="irrCache" name="Enable_Irradiance_Caching" type="bool">true</param>
+                    <param sid="irrRays" name="Irradiance_Rays" type="int">256</param>
+                    <param sid="globSuper" name="Indirect_Supersampling" type="bool">true</param>
+                    <param sid="irrRate" name="Irradiance_Rate" type="float">2.5</param>
+                    <param sid="irrRatio" name="Irradiance_Ratio" type="float">6</param>
+                    <param sid="irrVals" name="Interpolation_Values" type="int">1</param>
+                    <param sid="irrGrads" name="Irradiance_Gradients" type="Name">both</param>
+                    <param sid="irrWalk" name="Walkthrough_Mode" type="bool">false</param>
+                    <param sid="irrLEnable" name="Load_Irradiance_before_Render" type="bool">false</param>
+                    <param sid="irrLName" name="Load_Irradiance_File" type="Name"></param>
+                    <param sid="irrSEnable" name="Save_Irradiance_after_Render" type="bool">false</param>
+                    <param sid="irrSName" name="Save_Irradiance_File" type="Name"></param>
+                    <param sid="causEnable" name="Enable_Direct_Caustics" type="bool">false</param>
+                    <param sid="causTotal" name="Caustics_Total_Photons" type="int">100000</param>
+                    <param sid="causLocal" name="Caustics_Local_Photons" type="int">32</param>
+                    <param sid="globCaus" name="Indirect_Caustics" type="Name">refraction</param>
+                </technique>
+            </extra>
+        </node>
+        <node sid="shader_tree_environment" name="Environment">
+            <extra>
+                <technique profile="modo401">
+                    <param sid="radiance" name="Environment_Intensity" type="float">1</param>
+                    <param sid="visCam" name="Environment_Visible_to_Camera" type="bool">true</param>
+                    <param sid="visInd" name="Environment_Visible_to_Indirect_Rays" type="bool">true</param>
+                    <param sid="visRefl" name="Environment_Visible_to_Reflection_Rays" type="bool">true</param>
+                    <param sid="visRefr" name="Environment_Visible_to_Refraction_Rays" type="bool">true</param>
+                </technique>
+            </extra>
+        </node>
+    </library_nodes>
+    <library_visual_scenes>
+        <visual_scene id="DefaultScene">
+            <node id="Geometry-sink_kitchen_drawerNode" name="sink_kitchen_drawer" type="NODE">
+                <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+                <instance_geometry url="#Geometry-sink_kitchen_drawer">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="Material-blinn8" target="#Material-blinn8">
+                                <bind_vertex_input semantic="map1" input_semantic="TEXCOORD" input_set="0" />
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="groupLocator023Node" name="Texture_Group" type="NODE">
+                <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+                <node id="txtrLocator019Node" name="_none___Texture_" type="NODE">
+                    <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+                </node>
+            </node>
+            <extra>
+                <technique profile="modo401">
+                    <param sid="fps" name="Scene_FPS" type="float">24</param>
+                    <param sid="sceneS" name="Scene_Start_Time" type="float">0.041666</param>
+                    <param sid="sceneE" name="Scene_End_Time" type="float">2</param>
+                    <param sid="currentS" name="Scene_Current_Start_Time" type="float">0</param>
+                    <param sid="currentE" name="Scene_Current_End_Time" type="float">0</param>
+                    <param sid="timeSys" name="Scene_Time_System" type="Name">frames</param>
+                </technique>
+            </extra>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#DefaultScene" />
+    </scene>
+</COLLADA>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>illerulf</author>
+      <authoring_tool>OpenCOLLADA2011 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=1;exportAnimations=0;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///E:/Maya/deeper/scenes/books.mb</source_data>
+    </contributor>
+    <created>2012-11-23T11:47:32</created>
+    <modified>2012-11-23T11:47:32</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="blinn2" name="BOOK3">
+      <instance_effect url="#blinn2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="blinn2-fx">
+      <profile_COMMON>
+        <newparam sid="file2-surface">
+          <surface type="2D">
+            <init_from>file2</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file2-sampler">
+          <sampler2D>
+            <source>file2-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file2-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="file2" name="book_unnamed03_file2">
+      <init_from>file:///E:/depth/redist/entities/urban/ornament/book_unnamed/book_unnamed03.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>book_unnamed03_file2</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="book_unnamed03Shape" name="book_unnamed03Shape">
+      <mesh>
+        <source id="book_unnamed03Shape-positions" name="book_unnamed03Shape-positions">
+          <float_array id="book_unnamed03Shape-positions-array" count="120">-2.367098 12.61512 7.928551 -2.375806 12.61512 -6.544145 -2.375806 -11.7447 -6.544145 -2.367098 -11.7447 7.928551 2.375806 -11.7447 -6.544145 2.375806 12.61512 -6.544145 2.367177 12.61512 7.928551 2.367177 -11.7447 7.928551 -1.977041 -11.74172 -6.601207 -1.969744 -11.74158 7.513271 1.977041 -11.74172 -6.601207 1.969744 -11.74158 7.513271 -1.977041 12.61363 -6.601207 1.977041 12.61363 -6.601207 -1.969744 12.61661 7.513271 1.969744 12.61661 7.513271 -1.813235 -11.06394 -6.295555 -1.806567 -11.06177 7.309432 1.806567 -11.06177 7.309432 1.813235 -11.06394 -6.295555 -1.813235 12.08149 -6.295555 1.813235 12.08149 -6.295555 -1.806567 12.0716 7.309539 1.806567 12.0716 7.309539 -1.415803 -11.7447 8.753329 -1.415803 12.61512 8.753329 -0.9325455 -11.06177 8.021371 -1.194493 -11.74158 8.167184 -0.7460678 12.0716 8.018052 -1.194493 12.61661 8.167184 1.418078 -11.7447 8.752151 1.193552 -11.74158 8.167827 1.418078 12.61512 8.752151 1.193552 12.61661 8.167827 1.13134 12.0716 7.94568 0.860763 -11.06177 7.945466 0 -11.74158 8.346186 0 12.61661 8.346186 0 12.61512 8.980508 0 -11.7447 8.980508</float_array>
+          <technique_common>
+            <accessor source="#book_unnamed03Shape-positions-array" count="40" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="book_unnamed03Shape-normals" name="book_unnamed03Shape-normals">
+          <float_array id="book_unnamed03Shape-normals-array" count="474">-1 0 0 -1 0 0 -0.9999998 0 6.01617e-4 -0.9999998 0 6.01617e-4 1 0 0 0.9999998 0 5.95755e-4 0.9999998 0 5.95755e-4 1 0 0 0.007646441 -0.9999707 0 0.007646441 -0.9999707 0 0.005558737 -0.9999825 -0.00202719 0.005558737 -0.9999825 -0.00202719 -0.005558737 -0.9999825 -0.002025925 -0.007646441 -0.9999707 0 -0.007646441 -0.9999707 0 -0.005558737 -0.9999825 -0.002025925 -0.1416626 0 -0.989915 -0.1416626 0 -0.989915 -0.1416626 0 -0.989915 -0.1416626 0 -0.989915 0.1416599 0 -0.9899154 0.1416599 0 -0.9899154 0.1416599 0 -0.9899154 0.1416599 0 -0.9899154 -8.65162e-4 0.9999992 9.2123e-4 0 1 -1.03765e-4 0 1 -1.03765e-4 -8.65162e-4 0.9999992 9.2123e-4 0 1 -1.03765e-4 0 1 -1.03765e-4 8.63435e-4 0.9999992 9.2123e-4 8.63435e-4 0.9999992 9.2123e-4 0.9722044 -0.234133 -4.68343e-4 0.9722044 -0.234133 -4.68343e-4 0.9722044 -0.234133 -4.68343e-4 0.9722044 -0.234133 -4.68343e-4 -0.9722074 -0.2341207 -4.67569e-4 -0.9722074 -0.2341207 -4.67569e-4 -0.9722074 -0.2341207 -4.67569e-4 -0.9722074 -0.2341207 -4.67569e-4 0.8814025 0 -0.4723661 0.8814025 0 -0.4723661 0.8814025 0 -0.4723661 0.8814025 0 -0.4723661 -0.8814098 0 -0.4723523 -0.8814098 0 -0.4723523 -0.8814098 0 -0.4723523 -0.8814098 0 -0.4723523 0.9568855 0.290465 -4.0772e-4 0.9568855 0.290465 -4.0772e-4 0.9568855 0.290465 -4.0772e-4 0.9568855 0.290465 -4.0772e-4 -0.9568923 0.2904425 -4.07715e-4 -0.9568923 0.2904425 -4.07715e-4 -0.9568923 0.2904425 -4.07715e-4 -0.9568923 0.2904425 -4.07715e-4 -1 0 0 -0.6550898 0 0.755551 -0.655077 0 0.7555622 -1 0 0 0.592723 -0.3693696 -0.7157134 0.2423139 -0.3712325 -0.896365 0.387747 -0.3274784 -0.8616323 0.592723 -0.3693696 -0.7157134 -1.19154e-4 0.9999998 7.04842e-4 -4.85251e-4 0.9999996 7.26355e-4 -2.29674e-4 0.9999998 7.07373e-4 0 -1 1.56913e-4 0 -1 1.58178e-4 -1.31242e-4 -1 1.61975e-4 -0.001018854 0.9999972 0.002161347 -0.001018854 0.9999972 0.002161347 -8.65162e-4 0.9999992 9.2123e-4 -8.65162e-4 0.9999992 9.2123e-4 0.002120587 -0.9999876 -0.004499833 0.005558737 -0.9999825 -0.00202719 0.005558737 -0.9999825 -0.00202719 0.002120587 -0.9999876 -0.004499833 0.3358557 0.4510046 -0.8269195 0.2053269 0.4731026 -0.8567466 0.5122875 0.5109393 -0.6902916 0.5122875 0.5109393 -0.6902916 -0.005558737 -0.9999825 -0.002025925 -0.005558737 -0.9999825 -0.002025925 -0.002120587 -0.9999876 -0.004501098 -0.002120587 -0.9999876 -0.004501098 0.6554318 0 0.7552544 1 0 0 1 0 0 0.6554318 0 0.7552544 0.001018854 0.9999972 0.002161347 8.63435e-4 0.9999992 9.2123e-4 8.63435e-4 0.9999992 9.2123e-4 0.001018854 0.9999972 0.002161347 -0.6105905 0.394581 -0.6866477 -0.371037 0.4596716 -0.8068665 -0.371037 0.4596716 -0.8068665 -0.6105905 0.394581 -0.6866477 1.03612e-4 0.9999998 6.98515e-4 1.03612e-4 0.9999998 6.98515e-4 0 0.9999998 6.93454e-4 0 0.9999998 6.93454e-4 1.03612e-4 0.9999998 6.98515e-4 -1.19154e-4 0.9999998 7.04842e-4 -2.29674e-4 0.9999998 7.07373e-4 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 1.55647e-4 0 -1 1.54382e-4 0 -1 1.55647e-4 0 -1 1.56913e-4 0 -1 1.55647e-4 0 -1 1.54382e-4 0 -1 1.58178e-4 -0.542854 -0.4250632 -0.724314 -0.542854 -0.4250632 -0.724314 -0.3276853 -0.4426325 -0.8346849 -0.3276853 -0.4426325 -0.8346849 -0.3276853 -0.4426325 -0.8346849 -0.3276853 -0.4426325 -0.8346849 0.03571283 -0.3482053 -0.9367379 0.2423139 -0.3712325 -0.896365 -0.371037 0.4596716 -0.8068665 0.2053269 0.4731026 -0.8567466 0.03549282 0.4304605 -0.9019113 -0.371037 0.4596716 -0.8068665 0.001018854 0.9999972 0.002161347 0 0.9999972 0.002376469 0 0.9999972 0.002376469 0.001018854 0.9999972 0.002161347 0.6554318 0 0.7552544 0.6554318 0 0.7552544 2.90672e-4 0 1 2.90672e-4 0 1 -0.002120587 -0.9999876 -0.004501098 -0.002120587 -0.9999876 -0.004501098 0 -0.9999877 -0.004949063 0 -0.9999877 -0.004949063 0.002120587 -0.9999876 -0.004499833 0 -0.9999877 -0.004949063 0 -0.9999877 -0.004949063 0.002120587 -0.9999876 -0.004499833 -0.6550898 0 0.755551 2.90672e-4 0 1 2.90672e-4 0 1 -0.6550898 0 0.755551 0 0.9999972 0.002376469 0 0.9999972 0.002376469 -0.001018854 0.9999972 0.002161347 -0.001018854 0.9999972 0.002161347 0.2053269 0.4731026 -0.8567466 0.3358557 0.4510046 -0.8269195 0.03549282 0.4304605 -0.9019113 0.2423139 -0.3712325 -0.896365 0.03571283 -0.3482053 -0.9367379 0.387747 -0.3274784 -0.8616323</float_array>
+          <technique_common>
+            <accessor source="#book_unnamed03Shape-normals-array" count="158" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="book_unnamed03Shape-book_unnamed03Shape-map1" name="book_unnamed03Shape-book_unnamed03Shape-map1">
+          <float_array id="book_unnamed03Shape-book_unnamed03Shape-map1-array" count="108">0.2025572 0.9881073 0.005432263 0.9881073 0.005432263 0.1872649 0.2025572 0.1872647 0.4945678 0.1872649 0.4945678 0.9881073 0.2974435 0.9881073 0.2974435 0.1872647 0.1600046 0.007195815 0.1600046 0.01919724 0.02027962 0.02132799 0.01663065 0.008171909 0.1600046 0.1531055 0.1600046 0.1651025 0.01681152 0.1647154 0.02040613 0.1515116 0.344032 0.009397581 0.344032 0.02132911 0.344032 0.1519242 0.344032 0.1638558 0.4861368 0.008171909 0.482476 0.02142122 0.482648 0.1514428 0.4862683 0.1647154 0.1600046 0.02924655 0.02411339 0.03289135 0.02419247 0.1398972 0.1600046 0.1430751 0.344032 0.0305132 0.344032 0.1427201 0.4793449 0.03155586 0.4794596 0.1414312 0.2235034 0.1872647 0.2235034 0.9881073 0.01751028 0.05870667 0.01297379 0.04691371 0.4859214 0.06339078 0.49511 0.0396951 0.4895249 0.04728421 0.007451922 0.03937016 0.00762786 0.1336137 0.01311611 0.1258793 0.2765383 0.9881073 0.2765382 0.1872647 0.4898925 0.1260368 0.495534 0.133708 0.4854183 0.1206461 0.01789969 0.1122485 0.01057804 0.08650962 0.4917091 0.08657177 0.4979871 0.08650076 0.2499996 0.9881073 0.2499996 0.1872647 0.004356429 0.08652516</float_array>
+          <technique_common>
+            <accessor source="#book_unnamed03Shape-book_unnamed03Shape-map1-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="book_unnamed03Shape-vertices" name="book_unnamed03Shape-vertices">
+          <input semantic="POSITION" source="#book_unnamed03Shape-positions"/>
+        </vertices>
+        <triangles material="blinn2SG" count="76">
+          <input semantic="VERTEX" source="#book_unnamed03Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#book_unnamed03Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#book_unnamed03Shape-book_unnamed03Shape-map1" offset="2" set="0"/>
+          <p>3 0 3 0 1 0 2 3 2 2 3 2 0 1 0 1 2 1 7 4 7 4 5 4 6 7 6 6 7 6 4 5 4 5 6 5 8 9 9 9 10 10 2 8 8 2 8 8 9 10 10 3 11 11 10 13 12 4 14 13 11 12 15 11 12 15 4 14 13 7 15 14 2 16 8 1 17 16 8 19 9 8 19 9 1 17 16 12 18 17 10 20 12 13 21 18 4 23 13 4 23 13 13 21 18 5 22 19 12 25 17 1 26 16 14 24 21 14 24 21 1 26 16 0 27 20 13 29 18 15 30 22 5 28 19 5 28 19 15 30 22 6 31 23 8 33 9 16 34 24 9 32 10 9 32 10 16 34 24 17 35 25 18 37 26 19 38 27 11 36 15 11 36 15 19 38 27 10 39 12 20 41 28 16 42 24 12 40 17 12 40 17 16 42 24 8 43 9 21 45 29 13 46 18 19 44 27 19 44 27 13 46 18 10 47 12 22 49 30 20 50 28 14 48 21 14 48 21 20 50 28 12 51 17 13 53 18 21 54 29 15 52 22 15 52 22 21 54 29 23 55 31 3 56 3 24 57 32 0 59 0 0 59 0 24 57 32 25 58 33 26 61 34 27 62 35 17 60 25 17 60 25 27 62 35 9 63 10 20 64 28 22 65 30 28 66 36 16 67 24 26 68 34 17 69 25 25 70 37 29 71 38 0 73 20 0 73 20 29 71 38 14 72 21 24 74 39 3 75 11 27 77 35 27 77 35 3 75 11 9 76 10 28 79 36 22 80 30 29 78 38 29 78 38 22 80 30 14 81 21 11 82 15 7 83 14 31 85 41 31 85 41 7 83 14 30 84 40 30 86 43 7 87 7 32 89 42 32 89 42 7 87 7 6 88 6 32 90 45 6 91 23 33 93 44 33 93 44 6 91 23 15 92 22 23 94 31 34 95 46 15 97 22 15 97 22 34 95 46 33 96 44 23 98 31 21 99 29 34 100 46 34 101 46 21 102 29 28 104 36 28 104 36 21 102 29 20 103 28 21 105 29 19 106 27 20 108 28 20 108 28 19 106 27 16 107 24 18 109 26 35 110 47 19 111 27 19 113 27 35 114 47 16 112 24 16 112 24 35 114 47 26 115 34 11 117 15 31 118 41 18 116 26 18 116 26 31 118 41 35 119 47 31 121 41 36 122 48 35 120 47 35 120 47 36 122 48 26 123 34 28 125 36 37 126 49 34 124 46 34 124 46 37 126 49 33 127 44 37 129 49 38 130 50 33 128 44 33 128 44 38 130 50 32 131 45 30 132 43 32 133 42 39 135 52 39 135 52 32 133 42 38 134 51 30 137 40 39 138 53 31 136 41 31 136 41 39 138 53 36 139 48 36 141 48 39 142 53 27 140 35 27 140 35 39 142 53 24 143 39 24 144 32 39 145 52 25 147 33 25 147 33 39 145 52 38 146 51 37 149 49 29 150 38 38 148 50 38 148 50 29 150 38 25 151 37 28 152 36 29 153 38 37 154 49 26 155 34 36 156 48 27 157 35</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>book_unnamed03Shape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="books">
+      <node id="book_unnamed03" name="book_unnamed03" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <translate sid="rotatePivot">0 0.3217 1.18965</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">0 -0.3217 -1.18965</translate>
+        <translate sid="scalePivot">0 0 1.18965</translate>
+        <scale sid="scale">1 1 1</scale>
+        <translate sid="scalePivotInverse">0 0 -1.18965</translate>
+        <instance_geometry url="#book_unnamed03Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="blinn2SG" target="#blinn2">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>book_unnamed03</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>marcus</author>
+      <authoring_tool>OpenCOLLADA2008 x64</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=1;
+			exportCameras=1;exportJointsAndSkin=0;exportAnimations=0;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///D:/work/DropBox/Team/Depth_marcus/piggy/mesh_fixes/glitching_models/tesla_modules1_wall_pipes.ma</source_data>
+    </contributor>
+    <created>2013-05-27T11:53:40</created>
+    <modified>2013-05-27T11:53:40</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="tesla_structure_pillar_drum_01" name="tesla_structure_pillar_drum_01">
+      <instance_effect url="#tesla_structure_pillar_drum_01-fx"/>
+    </material>
+    <material id="phong1" name="phong1">
+      <instance_effect url="#phong1-fx"/>
+    </material>
+    <material id="lambert2" name="lambert2">
+      <instance_effect url="#lambert2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert2-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.4 0.4 0.4 1</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="phong1-fx">
+      <profile_COMMON>
+        <newparam sid="file1-surface">
+          <surface type="2D">
+            <init_from>file1</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1-sampler">
+          <sampler2D>
+            <source>file1-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float>0.3</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <texture texture="file1-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tesla_structure_pillar_drum_01-fx">
+      <profile_COMMON>
+        <newparam sid="file2-surface">
+          <surface type="2D">
+            <init_from>file2</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file2-sampler">
+          <sampler2D>
+            <source>file2-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file2-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="file2" name="tesla_modules1_ceiling_square_02_file2">
+      <init_from>file:///D:/work/amfp/Game/redist/static_objects/teslabase/dressing/tesla_dressing_wires_01.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>tesla_modules1_ceiling_square_02_file2</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+    <image id="file1" name="tesla_modules1_ceiling_square_02_file1">
+      <init_from>file:///D:/work/amfp/Game/redist/static_objects/teslabase/tesla_generic_sheet_metal_01.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>tesla_modules1_ceiling_square_02_file1</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="ceiling_square_02_frame1Shape" name="ceiling_square_02_frame1Shape">
+      <mesh>
+        <source id="ceiling_square_02_frame1Shape-positions" name="ceiling_square_02_frame1Shape-positions">
+          <float_array id="ceiling_square_02_frame1Shape-positions-array" count="60">4.003223 -0.03864 0.003111306 4 0.004533525 0 3.868584 0.004533525 -0.134381 3.868584 -0.017369 -0.134379 0 0.004533525 0 -0.003223113 -0.03864 0.003111306 0.147992 0.004533525 -0.134381 0.147992 -0.017369 -0.134379 0 0.004533525 -2 -0.003223113 -0.038646 -2.003111 0.147991 0.004533525 -1.880631 0.147991 -0.017374 -1.880631 4 0.004533525 -2 4.003223 -0.038646 -2.003111 3.868584 0.004533525 -1.880631 3.868584 -0.017374 -1.880631 0.210502 -0.06303614 -1.823968 0.210502 -0.06303214 -0.191257 3.806073 -0.06303214 -0.191257 3.806073 -0.06303614 -1.823968</float_array>
+          <technique_common>
+            <accessor source="#ceiling_square_02_frame1Shape-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ceiling_square_02_frame1Shape-normals" name="ceiling_square_02_frame1Shape-normals">
+          <float_array id="ceiling_square_02_frame1Shape-normals-array" count="288">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.8008505 -0.5988644 0 0.8008505 -0.5988644 0 0.8008505 -0.5988644 0 0.8008505 -0.5988644 0 0.8008505 -0.5988644 0 0.8008505 -0.5988644 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.5625389 0.8267708 0 0.5625389 0.8267708 0 0.5625389 0.8267708 0 0.5625389 0.8267708 0 0.5625389 0.8267708 0 0.5625389 0.8267708 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.7997638 0.6003149 0 0.7997638 0.6003149 0 0.7997638 0.6003149 0 0.7997638 0.6003149 0 0.7997638 0.6003149 0 0.7997638 0.6003149 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.562534 0.8267741 0 -0.562534 0.8267741 0 -0.562534 0.8267741 0 -0.562534 0.8267741 0 -0.562534 0.8267741 0 -0.562534 0.8267741 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ceiling_square_02_frame1Shape-normals-array" count="96" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-map1" name="ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-map1">
+          <float_array id="ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-map1-array" count="80">-0.148684 0.978903 -0.107304 0.920342 1.104314 0.920342 1.153923 0.978902 -0.107304 0.913801 1.104314 0.913801 -0.086947 0.865709 1.083957 0.865709 1.153923 0.994986 -0.148683 0.994986 0.116286 0.977963 0.166096 0.920342 0.831809 0.920343 0.878734 0.977962 0.166096 0.913464 0.831809 0.913465 0.187739 0.865709 0.810167 0.865709 0.878734 0.994986 0.116286 0.994986 -0.156332 0.978463 -0.106806 0.920343 1.104812 0.920342 1.146276 0.978463 -0.106806 0.912992 1.104812 0.912992 -0.086451 0.865709 1.084457 0.865709 1.146276 0.994986 -0.156332 0.994986 0.122796 0.978283 0.166096 0.920343 0.831809 0.920343 0.885246 0.978283 0.166096 0.912813 0.831809 0.912813 0.187739 0.865709 0.810167 0.865709 0.885246 0.994986 0.122796 0.994986</float_array>
+          <technique_common>
+            <accessor source="#ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-map1-array" count="40" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ceiling_square_02_frame1Shape-vertices" name="ceiling_square_02_frame1Shape-vertices">
+          <input semantic="POSITION" source="#ceiling_square_02_frame1Shape-positions"/>
+        </vertices>
+        <triangles material="tesla_structure_pillar_drum_01SG" count="32">
+          <input semantic="VERTEX" source="#ceiling_square_02_frame1Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ceiling_square_02_frame1Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-ceiling_square_02_frame1Shape-map1" offset="2" set="0"/>
+          <p>2 0 1 6 1 2 1 2 0 1 3 0 6 4 2 4 5 3 2 6 1 3 7 4 6 8 2 6 9 2 3 10 4 7 11 5 7 12 5 3 13 4 17 14 7 17 15 7 3 16 4 18 17 6 4 18 3 5 19 8 1 20 0 1 21 0 5 22 8 0 23 9 4 24 10 6 25 11 8 26 13 8 27 13 6 28 11 10 29 12 6 30 11 7 31 14 10 32 12 10 33 12 7 34 14 11 35 15 11 36 15 7 37 14 16 38 17 16 39 17 7 40 14 17 41 16 8 42 13 9 43 18 4 44 10 4 45 10 9 46 18 5 47 19 8 48 20 10 49 21 12 50 23 12 51 23 10 52 21 14 53 22 10 54 21 11 55 24 14 56 22 14 57 22 11 58 24 15 59 25 15 60 25 11 61 24 19 62 27 19 63 27 11 64 24 16 65 26 12 66 23 13 67 28 8 68 20 8 69 20 13 70 28 9 71 29 14 72 31 2 73 32 12 74 30 12 75 30 2 76 32 1 77 33 14 78 31 15 79 34 2 80 32 2 81 32 15 82 34 3 83 35 3 84 35 15 85 34 18 86 37 18 87 37 15 88 34 19 89 36 1 90 33 0 91 38 12 92 30 12 93 30 0 94 38 13 95 39</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>ceiling_square_02_frame1Shape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="ceiling_square_04Shape" name="ceiling_square_04Shape">
+      <mesh>
+        <source id="ceiling_square_04Shape-positions" name="ceiling_square_04Shape-positions">
+          <float_array id="ceiling_square_04Shape-positions-array" count="12">3.818043 -0.059906 -1.834383 0.198532 -0.059906 -1.834383 3.818043 -0.059902 -0.183424 0.198532 -0.059902 -0.183424</float_array>
+          <technique_common>
+            <accessor source="#ceiling_square_04Shape-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ceiling_square_04Shape-normals" name="ceiling_square_04Shape-normals">
+          <float_array id="ceiling_square_04Shape-normals-array" count="18">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#ceiling_square_04Shape-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ceiling_square_04Shape-ceiling_square_04Shape-ceiling_square_0Shape4-map1" name="ceiling_square_04Shape-ceiling_square_04Shape-ceiling_square_0Shape4-map1">
+          <float_array id="ceiling_square_04Shape-ceiling_square_04Shape-ceiling_square_0Shape4-map1-array" count="8">0 0.5 1 0.5 1 1 0 1</float_array>
+          <technique_common>
+            <accessor source="#ceiling_square_04Shape-ceiling_square_04Shape-ceiling_square_0Shape4-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ceiling_square_04Shape-vertices" name="ceiling_square_04Shape-vertices">
+          <input semantic="POSITION" source="#ceiling_square_04Shape-positions"/>
+        </vertices>
+        <triangles material="phong1SG" count="2">
+          <input semantic="VERTEX" source="#ceiling_square_04Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ceiling_square_04Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ceiling_square_04Shape-ceiling_square_04Shape-ceiling_square_0Shape4-map1" offset="2" set="0"/>
+          <p>3 0 0 2 1 1 1 2 3 1 3 3 2 4 1 0 5 2</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>ceiling_square_04Shape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="_collider_box_ceiling_04Shape" name="_collider_box_ceiling_04Shape">
+      <mesh>
+        <source id="_collider_box_ceiling_04Shape-positions" name="_collider_box_ceiling_04Shape-positions">
+          <float_array id="_collider_box_ceiling_04Shape-positions-array" count="24">4 -0.375 -2 0 -0.375 -2 4 0 -2 0 0 -2 4 0 0 0 0 0 4 -0.375 0 0 -0.375 0</float_array>
+          <technique_common>
+            <accessor source="#_collider_box_ceiling_04Shape-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_collider_box_ceiling_04Shape-normals" name="_collider_box_ceiling_04Shape-normals">
+          <float_array id="_collider_box_ceiling_04Shape-normals-array" count="108">0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#_collider_box_ceiling_04Shape-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_collider_box_ceiling_04Shape-_collider_box_ceiling_04Shape-_collider_box_ceiling_0Shape4-map1" name="_collider_box_ceiling_04Shape-_collider_box_ceiling_04Shape-_collider_box_ceiling_0Shape4-map1">
+          <float_array id="_collider_box_ceiling_04Shape-_collider_box_ceiling_04Shape-_collider_box_ceiling_0Shape4-map1-array" count="28">0.375 0 0.625 0 0.375 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0 0.875 0.25 0.125 0 0.125 0.25</float_array>
+          <technique_common>
+            <accessor source="#_collider_box_ceiling_04Shape-_collider_box_ceiling_04Shape-_collider_box_ceiling_0Shape4-map1-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_collider_box_ceiling_04Shape-vertices" name="_collider_box_ceiling_04Shape-vertices">
+          <input semantic="POSITION" source="#_collider_box_ceiling_04Shape-positions"/>
+        </vertices>
+        <triangles material="lambert2SG" count="12">
+          <input semantic="VERTEX" source="#_collider_box_ceiling_04Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_collider_box_ceiling_04Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_collider_box_ceiling_04Shape-_collider_box_ceiling_04Shape-_collider_box_ceiling_0Shape4-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 2 3 2 1 4 1 3 5 3 2 6 2 3 7 3 4 8 4 4 9 4 3 10 3 5 11 5 4 12 4 5 13 5 6 14 6 6 15 6 5 16 5 7 17 7 6 18 6 7 19 7 0 20 8 0 21 8 7 22 7 1 23 9 1 24 1 7 25 10 3 26 3 3 27 3 7 28 10 5 29 11 6 30 12 0 31 0 4 32 13 4 33 13 0 34 0 2 35 2</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>_collider_box_ceiling_04Shape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="tesla_modules1_wall_pipes">
+      <node id="ceiling_square_02_frame1" name="ceiling_square_02_frame1" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#ceiling_square_02_frame1Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="tesla_structure_pillar_drum_01SG" target="#tesla_structure_pillar_drum_01">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>ceiling_square_02_frame1</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="ceiling_square_04" name="ceiling_square_04" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#ceiling_square_04Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="phong1SG" target="#phong1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>ceiling_square_04</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="_collider_box_ceiling_04" name="_collider_box_ceiling_04" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#_collider_box_ceiling_04Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert2SG" target="#lambert2"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>_collider_box_ceiling_04</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

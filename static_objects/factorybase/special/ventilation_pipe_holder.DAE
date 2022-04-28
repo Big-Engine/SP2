@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-04-20T11:25:54Z</created>
+    <keywords></keywords>
+    <modified>2012-04-20T11:25:54Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="1.000000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map #9-image" name="Map #9">
+      <init_from>file://C:\Users\WesleyTack\Desktop\amnesia_raw\StaticObjects\factorybase\rainpipes01.psd</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="rainpipes01" name="rainpipes01">
+      <instance_effect url="#rainpipes01-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="rainpipes01-fx" name="rainpipes01">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map #9-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Cylinder006-lib" name="Cylinder006Mesh">
+      <mesh>
+        <source id="Cylinder006-POSITION">
+          <float_array id="Cylinder006-POSITION-array" count="24">
+-0.019446 0.525158 -0.018090
+0.019446 0.525158 -0.018090
+-0.019446 1.709463 -0.018090
+0.019446 1.709463 -0.018090
+-0.019446 0.525158 0.018463
+0.019446 0.525158 0.018463
+-0.019446 1.709463 0.018463
+0.019446 1.709463 0.018463
+</float_array>
+          <technique_common>
+            <accessor source="#Cylinder006-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cylinder006-Normal0">
+          <float_array id="Cylinder006-Normal0-array" count="72">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+0.000000 -0.000000 1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#Cylinder006-Normal0-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cylinder006-UV0">
+          <float_array id="Cylinder006-UV0-array" count="20">
+0.527692 0.925469
+0.928917 0.925469
+0.928917 0.928928
+0.527692 0.928928
+0.527692 0.935638
+0.527692 0.932179
+0.928917 0.932179
+0.928917 0.935638
+0.527692 0.922219
+0.928917 0.922219
+</float_array>
+          <technique_common>
+            <accessor source="#Cylinder006-UV0-array" count="10" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cylinder006-VERTEX">
+          <input semantic="POSITION" source="#Cylinder006-POSITION"/>
+        </vertices>
+        <triangles count="8" material="rainpipes01">
+          <input semantic="VERTEX" offset="0" source="#Cylinder006-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#Cylinder006-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#Cylinder006-UV0"/>
+          <p> 3 0 2 1 1 3 0 2 0 0 3 0 2 4 1 3 5 2 6 6 7 4 7 4 7 8 6 7 9 6 4 10 4 5 11 5 5 12 5 3 13 2 7 14 6 3 15 2 5 16 5 1 17 3 4 18 8 6 19 9 2 20 1 4 21 8 2 22 1 0 23 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="Cylinder006" id="Cylinder006" layer="ventilation_pipe_holder" sid="Cylinder006">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#Cylinder006-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="rainpipes01" target="#rainpipes01"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>30.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>6.666667</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

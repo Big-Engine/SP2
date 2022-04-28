@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Marc</author>
+      <authoring_tool>OpenCOLLADA2008</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=1;relativePaths=1;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=0;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=0;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=1;exportAnimations=1;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=0;exportVertexColors=1;exportVertexColorsPerVertex=0;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=0;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=0;doublePrecision=0
+		</comments>
+      <source_data>file:///F:/pig/Game/redist/static_objects/sewer/special/sluice_light_board2.dae</source_data>
+    </contributor>
+    <created>2013-05-03T15:52:07</created>
+    <modified>2013-05-03T15:52:07</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+    <material id="lambert1_1" name="lambert1_1">
+      <instance_effect url="#lambert1-fx_1"/>
+    </material>
+    <material id="Material__77" name="Material__77">
+      <instance_effect url="#Material__77-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Material__77-fx">
+      <profile_COMMON>
+        <newparam sid="Map__20_image-surface">
+          <surface type="2D">
+            <init_from>Map__20_image</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="Map__20_image-sampler">
+          <sampler2D>
+            <source>Map__20_image-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__20_image-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>2</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert1-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.4 0.4 0.4 1</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert1-fx_1">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.4 0.4 0.4 1</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="Map__20_image" name="Map__20_image">
+      <init_from>./special_sluice_light_board.dds</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>Map__20_image</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="sluice_light_boardShape" name="sluice_light_boardShape">
+      <mesh>
+        <source id="sluice_light_boardShape-positions" name="sluice_light_boardShape-positions">
+          <float_array id="sluice_light_boardShape-positions-array" count="72">0.551818 2.608278 -2.998677 -0.651428 2.608278 -2.998677 0.551818 1.817176 -2.998677 -0.651428 1.817176 -2.998677 0.514884 2.57912 -2.95804 -0.614494 2.57912 -2.95804 0.514884 1.846334 -2.95804 -0.614494 1.846334 -2.95804 -0.097562 2.10015 -2.950126 -0.511079 2.10015 -2.950126 -0.511079 1.915137 -2.950126 -0.097562 1.915137 -2.950126 -0.097562 2.10015 -2.964139 -0.511079 2.10015 -2.964139 -0.511079 1.915137 -2.964139 -0.097562 1.915137 -2.964139 0.408481 2.10015 -2.950126 -0.005036 2.10015 -2.950126 -0.005036 1.915137 -2.950126 0.408481 1.915137 -2.950126 0.408481 2.10015 -2.964139 -0.005036 2.10015 -2.964139 -0.005036 1.915137 -2.964139 0.408481 1.915137 -2.964139</float_array>
+          <technique_common>
+            <accessor source="#sluice_light_boardShape-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="sluice_light_boardShape-normals" name="sluice_light_boardShape-normals">
+          <float_array id="sluice_light_boardShape-normals-array" count="186">0 0 1 0 0 1 0 0 1 0 0 1 -0.7400233 0 0.6725813 -0.7400233 0 0.6725813 -0.7400233 0 0.6725813 -0.7400233 0 0.6725813 0.7400228 0 0.6725818 0.7400228 0 0.6725818 0.7400228 0 0.6725818 0.7400228 0 0.6725818 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 0.8124867 0.5829798 0 0.8124867 0.5829798 0 0.8124867 0.5829798 0 0.812488 0.582978 0 -0.812488 0.582978 0 -0.812488 0.582978 0 -0.812488 0.582978 0 -0.8124867 0.5829798</float_array>
+          <technique_common>
+            <accessor source="#sluice_light_boardShape-normals-array" count="62" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="sluice_light_boardShape-sluice_light_boardShape-UVSet0" name="sluice_light_boardShape-sluice_light_boardShape-UVSet0">
+          <float_array id="sluice_light_boardShape-sluice_light_boardShape-UVSet0-array" count="64">0.6977952 0.968214 0.031124 0.968214 0.031124 0.549648 0.6977952 0.549648 0.7235273 0.990153 0.005391 0.990153 0.005391 0.527709 0.7235273 0.527709 0.351334 0.506015 0.020625 0.506015 0.020625 0.35805 0.351334 0.358051 0.351334 0.517222 0.020625 0.517222 0.009418 0.35805 0.351334 0.346844 0.716351 0.507838 0.385641 0.507837 0.385642 0.359873 0.716351 0.359873 0.716351 0.519045 0.385642 0.519045 0.374435 0.359873 0.716351 0.348666 0.362541 0.506015 0.009418 0.506014 0.020625 0.346844 0.362541 0.358051 0.727558 0.507838 0.374435 0.507837 0.385642 0.348666 0.727558 0.359874</float_array>
+          <technique_common>
+            <accessor source="#sluice_light_boardShape-sluice_light_boardShape-UVSet0-array" count="32" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="sluice_light_boardShape-vertices" name="sluice_light_boardShape-vertices">
+          <input semantic="POSITION" source="#sluice_light_boardShape-positions"/>
+        </vertices>
+        <triangles material="Material__77SG" count="30">
+          <input semantic="VERTEX" source="#sluice_light_boardShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#sluice_light_boardShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#sluice_light_boardShape-sluice_light_boardShape-UVSet0" offset="2" set="0"/>
+          <p>6 0 3 4 1 0 7 3 2 7 3 2 4 1 0 5 2 1 5 4 1 1 5 5 7 7 2 7 7 2 1 5 5 3 6 6 4 8 0 6 9 3 0 11 4 0 11 4 6 9 3 2 10 7 10 12 10 11 13 11 9 15 9 9 15 9 11 13 11 8 14 8 9 16 9 8 17 8 12 18 12 9 19 9 12 20 12 13 21 13 13 22 25 14 23 14 9 25 9 9 25 9 14 23 14 10 24 10 14 26 26 15 27 15 10 29 10 10 29 10 15 27 15 11 28 11 15 30 27 12 31 24 11 33 11 11 33 11 12 31 24 8 32 8 18 34 18 19 35 19 17 37 17 17 37 17 19 35 19 16 36 16 21 38 21 17 39 17 20 41 20 20 41 20 17 39 17 16 40 16 21 42 29 22 43 22 17 45 17 17 45 17 22 43 22 18 44 18 22 46 30 23 47 23 18 49 18 18 49 18 23 47 23 19 48 19 23 50 31 20 51 28 19 53 19 19 53 19 20 51 28 16 52 16 0 54 4 1 55 5 4 57 0 4 57 0 1 55 5 5 56 1 3 58 6 2 59 7 7 61 2 7 61 2 2 59 7 6 60 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>sluice_light_boardShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="sluice_light_board2">
+      <node id="sluice_light_board" name="sluice_light_board" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#sluice_light_boardShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material__77SG" target="#Material__77">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>sluice_light_board</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

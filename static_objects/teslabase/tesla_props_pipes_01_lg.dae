@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>sindre</author>
+      <authoring_tool>OpenCOLLADA2010</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=1;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=1;
+			exportCameras=1;exportJointsAndSkin=1;exportAnimations=1;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=1;exportVertexColorsPerVertex=1;
+			exportTexTangents=0;exportTangents=0;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=1;dereferenceXRefs=1;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///C:/Users/sindre/Desktop/Sindre/Freelance/Amnesia%20SVN/Amnesia%20-%20Source/StaticObjects/teslabase/modules/maya2010/tesla_props_piping_01.ma</source_data>
+    </contributor>
+    <created>2012-09-03T22:56:54</created>
+    <modified>2012-09-03T22:56:54</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+    <material id="pipes" name="pipes">
+      <instance_effect url="#pipes-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert1-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.4 0.4 0.4 1</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="pipes-fx">
+      <profile_COMMON>
+        <newparam sid="file1-surface">
+          <surface type="2D">
+            <init_from>file1</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1-sampler">
+          <sampler2D>
+            <source>file1-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="file1" name="file1">
+      <init_from>file:///C:/Users/sindre/Desktop/Sindre/Amnesia%20-%20Freelance/Amnesia%20-%20Source/StaticObjects/teslabase/tesla_props_pipes_01.jpg</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>file1</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="_collider_box_pipes_01_lgShape" name="_collider_box_pipes_01_lgShape">
+      <mesh>
+        <source id="_collider_box_pipes_01_lgShape-positions" name="_collider_box_pipes_01_lgShape-positions">
+          <float_array id="_collider_box_pipes_01_lgShape-positions-array" count="24">4 0 0.5 5 0 0.5 4 7 0.5 5 7 0.5 4 7 -0.5 5 7 -0.5 4 0 -0.5 5 0 -0.5</float_array>
+          <technique_common>
+            <accessor source="#_collider_box_pipes_01_lgShape-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_collider_box_pipes_01_lgShape-normals" name="_collider_box_pipes_01_lgShape-normals">
+          <float_array id="_collider_box_pipes_01_lgShape-normals-array" count="72">0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0 -0.9999999 0 0</float_array>
+          <technique_common>
+            <accessor source="#_collider_box_pipes_01_lgShape-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_collider_box_pipes_01_lgShape-map1" name="_collider_box_pipes_01_lgShape-map1">
+          <float_array id="_collider_box_pipes_01_lgShape-map1-array" count="28">0.375 0 0.625 0 0.375 0.25 0.625 0.25 0.375 0.5 0.625 0.5 0.375 0.75 0.625 0.75 0.375 1 0.625 1 0.875 0 0.875 0.25 0.125 0 0.125 0.25</float_array>
+          <technique_common>
+            <accessor source="#_collider_box_pipes_01_lgShape-map1-array" count="14" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_collider_box_pipes_01_lgShape-vertices" name="_collider_box_pipes_01_lgShape-vertices">
+          <input semantic="POSITION" source="#_collider_box_pipes_01_lgShape-positions"/>
+        </vertices>
+        <triangles material="initialShadingGroup" count="12">
+          <input semantic="VERTEX" source="#_collider_box_pipes_01_lgShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_collider_box_pipes_01_lgShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#_collider_box_pipes_01_lgShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 3 2 2 3 2 1 1 1 3 2 3 2 4 2 3 5 3 4 7 4 4 7 4 3 5 3 5 6 5 4 8 4 5 9 5 6 11 6 6 11 6 5 9 5 7 10 7 6 12 6 7 13 7 0 15 8 0 15 8 7 13 7 1 14 9 1 16 1 7 17 10 3 19 3 3 19 3 7 17 10 5 18 11 6 20 12 0 21 0 4 23 13 4 23 13 0 21 0 2 22 2</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>_collider_box_pipes_01_lgShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="tesla_props_pipes_01_lgShape" name="tesla_props_pipes_01_lgShape">
+      <mesh>
+        <source id="tesla_props_pipes_01_lgShape-positions" name="tesla_props_pipes_01_lgShape-positions">
+          <float_array id="tesla_props_pipes_01_lgShape-positions-array" count="324">0.8317664 -0.1008148 3.414116 0.5858813 -0.1008148 3.168234 0.25 -0.1008148 3.078234 -0.08588135 -0.1008148 3.168234 -0.3317664 -0.1008148 3.414116 -0.4217664 -0.1008148 3.75 -0.3317664 -0.1008148 4.085884 -0.08588135 -0.1008148 4.331767 0.25 -0.1008148 4.421767 0.5858813 -0.1008148 4.331767 0.8317664 -0.1008148 4.085884 0.9217664 -0.1008148 3.75 0.8317664 0.1008142 3.414116 0.5858813 0.1008142 3.168234 0.25 0.1008142 3.078234 -0.08588135 0.1008142 3.168234 -0.3317664 0.1008142 3.414116 -0.4217664 0.1008142 3.75 -0.3317664 0.1008142 4.085884 -0.08588135 0.1008142 4.331767 0.25 0.1008142 4.421767 0.5858813 0.1008142 4.331767 0.8317664 0.1008142 4.085884 0.9217664 0.1008142 3.75 0.6830127 0 3.5 0.5 0 3.316987 0.25 0 3.25 0 0 3.316987 -0.1830127 0 3.5 -0.25 0 3.75 -0.1830127 0 4 0 0 4.183013 0.25 0 4.25 0.5 0 4.183013 0.6830127 0 4 0.75 0 3.75 0.6830127 7 3.5 0.5 7 3.316987 0.25 7 3.25 0 7 3.316987 -0.1830127 7 3.5 -0.25 7 3.75 -0.1830127 7 4 0 7 4.183013 0.25 7 4.25 0.5 7 4.183013 0.6830127 7 4 0.75 7 3.75 0 3.685633 3.316987 0.25 3.685633 3.25 0.5 3.685633 3.316987 0.6830127 3.685633 3.5 0.75 3.685633 3.75 0.6830127 3.685633 4 0.5 3.685633 4.183013 0.25 3.685633 4.25 0 3.685633 4.183013 -0.1830127 3.685633 4 -0.25 3.685633 3.75 -0.1830127 3.685633 3.5 0.2710001 5.435633 3.25 0.5210001 5.435633 3.316987 0.7040128 5.435633 3.5 0.7710001 5.435633 3.75 0.7040128 5.435633 4 0.5210001 5.435633 4.183013 0.2710001 5.435633 4.25 0.02100006 5.435633 4.183013 -0.1620126 5.435633 4 -0.2289999 5.435633 3.75 -0.1620126 5.435633 3.5 0.02100006 5.435633 3.316987 0.04168549 2.043863 3.320583 0.296857 2.046177 3.277347 0.5394736 2.036118 3.36692 0.7045255 2.016381 3.565303 0.7477881 1.992254 3.819337 0.6576685 1.970204 4.060956 0.4583145 1.956137 4.225417 0.203143 1.953823 4.268653 -0.03947357 1.963882 4.17908 -0.2045255 1.983619 3.980697 -0.2477881 2.007746 3.726663 -0.1576685 2.029796 3.485044 0.8317664 3.649185 3.414116 0.5858813 3.649185 3.168234 0.25 3.649185 3.078234 -0.08588135 3.649185 3.168234 -0.3317664 3.649185 3.414116 -0.4217664 3.649185 3.75 -0.3317664 3.649185 4.085884 -0.08588135 3.649185 4.331767 0.25 3.649185 4.421767 0.5858813 3.649185 4.331767 0.8317664 3.649185 4.085884 0.9217664 3.649185 3.75 0.8317664 3.850814 3.414116 0.5858813 3.850814 3.168234 0.25 3.850814 3.078234 -0.08588135 3.850814 3.168234 -0.3317664 3.850814 3.414116 -0.4217664 3.850814 3.75 -0.3317664 3.850814 4.085884 -0.08588135 3.850814 4.331767 0.25 3.850814 4.421767 0.5858813 3.850814 4.331767 0.8317664 3.850814 4.085884 0.9217664 3.850814 3.75</float_array>
+          <technique_common>
+            <accessor source="#tesla_props_pipes_01_lgShape-positions-array" count="108" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tesla_props_pipes_01_lgShape-normals" name="tesla_props_pipes_01_lgShape-normals">
+          <float_array id="tesla_props_pipes_01_lgShape-normals-array" count="468">0.8660239 0 -0.5000024 0.4999987 0 -0.8660262 0.4999987 0 -0.8660262 0.8660239 0 -0.5000024 0 0 -0.9999999 0 0 -0.9999999 -0.4999987 0 -0.8660262 -0.4999987 0 -0.8660262 -0.8660239 0 -0.5000024 -0.8660239 0 -0.5000024 -0.9999999 0 0 -0.9999999 0 0 -0.8660243 0 0.500002 -0.8660243 0 0.500002 -0.4999991 0 0.8660259 -0.4999991 0 0.8660259 0 0 0.9999999 0 0 0.9999999 0.4999991 0 0.8660259 0.4999991 0 0.8660259 0.8660243 0 0.500002 0.8660243 0 0.500002 0.9999999 0 0 0.9999999 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.8882138 0.00544196 -0.4593979 0.5393181 0.0101827 -0.8420406 0.5390961 -0.001197023 -0.8422433 0.8881196 -5.92417e-4 -0.459612 0.04651411 0.01223351 -0.9988428 0.04642115 -0.001495087 -0.9989209 -0.4585363 0.0108757 -0.8886091 -0.4584157 -0.001311033 -0.8887369 -0.8413224 0.006533364 -0.5404941 -0.8412206 -7.42427e-4 -0.5406916 -0.9988972 6.07382e-4 -0.04694711 -0.9988963 0 -0.04697013 -0.8882095 -0.005119985 0.45941 -0.8881224 4.05692e-4 0.4596069 -0.5393015 -0.00916528 0.8420629 -0.5391061 6.46467e-4 0.8422376 -0.04650463 -0.01070687 0.9988607 -0.04642655 7.04776e-4 0.9989215 0.4585271 -0.009534918 0.8886294 0.4584221 6.43767e-4 0.8887344 0.8413154 -0.005887857 0.5405125 0.8412248 4.38552e-4 0.5406853 0.9988969 -4.71479e-4 0.04695317 0.9988964 0 0.04696789 0.02316893 -0.007614132 -0.9997025 -0.4792639 -0.003750441 -0.8776628 -0.4999958 -3.55965e-4 -0.8660277 0 0 -1 0.5195335 -0.009290626 -0.8543997 0.4999958 3.55965e-4 -0.8660277 0.8772156 -0.008511819 -0.4800211 0.8660229 6.16516e-4 -0.5000039 0.9997074 -0.005746317 0.02349596 0.9999997 7.11873e-4 0 0.8538145 -0.001814131 0.5205742 0.8660228 6.16517e-4 0.5000041 0.4792793 0.002412354 0.8776591 0.4999959 3.55966e-4 0.8660276 -0.02318005 0.006060071 0.9997129 0 0 1 -0.5195595 0.008231094 0.8543947 -0.499996 -3.55965e-4 0.8660277 -0.877224 0.008164008 0.4800119 -0.8660228 -6.16517e-4 0.5000041 -0.9997081 0.00561526 -0.02350124 -0.9999997 -7.11873e-4 0 -0.8538066 0.001187328 -0.5205891 -0.8660229 -6.16517e-4 -0.5000039 0 0 -1 0.4999842 0.006711782 -0.8660085 0.8659643 0.01162469 -0.4999706 0.9999098 0.01342278 0 0.8659641 0.0116247 0.4999709 0.4999843 0.006711784 0.8660085 0 0 1 -0.4999843 -0.006711787 0.8660085 -0.8659641 -0.0116247 0.4999709 -0.9999098 -0.01342279 0 -0.8659643 -0.0116247 -0.4999706 -0.4999842 -0.006711786 -0.8660085 0.8660239 0 -0.5000025 0.4999987 0 -0.8660261 0.4999987 0 -0.8660261 0.8660239 0 -0.5000025 0 0 -0.9999999 0 0 -0.9999999 -0.4999987 0 -0.8660261 -0.4999987 0 -0.8660261 -0.8660239 0 -0.5000025 -0.8660239 0 -0.5000025 -1 0 0 -1 0 0 -0.8660242 0 0.500002 -0.8660242 0 0.500002 -0.4999991 0 0.8660259 -0.4999991 0 0.8660259 0 0 0.9999999 0 0 0.9999999 0.4999991 0 0.8660259 0.4999991 0 0.8660259 0.8660242 0 0.500002 0.8660242 0 0.500002 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#tesla_props_pipes_01_lgShape-normals-array" count="156" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tesla_props_pipes_01_lgShape-map1" name="tesla_props_pipes_01_lgShape-map1">
+          <float_array id="tesla_props_pipes_01_lgShape-map1-array" count="340">0.9211125 0.9728934 0.961205 0.9728934 0.961205 1.002741 0.9211125 1.002741 1.001298 0.9728934 1.001298 1.002741 0.5201834 0.9728934 0.560276 0.9728934 0.560276 1.002741 0.5201834 1.002741 0.6003687 0.9728934 0.6003687 1.002741 0.6404616 0.9728934 0.6404616 1.002741 0.6805545 0.9728934 0.6805545 1.002741 0.7206477 0.9728934 0.7206477 1.002741 0.7607408 0.9728934 0.7607408 1.002741 0.8008339 0.9728934 0.8008339 1.002741 0.8409269 0.9728934 0.8409269 1.002741 0.8810197 0.9728934 0.8810197 1.002741 0.3046117 0.7113709 0.2389464 0.6734591 0.201035 0.607794 0.2010349 0.53197 0.2389473 0.4663049 0.304613 0.4283932 0.380437 0.4283938 0.446102 0.4663056 0.4840137 0.5319709 0.4840137 0.607795 0.4461011 0.6734599 0.3804357 0.7113717 0.3046117 0.428394 0.3804357 0.4283932 0.4461011 0.466305 0.4840137 0.53197 0.4840137 0.6077942 0.446102 0.6734594 0.380437 0.7113711 0.304613 0.7113717 0.2389473 0.6734601 0.2010349 0.607795 0.201035 0.531971 0.2389464 0.4663059 0.5245123 -0.1987951 0.6031661 -0.1987951 0.6031661 0.1373691 0.5245123 0.1373691 0.6827002 -0.1987951 0.6827002 0.1373691 0.7622341 -0.1987951 0.7622341 0.1373691 0.8417678 -0.1987951 0.8417678 0.1373691 0.9213019 -0.1987951 0.9213019 0.1373691 1.000836 -0.1987951 1.000836 0.1373691 0.5245123 -0.1987951 0.604046 -0.1987951 0.604046 0.1373691 0.5245123 0.1373691 0.6835799 -0.1987951 0.6835799 0.1373691 0.7631136 -0.1987951 0.7631136 0.1373691 0.8426474 -0.1987951 0.8426474 0.1373691 0.9221812 -0.1987951 0.9221812 0.1373691 1.000836 -0.1987951 1.000836 0.1373691 0.6827002 0.4735335 0.7622341 0.4735335 0.7622341 0.8096977 0.6827002 0.8096977 0.6031661 0.4735335 0.6031661 0.8096977 0.5245123 0.4735335 0.5245123 0.8096977 0.9221812 0.4735335 1.000836 0.4735335 1.000836 0.8096977 0.9221812 0.8096977 0.8426474 0.4735335 0.8426474 0.8096977 0.7631136 0.4735335 0.7631136 0.8096977 0.6835799 0.4735335 0.6835799 0.8096977 0.604046 0.4735335 0.604046 0.8096977 0.5245123 0.4735335 0.5245123 0.8096977 0.9213019 0.4735335 1.000836 0.4735335 1.000836 0.8096977 0.9213019 0.8096977 0.8417678 0.4735335 0.8417678 0.8096977 0.6827002 1.145862 0.6031661 1.145862 0.5245123 1.145862 1.000836 1.145862 0.9221812 1.145862 0.8426474 1.145862 0.7631136 1.145862 0.6835799 1.145862 0.604046 1.145862 0.5245123 1.145862 1.000836 1.145862 0.9213019 1.145862 0.8417678 1.145862 0.7622341 1.145862 0.9211125 0.9728934 0.961205 0.9728934 0.961205 1.002741 0.9211125 1.002741 1.001298 0.9728934 1.001298 1.002741 0.5201834 0.9728934 0.560276 0.9728934 0.560276 1.002741 0.5201834 1.002741 0.6003687 0.9728934 0.6003687 1.002741 0.6404616 0.9728934 0.6404616 1.002741 0.6805545 0.9728934 0.6805545 1.002741 0.7206477 0.9728934 0.7206477 1.002741 0.7607408 0.9728934 0.7607408 1.002741 0.8008339 0.9728934 0.8008339 1.002741 0.8409269 0.9728934 0.8409269 1.002741 0.8810197 0.9728934 0.8810197 1.002741 0.3046117 0.7113709 0.2389464 0.6734591 0.201035 0.607794 0.2010349 0.53197 0.2389473 0.4663049 0.304613 0.4283932 0.380437 0.4283938 0.446102 0.4663056 0.4840137 0.5319709 0.4840137 0.607795 0.4461011 0.6734599 0.3804357 0.7113717 0.3046117 0.428394 0.3804357 0.4283932 0.4461011 0.466305 0.4840137 0.53197 0.4840137 0.6077942 0.446102 0.6734594 0.380437 0.7113711 0.304613 0.7113717 0.2389473 0.6734601 0.2010349 0.607795 0.201035 0.531971 0.2389464 0.4663059</float_array>
+          <technique_common>
+            <accessor source="#tesla_props_pipes_01_lgShape-map1-array" count="170" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tesla_props_pipes_01_lgShape-vertices" name="tesla_props_pipes_01_lgShape-vertices">
+          <input semantic="POSITION" source="#tesla_props_pipes_01_lgShape-positions"/>
+        </vertices>
+        <triangles material="lambert2SG" count="184">
+          <input semantic="VERTEX" source="#tesla_props_pipes_01_lgShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#tesla_props_pipes_01_lgShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#tesla_props_pipes_01_lgShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 12 3 3 12 3 3 1 1 1 13 2 2 1 1 1 2 4 4 13 2 2 13 2 2 2 4 4 14 5 5 2 4 6 3 6 7 14 5 9 14 5 9 3 6 7 15 7 8 3 6 7 4 8 10 15 7 8 15 7 8 4 8 10 16 9 11 4 8 10 5 10 12 16 9 11 16 9 11 5 10 12 17 11 13 5 10 12 6 12 14 17 11 13 17 11 13 6 12 14 18 13 15 6 12 14 7 14 16 18 13 15 18 13 15 7 14 16 19 15 17 7 14 16 8 16 18 19 15 17 19 15 17 8 16 18 20 17 19 8 16 18 9 18 20 20 17 19 20 17 19 9 18 20 21 19 21 9 18 20 10 20 22 21 19 21 21 19 21 10 20 22 22 21 23 10 20 22 11 22 24 22 21 23 22 21 23 11 22 24 23 23 25 11 22 24 0 0 0 23 23 25 23 23 25 0 0 0 12 3 3 13 24 26 14 25 27 12 35 37 14 25 27 15 26 28 12 35 37 15 26 28 16 27 29 12 35 37 16 27 29 17 28 30 12 35 37 17 28 30 18 29 31 12 35 37 18 29 31 19 30 32 12 35 37 19 30 32 20 31 33 12 35 37 20 31 33 21 32 34 12 35 37 21 32 34 22 33 35 12 35 37 22 33 35 23 34 36 12 35 37 1 36 38 0 37 39 2 47 49 0 37 39 11 38 40 2 47 49 11 38 40 10 39 41 2 47 49 10 39 41 9 40 42 2 47 49 9 40 42 8 41 43 2 47 49 8 41 43 7 42 44 2 47 49 7 42 44 6 43 45 2 47 49 6 43 45 5 44 46 2 47 49 5 44 46 4 45 47 2 47 49 4 45 47 3 46 48 2 47 49 24 48 50 25 49 51 75 51 53 75 51 53 25 49 51 74 50 52 26 52 54 73 53 55 25 49 51 25 49 51 73 53 55 74 50 52 27 54 56 72 55 57 26 52 54 26 52 54 72 55 57 73 53 55 28 56 58 83 57 59 27 54 56 27 54 56 83 57 59 72 55 57 29 58 60 82 59 61 28 56 58 28 56 58 82 59 61 83 57 59 30 60 62 81 61 63 29 58 60 29 58 60 81 61 63 82 59 61 31 62 65 80 63 66 30 60 64 30 60 64 80 63 66 81 61 67 32 64 68 79 65 69 31 62 65 31 62 65 79 65 69 80 63 66 33 66 70 78 67 71 32 64 68 32 64 68 78 67 71 79 65 69 34 68 72 77 69 73 33 66 70 33 66 70 77 69 73 78 67 71 34 68 72 35 70 74 77 69 73 77 69 73 35 70 74 76 71 75 35 70 74 24 48 76 76 71 75 76 71 75 24 48 76 75 51 77 48 73 79 71 74 80 49 72 78 49 72 78 71 74 80 60 75 81 49 72 78 60 75 81 50 76 82 50 76 82 60 75 81 61 77 83 50 76 82 61 77 83 51 78 84 51 78 84 61 77 83 62 79 85 51 78 87 62 79 88 52 80 86 52 80 86 62 79 88 63 81 89 53 82 90 52 80 86 64 83 91 64 83 91 52 80 86 63 81 89 54 84 92 53 82 90 65 85 93 65 85 93 53 82 90 64 83 91 55 86 94 54 84 92 66 87 95 66 87 95 54 84 92 65 85 93 56 88 96 55 86 94 67 89 97 67 89 97 55 86 94 66 87 95 57 90 98 56 88 96 68 91 99 68 91 99 56 88 96 67 89 97 58 92 100 57 90 101 69 93 103 69 93 103 57 90 101 68 91 102 58 92 100 69 93 103 59 94 104 59 94 104 69 93 103 70 95 105 59 94 104 70 95 105 48 73 79 48 73 79 70 95 105 71 74 80 61 77 83 60 75 81 37 97 107 37 97 107 60 75 81 38 96 106 62 79 85 61 77 83 36 98 108 36 98 108 61 77 83 37 97 107 63 81 89 62 79 88 47 99 110 47 99 110 62 79 88 36 98 109 63 81 89 47 99 110 64 83 91 64 83 91 47 99 110 46 100 111 64 83 91 46 100 111 65 85 93 65 85 93 46 100 111 45 101 112 65 85 93 45 101 112 66 87 95 66 87 95 45 101 112 44 102 113 66 87 95 44 102 113 67 89 97 67 89 97 44 102 113 43 103 114 67 89 97 43 103 114 68 91 99 68 91 99 43 103 114 42 104 115 68 91 102 42 104 116 69 93 103 69 93 103 42 104 116 41 105 117 70 95 105 69 93 103 40 106 118 40 106 118 69 93 103 41 105 117 71 74 80 70 95 105 39 107 119 39 107 119 70 95 105 40 106 118 60 75 81 71 74 80 38 96 106 38 96 106 71 74 80 39 107 119 73 53 55 72 55 57 49 72 78 49 72 78 72 55 57 48 73 79 74 50 52 73 53 55 50 76 82 50 76 82 73 53 55 49 72 78 75 51 53 74 50 52 51 78 84 51 78 84 74 50 52 50 76 82 76 71 75 75 51 77 52 80 86 52 80 86 75 51 77 51 78 87 77 69 73 76 71 75 53 82 90 53 82 90 76 71 75 52 80 86 78 67 71 77 69 73 54 84 92 54 84 92 77 69 73 53 82 90 79 65 69 78 67 71 55 86 94 55 86 94 78 67 71 54 84 92 80 63 66 79 65 69 56 88 96 56 88 96 79 65 69 55 86 94 80 63 66 56 88 96 81 61 67 81 61 67 56 88 96 57 90 98 81 61 63 57 90 101 82 59 61 82 59 61 57 90 101 58 92 100 82 59 61 58 92 100 83 57 59 83 57 59 58 92 100 59 94 104 83 57 59 59 94 104 72 55 57 72 55 57 59 94 104 48 73 79 84 108 120 85 109 121 96 111 123 96 111 123 85 109 121 97 110 122 85 109 121 86 112 124 97 110 122 97 110 122 86 112 124 98 113 125 86 112 126 87 114 127 98 113 129 98 113 129 87 114 127 99 115 128 87 114 127 88 116 130 99 115 128 99 115 128 88 116 130 100 117 131 88 116 130 89 118 132 100 117 131 100 117 131 89 118 132 101 119 133 89 118 132 90 120 134 101 119 133 101 119 133 90 120 134 102 121 135 90 120 134 91 122 136 102 121 135 102 121 135 91 122 136 103 123 137 91 122 136 92 124 138 103 123 137 103 123 137 92 124 138 104 125 139 92 124 138 93 126 140 104 125 139 104 125 139 93 126 140 105 127 141 93 126 140 94 128 142 105 127 141 105 127 141 94 128 142 106 129 143 94 128 142 95 130 144 106 129 143 106 129 143 95 130 144 107 131 145 95 130 144 84 108 120 107 131 145 107 131 145 84 108 120 96 111 123 97 132 146 98 133 147 96 143 157 98 133 147 99 134 148 96 143 157 99 134 148 100 135 149 96 143 157 100 135 149 101 136 150 96 143 157 101 136 150 102 137 151 96 143 157 102 137 151 103 138 152 96 143 157 103 138 152 104 139 153 96 143 157 104 139 153 105 140 154 96 143 157 105 140 154 106 141 155 96 143 157 106 141 155 107 142 156 96 143 157 85 144 158 84 145 159 86 155 169 84 145 159 95 146 160 86 155 169 95 146 160 94 147 161 86 155 169 94 147 161 93 148 162 86 155 169 93 148 162 92 149 163 86 155 169 92 149 163 91 150 164 86 155 169 91 150 164 90 151 165 86 155 169 90 151 165 89 152 166 86 155 169 89 152 166 88 153 167 86 155 169 88 153 167 87 154 168 86 155 169</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>tesla_props_pipes_01_lgShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="tesla_props_piping_01">
+      <node id="_collider_box_pipes_01_lg" name="_collider_box_pipes_01_lg" type="NODE">
+        <translate sid="translate">-4.5 0 0</translate>
+        <translate sid="rotatePivot">4.5 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">-4.5 0 0</translate>
+        <translate sid="scalePivot">4.5 0 0</translate>
+        <scale sid="scale">1 1 1</scale>
+        <translate sid="scalePivotInverse">-4.5 0 0</translate>
+        <instance_geometry url="#_collider_box_pipes_01_lgShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="initialShadingGroup" target="#lambert1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>_collider_box_pipes_01_lg</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+      <node id="tesla_props_pipes_01_lg" name="tesla_props_pipes_01_lg" type="NODE">
+        <translate sid="translate">-0.25 0 -3.75</translate>
+        <translate sid="rotatePivot">0.25 0 3.75</translate>
+        <translate sid="rotatePivotInverse">-0.25 0 -3.75</translate>
+        <translate sid="scalePivot">0.25 0 3.75</translate>
+        <scale sid="scale">1 1 1</scale>
+        <translate sid="scalePivotInverse">-0.25 0 -3.75</translate>
+        <instance_geometry url="#tesla_props_pipes_01_lgShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert2SG" target="#pipes">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>tesla_props_pipes_01_lg</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

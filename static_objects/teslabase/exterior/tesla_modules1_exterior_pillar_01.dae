@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-04-23T20:32:27Z</created>
+    <keywords></keywords>
+    <modified>2012-04-23T20:32:27Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.001000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1-image" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1">
+      <init_from>file://C:/Users/sindre/Desktop/Sindre/Amnesia - Freelance/Amnesia - Source/StaticObjects/teslabase/tesla_structure_pillar_core_01.tga</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+      <instance_effect url="#Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01-fx" name="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_file1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pCube10-lib" name="pCube10Mesh">
+      <mesh>
+        <source id="pCube10-POSITION">
+          <float_array id="pCube10-POSITION-array" count="72">
+-50.000000 -300.000000 50.000000
+50.000000 -300.000000 50.000000
+-50.000000 299.655151 50.000000
+50.000000 299.655151 50.000000
+-50.000000 299.655151 -50.000000
+50.000000 299.655151 -50.000000
+-50.000000 -300.000000 -50.000000
+50.000000 -300.000000 -50.000000
+-50.000000 299.655151 -34.940971
+-50.000000 -300.000000 -34.940971
+50.000000 -300.000000 -34.940971
+50.000000 299.655151 -34.940971
+-50.000000 299.655151 34.940979
+-50.000000 -300.000000 34.940979
+50.000000 -300.000000 34.940979
+50.000000 299.655151 34.940979
+-35.000000 -285.000000 -34.940971
+-35.000000 -285.000000 34.940979
+-35.000000 284.655151 34.940979
+-35.000000 284.655151 -34.940971
+35.000000 -285.000000 -34.940971
+35.000000 -285.000000 34.940979
+35.000000 284.655151 34.940979
+35.000000 284.655151 -34.940971
+</float_array>
+          <technique_common>
+            <accessor source="#pCube10-POSITION-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube10-Normal0">
+          <float_array id="pCube10-Normal0-array" count="396">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+-0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-0.000000 0.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#pCube10-Normal0-array" count="132" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pCube10-UV0">
+          <float_array id="pCube10-UV0-array" count="92">
+0.375000 0.000000
+0.625000 0.000000
+0.375000 0.250000
+0.625000 0.250000
+0.375000 0.500000
+0.625000 0.500000
+0.375000 0.750000
+0.625000 0.750000
+0.375000 1.000000
+0.625000 1.000000
+0.875000 0.000000
+0.875000 0.250000
+0.125000 0.000000
+0.125000 0.250000
+0.208333 0.250000
+0.375000 0.416667
+0.208333 0.000000
+0.375000 0.833333
+0.625000 0.833333
+0.791667 0.000000
+0.625000 0.416667
+0.791667 0.250000
+0.291667 0.250000
+0.375000 0.333333
+0.291667 0.000000
+0.375000 0.916667
+0.625000 0.916667
+0.708333 0.000000
+0.625000 0.333333
+0.708333 0.250000
+0.291667 0.000000
+0.291667 0.250000
+0.208333 0.250000
+0.208333 0.000000
+0.375000 0.833333
+0.625000 0.833333
+0.625000 0.916667
+0.375000 0.916667
+0.708333 0.250000
+0.708333 0.000000
+0.791667 0.000000
+0.791667 0.250000
+0.375000 0.333333
+0.625000 0.333333
+0.625000 0.416667
+0.375000 0.416667
+</float_array>
+          <technique_common>
+            <accessor source="#pCube10-UV0-array" count="46" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pCube10-VERTEX">
+          <input semantic="POSITION" source="#pCube10-POSITION"/>
+        </vertices>
+        <triangles count="44" material="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01">
+          <input semantic="VERTEX" offset="0" source="#pCube10-VERTEX"/>
+          <input semantic="NORMAL" offset="1" source="#pCube10-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#pCube10-UV0"/>
+          <p> 2 0 2 0 1 0 3 2 3 3 3 3 0 4 0 1 5 1 2 6 2 3 7 3 15 8 28 2 9 2 15 10 28 12 11 23 6 12 6 4 13 4 7 14 7 7 15 7 4 16 4 5 17 5 1 18 9 0 19 8 13 20 25 1 21 9 13 22 25 14 23 26 14 24 27 15 25 29 1 26 1 3 27 3 1 28 1 15 29 29 2 30 2 13 31 24 0 32 0 13 33 24 2 34 2 12 35 22 8 36 14 6 37 12 9 38 16 6 39 12 8 40 14 4 41 13 10 42 18 9 43 17 6 44 6 10 45 18 6 46 6 7 47 7 11 48 21 10 49 19 7 50 10 11 51 21 7 52 10 5 53 11 8 54 15 11 55 20 5 56 5 8 57 15 5 58 5 4 59 4 18 60 31 16 61 33 17 62 30 16 63 33 18 64 31 19 65 32 21 66 36 17 67 37 16 68 34 21 69 36 16 70 34 20 71 35 22 72 38 21 73 39 20 74 40 22 75 38 20 76 40 23 77 41 22 78 43 23 79 44 18 80 42 18 81 42 23 82 44 19 83 45 13 84 24 12 85 22 18 86 31 13 87 24 18 88 31 17 89 30 8 90 14 9 91 16 16 92 33 8 93 14 16 94 33 19 95 32 9 96 17 10 97 18 20 98 35 9 99 17 20 100 35 16 101 34 17 102 37 14 103 26 13 104 25 14 105 26 17 106 37 21 107 36 15 108 29 14 109 27 21 110 39 15 111 29 21 112 39 22 113 38 10 114 19 11 115 21 23 116 41 10 117 19 23 118 41 20 119 40 12 120 23 15 121 28 22 122 43 12 123 23 22 124 43 18 125 42 19 126 45 11 127 20 8 128 15 11 129 20 19 130 45 23 131 44</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="" name="">
+      <node name="pCube10" id="pCube10" sid="pCube10">
+        <matrix sid="matrix">10.000000 0.000000 0.000000 -500.000000 0.000000 -0.000000 10.000000 500.000000 0.000000 -10.000000 -0.000000 -3000.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <instance_geometry url="#pCube10-lib">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01" target="#Core1_tesla_structure_pillar_core_02_tesla_structure_interior_01_tesla_structure_platform_01_tesla_structure_pillar_drum_01"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>24.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.041667</start_time>
+          <end_time>2.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#"></instance_visual_scene>
+  </scene>
+</COLLADA>
+

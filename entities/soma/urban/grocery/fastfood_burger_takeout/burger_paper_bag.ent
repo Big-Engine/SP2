@@ -1,0 +1,85 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="true" Focused="3">
+            <Viewport CameraPos="-0.00460266 0.140897 199.995" CameraTarget="-0.00460266 0.140897 -0.00538735" Controller="Ortho" GridHeights="-0.00460266 0.140897 -0.00538735" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="-1.47311" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="199.995 0.140897 -0.00538735" CameraTarget="-0.00460266 0.140897 -0.00538735" Controller="Ortho" GridHeights="-0.00460266 0.140897 -0.00538735" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="-1.47311" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.00460266 200.141 -0.00538735" CameraTarget="-0.00460266 0.140897 -0.00538735" Controller="Ortho" GridHeights="-0.00460266 0.140897 -0.00538735" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="-1.47311" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0.415232 0.168205 -0.345886" CameraTarget="-0.00460266 0.140897 -0.00538735" Controller="Maya" GridHeights="-0.00460266 0.140897 -0.00538735" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/grocery/fastfood_burger_takeout/burger_paper_bag.dae">
+            <SubMesh ID="0" Material="" Name="paper_bag" Rotation="0 0 0" Scale="1 1 1" TriCount="470" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="4" Name="Shape_1" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="0.00563484 -0.0629365 -0.0338475" Rotation="0 -0 1.5708" Scale="0.0668135 0.256876 0" ShapeType="Capsule" WorldPos="-0.0029076 0.0689234 -0.0378349" />
+            <Shape ID="5" Name="Shape_2" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="0.00563484 -0.0629365 0.0338475" Rotation="0 -0 1.5708" Scale="0.0668135 0.276008 0" ShapeType="Capsule" WorldPos="-0.0029076 0.0689234 0.02986" />
+            <Shape ID="6" Name="Shape_3" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="0.00393979 -0.0506805 -0.00139989" Rotation="0 -0 1.5708" Scale="0.0789454 0.292375 0" ShapeType="Capsule" WorldPos="-0.00460266 0.0811793 -0.00538735" />
+            <Shape ID="7" Name="Shape_4" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.00563484 0.0629365 -0.016915" Rotation="0 -0 1.5708" Scale="0.0288287 0.22539 0" ShapeType="Capsule" WorldPos="-0.0141773 0.194796 -0.0209025" />
+            <Shape ID="8" Name="Shape_5" RelativeRotation="0 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="0.00255412 -0.00130963 0.00295008" Rotation="0 -0 1.5708" Scale="0.0613372 0.234196 0" ShapeType="Capsule" WorldPos="-0.00598833 0.13055 -0.00103739" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="9" LinearDamping="0.5" Mass="0.5" Material="paper_bag" MaxAngularSpeed="8" MaxLinearSpeed="8" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.00854245 0.13186 -0.00398747">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="6" />
+                <Shape ID="7" />
+                <Shape ID="8" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Grab">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="true" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="Grab_UseCustomOffset" Value="false" />
+        <Var Name="Grab_CustomPositionOffset" Value="0 0 0" />
+        <Var Name="Grab_CustomRotationOffset" Value="0 0 0" />
+        <Var Name="Grab_UseCustomDepth" Value="false" />
+        <Var Name="Grab_CustomDepth" Value="1.2" />
+        <Var Name="Grab_MassMul" Value="0.1" />
+        <Var Name="Grab_MinDepth" Value="0.8" />
+        <Var Name="Grab_MaxDepth" Value="2" />
+        <Var Name="Grab_ForceMul" Value="1" />
+        <Var Name="Grab_TorqueMul" Value="1" />
+        <Var Name="Grab_IsHeavy" Value="false" />
+        <Var Name="Grab_CollisionWithPlayer" Value="false" />
+        <Var Name="Grab_InteractOnlyWithMainBody" Value="false" />
+    </UserDefinedVariables>
+</Entity>

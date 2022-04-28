@@ -1,0 +1,73 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/furniture/workdesk_corner/workdesk_corner_drawer.dae">
+            <SubMesh ID="0" Material="" Name="workdesk_corner_drawer" Rotation="0 0 0" Scale="0.6 0.6 0.6" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="1" Name="Shape_1" RelativeRotation="0 0.785398 0" RelativeScale="1 1 1" RelativeTranslation="0.0260139 -0.0565201 -0.0351476" Rotation="0 0.785398 0" Scale="0.573394 0.0187031 0.414458" ShapeType="Box" WorldPos="0.885572 0.882637 0.0569019" />
+            <Shape ID="2" Name="Shape_2" RelativeRotation="0 0.785398 0" RelativeScale="1 1 1" RelativeTranslation="-0.16928 0.0506459 0.171941" Rotation="0 0.785398 0" Scale="0.0299861 0.242133 0.490268" ShapeType="Box" WorldPos="0.690278 0.989803 0.263991" />
+            <Shape ID="3" Name="Shape_3" RelativeRotation="0 0.785398 0" RelativeScale="1 1 1" RelativeTranslation="0.234782 0.0307559 -0.238077" Rotation="0 0.785398 0" Scale="0.0146167 0.181141 0.431983" ShapeType="Box" WorldPos="1.09434 0.969913 -0.146028" />
+            <Shape ID="4" Name="Shape_4" RelativeRotation="0 0.785398 0" RelativeScale="1 1 1" RelativeTranslation="0.189752 0.0342419 0.120641" Rotation="0 0.785398 0" Scale="0.576329 0.181763 0.0277669" ShapeType="Box" WorldPos="1.04931 0.973399 0.212691" />
+            <Shape ID="5" Name="Shape_5" RelativeRotation="0 0.785398 0" RelativeScale="1 1 1" RelativeTranslation="-0.114662 0.0342419 -0.194545" Rotation="0 0.785398 0" Scale="0.576329 0.181763 0.0277669" ShapeType="Box" WorldPos="0.744896 0.973399 -0.102495" />
+            <Shape ID="6" Name="Shape_6" RelativeRotation="-0.785398 -0 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.209396 0.0565199 0.214175" Rotation="-0.785398 -0 1.5708" Scale="0.00942426 0.241213 0" ShapeType="Cylinder" WorldPos="0.650162 0.995677 0.306225" />
+            <Shape ID="7" Name="Shape_7" RelativeRotation="0.785398 5.86686e-015 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.234782 0.0560939 0.144881" Rotation="0.785398 5.86686e-015 1.5708" Scale="0.00543394 0.0537881 0" ShapeType="Cylinder" WorldPos="0.624776 0.995251 0.236931" />
+            <Shape ID="8" Name="Shape_8" RelativeRotation="0.785398 5.86686e-015 1.5708" RelativeScale="1 1 1" RelativeTranslation="-0.139628 0.0560939 0.238077" Rotation="0.785398 5.86686e-015 1.5708" Scale="0.00543394 0.0537881 0" ShapeType="Cylinder" WorldPos="0.71993 0.995251 0.330127" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="9" LinearDamping="0.1" Mass="60" Material="" MaxAngularSpeed="10" MaxLinearSpeed="10" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="0.6 0.6 0.6" UseSurfaceEffects="true" Volatile="false" WorldPos="0.859558 0.939157 0.0920495">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="8" />
+                <Shape ID="2" />
+                <Shape ID="7" />
+                <Shape ID="6" />
+                <Shape ID="1" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="3" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointSlider BreakForce="0" BreakSound="" Breakable="false" CollideBodies="true" ConnectedChildBodyID="9" ConnectedParentBodyID="-1" ID="11" LimitStepCount="0" MaxDistance="0.5" MaxLimitMaxSpeed="0" MaxLimitMinSpeed="0" MaxLimitSound="" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveSpeed="2" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinDistance="0" MinLimitMaxSpeed="0" MinLimitMinSpeed="0" MinLimitSound="" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveSpeed="0.1" MinMoveVolume="0.01" MoveSound="" MoveType="Linear" Name="JointSlider_1" Rotation="1.5708 -0.785398 0" Scale="1 1 1" StickyMaxLimit="true" StickyMinLimit="true" Stiffness="0" WorldPos="1.10657 0.988231 -0.139324" />
+        </Joints>
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Slide">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="SlideMaxSpeed" Value="2" />
+        <Var Name="SlideSlowDownFactor" Value="5" />
+        <Var Name="SlideSpeedFactor" Value="4" />
+		<Var Name="SlidePadMultiplier" Value="4" />
+    </UserDefinedVariables>
+</Entity>

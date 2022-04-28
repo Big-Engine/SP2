@@ -1,0 +1,81 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig Enlarged="false" Focused="0">
+            <Viewport CameraPos="0 0 200" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="2" LockToGrid="true" Mode="Front" OrthoZoom="8.38839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="200 0 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="0" LockToGrid="true" Mode="Right" OrthoZoom="8.63839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="0 200 0" CameraTarget="0 0 0" Controller="Ortho" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Top" OrthoZoom="5.13839" Renderer="Wireframe" ShowAxes="true" ShowGrid="true" />
+            <Viewport CameraPos="-0.0481489 1.60388 1.50946" CameraTarget="0.742613 0 -1.84591" Controller="Maya" GridHeights="0 0 0" GridPlane="1" LockToGrid="true" Mode="Perspective" Renderer="Shaded" ShowAxes="true" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/tech/terminal_waitroom/terminal_waitroom.dae">
+            <SubMesh ID="0" Material="" Name="terminal_waitroom__2_" Rotation="0 0 0" Scale="0.258 0.258 0.258" WorldPos="0 0 0" />
+            <SubMesh ID="1" Material="" Name="terminal_screen" Rotation="0 0 0" Scale="0.258 0.258 0.258" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="2" Name="Shape_1" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00515805 -0.633632 0.0561528" Rotation="0 0 0" Scale="0.760851 0.0603419 0.532111" ShapeType="Box" WorldPos="0.0102254 0.0509263 0.0525793" />
+            <Shape ID="3" Name="Shape_2" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.00515805 -0.0824612 0.106163" Rotation="0 0 0" Scale="0.644644 1.03507 0.0732124" ShapeType="Box" WorldPos="0.0205415 0.602097 0.102589" />
+            <Shape ID="4" Name="Shape_3" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.00222835 -0.0824612 -0.070394" Rotation="0 0 0" Scale="0.536687 1.03507 0.276396" ShapeType="Box" WorldPos="0.0176118 0.602097 -0.0739675" />
+            <Shape ID="5" Name="Shape_4" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.00222835 0.545192 -0.106163" Rotation="0 0 0" Scale="0.536687 0.22663 0.217471" ShapeType="Box" WorldPos="0.0176118 1.22975 -0.109736" />
+            <Shape ID="6" Name="Shape_5" RelativeRotation="-0.482625 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00142235 0.633632 0.00272071" Rotation="-0.482625 -0 0" Scale="0.652673 0.495723 0.0732124" ShapeType="Box" WorldPos="0.0139611 1.31819 -0.000852791" />
+            <Shape ID="10" Name="Shape_6" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="-0.00214555 -0.387024 0.0434082" Rotation="0 0 0" Scale="0.795913 0.0707066 0.567834" ShapeType="Box" WorldPos="0.0136147 0.0474761 0.0474852" />
+            <Shape ID="11" Name="Shape_7" RelativeRotation="0 -0 0" RelativeScale="1 1 1" RelativeTranslation="0.00214555 0.387024 -0.0434082" Rotation="0 0 0" Scale="0.689753 1.54603 0.370393" ShapeType="Box" WorldPos="0.0179058 0.821525 -0.0393313" />
+        </Shapes>
+        <Bodies>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="7" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1.61 1.61 1.61" UseSurfaceEffects="true" Volatile="false" WorldPos="0.0153835 0.684558 -0.0035735">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="6" />
+            </Body>
+            <Body AngularDamping="0.1" BlocksLight="true" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="false" ContinuousCollision="false" HasGravity="false" ID="12" LinearDamping="0.1" Mass="0" Material="" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1.3 1.3 1.3" UseSurfaceEffects="false" Volatile="false" WorldPos="0.0157603 0.434501 0.00407695">
+                <Shape ID="10" />
+                <Shape ID="11" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_Terminal">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="ConnectedSubmesh" Value="terminal_screen" />
+        <Var Name="OfflineClearColor" Value="0 0 0 1" />
+        <Var Name="ScreenPosition" Value="0 0.675 0" />
+        <Var Name="ScreenNormal" Value="0 0.43 0.83" />
+        <Var Name="TargetCameraDistance" Value="0.4" />
+    </UserDefinedVariables>
+</Entity>

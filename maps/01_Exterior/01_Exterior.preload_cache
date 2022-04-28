@@ -1,0 +1,53 @@
+<PreloadCache>
+    <Materials>
+        <Material Path="/lights/lensflare/flare_star_simple_sun.mat" DebugPos="100.000000 : 350.000000 : -100.000000" />
+        <Material Path="/mods/sp2/textures/environment/cantaffordaname/frictionallogo.mat" DebugPos="66.199997 : 43.750000 : -76.500000" />
+        <Material Path="/mods/sp2/textures/environment/cantaffordaname/moon.mat" DebugPos="100.000000 : 350.000000 : -100.000000" />
+        <Material Path="entities/arabic_fort/door/arabic_fort_door_01.mat" DebugPos="74.998047 : 14.632377 : -64.502975" />
+        <Material Path="entities/nonexclusive/gameplay/bottle_laudanum/bottle_laudanum.mat" DebugPos="72.250000 : 0.393772 : 90.750000" />
+        <Material Path="entities/nonexclusive/gameplay/lantern_new/lantern_new.mat" DebugPos="73.687500 : 0.430041 : 90.500000" />
+        <Material Path="entities/nonexclusive/gameplay/matchbook/matchbook.mat" DebugPos="72.938423 : 0.254342 : 90.535034" />
+        <Material Path="entities/nonexclusive/gameplay/oil_flask_herbert/oil_flask_herbert.mat" DebugPos="73.749397 : 0.375481 : 89.875275" />
+        <Material Path="entities/nonexclusive/gameplay/oil_flask_modern_french/oil_flask_modern_french.mat" DebugPos="73.986633 : 0.368738 : 90.126122" />
+        <Material Path="entities/nonexclusive/gameplay/oil_flask_tin_hinan/oil_flask_tin_hinan.mat" DebugPos="73.187500 : 0.365444 : 90.625000" />
+        <Material Path="entities/organic/tree/oak/large_oak_bark.mat" DebugPos="9.593655 : 10.042082 : 69.182335" />
+        <Material Path="entities/organic/tree/oak/large_oak_leaves.mat" DebugPos="89.695114 : 22.074940 : 84.531792" />
+        <Material Path="entities/technical/block_box/block_box.mat" DebugPos="-31.338699 : 8.500000 : 44.118301" />
+        <Material Path="entities/urban/door/swingdoor_hall_metal/swingdoor_hall_metal.mat" DebugPos="74.047501 : 14.429205 : -65.376793" />
+        <Material Path="entities/urban/door/swingdoor_hospital_double/swingdoor_hospital_double.mat" DebugPos="73.952499 : 14.475000 : -64.500000" />
+        <Material Path="mods/monkeisland/static_objects/environment/rock_forest/rocks_forest_module_backdrop.mat" DebugPos="-75.757057 : 22.732319 : -40.233379" />
+        <Material Path="static_objects/_temp/marc/roman/roof_plaster_coffered/roof_plaster_coffered.mat" DebugPos="66.750000 : 17.625999 : -66.500000" />
+        <Material Path="static_objects/arabic_fort/exterior/walls/wall_welder.mat" DebugPos="81.250000 : 34.937565 : -90.284889" />
+        <Material Path="static_objects/arabic_fort/interior/special/makeshift_tunnel_wood.mat" DebugPos="73.500000 : 0.000000 : 96.250000" />
+        <Material Path="static_objects/archaeology/scaffolding/scaffolding.mat" DebugPos="73.750000 : 0.500000 : 95.000000" />
+        <Material Path="static_objects/caves/cave_modules/cave_erosion_holes/environment/cave_erosion_holes/cave_erosion_holes.mat" DebugPos="-55.044151 : 10.588190 : -66.627678" />
+        <Material Path="static_objects/caves/cave_modules/cave_stalactites.mat" DebugPos="-87.124016 : 11.247139 : -44.165836" />
+        <Material Path="static_objects/caves/cave_modules/caves_ground.mat" DebugPos="-86.316071 : 9.496180 : -44.012814" />
+        <Material Path="static_objects/caves/cave_modules/caves_ground_blend.mat" DebugPos="-93.282707 : 11.505962 : -40.644379" />
+        <Material Path="static_objects/caves/cave_ravine/cave_ravine_wall.mat" DebugPos="-61.207916 : 13.390705 : -67.109299" />
+        <Material Path="static_objects/caves/cave_ravine/cave_ravine_wall_02.mat" DebugPos="-80.051208 : 12.800515 : -41.401478" />
+        <Material Path="static_objects/caves/cave_ravine/cave_ravine_wall_03.mat" DebugPos="50.440697 : 2.705583 : 46.101547" />
+        <Material Path="static_objects/caves/cave_rocks/cave_rocks_medium/cave_rocks_medium_01.mat" DebugPos="17.523571 : 0.252574 : 73.003143" />
+        <Material Path="static_objects/caves/cave_rocks/cave_rocks_medium/cave_rocks_medium_02.mat" DebugPos="21.654457 : 0.536456 : 62.460487" />
+        <Material Path="static_objects/caves/cave_rocks/cave_rocks_medium/cave_rocks_medium_03.mat" DebugPos="58.136135 : -0.483762 : 66.818817" />
+        <Material Path="static_objects/french_colonization/prison/prison_bars_wall/prison_bars_wall.mat" DebugPos="65.580513 : 14.500000 : -32.849972" />
+        <Material Path="static_objects/roman/ceiling/plaster_ceiling_broken_nosquare.mat" DebugPos="81.250000 : 30.254974 : -39.250000" />
+        <Material Path="static_objects/roman/ceiling/wall_plaster_deco.mat" DebugPos="66.544327 : 31.281399 : -53.375004" />
+        <Material Path="static_objects/roman/floor/pavement_plaza_large.mat" DebugPos="72.625000 : 13.049500 : -64.500000" />
+        <Material Path="static_objects/roman/floor/roman_rock.mat" DebugPos="70.250000 : 17.749491 : -64.500000" />
+        <Material Path="static_objects/roman/roman_arch_brick/roman_arch_brick.mat" DebugPos="65.588997 : 13.000000 : -32.842995" />
+        <Material Path="static_objects/roman/roman_stairs/roman_stair_brick_straight.mat" DebugPos="70.237900 : 12.495000 : -66.500000" />
+        <Material Path="static_objects/roman/roman_window_large/roman_window_large.mat" DebugPos="66.429733 : 31.100971 : -52.812500" />
+        <Material Path="static_objects/roman/walls/wall_plaster_brick.mat" DebugPos="66.249451 : 34.999935 : -64.500008" />
+        <Material Path="static_objects/roman/walls/wall_stone_diag.mat" DebugPos="62.840233 : 15.004250 : -29.405712" />
+        <Material Path="static_objects/roman/walls/wall_stone_diag_welder02.mat" DebugPos="64.439438 : 14.500858 : -30.882244" />
+        <Material Path="static_objects/ruins/ruins_basic/floor/ruins_floor_bricked01.mat" DebugPos="68.721725 : 12.532589 : -66.656021" />
+        <Material Path="static_objects/tth/metal_bars/tth_metal_bars_01.mat" DebugPos="73.828735 : 0.025000 : 97.976624" />
+        <Material Path="static_objects/tth/tth_floor_bricked_01.mat" DebugPos="64.750000 : 12.503321 : -64.500000" />
+        <Material Path="static_objects/tth/tth_girder_basic_01.mat" DebugPos="64.746948 : 12.500000 : -39.250000" />
+        <Material Path="textures/decals/grass/decal_grass_variation.mat" DebugPos="-84.357498 : 6.782000 : -11.073500" />
+        <Material Path="textures/technical/simple_black.mat" DebugPos="-84.473312 : 20.999500 : -50.620689" />
+        <Material Path="waterplane_cistern_reflect.mat" DebugPos="-19.500000 : 0.699500 : 47.000000" />
+        <Material Path="waterplane_saltmine_cheap.mat" DebugPos="-19.500000 : 0.699500 : 47.000000" />
+    </Materials>
+</PreloadCache>

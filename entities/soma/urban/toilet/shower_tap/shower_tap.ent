@@ -1,0 +1,94 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/urban/toilet/shower_tap/shower_tap.dae">
+            <SubMesh ID="0" Name="shower_tap__2_" CreStamp="0" ModStamp="1429704575" WorldPos="0 0 0" Rotation="0 0 0" Scale="0.015 0.015 0.015" TriCount="172" Material="" />
+            <SubMesh ID="1" Name="Mesh__2_" CreStamp="0" ModStamp="1429704578" WorldPos="0 0 0" Rotation="0 0 0" Scale="0.015 0.015 0.015" TriCount="228" Material="" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="2" Name="Shape_1" CreStamp="0" ModStamp="0" WorldPos="0.00628079 0.103638 0.00138109" Rotation="0 -0 -1.5708" Scale="0.104854 0.0544626 0" RelativeTranslation="0 0 0" RelativeRotation="0 -0 -1.5708" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="3" Name="Shape_2" CreStamp="0" ModStamp="0" WorldPos="0.026458 0.103638 0.000510912" Rotation="-1.58287 1.5708 3.12952" Scale="0.0260217 0.078327 0" RelativeTranslation="-0.0275821 -0.0277765 0.000658909" RelativeRotation="1.55872 1.5708 -0.0120727" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="4" Name="Shape_3" CreStamp="0" ModStamp="0" WorldPos="0.0816222 0.159191 -0.000261985" Rotation="3.1077 1.5708 3.12952" Scale="0.0151349 0.0912174 0" RelativeTranslation="0.0275821 0.0277765 -0.000113988" RelativeRotation="-0.0338925 1.5708 -0.0120727" RelativeScale="1 1 1" ShapeType="Cylinder" />
+            <Shape ID="5" Name="Shape_4" CreStamp="0" ModStamp="0" WorldPos="0.0696356 0.105481 -0.000806905" Rotation="-2.31681 1.5708 3.12952" Scale="0.0083643 0.0351522 0" RelativeTranslation="0.0155955 -0.0259335 -0.000658909" RelativeRotation="0.824783 1.5708 -0.0120727" RelativeScale="1 1 1" ShapeType="Cylinder" />
+        </Shapes>
+        <Bodies>
+            <Body ID="7" Name="Body_1" CreStamp="0" ModStamp="0" WorldPos="0.00628079 0.103638 0.00138109" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="2" />
+            </Body>
+            <Body ID="8" Name="Body_2" CreStamp="0" ModStamp="0" WorldPos="0.0540401 0.131415 -0.000147996" Rotation="0 0 0" Scale="1 1 1" Material="" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Children>
+                    <Child ID="1" />
+                </Children>
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="3" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="Prop_MovingButton">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxInteractDistance" Value="0" />
+        <Var Name="EventTag" Value="" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="DissolveDuringLifeDecrease" Value="true" />
+        <Var Name="BlocksLineOfSight" Value="MaterialBased" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="CustomScriptFile" Value="" />
+        <Var Name="CustomScriptClass" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="StaticMoveLoopSoundFade" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakOnlyOnMainBody" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="UseColorChange" Value="false" />
+        <Var Name="ColorChangeOn" Value="0.1 1 0.1 1" />
+        <Var Name="ColorChangeOff" Value="0.75 0.5 0.1 1" />
+        <Var Name="ColorChangeLocked" Value="1 0.1 0.1 1" />
+        <Var Name="ColorChangeDisabled" Value="0 0 0 1" />
+        <Var Name="Sound_InteractOn" Value="" />
+        <Var Name="Sound_InteractOff" Value="" />
+        <Var Name="Sound_InteractLocked" Value="" />
+        <Var Name="Sound_InteractDisabled" Value="" />
+        <Var Name="InteractOnWaitTime" Value="0.5" />
+        <Var Name="InteractOffWaitTime" Value="0.5" />
+        <Var Name="LockedBlinkCount" Value="3" />
+        <Var Name="LockedBlinkTime" Value="0.3" />
+        <Var Name="MoveBody" Value="Body_2" />
+        <Var Name="OnPosOffset" Value="0 0 -0.0075" />
+        <Var Name="OnRotOffset" Value="-15 0 0" />
+        <Var Name="CanOnlyInteractWithMainBody" Value="false" />
+        <Var Name="MinMoveSpeed" Value="0.01" />
+        <Var Name="MaxMoveSpeed" Value="0.03" />
+        <Var Name="MinMoveLength" Value="0.3" />
+        <Var Name="HasInputDirection" Value="true" />
+        <Var Name="InputDirectionToOn" Value="1 0" />
+        <Var Name="ChangeStateAmount" Value="0.3" />
+        <Var Name="SimplePressInteraction" Value="false" />
+        <Var Name="CustomInteractIcon" Value="None" />
+        <Var Name="StateAmountOnSpeed" Value="3" />
+        <Var Name="StateAmountOffSpeed" Value="3" />
+    </UserDefinedVariables>
+</Entity>
